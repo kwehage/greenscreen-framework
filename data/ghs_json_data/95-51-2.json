@@ -1,0 +1,758 @@
+{
+  "ID": [
+    "ID267"
+  ], 
+  "cas_no": [
+    "95-51-2"
+  ], 
+  "country": [
+    "Japan"
+  ], 
+  "date_classified": [
+    "May 24, 2006 (Environmental Hazards: Mar. 31, 2006)"
+  ], 
+  "date_imported": [
+    "Sun Sep  1 17:54:28 2013"
+  ], 
+  "descriptive_name": [
+    "o-Chloroaniline"
+  ], 
+  "hazards": {
+    "acute_aquatic_toxicity": {
+      "classification": [
+        "Category 1"
+      ], 
+      "hazard_id": [
+        11.0
+      ], 
+      "hazard_name": [
+        "acute_aquatic_toxicity"
+      ], 
+      "hazard_statement": [
+        "Very toxic to aquatic life"
+      ], 
+      "rationale": [
+        "It was classified into Category 1 from 48 hours LC50=0.13mg/L of the crustacea (Daphnia magna) (CERI/NITE Hazard Assessment Report, 2004)."
+      ], 
+      "signal_word": [
+        "Warning"
+      ], 
+      "symbol": [
+        "Environment"
+      ]
+    }, 
+    "acute_toxicity_dermal": {
+      "classification": [
+        "Category 3"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_dermal"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the rat LD50 (dermal route) value of 1,000mg/kg (CERI Hazard Data 99-25 (2000))."
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "acute_toxicity_inhalation_dust": {
+      "classification": [
+        "Category 4"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_inhalation_dust"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the LC50 value (4 hours) of 2.02mg/L (equivalent to 388ppm), calculated from the testing data of rat LC50 (1 hour) of 775ppm (CERI Hazard Data 99-25 (2000)), and the LC50 (4 hours) of 4.16mg/L (MOE Risk Assessment vol.3 (2004)) exceeded the saturated vapour concentration (350ppm) under a saturated vapour pressure of 35Pa (25degC), the substance was considered as \"mist exposure\" and was classified based on the LC50 (4 hours) value of 2.02mg/L representing the lower of the two data.\n"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "acute_toxicity_inhalation_gas": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_inhalation_gas"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Due to the fact that the substance is \"liquid\" according to the GHS definition and inhalation of its gas is not expected."
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "acute_toxicity_inhalation_vapor": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_inhalation_vapor"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "No data available"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "acute_toxicity_oral": {
+      "classification": [
+        "Category 4"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_oral"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the rat LD50 (oral route) value of 1,016mg/kg (CERI Hazard Data 99-25 (2000))."
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "aspiration_hazard": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        10.0
+      ], 
+      "hazard_name": [
+        "aspiration_hazard"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "No data available"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "carcinogenicity": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        6.0
+      ], 
+      "hazard_name": [
+        "carcinogenicity"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Cannot be classified given the insufficiency of data for use in classification, along with the absence of existing classification."
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "chronic_aquatic_toxicity": {
+      "classification": [
+        "Category 1"
+      ], 
+      "hazard_id": [
+        11.0
+      ], 
+      "hazard_name": [
+        "chronic_aquatic_toxicity"
+      ], 
+      "hazard_statement": [
+        "Very toxic to aquatic life with long lasting effects"
+      ], 
+      "rationale": [
+        "Although acute toxicity is Category 1 and bio-accumulation is low (BCF=32(Existing Chemical Safety Inspections Data, )), since there was no rapidly degrading (the decomposition by BOD: 2.7%(Existing Chemical Safety Inspections Data)), it was classified into Category 1."
+      ], 
+      "signal_word": [
+        "Warning"
+      ], 
+      "symbol": [
+        "Environment"
+      ]
+    }, 
+    "corrosive_to_metals": {
+      "classification": [
+        "Not classified"
+      ], 
+      "hazard_id": [
+        16.0
+      ], 
+      "hazard_name": [
+        "corrosive_to_metals"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Classified into Division 6.1(UN#2019, Chloroaniline (liquid)) (UN Recommendations on the Transport of Dangerous Goods) "
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "explosives": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "explosives"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Containing no chemical groups with explosive properties"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "flammable_aerosols": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        3.0
+      ], 
+      "hazard_name": [
+        "flammable_aerosols"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Not aerosol products"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "flammable_gases": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        2.0
+      ], 
+      "hazard_name": [
+        "flammable_gases"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Classified as \"liquid\" according to GHS definition"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "flammable_liquids": {
+      "classification": [
+        "Not classified"
+      ], 
+      "hazard_id": [
+        6.0
+      ], 
+      "hazard_name": [
+        "flammable_liquids"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "The flash point is 108degC (open cup flash test) (ICSC, 2001)"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "flammable_solids": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        7.0
+      ], 
+      "hazard_name": [
+        "flammable_solids"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Classified as \"liquid\" according to GHS definition"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "gases_under_pressure": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        5.0
+      ], 
+      "hazard_name": [
+        "gases_under_pressure"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Classified as \"liquid\" according to GHS definition"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "germ_cell_mutagenicity": {
+      "classification": [
+        "Category 2"
+      ], 
+      "hazard_id": [
+        5.0
+      ], 
+      "hazard_name": [
+        "germ_cell_mutagenicity"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the absence of data on multi-generation mutagenicity tests, germ cell mutagenicity tests in vivo and germ cell genotoxicity tests in vivo, and positive data on somatic cell mutagenicity tests in vivo (micronucleus tests), described in CERI-NITE Hazard Assessment No.58 (2004)."
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "organic_peroxides": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        15.0
+      ], 
+      "hazard_name": [
+        "organic_peroxides"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Organic compounds containing no \"-O-O-\" structure"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "oxidizing_gases": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        4.0
+      ], 
+      "hazard_name": [
+        "oxidizing_gases"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Classified as \"liquid\" according to GHS definition"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "oxidizing_liquids": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        13.0
+      ], 
+      "hazard_name": [
+        "oxidizing_liquids"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Organic compounds containing chlorine (but not oxygen and fluorine), with the chlorine bound to carbon and hydrogen (but not to other elements) "
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "oxidizing_solids": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        14.0
+      ], 
+      "hazard_name": [
+        "oxidizing_solids"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Classified as \"liquid\" according to GHS definition"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "pyrophoric_liquids": {
+      "classification": [
+        "Not classified"
+      ], 
+      "hazard_id": [
+        9.0
+      ], 
+      "hazard_name": [
+        "pyrophoric_liquids"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Not pyrophoric when in contact with air at ordinary temperatures: the auto-ignition temperature is 500degC (ICSC, 2000)"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "pyrophoric_solids": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        10.0
+      ], 
+      "hazard_name": [
+        "pyrophoric_solids"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Classified as \"liquid\" according to GHS definition"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "respiratory_skin_sensitizer": {
+      "classification": [
+        "Respiratory sensitizer: Classification not possible\nSkin sensitizer: Classification not possible"
+      ], 
+      "hazard_id": [
+        4.0
+      ], 
+      "hazard_name": [
+        "respiratory_skin_sensitizer"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Respiratory sensitizer: classification not possible\nSkin sensitizer: classification is not possible because of the insufficiency of data, although guinea pig Maximization tests show negative results for sensitization (CERI-NITE Hazard Assessment No.58 (2004)). "
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "self_heating_substances": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        11.0
+      ], 
+      "hazard_name": [
+        "self_heating_substances"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Test methods applicable to liquid substances are not available"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "self_reactive_substances": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        8.0
+      ], 
+      "hazard_name": [
+        "self_reactive_substances"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Containing no chemical groups with explosive or self-reactive properties"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "serious_eye_damage_irritation": {
+      "classification": [
+        "Category 2B"
+      ], 
+      "hazard_id": [
+        3.0
+      ], 
+      "hazard_name": [
+        "serious_eye_damage_irritation"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the description in the report on rabbit eye irritation tests: \"Mild eye irritation was induced, with recovery observed within 3-7 days of exposure\" (CERI-NITE Hazard Assessment No.58 (2004)). "
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "skin_corrosion_irritation": {
+      "classification": [
+        "Not classified"
+      ], 
+      "hazard_id": [
+        2.0
+      ], 
+      "hazard_name": [
+        "skin_corrosion_irritation"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the description in the report on rabbit skin irritation tests (4 hours) performed in accordance with OECD Test Guideline 404 (CERI-NITE Hazard Assessment No.58 (2004)): \"non-irritating to the skin.\""
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        12.0
+      ], 
+      "hazard_name": [
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "systemic_toxicity_repeat_exposure": {
+      "classification": [
+        "Category 1 (blood system)\nCategory 2 (central nervous system)"
+      ], 
+      "hazard_id": [
+        9.0
+      ], 
+      "hazard_name": [
+        "systemic_toxicity_repeat_exposure"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the evidence from animal studies including \"increased blood methemoglobin concentration, cyanosis, tremor and increased Heinz bodies\" (NITE Initial Risk Assessment No.58 (2005)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 1 (blood system), and Category 2 (central nervous system).\n"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "systemic_toxicity_single_exposure": {
+      "classification": [
+        "Category 1 (blood system, central nervous system, heart, liver, kidneys)"
+      ], 
+      "hazard_id": [
+        8.0
+      ], 
+      "hazard_name": [
+        "systemic_toxicity_single_exposure"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the human evidence including \"headache, coughing, vomiting, thirst, delirium, ataxia, dizziness, ear noise, disorientation, debility, lethargy, coma, cardiac block, cardiac dysrhythmia, shock, circulatory disorder, painful urination, bloody urine, hemoglobinuria, kidney damage\" (CERI Hazard Data 99-25 (2000)), \"methemoglobinemia, liver and kidney damage\" (MOE Risk Assessment vol.3 (2004)), and the evidence from animal studies including \"increased blood methemoglobin concentrations and cyanosis\" (NITE Initial Risk Assessment No.58 (2005)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 1. \n"
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }, 
+    "toxic_to_reproduction": {
+      "classification": [
+        "Category 2"
+      ], 
+      "hazard_id": [
+        7.0
+      ], 
+      "hazard_name": [
+        "toxic_to_reproduction"
+      ], 
+      "hazard_statement": [
+        ""
+      ], 
+      "rationale": [
+        "Based on the description in MOE Risk Assessment vol.3 (2004): The results of rat teratogenicity tests suggest a significant increase in early resorptions, a significant decrease in viable fetuses and an increase in the incidence of spontaneous malformation in pups at doses causing maternal toxicity."
+      ], 
+      "signal_word": [
+        ""
+      ], 
+      "symbol": [
+        ""
+      ]
+    }
+  }
+}

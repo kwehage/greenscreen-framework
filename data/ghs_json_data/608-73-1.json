@@ -1,0 +1,758 @@
+{
+  "ID": [
+    "ID1348"
+  ], 
+  "cas_no": [
+    "608-73-1"
+  ], 
+  "country": [
+    "Japan"
+  ], 
+  "date_classified": [
+    "Feb. 20, 2007 (Environmental Hazards: Mar. 31, 2006)"
+  ], 
+  "date_imported": [
+    "Sun Sep  1 17:54:28 2013"
+  ], 
+  "descriptive_name": [
+    "BHC or HCH"
+  ], 
+  "hazards": {
+    "acute_aquatic_toxicity": {
+      "classification": [
+        "Category 1"
+      ], 
+      "hazard_id": [
+        11.0
+      ], 
+      "hazard_name": [
+        "acute_aquatic_toxicity"
+      ], 
+      "hazard_statement": [
+        "Very toxic to aquatic life"
+      ], 
+      "rationale": [
+        "It was classified into Category 1 from 96-hour LC50=0.34microg/L of Crustacea  (Pink shrimp) (AQUIRE, 2003)."
+      ], 
+      "signal_word": [
+        "Warning"
+      ], 
+      "symbol": [
+        "Environment"
+      ]
+    }, 
+    "acute_toxicity_dermal": {
+      "classification": [
+        "Category 3"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_dermal"
+      ], 
+      "hazard_statement": [
+        "Toxic in contact with skin"
+      ], 
+      "rationale": [
+        "It was set as Category 3 from rat dermal LD50 = 900mg/kg (PIM257 (2001), RTECS (2004))."
+      ], 
+      "signal_word": [
+        "Danger"
+      ], 
+      "symbol": [
+        "Skull and crossbones"
+      ]
+    }, 
+    "acute_toxicity_inhalation_dust": {
+      "classification": [
+        "Category 3"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_inhalation_dust"
+      ], 
+      "hazard_statement": [
+        "Toxic if inhaled"
+      ], 
+      "rationale": [
+        "It was set as category 3 base on rat inhalation LC50 (4hr) = 0.69mg/L (RTECS (2004)). In addition, considering the saturated concentration (about 0.01mg/L) computed from this substance's steam pressure (0.1Pa at 25degC), it was presumed that the experiment was conducted in dust and mists conditions."
+      ], 
+      "signal_word": [
+        "Danger"
+      ], 
+      "symbol": [
+        "Skull and crossbones"
+      ]
+    }, 
+    "acute_toxicity_inhalation_gas": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_inhalation_gas"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Solid (GHS definition)"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "acute_toxicity_inhalation_vapor": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_inhalation_vapor"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "No data available"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "acute_toxicity_oral": {
+      "classification": [
+        "Category 3"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "acute_toxicity_oral"
+      ], 
+      "hazard_statement": [
+        "Toxic if swallowed"
+      ], 
+      "rationale": [
+        "Based on the rat oral LD50 = 100mg/kg (PIM257 (2001), HSDB (2003) and RTECS (2004)) and 2428mg/kg (ATSDR (2005)) , we adopted the lowest value to classify the substance as Category 3.\n\n[Note] 1,2,3,4,5,6-hexachlorocyclohexane has several stereoisomers (alpha-; beta-; gamma-; delta-isomers, etc.), but this ID for the health hazardswas investigated and classified as CAS: 608-73-1(isomer mixture) . Also refer to the classification results of 1,2,3,4,5,6- hexachlorocyclohexane [Linden] (ID612, CAS: 58-89-9) which is the gamma-isomer."
+      ], 
+      "signal_word": [
+        "Danger"
+      ], 
+      "symbol": [
+        "Skull and crossbones"
+      ]
+    }, 
+    "aspiration_hazard": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        10.0
+      ], 
+      "hazard_name": [
+        "aspiration_hazard"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "No data available"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "carcinogenicity": {
+      "classification": [
+        "Category 2"
+      ], 
+      "hazard_id": [
+        6.0
+      ], 
+      "hazard_name": [
+        "carcinogenicity"
+      ], 
+      "hazard_statement": [
+        "Suspected of causing cancer (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)"
+      ], 
+      "rationale": [
+        "Since it is classified into 2B  (IARC Suppl.7 (1987)), B-2 (as industrial hexachlorocyclohexane) according to EPA (IRIS (2003)), and R (as Linden and other hexachlorocyclohexane isomeric form) according to NTP (NTP RoC (11th, 2005)), it was set as category 2."
+      ], 
+      "signal_word": [
+        "Warning"
+      ], 
+      "symbol": [
+        "Health hazard"
+      ]
+    }, 
+    "chronic_aquatic_toxicity": {
+      "classification": [
+        "Category 1"
+      ], 
+      "hazard_id": [
+        11.0
+      ], 
+      "hazard_name": [
+        "chronic_aquatic_toxicity"
+      ], 
+      "hazard_statement": [
+        "Very toxic to aquatic life with long lasting effects"
+      ], 
+      "rationale": [
+        "Classified into Category 1, since acute toxicity is Category 1,not rapidly degrading (BOD: 0% (existing chemical substances safety inspections data)), and bioaccumulative (BCF=893 (existing chemical substances safety inspections data))."
+      ], 
+      "signal_word": [
+        "Warning"
+      ], 
+      "symbol": [
+        "Environment"
+      ]
+    }, 
+    "corrosive_to_metals": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        16.0
+      ], 
+      "hazard_name": [
+        "corrosive_to_metals"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Test methods applicable to solid substances are not available."
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "explosives": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        1.0
+      ], 
+      "hazard_name": [
+        "explosives"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "There are no chemical groups associated with explosive properties present in the molecules."
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "flammable_aerosols": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        3.0
+      ], 
+      "hazard_name": [
+        "flammable_aerosols"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Not aerosol products"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "flammable_gases": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        2.0
+      ], 
+      "hazard_name": [
+        "flammable_gases"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Solid (GHS definition)"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "flammable_liquids": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        6.0
+      ], 
+      "hazard_name": [
+        "flammable_liquids"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Solid (GHS definition)"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "flammable_solids": {
+      "classification": [
+        "Not classified"
+      ], 
+      "hazard_id": [
+        7.0
+      ], 
+      "hazard_name": [
+        "flammable_solids"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Non-combustible  (ICSC (J) (1998))"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "gases_under_pressure": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        5.0
+      ], 
+      "hazard_name": [
+        "gases_under_pressure"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Solid (GHS definition)"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "germ_cell_mutagenicity": {
+      "classification": [
+        "Not classified"
+      ], 
+      "hazard_id": [
+        5.0
+      ], 
+      "hazard_name": [
+        "germ_cell_mutagenicity"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "There is the negative result of the dominant fatality test using a mouse, and the negative result of the in vivo chromosome aberration test using mouse bone marrow cells (IARC, Suppl.7 (1987), ATSDR (2005), PIM257 (2001)), and it is classified as the out of the Category. In addition, although there is also positive knowledge in mice dominant fatality tests, it is considered as suspicious (IARC, Suppl.7 (1987)). Moreover, Ames test negative (DFGOT vol.5 (1993)) and an in vitro chromosome aberration test positivity (ATSDR (2005), HSDB (2003)) are reported by the in vitro mutagenicity test. In addition, Linden (gamma-body) which is one of the isomer of the quality of this substance is considered as the outside of Category (refer to Linden (ID 612, CAS: 58-89-9)).   "
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "organic_peroxides": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        15.0
+      ], 
+      "hazard_name": [
+        "organic_peroxides"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Organic compounds containing no -0-0- structure"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "oxidizing_gases": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        4.0
+      ], 
+      "hazard_name": [
+        "oxidizing_gases"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Solid (GHS definition)"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "oxidizing_liquids": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        13.0
+      ], 
+      "hazard_name": [
+        "oxidizing_liquids"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Solid (GHS definition)"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "oxidizing_solids": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        14.0
+      ], 
+      "hazard_name": [
+        "oxidizing_solids"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Organic compounds containing chlorine and the chlorine is chemically bonded only to carbon (but not to other elements)."
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "pyrophoric_liquids": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        9.0
+      ], 
+      "hazard_name": [
+        "pyrophoric_liquids"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Solid (GHS definition)"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "pyrophoric_solids": {
+      "classification": [
+        "Not classified"
+      ], 
+      "hazard_id": [
+        10.0
+      ], 
+      "hazard_name": [
+        "pyrophoric_solids"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Non-combustible (ICSC (J), 1998)"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "respiratory_skin_sensitizer": {
+      "classification": [
+        "Respiratory sensitization: Classification not possible; Skin sensitization: Classification not possible"
+      ], 
+      "hazard_id": [
+        4.0
+      ], 
+      "hazard_name": [
+        "respiratory_skin_sensitizer"
+      ], 
+      "hazard_statement": [
+        "(Respiratory sensitization)-\r; (Skin sensitization)-"
+      ], 
+      "rationale": [
+        "Respiratory sensitization: no data available.\nSkin sensitization: there is the description(ICSC(J)(1998) that dermatitis may be caused by repetition or the long-term skin contact to the human, it is unknown whether SITTIG (4th, 2002)) is caused by an allergic reaction, and data is insufficient and it cannot classify. In addition, also refer to 1, 2, 3, 4, 5, 6-hexachlorocyclohexane [Linden] (ID 612, and CAS:58-89-9)."
+      ], 
+      "signal_word": [
+        "(Respiratory sensitization)-; \r(Skin sensitization)-"
+      ], 
+      "symbol": [
+        "(Respiratory sensitization)-; (Skin sensitization)-\r"
+      ]
+    }, 
+    "self_heating_substances": {
+      "classification": [
+        "Not classified"
+      ], 
+      "hazard_id": [
+        11.0
+      ], 
+      "hazard_name": [
+        "self_heating_substances"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Not combustible (ICSC(J) (1998))"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "self_reactive_substances": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        8.0
+      ], 
+      "hazard_name": [
+        "self_reactive_substances"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "There are no chemical groups associated with explosive or self-reactive properties present in the molecule."
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "serious_eye_damage_irritation": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        3.0
+      ], 
+      "hazard_name": [
+        "serious_eye_damage_irritation"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Insufficient data available."
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "skin_corrosion_irritation": {
+      "classification": [
+        "Classification not possible"
+      ], 
+      "hazard_id": [
+        2.0
+      ], 
+      "hazard_name": [
+        "skin_corrosion_irritation"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "Insufficient data available"
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+      "classification": [
+        "Not applicable"
+      ], 
+      "hazard_id": [
+        12.0
+      ], 
+      "hazard_name": [
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+      ], 
+      "hazard_statement": [
+        "-"
+      ], 
+      "rationale": [
+        "The chemical structure of the substance does not contain metals or metaloids(B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)."
+      ], 
+      "signal_word": [
+        "-"
+      ], 
+      "symbol": [
+        "-"
+      ]
+    }, 
+    "systemic_toxicity_repeat_exposure": {
+      "classification": [
+        "Category 1 (central nervous system); Category 2 (liver, kidneys)"
+      ], 
+      "hazard_id": [
+        9.0
+      ], 
+      "hazard_name": [
+        "systemic_toxicity_repeat_exposure"
+      ], 
+      "hazard_statement": [
+        "Causes damage to organs (central nervous system) through prolonged or repeated exposure; May cause damage to organs (liver, kidneys) through prolonged or repeated exposure"
+      ], 
+      "rationale": [
+        "Since symptoms of nausea and tremor in addition to the face and limb paresthesias, headache, and giddiness were observed in the humans who inhaled this product (PIM257 (2001) the document of Priority 1), symptoms such as vomiting, tremor, and paralysis of the hind limbs were observed with the dose being equivalent to Category 1of a guidance value in a rat (ATSDR (2005)), and the effect was observed in liver (cell hypertrophy, centrilobular degeneration, etc.) and kidney (a glomerular degeneration, the tubular necrosis etc. ) with the dose being equivalent to Category 2 of a guidance value (ATSDR (2005), DFGOT vol.5 (1993)), it was classified into Category 1 (central nervous systems) and Category 2 (liver, kidney). Also refer to Linden (gamma object) which is one of the isomers of this product (ID 612, CAS:58-89-9) . "
+      ], 
+      "signal_word": [
+        "Danger"
+      ], 
+      "symbol": [
+        "Health hazard"
+      ]
+    }, 
+    "systemic_toxicity_single_exposure": {
+      "classification": [
+        "Category 1 (nervous system); Category 3 (respiratory tract irritation)"
+      ], 
+      "hazard_id": [
+        8.0
+      ], 
+      "hazard_name": [
+        "systemic_toxicity_single_exposure"
+      ], 
+      "hazard_statement": [
+        "Cause damage to organs (nervous system); May cause respiratory irritation or may cause drowsiness and dizziness (respiratory tract irritation)"
+      ], 
+      "rationale": [
+        "It was considered as Category 1 (nervous system) and Category 3 (respiratory irritant) based on the description that it affects human central nervous system in the document of Priority 1 and 2 (nausea, vomiting, muscle spasm, tremor etc.) (PIM257 (2001), DFGOT vol.5 (1993), ICSC (J) (1998), HSDB (2003)), and it stimulates a nose, a throat, and a respiratory tract (HSDB (2003), SITTIG (4th, 2002)). Also refer to Linden (gamma body) (ID 612, CAS:58-89-9) which is one of the isomer of this product."
+      ], 
+      "signal_word": [
+        "Danger"
+      ], 
+      "symbol": [
+        "Health hazard"
+      ]
+    }, 
+    "toxic_to_reproduction": {
+      "classification": [
+        "Category 2"
+      ], 
+      "hazard_id": [
+        7.0
+      ], 
+      "hazard_name": [
+        "toxic_to_reproduction"
+      ], 
+      "hazard_statement": [
+        "Suspected of damaging fertility or the undorn child "
+      ], 
+      "rationale": [
+        "Although no effect was observed in three-generation reproduction studies and teratogenicity tests using rats (ATSDR (2005)), increased embryo absorption and decreased survival fetus were observed (but not teratogenicity) in reproduction and development toxicity tests using mice (ATSDR (2005), HSDB (2003)) and, in ICSC (J) (1998), there was a descriprion that animal tests showed the potential of toxic effects on human reproduction. Thus, it was set as Category 2. In addition, Linden (gamma-body), one of the isomeric forms of this substance, is set as \"out of Category\" (see Linden (ID 612, CAS: 58-89-9))."
+      ], 
+      "signal_word": [
+        "Warning"
+      ], 
+      "symbol": [
+        "Health hazard"
+      ]
+    }
+  }
+}
