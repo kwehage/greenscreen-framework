@@ -1,0 +1,28 @@
+This program consists of a collection of tools for importing data from
+chemical hazard databases, such as the GHS Japan country list.
+
+The code is used to automatically translate data to GreenScreen format and
+a GreenScreen benchmark assessment. 
+
+The present Python program can be executed directly:
+    cd greenscreen_framework
+    ./greenscreen_framework.py
+
+Alternatively, any of the modules can be imported in to other python applications.
+Build / install the python module:
+    python setup.py install
+
+The greenscreen_framework module can then be imported
+    import greenscreen_tools
+
+
+Refer to the main() function at the end of the code for example usage.
+
+The code requires that the lxml python module for processing XML data and the xlrd
+module for reading Excel spreadsheets.
+
+Copyright 2013-2015 Kristopher Wehage, Panan Chenhansa, Julie M. Schoenung
+University of California-Davis
+
+This code comes with no warantees or guarantee of fitness
+for any purpose. 
