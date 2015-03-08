@@ -1,28 +1,44 @@
-This program consists of a collection of tools for importing data from
-chemical hazard databases, such as the GHS Japan country list.
+This program consists of a collection of utilities for importing and processing hazard 
+data from the Chemical Management Center, part of a Japanese governmental organization called
+the National Institute for Technology Evaluation. In the source code, the dataset is referred to
+as the ``GHS Japan country list''. The data was originally downloaded in September 2013 from
+http://www.safe.nite.go.jp/english/ghs/ghs_index.html.
 
 The code is used to automatically translate data to GreenScreen format and
-a GreenScreen benchmark assessment. 
+perform a GreenScreen benchmark assessment. The translation from GHS classification to 
+GreenScreen hazard classification is performed using the GreenScreen List Translator v1.2. The entire
+benchmarking process, including the initial import of data from the GHS Japan country list, translation
+to GreenScreen representation, and performing an overall benchmark score, is completely 
+computer automated. The resulting data is exported in a JavaScript Object Notation (JSON) file format
+and is suitable to be uploaded to a document storage system or relational database for later retrieval.
 
-The present Python program can be executed directly:
+Please register with the nonprofit group, Clean Production Action, to receive specific details on the 
+benchmarking and translation methodology.
+http://www.greenscreenchemicals.org/method/?/Greenscreen.php
+
+
+After cloning the project, the Python program can be executed directly:
     cd greenscreen_framework
     ./greenscreen_framework.py
 
-Alternatively, any of the modules can be imported in to other python applications.
-Build / install the python module:
+Alternatively, any of the functions contained within the module can be reused in
+other python applications. 
+
+For convenience, a setup.py file is provided to install the module on your Python 
+system path.
+
+From the root directory of the project, build / install the python module:
     python setup.py install
 
-The greenscreen_framework module can then be imported
-    import greenscreen_tools
+The greenscreen_framework module can then be imported in other Python applications
+by importing the greenscreen_framework module at the top of the Python script.
+    import greenscreen_framework
 
-
-Refer to the main() function at the end of the code for example usage.
+Refer to the main() function at the end of the greenscreen_framework.py
+for example usage.
 
 The code requires that the lxml python module for processing XML data and the xlrd
-module for reading Excel spreadsheets.
+module for reading Excel spreadsheets are installed on the system.
 
 Copyright 2013-2015 Kristopher Wehage, Panan Chenhansa, Julie M. Schoenung
 University of California-Davis
-
-This code comes with no warantees or guarantee of fitness
-for any purpose. 
