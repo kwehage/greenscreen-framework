@@ -28,7 +28,7 @@ After cloning the project, the Python program can be executed directly:
     ./greenscreen_framework.py
 
 Alternatively, any of the functions contained within the module can be 
-reused in other python applications. 
+reused in other Python applications. 
 
 For convenience, a setup.py file is provided to install the module on 
 your Python system path.
@@ -37,8 +37,8 @@ From the root directory of the project, build / install the python module:
     python setup.py install
 
 The greenscreen_framework module can then be imported in other Python 
-applicationsby importing the greenscreen_framework module at the top 
-of the Python script.
+applications by importing the greenscreen_framework module at the top 
+of a Python script.
     import greenscreen_framework
 
 Refer to the main() function at the end of the greenscreen_framework.py
@@ -48,5 +48,5 @@ The code requires that the lxml python module for processing XML data
 and the xlrd module for reading Excel spreadsheets are installed on the 
 system.
 
-Copyright 2013-2015 Kristopher Wehage, Panan Chenhansa, Julie M. Schoenung
+Copyright 2013-2015 Kristopher Wehage
 University of California-Davis
