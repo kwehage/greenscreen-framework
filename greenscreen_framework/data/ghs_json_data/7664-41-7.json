@@ -1,758 +1,988 @@
 {
-  "ID": [
-    "ID564"
-  ],
-  "cas_no": [
-    "7664-41-7"
-  ],
-  "country": [
-    "Japan"
-  ],
-  "date_classified": [
-    "Apr. 20, 2006 (Environmental Hazards: Mar. 31, 2006)"
-  ],
-  "date_imported": [
-    "Wed Jun 10 08:51:35 2015"
-  ],
-  "descriptive_name": [
-    "Ammonia"
-  ],
-  "hazards": {
-    "acute_aquatic_toxicity": {
-      "classification": [
-        "Category 1"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "acute_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "Very toxic to aquatic life"
-      ],
-      "rationale": [
-        "It was classified into Category 1 from 96-hour LC50=0.083mg NH3/L of fishes (Pink salmon) (EHC54, 1986)."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Environment"
-      ]
-    },
-    "acute_toxicity_dermal": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_dermal"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Classification not possible due to lack of data"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_inhalation_dust": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_dust"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_inhalation_gas": {
-      "classification": [
-        "Category 4"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_gas"
-      ],
-      "hazard_statement": [
-        "Harmful if inhaled"
-      ],
-      "rationale": [
-        "It was considered as Category 4 based on rat LC50 = 4608.7ppm (4-hour equivalent) (EHC 54 (1986))."
-      ],
-      "signal_word": [
-        "Warning\r\n"
-      ],
-      "symbol": [
-        "Exclamation mark\r\n"
-      ]
-    },
-    "acute_toxicity_inhalation_vapor": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_vapor"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_oral": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_oral"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "There is the report of the death in humans after ammonia solution ingestion (EHC 54 (1986)). But it is not gas data, it is not considered as the basis of the categories."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "aspiration_hazard": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "aspiration_hazard"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "carcinogenicity": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "carcinogenicity"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "There is no finding which suggests carcinogenicity as a result of mixing ammonia in drinking water and administration to mice for two years (EHC 54 (1986)), but there is also a description of tumors in the stomach and intestines (details unknown) (RTECS (2004)). Information is still more nearly need for a classification and it determined that \"It cannot be classified.\""
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "chronic_aquatic_toxicity": {
-      "classification": [
-        "Category 1"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "chronic_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "Very toxic to aquatic life with long lasting effects"
-      ],
-      "rationale": [
-        "Classified into Category 1, since acute toxicity was Category 1, and behavior in water and bioaccumulative potential are unknown."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Environment"
-      ]
-    },
-    "corrosive_to_metals": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        16.0
-      ],
-      "hazard_name": [
-        "corrosive_to_metals"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Test methods applicable to gas substances are not available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "explosives": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "explosives"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_aerosols": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "flammable_aerosols"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Not aerosol products"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_gases": {
-      "classification": [
-        "Category 1"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "flammable_gases"
-      ],
-      "hazard_statement": [
-        "Extremely flammable gas"
-      ],
-      "rationale": [
-        "Flammable range with air is 15-28 vol% (GESTIS-database on hazardous substances, 2nd, 1993)"
-      ],
-      "signal_word": [
-        "Danger"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "flammable_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_solids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "flammable_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "gases_under_pressure": {
-      "classification": [
-        "Liquefied gas"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "gases_under_pressure"
-      ],
-      "hazard_statement": [
-        "Contains gas under pressure; may explode if heated"
-      ],
-      "rationale": [
-        "Critical temp: 132.4degC (Merck, 13th, 2001)"
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Gas cylinder"
-      ]
-    },
-    "germ_cell_mutagenicity": {
-      "classification": [
-        "Category 2"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "germ_cell_mutagenicity"
-      ],
-      "hazard_statement": [
-        "Suspected of causing genetic defects (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)"
-      ],
-      "rationale": [
-        "The substance was classified as Category 2. Because there are increases in chromosome aberration and sister chromatid exchange in the study/analysis of the blood samples taken from people who have been exposed to ammonia and people who have not (ATSDR 2004), and there is a positive result from the in vivo mutagenicity test (the micronucleus test in mice: ATSDR (2004)).  "
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Health hazard"
-      ]
-    },
-    "organic_peroxides": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        15.0
-      ],
-      "hazard_name": [
-        "organic_peroxides"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_gases": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "oxidizing_gases"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "UNRTDG No.1005, Class: 2.3, Subsidiary risks Class: 8"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        13.0
-      ],
-      "hazard_name": [
-        "oxidizing_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_solids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        14.0
-      ],
-      "hazard_name": [
-        "oxidizing_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "pyrophoric_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "pyrophoric_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "pyrophoric_solids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "pyrophoric_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "respiratory_skin_sensitizer": {
-      "classification": [
-        "Respiratory sensitization: Category1; Skin sensitization: Not classified"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "respiratory_skin_sensitizer"
-      ],
-      "hazard_statement": [
-        "(Respiratory sensitization)May cause allegy or asthma symptoms pr breathing difficulties if inhaled; (Skin sensitization)-"
-      ],
-      "rationale": [
-        "[Respiratory sensitization] Two or more asthma or asthma-like symptoms by ammonia exposures have been reported by humans (ATSDR 2004, ACGIH (2001)). Based on the fact that a statistically significant relevance is indicated between ammonia gas exposure and the respiratory symptom including bronchial asthma  by one report (ATSDR 2004) and that in a different report ammonia is made the asthmatic cause by the provocation test (ATSDR 2004). it was referred to as Category 1. [Skin sensitization] Although there is no animal test data of NH3 itself, as it is in a form of gas at an ordinary temperature and normal pressure , its examination in solution is being carried out. As skin sensitization was clearly denied by the Open epicutaneous test using a guinea pigs (IUCLID 2000,  it was put outside of the Category."
-      ],
-      "signal_word": [
-        "(Respiratory sensitization)Danger\r; (Skin sensitization)-"
-      ],
-      "symbol": [
-        "(Respiratory sensitization)Health hazard\r; (Skin sensitization)-"
-      ]
-    },
-    "self_heating_substances": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "self_heating_substances"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "self_reactive_substances": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "self_reactive_substances"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "serious_eye_damage_irritation": {
-      "classification": [
-        "Category 1"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "serious_eye_damage_irritation"
-      ],
-      "hazard_statement": [
-        "Causes serious eye damage"
-      ],
-      "rationale": [
-        "Conjunctival edema is observed ammonia postexposure to eye of rabbit (EHC 54 (1986)). If a burned is caused, the irreversible influence of eyeball adhesion, the ulcers and perforations of a cornea, permanent corneal cloudings, iritis, etc. is admitted (EHC 54 (1986), IUCLID (2000)). Furthermore, humans also had affect by contact directly for a rapid rates, and the eye disorders especially critical in high concentrations has occurred (EHC 54 (1986), ACGIH (7th, 2001)). It was set as Category 1 based on the above fact."
-      ],
-      "signal_word": [
-        "Danger"
-      ],
-      "symbol": [
-        "Corrosion"
-      ]
-    },
-    "skin_corrosion_irritation": {
-      "classification": [
-        "Category 1A-1C"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "skin_corrosion_irritation"
-      ],
-      "hazard_statement": [
-        "Causes severe skin burns and eye damage"
-      ],
-      "rationale": [
-        "Necrosis was observed in skin irritation test with ammonia solution on rabbits (IUCLID 2000). As for humans, there is a report of a remarkable stimulation, chemical burns, etc. on contacts with ammonia gas (DFGOTvol.6 (1992)), and it is regarded as a skin irritant also in the state of gas (IUCLID 2000). From what mentioned above, it was classified as Category 1A-1C."
-      ],
-      "signal_word": [
-        "Danger"
-      ],
-      "symbol": [
-        "Corrosion"
-      ]
-    },
-    "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        12.0
-      ],
-      "hazard_name": [
-        "substances_mixtures_emit_flammable_gas_in_contact_with_water"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Gas (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "systemic_toxicity_repeat_exposure": {
-      "classification": [
-        "Category 2 (lung)"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_repeat_exposure"
-      ],
-      "hazard_statement": [
-        "May cause damage to organs (lung) through prolonged or repeated exposure"
-      ],
-      "rationale": [
-        "In repeated inhalation study of rats, the interstitial pneumonias accompanied by a peribronchitis is seen in the range of the guidance value of Category 2 (EHC 54 (1986)), and the same clinical features as a contractile lung functional disorder, an obstructive pulmonary disease, etc. with chronic dyspnea is reported in humans who received occupational exposure of ammonia in large quantities (IUCLID (2000)). It was classified in Category 2 (lung) based on these facts. In addition, influence on lungs are seen in other animals, or in other examinations from which a test condition differs (EHC 54 (1986), IUCLID 2000)."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Health hazard"
-      ]
-    },
-    "systemic_toxicity_single_exposure": {
-      "classification": [
-        "Category 1 (respiratory)"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_single_exposure"
-      ],
-      "hazard_statement": [
-        "Cause damage to organs (respiratory)"
-      ],
-      "rationale": [
-        "Since difficulty breathing, lung edema, bronchial pneumonias, etc. are reported in humans (DFGOTvol.6 (1992), ATSDR (2004), IRIS (1991), BSDB (2005)), and significant toxicity effects to the respiratory systems containing lungs, such as dyspnea, cyanosis, haemorrhage lung and pulmonary edema, interstitial pneumonias, etc. are observed also in animal studies (EHC 54 (1986)), it was classified into Category 1 (respiratory systems). In addition, the toxic expressing levels presumed from animal data (EHC 54 (1986)) is also equivalent to the guidance value Category 1."
-      ],
-      "signal_word": [
-        "Danger"
-      ],
-      "symbol": [
-        "Health hazard"
-      ]
-    },
-    "toxic_to_reproduction": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "toxic_to_reproduction"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "There is only the description of decrease weight gain of 120-day old child in administration for pregnant and lactational period (ATSDR (2004)), but it is not obvious on the effect to reproductive potential in administration before pregnancy (premating), and so it cannot be classified since data is insufficient"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
+    "ID": [
+        "7664-41-7",
+        "7664-41-7"
+    ],
+    "cas_no": [
+        "7664-41-7",
+        "7664-41-7"
+    ],
+    "country": [
+        "Japan",
+        "Japan"
+    ],
+    "date_classified": [
+        "FY2009",
+        "FY2006"
+    ],
+    "date_imported": [
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015"
+    ],
+    "descriptive_name": [
+        "Ammonia",
+        "Ammonia"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "Very toxic to aquatic life",
+                "Very toxic to aquatic life"
+            ],
+            "rationale": [
+                "Classified into Category 1 from its 96h-LC50 = 0.083 mg/L for fish (Pink salmon) (EHC 54, 1986).",
+                "It was classified into Category 1 from 96-hour LC50=0.083mg NH3/L of fishes (Pink salmon) (EHC54, 1986)."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Environment",
+                "Environment"
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "Classification not possible due to lack of data"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Category 4",
+                "Category 4"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                "Harmful if inhaled",
+                "Harmful if inhaled"
+            ],
+            "rationale": [
+                "Based on LC50 values (4-hour equivalence) of 3669, 5671 and 8300 ppm for rats (EHC 54 (1986)), the substance was classified into Category 4.",
+                "It was considered as Category 4 based on rat LC50 = 4608.7ppm (4-hour equivalent) (EHC 54 (1986))."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral",
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "There is the report of the death in humans after ammonia solution ingestion (EHC 54 (1986)). But it is not gas data, it is not considered as the basis of the categories."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Category 2 (lung)",
+                "Category 2 (lung)"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard",
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                "May cause damage to organs through prolonged or repeated exposure (lung)",
+                "May cause damage to organs through prolonged or repeated exposure (lung)"
+            ],
+            "rationale": [
+                "3 patients significantly exposed to ammonia in occupational settings exhibited chronic dyspnea. Their clinical symptoms were consistent with restrictive lung dysfunction and obstructive lung disease (IUCLID (2000)). In rats exposed to a concentration of 143 ppm (3-month equivalence: 94 ppm) for 2 years, histological changes were observed in the lungs including small areas of interstitial pneumonia with signs of peribronchitis and perivasculitis (EHC 54 (1986)). Since the human case report is on a document of List 2 and the lung lesions in rats were observed at dose levels within the guidance value range for Category 2, the substance was classified into Category 2 (lung).",
+                "In repeated inhalation study of rats, the interstitial pneumonias accompanied by a peribronchitis is seen in the range of the guidance value of Category 2 (EHC 54 (1986)), and the same clinical features as a contractile lung functional disorder, an obstructive pulmonary disease, etc. with chronic dyspnea is reported in humans who received occupational exposure of ammonia in large quantities (IUCLID (2000)). It was classified in Category 2 (lung) based on these facts. In addition, influence on lungs are seen in other animals, or in other examinations from which a test condition differs (EHC 54 (1986), IUCLID 2000)."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Classification not possible",
+                "Category 2"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "carcinogenicity",
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                "Suspected of causing genetic defects"
+            ],
+            "rationale": [
+                "There is a report that analysis of blood samples from humans exposed to ammonia and control humans not exposed to ammonia showed increased frequency of chromosomal aberrations and sister chromatid exchanges (ATSDR 2004). Additionally, a positive result in a micronucleus test by intraperitoneal administration to mice (in vivo mutagenicity test) was reported (ATSDR 2004). However, the details for both reports are unknown, therefore, classification was not possible due to lack of sufficient in vivo data. As relevant information, from in vitro mutagenicity tests, there are reports of both negative and positive bacteria tests (EHC 54 (1986), IUCLID (2000)).",
+                "The substance was classified as Category 2. Because there are increases in chromosome aberration and sister chromatid exchange in the study/analysis of the blood samples taken from people who have been exposed to ammonia and people who have not (ATSDR 2004), and there is a positive result from the in vivo mutagenicity test (the micronucleus test in mice: ATSDR (2004)).  "
+            ],
+            "signal_word": [
+                " - ",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                "Health Hazard"
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "Very toxic to aquatic life with long lasting effects",
+                "Very toxic to aquatic life with long lasting effects"
+            ],
+            "rationale": [
+                "Classified into Category 1 since its acute toxicity is Category 1and the behavior in water is unknown.",
+                "Classified into Category 1, since acute toxicity was Category 1, and behavior in water and bioaccumulative potential are unknown."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Environment",
+                "Environment"
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                16.0,
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals",
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Test methods applicable to gaseous substances are not available. Information is available that the substance attacks aluminum (ICSC (J) (1998)), however, steel and iron have a durability as containers (Hommel (1996)).\n",
+                "Test methods applicable to gas substances are not available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "explosives",
+                "explosives"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols",
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Not aerosol products\n",
+                "Not aerosol products"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases",
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                "Extremely flammable gas",
+                "Extremely flammable gas"
+            ],
+            "rationale": [
+                "Combustion range (explosive limits) in the air is 15 - 28% (Dangerous Goods Data Book (Tokyo Fire Department (1993))) exceeding 12%.\n",
+                "Flammable range with air is 15-28 vol% (GESTIS-database on hazardous substances, 2nd, 1993)"
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Flame",
+                "Flame"
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids",
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids",
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Low pressure liquefied gas",
+                "Liquefied gas"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure",
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                "Contains gas under pressure; may explode if heated",
+                "Contains gas under pressure; may explode if heated"
+            ],
+            "rationale": [
+                "Critical temperature is 132.4 degC (Merck (13th, 2001)) exceeding 65 degC.\n",
+                "Critical temp: 132.4degC (Merck, 13th, 2001)"
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Gas cylinder",
+                "Gas cylinder"
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Classification not possible",
+                "Not classified"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Although there is a result of not skin sensitizing in an open epicutaneous test with guinea pigs (IUCLID (2000)), it is not possible to classify the substance as \"Not classified\", since the test was not conducted using a method recommended in the guidance and the information is reported in a document in List 2. Classification was not possible due to lack of sufficient data.",
+                "Although there is no animal test data of NH3 itself, as it is in a form of gas at an ordinary temperature and normal pressure , its examination in solution is being carried out. As skin sensitization was clearly denied by the Open epicutaneous test using a guinea pigs (IUCLID 2000,  it was put outside of the Category."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                15.0,
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides",
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases",
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classified into Not classified since the substance is classified into Division 2.3 in UNRTDG (UN1005), Subsidiary risk 8, but not into Division 5.1 (Oxidizing substances) in UNRTDG.\n",
+                "UNRTDG No.1005, Class: 2.3, Subsidiary risks Class: 8"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                13.0,
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids",
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                14.0,
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids",
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids",
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                10.0,
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids",
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                "May cause allergy or asthma symptoms or breathing difficulties if inhaled",
+                "May cause allergy or asthma symptoms or breathing difficulties if inhaled"
+            ],
+            "rationale": [
+                "There are many case reports of asthma and asthma-like symptoms in humans exposed to ammonia (ATSDR (2004), ACGIH (2001)). Ammonia is irritating to the respiratory tract (ACGIH (2001)). Although irritating effect is not excluded, a test showed a significant association between exposure to ammonia gas and respiratory symptoms including bronchial asthma (ATSDR (2004)). In another report, it is concluded that ammonia is responsible for asthma based on a result of an inhalative provocation test. Based on the data, the substance was classified into Category 1.",
+                "Two or more asthma or asthma-like symptoms by ammonia exposures have been reported by humans (ATSDR 2004, ACGIH (2001)). Based on the fact that a statistically significant relevance is indicated between ammonia gas exposure and the respiratory symptom including bronchial asthma  by one report (ATSDR 2004) and that in a different report ammonia is made the asthmatic cause by the provocation test (ATSDR 2004). it was referred to as Category 1."
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances",
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances",
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                "Causes serious eye damage",
+                "Causes serious eye damage"
+            ],
+            "rationale": [
+                "In a rabbit test, as complications of severe burns, irreversible effects such as symblepharon, corneal ulcerations leading to perforations, permanent corneal opacity, and persistent iritis were observed (EHC 54 (1986)). For humans, direct contact may cause immediate effects and serious ocular damage occurs at high concentrations (EHC 54 (1986), ACGIH (7th, 2001)). The pH of a 1N ammonia solution is 11.6 (Merck (14th, 2006)). Based on these data, the substance was classified into Category 1. As relevant information, in EU classification, the substance is classified into C; R34.",
+                "Conjunctival edema is observed ammonia postexposure to eye of rabbit (EHC 54 (1986)). If a burned is caused, the irreversible influence of eyeball adhesion, the ulcers and perforations of a cornea, permanent corneal cloudings, iritis, etc. is admitted (EHC 54 (1986), IUCLID (2000)). Furthermore, humans also had affect by contact directly for a rapid rates, and the eye disorders especially critical in high concentrations has occurred (EHC 54 (1986), ACGIH (7th, 2001)). It was set as Category 1 based on the above fact."
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Corrosion",
+                "Corrosion"
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Category 1",
+                "Category 1A-1C"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                "Causes severe skin burns and eye damage",
+                "Causes severe skin burns and eye damage"
+            ],
+            "rationale": [
+                "In a rabbit skin irritation test, necrosis was observed after application of a 20% solution for 5 minutes (IUCLID (2000)). In humans, following contact with gaseous ammonia, the effects including marked irritation and chemical burns (DFGOT vol. 6 (1992)). In the gaseous form, the substance is considered a skin irritant (IUCLID (2000)). The pH of a 1N ammonia solution is 11.6 (Merck (14th, 2006)). Based on these data, the substance was classified into Category 1. As relevant information, in EU classification, the substance is classified into C; R34.",
+                "Necrosis was observed in skin irritation test with ammonia solution on rabbits (IUCLID 2000). As for humans, there is a report of a remarkable stimulation, chemical burns, etc. on contacts with ammonia gas (DFGOTvol.6 (1992)), and it is regarded as a skin irritant also in the state of gas (IUCLID 2000). From what mentioned above, it was classified as Category 1A-1C."
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Corrosion",
+                "Corrosion"
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                12.0,
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Gas (GHS definition)\n",
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Category 1 (respiratory system)",
+                "Category 1 (respiratory system)"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                "Causes damage to organs (respiratory system)",
+                "Causes damage to organs (respiratory system)"
+            ],
+            "rationale": [
+                "In humans, exposure to the substance was reported to produce dyspnea, pulmonary edema and bronchopneumonia (DFGOT vol. 6 (1992), ATSDR (2004), IRIS (1991), BSDB (2005)). In animal tests, significant toxic effects on the respiratory system including the lung, as evidenced by dyspnoea, cyanosis, pulmonary haemorrhage, oedema, focal pneumonitis was reported (EHC 54 (1986)). Based on the information, the substance was classified into Category 1 (respiratory system). The toxic concentrations estimated from animal data (EHC 54 (1986)) are within the guidance value range for Category 1.",
+                "Since difficulty breathing, lung edema, bronchial pneumonias, etc. are reported in humans (DFGOTvol.6 (1992), ATSDR (2004), IRIS (1991), BSDB (2005)), and significant toxicity effects to the respiratory systems containing lungs, such as dyspnea, cyanosis, haemorrhage lung and pulmonary edema, interstitial pneumonias, etc. are observed also in animal studies (EHC 54 (1986)), it was classified into Category 1 (respiratory systems). In addition, the toxic expressing levels presumed from animal data (EHC 54 (1986)) is also equivalent to the guidance value Category 1."
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "There is a report that when rats were treated throughout gestation and lactation, a reduction in body weight gain of pups was observed on postnatal day 120 (ATSDR (2004)). However, classification was not possible since there are no data for effects on sexual function and fertility by exposure before gestation (mating).",
+                "There is only the description of decrease weight gain of 120-day old child in administration for pregnant and lactational period (ATSDR (2004)), but it is not obvious on the effect to reproductive potential in administration before pregnancy (premating), and so it cannot be classified since data is insufficient"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction",
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Two-year ingestion of ammonia in the drinking-water by mice did not produce any carcinogenic effects (EHC 54 (1986)). Although the role of ammonia on carcinogenesis induced by other substances was investigated in mice (EHC 54 (1986)), there are no results other than a report of \"gastric tumor\" (details are unclear) (RTECS (2008): Cancer Letters: 65, 15, 1992). Classification was not possible.",
+                "There is no finding which suggests carcinogenicity as a result of mixing ammonia in drinking water and administration to mice for two years (EHC 54 (1986)), but there is also a description of tumors in the stomach and intestines (details unknown) (RTECS (2004)). Information is still more nearly need for a classification and it determined that \"It cannot be classified.\""
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        }
     }
-  }
 }

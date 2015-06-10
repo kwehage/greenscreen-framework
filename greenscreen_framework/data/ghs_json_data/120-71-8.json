@@ -1,758 +1,988 @@
 {
-  "ID": [
-    "ID213"
-  ],
-  "cas_no": [
-    "120-71-8"
-  ],
-  "country": [
-    "Japan"
-  ],
-  "date_classified": [
-    "Jun. 20, 2006 (Environmental Hazards: Mar. 31, 2006)"
-  ],
-  "date_imported": [
-    "Wed Jun 10 08:51:35 2015"
-  ],
-  "descriptive_name": [
-    "Benzenamine, 2-methoxy-5methyl-"
-  ],
-  "hazards": {
-    "acute_aquatic_toxicity": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "acute_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Insufficient data available."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_dermal": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_dermal"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_inhalation_dust": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_dust"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_inhalation_gas": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_gas"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_inhalation_vapor": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_vapor"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_oral": {
-      "classification": [
-        "Category 4"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_oral"
-      ],
-      "hazard_statement": [
-        "Harmful if swallowed"
-      ],
-      "rationale": [
-        "Based on rat LD50 values: 1450mg/kg (CERI Hazard Data, 2002, DFGOT vol.4, 1992, IARC 27, 1982) and 2210mg/kg (DFGOT vol.4, 1992), the value of the lower one was adopted and it was set as Category 4."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Exclamation mark"
-      ]
-    },
-    "aspiration_hazard": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "aspiration_hazard"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "carcinogenicity": {
-      "classification": [
-        "Category 2"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "carcinogenicity"
-      ],
-      "hazard_statement": [
-        "Suspected of causing cancer (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)"
-      ],
-      "rationale": [
-        "It is classified into the category 2 in EU (assessment time is not clear, EU-Annex I, 2006). But it is classified into group 2B in IARC (IARC Suppl.7, 1987), into 2B in Japan Society for Occupational Health (the 1991 proposal, Japan Society for Occupational Health recommendation, 2005), and classified into R according to NTP (NTP RoC 11th, 2005). So it was set as Category 2 based on IARC, Japan Society for Occupational Health, and NTP which have clear assessment period.  "
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Health hazard"
-      ]
-    },
-    "chronic_aquatic_toxicity": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "chronic_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Classification not possible due to lack of data"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "corrosive_to_metals": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        16.0
-      ],
-      "hazard_name": [
-        "corrosive_to_metals"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "explosives": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "explosives"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "There are no chemical groups associated with explosive properties present in the molecules."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_aerosols": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "flammable_aerosols"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Not aerosol products"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_gases": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "flammable_gases"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "flammable_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_solids": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "flammable_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available by regulated examination methods, though \"Flammable\" (ICSC (J) (1994))"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "gases_under_pressure": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "gases_under_pressure"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "germ_cell_mutagenicity": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "germ_cell_mutagenicity"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "The substance was regarded as outside the categories because there are negative results from the micronucleus test using mouse erythrocytes, which is an in vivo mutagenicity test using somatic cells (NTP DB, 2006)."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "organic_peroxides": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        15.0
-      ],
-      "hazard_name": [
-        "organic_peroxides"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Containing no -0-0- structure"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_gases": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "oxidizing_gases"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        13.0
-      ],
-      "hazard_name": [
-        "oxidizing_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_solids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        14.0
-      ],
-      "hazard_name": [
-        "oxidizing_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Organic compounds containing oxygen (but not chlorine and fluorine) and the oxygen is chemically bonded only to carbon and hydrogen (but not to other elements)."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "pyrophoric_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "pyrophoric_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "pyrophoric_solids": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "pyrophoric_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "respiratory_skin_sensitizer": {
-      "classification": [
-        "Respiratory sensitization: Classification not possible; Skin sensitization: Classification not possible"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "respiratory_skin_sensitizer"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "self_heating_substances": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "self_heating_substances"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Test methods applicable to liquid or solid substances at 140degC are not available."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "self_reactive_substances": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "self_reactive_substances"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "There are no chemical groups associated with explosive or self-reactive properties present in the molecule."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "serious_eye_damage_irritation": {
-      "classification": [
-        "Category 2A"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "serious_eye_damage_irritation"
-      ],
-      "hazard_statement": [
-        "Causes serious eye irritation"
-      ],
-      "rationale": [
-        "From description that there was severe stimulation in the eye of the rabbit of DFGOT (4 vol. 1992), it was set as Category 2A ."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Exclamation mark"
-      ]
-    },
-    "skin_corrosion_irritation": {
-      "classification": [
-        "Category 2"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "skin_corrosion_irritation"
-      ],
-      "hazard_statement": [
-        "Causes skin irritation"
-      ],
-      "rationale": [
-        "Although exposure time was unknown, from description that it moderately stimulated rabbit skin (DFGOT (vol.4, 1992)), it was classified as Category 2 ."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Exclamation mark"
-      ]
-    },
-    "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        12.0
-      ],
-      "hazard_name": [
-        "substances_mixtures_emit_flammable_gas_in_contact_with_water"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "The chemical structure of the substance does not contain metals or metaloids(B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "systemic_toxicity_repeat_exposure": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_repeat_exposure"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Due to the descriptions that in long period oral feeding administration study using rats and mice in NTP TR142 (1979), the serious toxic effects exept carcinogenesis was not observed even the over dose of the guidance value range of Category 2 (also quoted in CERI Hazard Data description, 2002, DFGOT vol.4, 1992, IARC 27, 1982), and that in occpational exposure example no health problems were observed in DFGOT (vol.4, 1992), it was out of Category."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "systemic_toxicity_single_exposure": {
-      "classification": [
-        "Category 2 (blood system)"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_single_exposure"
-      ],
-      "hazard_statement": [
-        "May cause damage to organs (blood system)"
-      ],
-      "rationale": [
-        "Due to the description that increasing methemoglobin concentration was observed in the dosage range of the guidance value of Category 2 in the oral study using the mouse in CERI Hazard Data (2002), it was classified into Category 2 (blood)."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Health hazard"
-      ]
-    },
-    "toxic_to_reproduction": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "toxic_to_reproduction"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
+    "ID": [
+        "120-71-8",
+        "120-71-8"
+    ],
+    "cas_no": [
+        "120-71-8",
+        "120-71-8"
+    ],
+    "country": [
+        "Japan",
+        "Japan"
+    ],
+    "date_classified": [
+        "FY2013",
+        "FY2006"
+    ],
+    "date_imported": [
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015"
+    ],
+    "descriptive_name": [
+        "2-Methoxy-5-methylaniline",
+        "Benzenamine, 2-methoxy-5methyl-"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Insufficient data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Not applicable",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Category 4",
+                "Category 4"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral",
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                "Harmful if swallowed",
+                "Harmful if swallowed"
+            ],
+            "rationale": [
+                " - ",
+                "Based on rat LD50 values: 1450mg/kg (CERI Hazard Data, 2002, DFGOT vol.4, 1992, IARC 27, 1982) and 2210mg/kg (DFGOT vol.4, 1992), the value of the lower one was adopted and it was set as Category 4."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Classification not possible",
+                "Not classified"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard",
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Due to the descriptions that in long period oral feeding administration study using rats and mice in NTP TR142 (1979), the serious toxic effects exept carcinogenesis was not observed even the over dose of the guidance value range of Category 2 (also quoted in CERI Hazard Data description, 2002, DFGOT vol.4, 1992, IARC 27, 1982), and that in occpational exposure example no health problems were observed in DFGOT (vol.4, 1992), it was out of Category."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Classification not possible",
+                "Not classified"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "carcinogenicity",
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "The substance was regarded as outside the categories because there are negative results from the micronucleus test using mouse erythrocytes, which is an in vivo mutagenicity test using somatic cells (NTP DB, 2006)."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Classification not possible due to lack of data"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                16.0,
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals",
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "explosives",
+                "explosives"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "There are no chemical groups associated with explosive properties present in the molecules."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols",
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Not aerosol products"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases",
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids",
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids",
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available by regulated examination methods, though \"Flammable\" (ICSC (J) (1994))"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure",
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                15.0,
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides",
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Containing no -0-0- structure"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases",
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                13.0,
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids",
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                14.0,
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids",
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Organic compounds containing oxygen (but not chlorine and fluorine) and the oxygen is chemically bonded only to carbon and hydrogen (but not to other elements)."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids",
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                10.0,
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids",
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances",
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Test methods applicable to liquid or solid substances at 140degC are not available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances",
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "There are no chemical groups associated with explosive or self-reactive properties present in the molecule."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Category 2A",
+                "Category 2A"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                "Causes serious eye irritation",
+                "Causes serious eye irritation"
+            ],
+            "rationale": [
+                " - ",
+                "From description that there was severe stimulation in the eye of the rabbit of DFGOT (4 vol. 1992), it was set as Category 2A ."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Category 2",
+                "Category 2"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                "Causes skin irritation",
+                "Causes skin irritation"
+            ],
+            "rationale": [
+                " - ",
+                "Although exposure time was unknown, from description that it moderately stimulated rabbit skin (DFGOT (vol.4, 1992)), it was classified as Category 2 ."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                12.0,
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "The chemical structure of the substance does not contain metals or metaloids(B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Category 2 (blood system)",
+                "Category 2 (blood)"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                "May cause damage to organs (blood system)",
+                "May cause damage to organs (blood)"
+            ],
+            "rationale": [
+                " - ",
+                "Due to the description that increasing methemoglobin concentration was observed in the dosage range of the guidance value of Category 2 in the oral study using the mouse in CERI Hazard Data (2002), it was classified into Category 2 (blood)."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Category 2",
+                "Category 2"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction",
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                "Suspected of causing cancer",
+                "Suspected of causing cancer"
+            ],
+            "rationale": [
+                " - ",
+                "It is classified into the category 2 in EU (assessment time is not clear, EU-Annex I, 2006). But it is classified into group 2B in IARC (IARC Suppl.7, 1987), into 2B in Japan Society for Occupational Health (the 1991 proposal, Japan Society for Occupational Health recommendation, 2005), and classified into R according to NTP (NTP RoC 11th, 2005). So it was set as Category 2 based on IARC, Japan Society for Occupational Health, and NTP which have clear assessment period.  "
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        }
     }
-  }
 }

@@ -1,0 +1,758 @@
+{
+    "ID": [
+        "ID101"
+    ],
+    "cas_no": [
+        "7440-43-9"
+    ],
+    "country": [
+        "Japan"
+    ],
+    "date_classified": [
+        "Mar. 23, 2006"
+    ],
+    "date_imported": [
+        "Wed Jun 10 10:26:39 2015"
+    ],
+    "descriptive_name": [
+        "Cadmium"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "                -"
+            ],
+            "rationale": [
+                "Insufficient data available."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "No data available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Category 1"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                "Fatal if inhaled"
+            ],
+            "rationale": [
+                "Category 1 because of \"SPECIES: Rat; ENDPOINT: LC50; VALUE: 0.0031 mg/L \"(RTECS (2005)"
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "Skull and crossbones"
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "No data available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Category 4"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                "Harmful if swallowed"
+            ],
+            "rationale": [
+                "Category 4 based on SPECIES: Rat;  ENDPOINT: LD50;VALUE:1140 mg/kg;  (PATTY (2001)"
+            ],
+            "signal_word": [
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark"
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                10.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "No data available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Category 1A"
+            ],
+            "hazard_id": [
+                6.0
+            ],
+            "hazard_name": [
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                "May cause cancer (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)"
+            ],
+            "rationale": [
+                "It was set as Category 1A based on the category of IARC: 1(1993). However, \"as cadmium and its compound.\""
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "Health hazard"
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Category 4"
+            ],
+            "hazard_id": [
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "May cause long lasting harmful effects to aquatic life"
+            ],
+            "rationale": [
+                "Classified into Category 4, since it is a metal, behavior in water is unknown."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Test methods applicable to solid substances are not available."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "explosives"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "There are no chemical groups associated with explosive properties present in the molecules."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Not aerosol products"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Although dust and granular cadmium are known to be combustible (cause dust explosion) (ICSC (J) (1993)), there is no data about other states. So it cannot be classified.  "
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Category 2"
+            ],
+            "hazard_id": [
+                5.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                "Suspected of causing genetic defects (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)"
+            ],
+            "rationale": [
+                "The substance was classified as Category 2 by the technical guidelines. About half of the results of chromosome aberration tests using somatic cells from people who had epidemiological/occupational exposure are positive (IARC 58 (1993)). And based on EU-Annex1: Muta. Cat. 3 and the note in IARC 58 (1993): \"the working group for carcinogenicity evaluation took into account the evidence that ionic cadmium shows genetic toxicity in various eukaryotic cells, including human cells.\"         "
+            ],
+            "signal_word": [
+                "Warning"
+            ],
+            "symbol": [
+                "Health hazard"
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Inorganic substance"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Inorganic compounds containing no oxygen and halogen."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Not classified"
+            ],
+            "hazard_id": [
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Flash point: 250degC-570degC (>70degC) (ICSC (J), 1993; Hazardous Substance DB, 2nd, 1993)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Respiratory sensitization: Classification not possible; Skin sensitization: Classification not possible"
+            ],
+            "hazard_id": [
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "No data available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "No data available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "There are no chemical groups associated with explosive or self-reactive properties present in the molecule."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "No data available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "No data available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not classified"
+            ],
+            "hazard_id": [
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Not cause a serious reaction with water. (Hazardous Substance DB, 2nd, 1993; ICSC(J), 1993)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Category 1 (kidneys, lung, blood, bone, respiratory organs)"
+            ],
+            "hazard_id": [
+                9.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                "Causes damage to organs (kidneys, lung, blood, bone, respiratory organs) through prolonged or repeated exposure"
+            ],
+            "rationale": [
+                "Chronic pneumonia, emphysema, proteinuria, etc. are observed in animal experiments (PATTY (5th, 2001)). \"Long duration occupational exposure produces the serious chronic effects which is mainly concerned with lungs and kidney to humans. Moreover, the symptoms of osteoporosis or osteomalacia are affected. \" (EHC(J) 134 (1997)), \"Chronic exposures brings humans anemia, eosinophilia, rhinits, emphysema, and tooth decolorization, and renal disease\". (ACGIH (7th, 2001)) \"The primary target organ of chronic disorders is the kidney\". (PATTY (5th, 2001)) They were classified into Category 1 (renal, lungs, blood, bones, respiratory systems) based on these descriptions."
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "Health hazard"
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Category 1 (lung, respiratory organs)"
+            ],
+            "hazard_id": [
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                "Cause damage to organs (lung, respiratory organs)"
+            ],
+            "rationale": [
+                "The substance was classified as Category 1 (lung, respiratory organs). Based on the reports, such as \"when humans are exposed to the fumes generated by heating, they may develop bronchitis, pneumonia, pulmonary edema, etc, and die in some cases\" (ACGIH (2001)), and it \"causes fatal pulmonary edema in animals after exposure by inhalation in high concentrations\"  (EHC (J) 134 (1997))."
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "Health hazard"
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Category 2"
+            ],
+            "hazard_id": [
+                7.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                "Suspected of damaging fertility or the undorn child "
+            ],
+            "rationale": [
+                "There is no description about the general toxicity to parent animals. \nHowever, decreases in the number of litter, foetal death, the growth inhibition and malformation of reduction of fetus were observed, and inhibitions of growth and motor activity development in newborn were also observed (IARC 58 (1993) and EHC 134 (1992)). \nTherefore, according to the technical guide, it was classified into Category 2. \nIn addition, there are existing classifications, such as EU-Annex 1:Repr.Cat.3;R62-63. \n"
+            ],
+            "signal_word": [
+                "Warning"
+            ],
+            "symbol": [
+                "Health hazard"
+            ]
+        }
+    }
+}

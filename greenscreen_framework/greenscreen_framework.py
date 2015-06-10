@@ -11,13 +11,13 @@ import getpass
 import json
 import re
 if sys.version_info > (3,):
-    import urllib
+    from urllib.request import urlopen
 else:
-    import urllib2 as urllib
+    import urllib2.urlopen as urlopen
 
 
 '''
-greenscreen_tools.py
+greenscreen_framework.py
 
 This program consists of a collection of tools for importing data from
 GreenScreen databases, translating data to GreenScreen format and performing
@@ -29,7 +29,7 @@ example usage.
 Copyright 2013-2015 Kristopher Wehage
 University of California-Davis
 
-This code comes with no warantees or guarantee of fitness
+This code comes with no warranty or guarantee of fitness
 for any purpose.
 
 XML functionality requires the lxml module, available for download at
@@ -60,8 +60,10 @@ class MultipleSource_Error(Exception):
 
 
 def download_files(url, data_dir, file_names):
-    ''' If files already exist in the 'data' folder, do nothing. If the files not
-    exist, download them from the url specified. '''
+    '''
+    If files already exist in the 'data' folder, do nothing. If the files do not
+    exist, download them from the url specified.
+    '''
     def restart_line():
         sys.stdout.write('\r')
         sys.stdout.flush()
@@ -77,25 +79,25 @@ def download_files(url, data_dir, file_names):
     for element in file_names:
         if not os.path.isfile(element):
             path_to_download = url + element
-            u = urllib.urlopen(path_to_download)
-            f = open(element, 'wb')
-            meta = u.info()
-            filesize = int(meta.getheaders("Content-Length")[0])
-            print("Downloading: %s Bytes: %s" % (element, filesize))
-            filesize_dl = 0
-            blocksize = 64 * 1024
-            while True:
-                buff = u.read(blocksize)
-                if not buff:
-                    break
-                filesize_dl += len(buff)
-                f.write(buff)
-                status = r"%10d [%3.2f%%]" %\
-                    (filesize_dl, filesize_dl * 100 / filesize)
-                status = status + chr(8) * (len(status) + 1)
-                restart_line()
-                sys.stdout.write(status)
-            f.close()
+            u = urlopen(path_to_download)
+            with open(element, 'wb') as f:
+                # meta = u.info()
+                # filesize = int(meta.getheaders("Content-Length")[0])
+                # print("Downloading: %s Bytes: %s" % (element, filesize))
+                filesize_dl = 0
+                blocksize = 64 * 1024
+                while True:
+                    buff = u.read(blocksize)
+                    if not buff:
+                        break
+                    filesize_dl += len(buff)
+                    f.write(buff)
+                    # status = r"%10d [%3.2f%%]" %\
+                    #     (filesize_dl, filesize_dl * 100 / filesize)
+                    # status = status + chr(8) * (len(status) + 1)
+                    # restart_line()
+                    # sys.stdout.write(status)
+
     os.chdir(cwd)
 
 
@@ -158,10 +160,17 @@ def import_ghs_japan(ghs_data_files, data_dir, file_type):
     ghs_environmental_hazards = (['acute_aquatic_toxicity',
                                   'chronic_aquatic_toxicity'])
 
+    ## previously the following meta data was stored in the below locations
+    # absolute_pos_fields = ([['cas_no', 3, 'C'],
+    #                         ['descriptive_name', 2, 'D'],
+    #                         ['date_classified', 3, 'E'],
+    #                         ['ID', 2, 'A']])
+
+    # as of 2015, the file format has changed as follows
     absolute_pos_fields = ([['cas_no', 3, 'C'],
-                            ['descriptive_name', 2, 'D'],
-                            ['date_classified', 3, 'E'],
-                            ['ID', 2, 'A']])
+                            ['descriptive_name', 4, 'C'],
+                            ['date_classified', 3, 'H'],
+                            ['ID', 3, 'C']])
 
     calculated_fields = ([['date_imported', time.ctime()],
                           ['country', 'Japan']])
@@ -177,7 +186,13 @@ def import_ghs_japan(ghs_data_files, data_dir, file_type):
     hzd_temp_list = [[ghs_physical_hazards],
                      [ghs_health_hazards],
                      [ghs_environmental_hazards]]
-    row_ind = [[range(6, 22)], [range(25, 39)], [range(42, 44)]]
+
+    # previously the hazard categories were stored in the following positions
+    # row_ind = [[range(6, 22)], [range(25, 39)], [range(43, 45)]]
+    #
+    # as of 2015, the file format changed to the following positions
+    row_ind = [[range(8, 24)], [range(27, 42)], [range(45, 47)]]
+
     hzd_type = ['physical', 'health', 'environmental']
     hzd_traits = []
 
@@ -403,7 +418,6 @@ def translate_ghs_japan_json(json_data):
     criteria_4['Category 2'] = 3
     criteria_4['Not classified'] = 2
 
-    ## There's a typo in one of the CAS materials (Category1), it is treated as 1A since that's the highest
     criteria_5 = {}
     criteria_5['Category 1A'] = 4
     criteria_5['Category 1B'] = 3
@@ -480,9 +494,9 @@ def translate_ghs_japan_json(json_data):
 
                 else:
                     ## In the case of an invalid CAS number, a warning is added
-                    # but the CAS is still loaded. Alternatively, one could
-                    # ignore the incorrectly validated CAS number entirely and
-                    # raise an InvalidCAS_Error
+                    #  but the CAS is still loaded. Alternatively, one could
+                    #  ignore the incorrectly validated CAS number entirely and
+                    #  raise an InvalidCAS_Error
                     cas_data['!warning'].append(
                         'This entry contains an invalid CAS number.')
 
@@ -511,8 +525,9 @@ def translate_ghs_japan_json(json_data):
                             jsonify_hazard(json_data, cas_data, 'AA', CAS,
                                            hazard, 'Ecotoxicity', criteria_3)
 
-                        ## Final hazard rating created here, if there is a previous GS JSON then we'll need to append instead
-                        ## for now, we will declare hazard rating
+                        ## Final hazard rating created here, if there is a
+                        #  previous GS JSON then we'll need to append instead
+                        #  for now, we will declare hazard rating
                         cas_data['AA']['hazard_rating'] = []
 
                         for x in \
@@ -885,9 +900,12 @@ def translate_ghs_japan_json(json_data):
                             cas_data['SnR']['hazard_rating'].append(rating)
 
                         del cas_data['SnR']['hazard_rating_temp']
-                        cas_data['SnR']['overall_hazard_rating'] = max(cas_data['SnR']['hazard_rating'])
+                        cas_data['SnR']['overall_hazard_rating'] = \
+                            max(cas_data['SnR']['hazard_rating'])
 
-                        cas_data['SnS'] = jsonify_hazard(json_data, cas_data, 'SnS', CAS, hazard, 'Group II & II*', criteria_5)
+                        cas_data['SnS'] = \
+                            jsonify_hazard(json_data, cas_data, 'SnS', CAS,
+                                           hazard, 'Group II & II*', criteria_5)
 
                         cas_data['SnS']['hazard_rating'] = []
 
@@ -1147,7 +1165,8 @@ def gs_assessment_json(json_data):
         SnR = json_data[CAS]['SnR']['overall_hazard_rating']
         SnS = json_data[CAS]['SnS']['overall_hazard_rating']
 
-        ## Endocrine, Persistence, Bioaccumulation data not available, defaults to 0
+        ## Endocrine, Persistence, Bioaccumulation data not available,
+        #  defaults to 0
         E = 0
         P = 0
         B = 0
@@ -1185,7 +1204,8 @@ def gs_assessment_json(json_data):
               ((P >= 4) and (all_four_groups >= 3)) or  # High B, Moderate T
               ((B >= 4) and (all_four_groups >= 3)) or  # High B, Moderate T
               (Group_1 >= 3) or  # moderate Moderate T (Group I Human)
-              ((max([eco_T, Group_2]) >= 5) or (Group_2_star >= 4)) or  # vHigh T (Eco_T or Group II) or High T (Group_2_star)
+              ((max([eco_T, Group_2]) >= 5) or (Group_2_star >= 4)) or
+              # vHigh T (Eco_T or Group II) or High T (Group_2_star)
               (F >= 4) or  # High F
                 (Rx >= 4)):  # High Rx
             json_data[CAS]['gs_benchmark'] = 'Benchmark 2'
@@ -1250,7 +1270,7 @@ def trumping(list_rating, ratings):
 
 def jsonify_hazard(json_data, cas_data, name, CAS, hazard, category, criteria):
     hazard_dict = {}
-    class_num = 0
+    # class_num = 0
     hazard_dict['hazard_full_name'] = name
     hazard_dict['category'] = category
 
@@ -1341,7 +1361,8 @@ def jsonify_hazard(json_data, cas_data, name, CAS, hazard, category, criteria):
                 if json_data[CAS]['hazards'][hazard]['classification'][0].find('),') >= 0:
                     no_semi = 1
 
-                Sn_class_unsplit = json_data[CAS]['hazards'][hazard]['classification'][0]
+                # Sn_class_unsplit = \
+                # json_data[CAS]['hazards'][hazard]['classification'][0]
 
                 ## Special cases just for SnR, SnS, N_s, N_r, ST_s, ST_r
                 if name == 'SnR':
@@ -1411,7 +1432,8 @@ def jsonify_hazard(json_data, cas_data, name, CAS, hazard, category, criteria):
                 elif name == 'ST_r':
                     max_rating = 0
                     if len(Sn_class) < 2 or no_semi == 1:
-                        Sn_class = json_data[CAS]['hazards'][hazard]['classification'][0].split('),')
+                        Sn_class = \
+                            json_data[CAS]['hazards'][hazard]['classification'][0].split('),')
 
                     for line in Sn_class:
                         for keyword in systemic_words:
@@ -1427,7 +1449,8 @@ def jsonify_hazard(json_data, cas_data, name, CAS, hazard, category, criteria):
 
                 ## The normal case where the hazard is not one of the six special cases
                 else:
-                    location = json_data[CAS]['hazards'][hazard]['classification'][0]
+                    location = \
+                        json_data[CAS]['hazards'][hazard]['classification'][0]
 
                 if use_ST:
                     pass
@@ -1473,9 +1496,8 @@ def save_xml_individual(xml_data, data_dir, list_type):
             var = path(xml_data)
             filename = str(var.cas_no) + '.xml'
             filepath = data_dir + '/' + filename
-            with open(filepath, 'w') as f:
-                f.writelines(etree.tostring(xml_data.gs_data[i],
-                             pretty_print=True))
+            with open(filepath, 'wb') as f:
+                f.write(etree.tostring(xml_data.gs_data[i], pretty_print=True))
     if list_type == 'ghs':
         print('Saving GHS Japan xml data to ' + data_dir + '...')
         for i in range(len(xml_data.xpath('/root/ghs_data'))):
@@ -1484,9 +1506,8 @@ def save_xml_individual(xml_data, data_dir, list_type):
             var = path(xml_data)
             filename = str(var.cas_no) + '.xml'
             filepath = data_dir + '/' + filename
-            with open(filepath, 'w') as f:
-                f.writelines(etree.tostring(xml_data.ghs_data[i],
-                             pretty_print=True))
+            with open(filepath, 'wb') as f:
+                f.write(etree.tostring(xml_data.ghs_data[i], pretty_print=True))
     print('Done.')
 
 
@@ -1505,8 +1526,8 @@ def save_xml_master(xml_data, data_dir, filename):
                            '{http://codespeak.net/lxml/objectify/pytype}pytype')
     print('Saving master xml data to ' + data_dir + '...')
     filepath = data_dir + '/' + filename
-    with open(filepath, 'w') as f:
-        f.writelines(etree.tostring(xml_data, pretty_print=True))
+    with open(filepath, 'wb') as f:
+        f.write(etree.tostring(xml_data, pretty_print=True))
     print('Done.')
 
 
@@ -1524,13 +1545,13 @@ def save_json_individual(json_data, data_dir):
 
     print('Saving GHS Japan JSON data to ' + data_dir + '...')
 
-    json_master = {}
+    # json_master = {}
 
     for item in json_data:
         filename = item + '.json'
         filepath = data_dir + '/' + filename
         with open(filepath, 'w') as f:
-            f.writelines(json.dumps(json_data[item], indent=2, sort_keys=True))
+            json.dump(json_data[item], f, indent=4, sort_keys=True)
 
     print('Done.')
 
@@ -1557,12 +1578,12 @@ def save_json_individual_gs(json_data, data_dir):
         filename = item + '.json'
         filepath = data_dir + '/' + filename
         with open(filepath, 'w') as f:
-            f.writelines(json.dumps(json_data[item], indent=2, sort_keys=True))
+            json.dump(json_data[item], f, indent=4, sort_keys=True)
 
     filename = '1_master' + '.json'
     filepath = data_dir + '/' + filename
     with open(filepath, 'w') as f:
-        f.writelines(json.dumps(json_master, indent=2, sort_keys=True))
+        json.dump(json_master, f, indent=4, sort_keys=True)
 
     print('Done.')
 
@@ -1571,26 +1592,51 @@ def main():
     ## Report time of code execution to check performance
     t = time.time()
 
-    ## Import the data: The download_files function requires that you
-    #  know ahead of time the names of files to download.  If a website allow
-    #  listing of folder contents, the program could be extended to generate a
-    #  list of file names by downloading all content at a specified URL.
-    url = 'http://www.safe.nite.go.jp/english/files/ghs_xls/'
-    file_names = (['classification_result_e(ID001-100).xls',
-                   'classification_result_e(ID101-200).xls',
-                   'classification_result_e(ID201-300).xls',
-                   'classification_result_e(ID301-400).xls',
-                   'classification_result_e(ID401-500).xls',
-                   'classification_result_e(ID501-600).xls',
-                   'classification_result_e(ID601-700).xls',
-                   'classification_result_e(ID701-800).xls',
-                   'classification_result_e(ID801-900).xls',
-                   'classification_result_e(ID901-1000).xls',
-                   'classification_result_e(ID1001-1100).xls',
-                   'classification_result_e(ID1101-1200).xls',
-                   'classification_result_e(ID1201-1300).xls',
-                   'classification_result_e(ID1301-1400).xls',
-                   'classification_result_e(ID1401-1424).xls'])
+    ## Import data: The download_files function requires a list of files to
+    #  download.
+
+    ## The files were previously available at the following location
+    #
+
+    # url = 'http://www.safe.nite.go.jp/english/files/ghs_xls/'
+    # file_names = (['classification_result_e(ID001-100).xls',
+    #                'classification_result_e(ID101-200).xls',
+    #                'classification_result_e(ID201-300).xls',
+    #                'classification_result_e(ID301-400).xls',
+    #                'classification_result_e(ID401-500).xls',
+    #                'classification_result_e(ID501-600).xls',
+    #                'classification_result_e(ID601-700).xls',
+    #                'classification_result_e(ID701-800).xls',
+    #                'classification_result_e(ID801-900).xls',
+    #                'classification_result_e(ID901-1000).xls',
+    #                'classification_result_e(ID1001-1100).xls',
+    #                'classification_result_e(ID1101-1200).xls',
+    #                'classification_result_e(ID1201-1300).xls',
+    #                'classification_result_e(ID1301-1400).xls',
+    #                'classification_result_e(ID1401-1424).xls'])
+
+    ## As of 2015, the file locations has been updated to
+    #
+    url = 'http://www.safe.nite.go.jp/english/ghs/files/'
+    file_names = (['h25_mhlw_new_e.xls',
+                   'h25_mhlw_rev_e.xls',
+                   'h24_mhlw_new_e.xls',
+                   'h24_mhlw_rev_e.xls',
+                   'h23_mhlw_new_e.xls',
+                   'h23_mhlw_rev_e.xls',
+                   'h22_mhlw_new_e.xls',
+                   'h22_mhlw_rev_e.xls',
+                   'h21_mhlw_new_e.xls',
+                   'h21_mhlw_rev_e.xls',
+                   'h20_mhlw_new_e.xls',
+                   'h20_mhlw_rev_e.xls',
+                   'h20_meti_new_e.xls',
+                   'h20_meti_rev_e.xls',
+                   'h19_mhlw_danger_e.xls',
+                   'h19_mhlw_hazard_e.xls',
+                   'h19_meti_new_e.xls',
+                   'h19_meti_rev_e.xls',
+                   'h18_imcg_e.xls'])
 
     ## Specify where to save the data.
     #  If the directory does not exist, it will be created.
@@ -1605,16 +1651,19 @@ def main():
     #  directory and which are the data files. This function was custom written
     #  around the format of the GHS_Japan Excel files. To import other databases
     #  it is necessary to develop additional import functions.
-    ghs_japan_data_xml = import_ghs_japan(file_names, data_dir, file_type='xml')
-    ghs_japan_data_json = import_ghs_japan(file_names, data_dir, file_type='json')
+    ghs_japan_data_xml = \
+        import_ghs_japan(file_names, data_dir, file_type='xml')
+    ghs_japan_data_json = \
+        import_ghs_japan(file_names, data_dir, file_type='json')
 
     ## Translate to Green Screen format.
-    # This function is also custom written for the ghs japan country list.
-    # Additional translation functions are necessary to translate from other
-    # libraries.
+    #  This function is also custom written for the ghs japan country list.
+    #  Additional translation functions are necessary to translate from other
+    #  libraries.
     gs_japan_data_json = translate_ghs_japan_json(ghs_japan_data_json)
 
-    ## Run the GS Japan JSON data through the assessment function to create GS benchmarks
+    ## Run the GS Japan JSON data through the assessment function to create GS
+    #  benchmarks
     gs_japan_data_json = gs_assessment_json(gs_japan_data_json)
 
     ## Export GHS JSON data

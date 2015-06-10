@@ -1,758 +1,988 @@
 {
-  "ID": [
-    "ID126"
-  ],
-  "cas_no": [
-    "107-06-2"
-  ],
-  "country": [
-    "Japan"
-  ],
-  "date_classified": [
-    "Mar. 23, 2006 (Environmental Hazards: Feb. 10, 2006)"
-  ],
-  "date_imported": [
-    "Wed Jun 10 08:51:35 2015"
-  ],
-  "descriptive_name": [
-    "1,2-Dichloroethane"
-  ],
-  "hazards": {
-    "acute_aquatic_toxicity": {
-      "classification": [
-        "Category 3"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "acute_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "Harmful to aquatic life"
-      ],
-      "rationale": [
-        "It was classified into Category 3 from 96-hour LC50=94mg/L of the fish (Bluegill) (SIDS (2004) and others.)."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_dermal": {
-      "classification": [
-        "Category 5"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_dermal"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the testing data of rabbit LD50 (dermal route) of 4,890mg/kg (SIDS (2002))."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "acute_toxicity_inhalation_dust": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_dust"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "acute_toxicity_inhalation_gas": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_gas"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Due to the fact that the substance is \"liquid\" according to the GHS definition and inhalation of its gas is not expected."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "acute_toxicity_inhalation_vapor": {
-      "classification": [
-        "Category 3"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_vapor"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the LC50 value (4 hours) of 1,000ppm, calculated from the testing data of rat LC50 (inhalation of vapour) of 4 mg/L (6 hours) (EHC 62 (1987)), 6.6mg/L (7.25 hours) (EHC 62 (1987)), 3.29mg/L (10 hours) (SIDS (2002)), and 6.77mg/L (6 hours) (SIDS (2002)), was lower than 90% of the saturated vapor concentration (80,500ppm) under a saturated vapour pressure of 8.13kPa (20degC) (CERI Hazard Data 96-20 (1997)), the substance was considered as \"vapour containing substantially no mist\" and was classified based on standard values expressed in ppm.\n"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "acute_toxicity_oral": {
-      "classification": [
-        "Category 4"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_oral"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the LD50 value of 695mg/kg calculated from the testing data of rat LD50 (oral route) of 680mg/kg (EHC 62, 1987), 850mg/kg (EHC 62, 1987) and 967mg/kg (SIDS, 2002)."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "aspiration_hazard": {
-      "classification": [
-        "Category 1"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "aspiration_hazard"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the description in the report on human symptoms: \"May cause pulmonary edema if inhaled and chemical pneumonia if swallowed.\" (MOE Risk Assessment vol. 2 (2003)), \"Pulmonary congestion/edema, dyspnea and bronchitis were observed in deceased patients (due to acute ingestion), while pulmonary edema can be attributed to chemical pneumonia due to misswallowing\" (ATSDR (2001)). "
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "carcinogenicity": {
-      "classification": [
-        "Category 2"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "carcinogenicity"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Due to the fact that the substance is classified as Group 2B by IARC (1999),  Category B2 by IRIS (2005), and Category R by NTP (2005)."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "chronic_aquatic_toxicity": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "chronic_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Although the acute toxicity was Category 3, judging from NOEC=29000microg/L during 28 days of the fish (Fathead minnows) (MOE Risk Assessment vol. 2, 2003), it was classified into Not classified."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "corrosive_to_metals": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        16.0
-      ],
-      "hazard_name": [
-        "corrosive_to_metals"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified into Class 3 and Division 6.1 (UN#1184) (UN Recommendations on the Transport of Dangerous Goods)"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "explosives": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "explosives"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Containing no chemical groups with explosive properties"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "flammable_aerosols": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "flammable_aerosols"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Not aerosol products"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "flammable_gases": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "flammable_gases"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"liquid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "flammable_liquids": {
-      "classification": [
-        "Category 2"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "flammable_liquids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "The flash point is 13degC (c.c.) (ICSC, 1999) and the boiling point is 83.5degC, which is classified into Category 2. Classified into Class 3 and Division 6.1 (UN#1184) (UN Recommendations on the Transport of Dangerous Goods)"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "flammable_solids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "flammable_solids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"liquid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "gases_under_pressure": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "gases_under_pressure"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"liquid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "germ_cell_mutagenicity": {
-      "classification": [
-        "Category 2"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "germ_cell_mutagenicity"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on negative data on multi-generation mutagenicity tests (dominant lethal tests), the absence of data on germ cell mutagenicity tests in vivo, positive data on somatic cell mutagenicity tests in vivo (mouse spot tests), and the absence of data on germ cell genotoxicity tests in vivo, described in SIDS (2004), IARC 71 (1999), CERI-NITE Hazard Assessment No.3 (2004), and EHC 176 (1995), according to the technical guideline (Appendix 1)."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "organic_peroxides": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        15.0
-      ],
-      "hazard_name": [
-        "organic_peroxides"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Organic compounds containing no \"-O-O-\" structure"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "oxidizing_gases": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "oxidizing_gases"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"liquid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "oxidizing_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        13.0
-      ],
-      "hazard_name": [
-        "oxidizing_liquids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Organic compounds containing chlorine (but not oxygen and fluorine), with the chlorine bound to carbon and hydrogen (but not to other elements)"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "oxidizing_solids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        14.0
-      ],
-      "hazard_name": [
-        "oxidizing_solids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"liquid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "pyrophoric_liquids": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "pyrophoric_liquids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Not pyrophoric when in contact with air at ordinary temperatures; the auto-ignition temperature is 413degC (ICSC, 1999)"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "pyrophoric_solids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "pyrophoric_solids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"liquid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "respiratory_skin_sensitizer": {
-      "classification": [
-        "Respiratory sensitizer: Classification not possible Skin sensitizer: Classification not possible"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "respiratory_skin_sensitizer"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Respiratory sensitizer: No data available\nSkin sensitizer: No data available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "self_heating_substances": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "self_heating_substances"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Test methods applicable to liquid substances are not available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "self_reactive_substances": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "self_reactive_substances"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Containing no chemical groups with explosive or self-reactive properties"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "serious_eye_damage_irritation": {
-      "classification": [
-        "Category 2B"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "serious_eye_damage_irritation"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the description in the report on human epidemiological studies and rabbit eye irritation tests (CERI-NITE Hazard Assessment No.3 (2004): The results of Draize tests suggest \"mild irritation.\""
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "skin_corrosion_irritation": {
-      "classification": [
-        "Category 2"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "skin_corrosion_irritation"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the description in the report on rabbit skin irritation tests (CERI-NITE Hazard Assessment No.3 (2004)): \"moderate irritant.\"\n"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        12.0
-      ],
-      "hazard_name": [
-        "substances_mixtures_emit_flammable_gas_in_contact_with_water"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "systemic_toxicity_repeat_exposure": {
-      "classification": [
-        "Category 1 (nervous system, liver, thyroid gland)\nCategory 2 (kidneys)"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_repeat_exposure"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the human evidence including \"neurosis, myeloradiculitis, hepatic disease, cholepathia, autonomic ataxia, bronchocele, hyperthyroidism, inertia\" (CERI-NITE Hazard Assessment No.3 (2004)), and the evidence from animal studies including \"reversible degeneration of the renal tubular epithelium\" (CERI-NITE Hazard Assessment No.3 (2004)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 2."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "systemic_toxicity_single_exposure": {
-      "classification": [
-        "Category 1 (central nervous system, liver, kidneys, adrenal)\nCategory 3 (narcotic effects) \n"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_single_exposure"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the human evidence including \"crouching position, confusion, staggering gait, hyperkinesias, tremor, somnolency, clouding of consciousness, coma, hemorrhagic diathesis, cyanosis, hepatic necrosis, tubulonecrosis, adrenal necrosis, circulatory system disorder\" (CERI-NITE Hazard Assessment No.3 (2004))."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "toxic_to_reproduction": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "toxic_to_reproduction"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the description in CERI-NITE Hazard Assessment No.3 (2004): Reproductive mouse toxicity tests, rat one-generation tests and rat and rabbit teratogenicity tests show no effects on the embryo."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
+    "ID": [
+        "107-06-2",
+        "107-06-2"
+    ],
+    "cas_no": [
+        "107-06-2",
+        "107-06-2"
+    ],
+    "country": [
+        "Japan",
+        "Japan"
+    ],
+    "date_classified": [
+        "FY2009",
+        "FY2006"
+    ],
+    "date_imported": [
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015"
+    ],
+    "descriptive_name": [
+        "1,2-Dichloroethane",
+        "1,2-Dichloroethane"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Category 2",
+                "Category 3"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "Toxic to aquatic life",
+                "Harmful to aquatic life"
+            ],
+            "rationale": [
+                "Classified into Category 2 from its 72h-LC50 = 6900 microg/L for Crustacea (Artemia) (Initial Environmental Risk Assessment of Chemicals (Ministry of the Environment), Vol. 2, 2003).",
+                "It was classified into Category 3 from 96-hour LC50=94mg/L of the fish (Bluegill) (SIDS (2004) and others.)."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Not classified",
+                "Category 5"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                " - ",
+                "May be harmful in contact with skin"
+            ],
+            "rationale": [
+                "Based on LD50 values of 4890 mg/kg (SIDS (2002)) and 2800 mg/kg (JECFA (1970)) for rabbits, the substance was classified as \"Not classified\" in JIS Classification (correspond to Category 5 in GHS classification).",
+                "Based on the testing data of rabbit LD50 (dermal route) of 4,890mg/kg (SIDS (2002))."
+            ],
+            "signal_word": [
+                " - ",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid (GHS definition)",
+                "Due to the fact that the substance is \"liquid\" according to the GHS definition and inhalation of its gas is not expected."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Category 3",
+                "Category 3"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                "Toxic if inhaled",
+                "Toxic if inhaled"
+            ],
+            "rationale": [
+                "Based on LC50 values of 4 mg/L (4-hour equivalence: 1235 ppm) (EHC 62 (1987)), 6.6 mg/L (4-hour equivalence: 2199 ppm) (EHC 62 (1987)), 3.29 mg/L (4-hour equivalence: 1285 ppm) (SIDS (2002)), 6.77 mg/L (4-hour equivalence: 2048 ppm) (SIDS (2002)), 12000 ppm (4-hour equivalence: 4368 ppm) (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 3 (2005)), 3000 ppm (4-hour equivalence: 2487 ppm) (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 3 (2005)) and 1000 ppm (4-hour equivalence: 1342 ppm) (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 3 (2005)) for rats, the substance was classified into Category 3 since 6 of 7 LC50 values were in this category. Since the values were lower than 90% of saturated vapour pressure concentration (103,816 ppmV), the classification criteria for gas (ppm) was adopted.",
+                "Based on the LC50 value (4 hours) of 1,000ppm, calculated from the testing data of rat LC50 (inhalation of vapour) of 4 mg/L (6 hours) (EHC 62 (1987)), 6.6mg/L (7.25 hours) (EHC 62 (1987)), 3.29mg/L (10 hours) (SIDS (2002)), and 6.77mg/L (6 hours) (SIDS (2002)), was lower than 90% of the saturated vapor concentration (80,500ppm) under a saturated vapour pressure of 8.13kPa (20degC) (CERI Hazard Data 96-20 (1997)), the substance was considered as \"vapour containing substantially no mist\" and was classified based on standard values expressed in ppm.\n"
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Skull and crossbones",
+                "Skull and crossbones"
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Category 4",
+                "Category 4"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral",
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                "Harmful if swallowed",
+                "Harmful if swallowed"
+            ],
+            "rationale": [
+                "Based on LD50 values of 680 mg/kg (EHC 62 (1987)), 850 mg/kg (EHC 62 (1987)), 967 mg/kg (SIDS (2002)) and 794 mg/kg (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005)) for rats, the substance was classified into Category 4.",
+                "Based on the LD50 value of 695mg/kg calculated from the testing data of rat LD50 (oral route) of 680mg/kg (EHC 62, 1987), 850mg/kg (EHC 62, 1987) and 967mg/kg (SIDS, 2002)."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Category 1 (nervous system, liver, thyroid, kidney, blood)",
+                "Category 1 (nervous system, liver, thyroid),\nCategory 2 (kidney)"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard",
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                "Cause damage to organs through prolonged or repeated exposure (nervous system, liver, thyroid, kidney, blood)",
+                "Cause damage to organs through prolonged or repeated exposure (nervous system, liver, thyroid)\nMay cause damage to organs through prolonged or repeated exposure (kidney)"
+            ],
+            "rationale": [
+                "In human exposure cases there are reports of \"neurosis, myeloradiculitis, liver and bile duct diseases, dysautomonia, goiter, hyperthyroidism and asthenia\" (Hazard Assessment Report (CERI, NITE) No. 3 (2004)); \"neurosis, dysfunction in the liver and kidney\" (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 3 (2005)); and \"leukopenia and monocytosis\" (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 3 (2005)). In animals, there are reports of \"reversible change in renal tubular epithelium\" in rats following 13-week of oral dosing (male: 86 mg/kg, female: 102 mg/kg) (Hazard Assessment Report (CERI, NITE) No. 3 (2004)) and \"necrosis in the middle layer of hepatic lobule and cytoplasmic swelling in the liver and moderate bile duct proliferation\" in rats following 30-day inhalation exposure (90-day equivalent: 0.65 mg/L). Nervous system, liver, thyroid, kidney and blood were considered to be target organs. Based on the data, the substance was classified into Category 1 (nervous system, liver, thyroid, kidney, blood).",
+                "Based on the human evidence including \"neurosis, myeloradiculitis, hepatic disease, cholepathia, autonomic ataxia, bronchocele, hyperthyroidism, inertia\" (CERI-NITE Hazard Assessment No.3 (2004)), and the evidence from animal studies including \"reversible degeneration of the renal tubular epithelium\" (CERI-NITE Hazard Assessment No.3 (2004)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 2."
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger\nWarning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Category 2",
+                "Category 2"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "carcinogenicity",
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                "Suspected of causing genetic defects",
+                "Suspected of causing genetic defects"
+            ],
+            "rationale": [
+                "Based on results from in vivo tests, (a weakly positive mouse spot test (EHC 176 (1995)), a positive mouse bone marrow sister chromatid exchange test (Hazard Assessment Report (CERI, NITE) No. 3 (2004)), a positive comet test, a positive DNA damage test and a positive DNA binding test (Hazard Assessment Report (CERI, NITE) No. 3 (2004), JECFA (1993))), the substance was classified into Category 2. As relevant information, negative results are reported in dominant lethal test (SIDS (2002), IARC 71 (1999)) and mouse peripheral blood micronucleus test (Hazard Assessment Report (CERI, NITE) No. 3 (2004), JECFA (1993), NTP DB (access on Jul. 2009)). From in vitro mutagenicity tests, there are reports of positive bacterial reverse mutation tests (Hazard Assessment Report (CERI, NITE) No. 3 (2004), NTP DB (access on Jul. 2009)), gene mutation test (Hazard Assessment Report (CERI, NITE) No. 3 (2004)), chromosomal aberration test (NTP DB (access on Jul. 2009)) and human lymphocyte micronucleus test (Hazard Assessment Report (CERI, NITE) No. 3 (2004)).",
+                "Based on negative data on multi-generation mutagenicity tests (dominant lethal tests), the absence of data on germ cell mutagenicity tests in vivo, positive data on somatic cell mutagenicity tests in vivo (mouse spot tests), and the absence of data on germ cell genotoxicity tests in vivo, described in SIDS (2004), IARC 71 (1999), CERI-NITE Hazard Assessment No.3 (2004), and EHC 176 (1995), according to the technical guideline (Appendix 1)."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Category 2",
+                "Not classified"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "Toxic to aquatic life with long lasting effects",
+                " - "
+            ],
+            "rationale": [
+                "Classified into Category 2 since its acute toxicity is Category 2 and it is not rapidly degradable (Non-biodegradable, BOD degradation rate: 0% (Biodegradation and Bioconcentration of Existing Chemical Substances under the Chemical Substances Control Law, 1978)).",
+                "Although the acute toxicity was Category 3, judging from NOEC=29000microg/L during 28 days of the fish (Fathead minnows) (MOE Risk Assessment vol. 2, 2003), it was classified into Not classified."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                "Environment",
+                " - "
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible",
+                "Not classified"
+            ],
+            "hazard_id": [
+                16.0,
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals",
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available. Information is available that the substance corrodes iron and other metals on contact with water at high temperature (HSDB (2005)).",
+                "Classified into Class 3 and Division 6.1 (UN#1184) (UN Recommendations on the Transport of Dangerous Goods)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "explosives",
+                "explosives"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "There are no chemical groups associated with explosive properties present in the molecules.",
+                "Containing no chemical groups with explosive properties"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols",
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Not aerosol products.",
+                "Not aerosol products"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases",
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid (GHS definition)",
+                "Classified as \"liquid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Category 2",
+                "Category 2"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids",
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                "Highly flammable liquid and vapour",
+                "Highly flammable liquid and vapour"
+            ],
+            "rationale": [
+                "Classified into Category 2 since flash point is 13 degC (ICSC (2005)) and boiling point is 101 degC. The substance is classified into Class 3, PG II in UNRTDG (UN1165). ",
+                "The flash point is 13degC (c.c.) (ICSC, 1999) and the boiling point is 83.5degC, which is classified into Category 2. Classified into Class 3 and Division 6.1 (UN#1184) (UN Recommendations on the Transport of Dangerous Goods)"
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Flame",
+                "Flame"
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids",
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid (GHS definition)",
+                "Classified as \"liquid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure",
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid (GHS definition)",
+                "Classified as \"liquid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                15.0,
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides",
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Organic compounds containing no bivalent -O-O- structure",
+                "Organic compounds containing no \"-O-O-\" structure"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases",
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid (GHS definition)",
+                "Classified as \"liquid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                13.0,
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids",
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "The substance is an organic compound containing chlorine which is chemically bonded only to carbon or hydrogen.",
+                "Organic compounds containing chlorine (but not oxygen and fluorine), with the chlorine bound to carbon and hydrogen (but not to other elements)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                14.0,
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids",
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid (GHS definition)",
+                "Classified as \"liquid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids",
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Auto-ignition point is 413 degC (ICSC (1995)) exceeding 70 degC.",
+                "Not pyrophoric when in contact with air at ordinary temperatures; the auto-ignition temperature is 413degC (ICSC, 1999)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                10.0,
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids",
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid (GHS definition)",
+                "Classified as \"liquid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances",
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Test methods applicable to liquid substances are not available.",
+                "Test methods applicable to liquid substances are not available"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances",
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.",
+                "Containing no chemical groups with explosive or self-reactive properties"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Category 2B",
+                "Category 2B"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                "Causes eye irritation",
+                "Causes eye irritation"
+            ],
+            "rationale": [
+                "In humans, \"eye contact with the substance causes pain, irritation and lacrimation, and severe disorders may occur when the eyes are not immediately washed out\" (Hazard Assessment Report (CERI, NITE) No. 3 (2004)). In two rabbit eye irritation tests, there are reports of \"mildly irritating\" and \"no irritating\" (Hazard Assessment Report (CERI, NITE) No. 3 (2004)). Based on the data, the substance was classified into Category 2B.",
+                "Based on the description in the report on human epidemiological studies and rabbit eye irritation tests (CERI-NITE Hazard Assessment No.3 (2004): The results of Draize tests suggest \"mild irritation.\""
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Not classified",
+                "Category 2"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                " - ",
+                "Causes skin irritation"
+            ],
+            "rationale": [
+                "Based on a report of \"not to mildly irritating\" following 4-hour application in a rabbit skin irritation test (Hazard Assessment Report (CERI, NITE) No. 3 (2004)) and a report that \"overall, topically applied DCE produced no or only slight irritation to skin\" (SIDS (2002)), the substance was classified as \"Not classified\" in JIS Classification (correspond to Category 3 in GHS classification).",
+                "Based on the description in the report on rabbit skin irritation tests (CERI-NITE Hazard Assessment No.3 (2004)): \"moderate irritant.\"\n"
+            ],
+            "signal_word": [
+                " - ",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                "Exclamation mark"
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                12.0,
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+                "Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Category 1 (central nervous system, blood, liver, kidney, respiratory system, cardiovascular system),\nCategory 3 (narcotic effects)",
+                "Category 1 (central nervous system, liver, kidney, adrenal gland),\nCategory 3 (narcotic effects)"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                "Causes damage to organs (central nervous system, blood, liver, kidney, respiratory system, cardiovascular system)\nMay cause drowsiness or dizziness (narcotic effects)",
+                "Causes damage to organs (central nervous system, liver, kidney, adrenal gland)\nMay cause drowsiness or dizziness (narcotic effects)"
+            ],
+            "rationale": [
+                "In human exposure cases there are reports of \"crouching, stupor, staggering, hyperactivity, tremors, somnolence, clouding of consciousness, nephropathy and liver cirrhosis\" (Hazard Assessment Report (CERI, NITE) No. 3 (2004)) and \"cardiovascular disorders, haematological effects, irritation and inflammation of the respiratory tract\" (EHC 176 (1995)). The central nervous system, blood system, liver, kidney, respiratory system and cardiovascular system are considered to be target organs. In rats, decrease in locomotor activity and gait ataxia following oral exposure, and narcotic effects following inhalation exposure (dosage unknown) are reported (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 3 (2005)). Based on the data, the substance was classified into Category 1 (central nervous system, blood system, liver, kidney, respiratory system, cardiovascular system) and Category 3 (narcotic effects). Among findings noted in dead cases, any change which was considered to be due to secondary effects were not used as the basis of classification.",
+                "Based on the human evidence including \"crouching position, confusion, staggering gait, hyperkinesias, tremor, somnolency, clouding of consciousness, coma, hemorrhagic diathesis, cyanosis, hepatic necrosis, tubulonecrosis, adrenal necrosis, circulatory system disorder\" (CERI-NITE Hazard Assessment No.3 (2004))."
+            ],
+            "signal_word": [
+                "Danger\nWarning",
+                "Danger\nWarning"
+            ],
+            "symbol": [
+                "Health Hazard\nExclamation mark",
+                "Health Hazard\nExclamation mark"
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since in a two-generation reproductive test in mice administered in drinking water, no treatment-related effect on fertility, pup viability, pup weight gain or teratogenicity was observed (IARC 71 (1999)), the substance was classified as \"Not classified\". The two-generation reproductive test was used as the basis for the determination of classification since the reproductive toxicity is more extensively evaluated.",
+                "Based on the description in CERI-NITE Hazard Assessment No.3 (2004): Reproductive mouse toxicity tests, rat one-generation tests and rat and rabbit teratogenicity tests show no effects on the embryo."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Category 2",
+                "Category 2"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction",
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                "Suspected of causing cancer",
+                "Suspected of causing cancer"
+            ],
+            "rationale": [
+                "Based on the classifications of \"2B\" in IARC (IARC (1999)), \"B2\" in EPA (IRIS (2008)) and \"R\" in NTP (NTP (2005)), the substance was classified into Category 2. In a 104-week inhalation test in rats, increased incidences of fibroadenoma in the mammary gland, fibroma in the subcutaneous tissue and mesothelioma in the peritoneum were observed in the males and increased incidences of adenocarcinoma, adenoma and fibroadenoma in the mammary gland and fibroma in the subcutaneous tissue were observed in the females. The results indicated the carcinogenicity of 1,2-dichloroethane in male and female F344/DuCrj (Fischer) rats. In a 104-week inhalation test in mice, an increased incidence of angiosarcoma in the liver was observed in the males and increased incidences of adenocarcinoma in the mammary gland, bronchiolo-alveolar carcinoma and adenoma in the lung, hepatocellular adenoma and endometrial stromal polyp in the uterus were observed in the females. The results indicated the carcinogenicity of 1,2-dichloroethane in male and female Crj:BDF1 mice (Results from Carcinogenicity tests (Ministry of Health, Labour and Welfare) (1991)). The Ministry of Health, Labour and Welfare has made a public announcement on guidelines in order to prevent the impairment of worker's health based on Industrial Safety and Health Act Article 28-3 (1993).",
+                "Due to the fact that the substance is classified as Group 2B by IARC (1999),  Category B2 by IRIS (2005), and Category R by NTP (2005)."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        }
     }
-  }
 }

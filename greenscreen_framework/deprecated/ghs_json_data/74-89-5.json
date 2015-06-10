@@ -1,0 +1,758 @@
+{
+    "ID": [
+        "ID617"
+    ],
+    "cas_no": [
+        "74-89-5"
+    ],
+    "country": [
+        "Japan"
+    ],
+    "date_classified": [
+        "Jun. 20, 2006 (Environmental Hazards: Mar. 31, 2006)"
+    ],
+    "date_imported": [
+        "Wed Jun 10 10:26:39 2015"
+    ],
+    "descriptive_name": [
+        "Methanamine"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Not classified"
+            ],
+            "hazard_id": [
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "it carried out the outside of Category from 48-hour EC50=163000microg/L of Crustacea  (Daphnia magna), and others(AQUIRE, 2003)."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "The data of the guinea pigs were in PATTY (1994). But LD50 was not clear, it could not be classified due to the insufficient data."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Category 4"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                "Harmful if inhaled"
+            ],
+            "rationale": [
+                "Statistics calculation was done based on rat LC50 (4 hours): 4400ml/m3 and 6400 - 9100ml/m3 (all are DFGOT Vol.7 (1996)). Since the calculation value of 4400ml/m3 (4400ppm) was the same as the lowest value, it was considered as Category 4."
+            ],
+            "signal_word": [
+                "Warning\r\n"
+            ],
+            "symbol": [
+                "Exclamation mark\r\n"
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Category 3"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                "Toxic if swallowed"
+            ],
+            "rationale": [
+                "Calculated based on rat LD50: 100 to 200 mg/kg (ACGIH (2001) and DFGOT (1996)) and 698mg/kg (DFGOT (1996)). Since the calculated values was less than the lowest value, it was set as Category 3 based on 100mg/kg of the lowest value."
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "Skull and crossbones"
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                10.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                6.0
+            ],
+            "hazard_name": [
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "No data available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Not classified"
+            ],
+            "hazard_id": [
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Since not water-insoluble (water solubility=1.08*106mg/L(PHYSPROP Database, 2005)) and acute toxicity is low."
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Test methods applicable to gas substances are not available"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0
+            ],
+            "hazard_name": [
+                "explosives"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Not aerosol products"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Category 1"
+            ],
+            "hazard_id": [
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                "Extremely flammable gas"
+            ],
+            "rationale": [
+                "Flammable range with air is 4.9-20.7 vol%."
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Low pressure liquefied gas"
+            ],
+            "hazard_id": [
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                "Contains gas under pressure; may explode if heated"
+            ],
+            "rationale": [
+                "Critical temp: 156.9degC"
+            ],
+            "signal_word": [
+                "Warning"
+            ],
+            "symbol": [
+                "Gas cylinder"
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Category 1B"
+            ],
+            "hazard_id": [
+                5.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                "May cause genetic defects (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)"
+            ],
+            "rationale": [
+                "We classified it as Category 1B. Based on the description (RTECS (2005)) that there was a positive result in the dominant lethality examination by rat inhalation exposure examination."
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "Health hazard"
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not classified"
+            ],
+            "hazard_id": [
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Flammable gas"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Respiratory sensitization: Classification not possible; Skin sensitization: Classification not possible"
+            ],
+            "hazard_id": [
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                "(Respiratory sensitization)-\r; (Skin sensitization)-"
+            ],
+            "rationale": [
+                "Respiratory sensitization:  Although the allergenic or irritation data of bronchitis can be found on unpublished cases (ACGIH, 7th, 2001),   since there is no case report in well known literature, it was decided that it could not be classified due to lack of sufficient.data.\nSkin sensitization: No data"
+            ],
+            "signal_word": [
+                "(Respiratory sensitization)-; \r(Skin sensitization)-"
+            ],
+            "symbol": [
+                "(Respiratory sensitization)-; (Skin sensitization)-\r"
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Category 1"
+            ],
+            "hazard_id": [
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                "Causes serious eye damage"
+            ],
+            "rationale": [
+                "There is no data in eye irritation tests by this product (gas). But there is description that 40% solution has strong stimulativeness in the eye of a rabbit (ACGIH, 7th, 2001) and the lesional of a corneal (PATTY, 4th, 1994), it was set to Category 1."
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "Corrosion"
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Category 1A-1C"
+            ],
+            "hazard_id": [
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                "Causes severe skin burns and eye damage"
+            ],
+            "rationale": [
+                "There was no skin irritation test data of this product (gas). But based on the description that 40% aqueous solution caused necrosis on skin of rabbits (PATTY, 4th 1994), it was judged to have skin corrosivenesses, and it was classified as Category 1A-1C. Since detailed data was unknown, sub-categorization was not available.\n[Display] It is more desirable to be classified as 1A from a viewpoint of safety, when it is necessary to sub-categorize."
+            ],
+            "signal_word": [
+                "Danger"
+            ],
+            "symbol": [
+                "Corrosion"
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not applicable"
+            ],
+            "hazard_id": [
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "Gas (GHS definition)"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Category 2 (respiratory organs, liver)"
+            ],
+            "hazard_id": [
+                9.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                "May cause damage to organs (respiratory organs, liver) through prolonged or repeated exposure"
+            ],
+            "rationale": [
+                "The details are unknown, although the deviation enzyme in the blood including a nervous system, liver, and an immunology parameter and the morphological defect of organs, etc. in the nasal region exposure test for rats in DFGOT (1994) are reported. On the other hand, it was classified to Category 2 (respiratory systems, liver), since it is reported bronchitis and it has a potential to effect on liver by higher concentration exposures in HSFS (2004) and SITTIG (2002)."
+            ],
+            "signal_word": [
+                "Warning"
+            ],
+            "symbol": [
+                "Health hazard"
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Category 3 (respiratory tract irritation)"
+            ],
+            "hazard_id": [
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                "May cause respiratory irritation or may cause drowsiness and dizziness (respiratory tract irritation)"
+            ],
+            "rationale": [
+                "Although it is a Priolity 2 information, since there is a description that it has respiratory irritation against mucous membranes and may cause lung edemas at high exposure leves (HSFS (2004) and SITTIG (2002)), and it is classified as a substance which has an irritant action against the respiratory systems in the EU classification of dangerous sbstances as well. So it was set as Category 3 (respiratory irritant)."
+            ],
+            "signal_word": [
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark"
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                7.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                "-"
+            ],
+            "rationale": [
+                "There is a statement that post-implantation fetal death increases depending on a dose in an inhalation exposure test of pregnant rats (DFGOT (1996)). \nHowever, it is indicated that evaluation is impossible, since details are not shown in the source material in the reference. \nOn the other hand, although there is a report that reproductive toxicity tests in murine intraperitoneal administration did not show any effects (IUCLID (2000)), it will not negate the rat data of Priolity1. \nTherefore, since data was insufficient, it was considered unable to be classified. \n"
+            ],
+            "signal_word": [
+                "-"
+            ],
+            "symbol": [
+                "-"
+            ]
+        }
+    }
+}

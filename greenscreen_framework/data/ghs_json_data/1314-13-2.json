@@ -1,758 +1,1218 @@
 {
-  "ID": [
-    "ID737"
-  ],
-  "cas_no": [
-    "1314-13-2"
-  ],
-  "country": [
-    "Japan"
-  ],
-  "date_classified": [
-    "Apr. 20, 2006 (Environmental Hazards: Mar. 31, 2006)"
-  ],
-  "date_imported": [
-    "Wed Jun 10 08:51:35 2015"
-  ],
-  "descriptive_name": [
-    "Zinc oxide"
-  ],
-  "hazards": {
-    "acute_aquatic_toxicity": {
-      "classification": [
-        "Category 1"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "acute_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "Very toxic to aquatic life"
-      ],
-      "rationale": [
-        "It was classified into Category 1 from 72-hour EC50=0.17mg/L (zinc-oxide concentration equivalent: 0.21mg/L) of algae (Selenastrum) (EHC221, 2001)."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Environment"
-      ]
-    },
-    "acute_toxicity_dermal": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_dermal"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_inhalation_dust": {
-      "classification": [
-        "Category 5"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_dust"
-      ],
-      "hazard_statement": [
-        "May be harmful if inhaled"
-      ],
-      "rationale": [
-        "Since it was data of 5.7 or more mg/L in the rat (EU-RAR 43 (2004)), it was set as category 5."
-      ],
-      "signal_word": [
-        "Warning\r\n"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_inhalation_gas": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_gas"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_inhalation_vapor": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_vapor"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "The vapor pressure around room temperature is very low."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_oral": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_oral"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Not classified because of SPECIES: Rat; ENDPOINT: LD50; >5000 mg/kg; REFERENCE SOURCE: EU-RAR 43 (2004) "
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "aspiration_hazard": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "aspiration_hazard"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "carcinogenicity": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "carcinogenicity"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "U.S. EPA is considering it as Group D. Since there was nothing that suggests carcinogenicity also to an animal data, it considered as \"Category Outside.\""
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "chronic_aquatic_toxicity": {
-      "classification": [
-        "Category 1"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "chronic_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "Very toxic to aquatic life with long lasting effects"
-      ],
-      "rationale": [
-        "Classified into Category 1, since acute toxicity was Category 1, and it is a metallic compound, behavior in water is unknown, though less bioaccumulative (BCF=217 (existing chemical safety inspections data))."
-      ],
-      "signal_word": [
-        "Warning"
-      ],
-      "symbol": [
-        "Environment"
-      ]
-    },
-    "corrosive_to_metals": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        16.0
-      ],
-      "hazard_name": [
-        "corrosive_to_metals"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Test methods applicable to solid substances are not available."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "explosives": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "explosives"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "There are no chemical groups associated with explosive properties present in the molecules."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_aerosols": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "flammable_aerosols"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Not aerosol products"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_gases": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "flammable_gases"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "flammable_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "flammable_solids": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "flammable_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Non-combustible substance"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "gases_under_pressure": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "gases_under_pressure"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "germ_cell_mutagenicity": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "germ_cell_mutagenicity"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "In the result of the in vivo chromosomal aberration test it gave positive although it was doubtfull, and for the in vitro results we found both positive results and negative results. We have no enough data for which we can judge. "
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "organic_peroxides": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        15.0
-      ],
-      "hazard_name": [
-        "organic_peroxides"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Inorganic substance"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_gases": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "oxidizing_gases"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        13.0
-      ],
-      "hazard_name": [
-        "oxidizing_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "oxidizing_solids": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        14.0
-      ],
-      "hazard_name": [
-        "oxidizing_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "It reacts at a high temperature with metals such as magnesium and aluminum with a higher ionization tendency (ICSC (2004), but does not meet the definition of oxidativity."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "pyrophoric_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "pyrophoric_liquids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Solid (GHS definition)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "pyrophoric_solids": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "pyrophoric_solids"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Non-combustible"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "respiratory_skin_sensitizer": {
-      "classification": [
-        "Respiratory sensitization: Classification not possible; Skin sensitization: Not classified"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "respiratory_skin_sensitizer"
-      ],
-      "hazard_statement": [
-        "(Respiratory sensitization)-\r; (Skin sensitization)-"
-      ],
-      "rationale": [
-        "Since there is no data, respiratory sensitization cannot be classified. Skin sensitization was put outside of the division according to the comprehensive judgment of EU-RAR (2004)."
-      ],
-      "signal_word": [
-        "(Respiratory sensitization)-; \r(Skin sensitization)-"
-      ],
-      "symbol": [
-        "(Respiratory sensitization)-; (Skin sensitization)-\r"
-      ]
-    },
-    "self_heating_substances": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "self_heating_substances"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Not combustible"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "self_reactive_substances": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "self_reactive_substances"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "There are no chemical groups associated with explosive or self-reactive properties present in the molecule."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "serious_eye_damage_irritation": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "serious_eye_damage_irritation"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "In the report of three affairs currently recorded and selected by EU-RAR (2004), two affairs had a very slight stimulus and one affair did not stimulate. And EU-RAR (2004) had judged no stimulating. So it was set as \"Outsaide of Category .\"                       "
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "skin_corrosion_irritation": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "skin_corrosion_irritation"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Since the experiment of the rabbit quoted shows no stimulation as a result (ACGIH (2003) and EU-RAR 43 (2004)), it was classified as \"out of Category\"."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        12.0
-      ],
-      "hazard_name": [
-        "substances_mixtures_emit_flammable_gas_in_contact_with_water"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Not classified because of a water-insoluble substance practically"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "systemic_toxicity_repeat_exposure": {
-      "classification": [
-        "Category 1 (inhalation, lung)"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_repeat_exposure"
-      ],
-      "hazard_statement": [
-        "Causes damage to organs (inhalation, lung) through prolonged or repeated exposure"
-      ],
-      "rationale": [
-        "Since the effect on lungs was seen in repetitive inhalation exposure to the guinea pigs and the rat, it was classified into \"Category 1.\""
-      ],
-      "signal_word": [
-        "Danger"
-      ],
-      "symbol": [
-        "Health hazard"
-      ]
-    },
-    "systemic_toxicity_single_exposure": {
-      "classification": [
-        "Category 1 (inhalation, systemic toxicity)"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_single_exposure"
-      ],
-      "hazard_statement": [
-        "Cause damage to organs (inhalation, systemic toxicity)"
-      ],
-      "rationale": [
-        "Since producing metal FUMU heat by inhalations of fine dusts was known, it is classified into \"Category 1.\" Respiratory irritation is not acknowledged (EU-RAR 43 (2004))."
-      ],
-      "signal_word": [
-        "Danger"
-      ],
-      "symbol": [
-        "Health hazard"
-      ]
-    },
-    "toxic_to_reproduction": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "toxic_to_reproduction"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Not classified following to the overall judgment (EU-RAR, 2004)"
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
+    "ID": [
+        "1314-13-2",
+        "1314-13-2",
+        "1314-13-2"
+    ],
+    "cas_no": [
+        "1314-13-2",
+        "1314-13-2",
+        "1314-13-2"
+    ],
+    "country": [
+        "Japan",
+        "Japan",
+        "Japan"
+    ],
+    "date_classified": [
+        "FY2013",
+        "FY2009",
+        "FY2006"
+    ],
+    "date_imported": [
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015"
+    ],
+    "descriptive_name": [
+        "Zinc oxide",
+        "Zinc oxide",
+        "Zinc oxide"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Category 1",
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "Very toxic to aquatic life",
+                "Very toxic to aquatic life",
+                "Very toxic to aquatic life"
+            ],
+            "rationale": [
+                " - ",
+                "Classified into Category 1 since its 48h-LC50 = 0.098 mg Zn/L (0.122 mg/L as Zinc oxide) for Crustacea (Daphnia magna) (Initial Risk Assessment Report (NITE, CERI, NEDO), 2008).",
+                "It was classified into Category 1 from 72-hour EC50=0.17mg/L (zinc-oxide concentration equivalent: 0.21mg/L) of algae (Selenastrum) (EHC221, 2001)."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Environment",
+                "Environment",
+                "Environment"
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Not classified",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Category 5"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                "May be harmful if inhaled"
+            ],
+            "rationale": [
+                " - ",
+                "Based on a LC50 value of >5.7 mg/L (4h) for rats (EU-RAR (2004)), the substance was classified as \"Not classified\" in JIS Classification (correspond to Category 5 or \"Not classified\" in GHS classification).",
+                "Since it was data of 5.7 or more mg/L in the rat (EU-RAR 43 (2004)), it was set as category 5."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Not applicable",
+                "Classification not possible",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available.",
+                "The vapor pressure around room temperature is very low."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral",
+                "acute_toxicity_oral",
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Based on LD50 values of >5000 mg/kg bw and >15000 mg/kg bw for rats (EU-RAR (2004)), the substance was classified into \"Not classified\".",
+                "Not classified because of SPECIES: Rat; ENDPOINT: LD50; >5000 mg/kg; REFERENCE SOURCE: EU-RAR 43 (2004) "
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Category 1 (Inhalation: lung)"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard",
+                "aspiration_hazard",
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                "Cause damage to organs through prolonged or repeated exposure (Inhalation: lung)"
+            ],
+            "rationale": [
+                " - ",
+                "Classification not possible due to lack of data. Although there are reports of oral and inhalation tests in rats (EHC 221 (2001), EU-RAR (2004), IUCLID (2000)) (1953), these tests was conducted in an earlier time (in 1953), during which only one dose level was tested or only female rats were used. It is questionable that these data can be used as the basis of classification.",
+                "Since the effect on lungs was seen in repetitive inhalation exposure to the guinea pigs and the rat, it was classified into \"Category 1.\""
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                "Danger"
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                "Health Hazard"
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "carcinogenicity",
+                "carcinogenicity",
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "There is a report of positive results from a rat bone marrow chromosomal aberration test following exposure by inhalation for 5 months (in vivo somatic cell mutagenicity test) (EU RAR (2004)). The results are hard to interpret since only a slight increase was seen, the experimental procedures employed are not commonly used, and the observed aberration was aneuploidy such as hyperdiploid cells. Classification was not possible due to lack of sufficient data from in vivo mutagenicity tests. As relevant information, from in vitro mutagenicity tests, there are reports of a negative Ames test (EU RAR (2004)), a positive mouse lymphoma gene mutation test (EU RAR (2004)) and a positive hamster embryo cell transformation assay (EU RAR (2004).",
+                "In the result of the in vivo chromosomal aberration test it gave positive although it was doubtfull, and for the in vitro results we found both positive results and negative results. We have no enough data for which we can judge. "
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Category 1",
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "Very toxic to aquatic life with long lasting effects",
+                "Very toxic to aquatic life with long lasting effects",
+                "Very toxic to aquatic life with long lasting effects"
+            ],
+            "rationale": [
+                " - ",
+                "Classified into Category 1 since its acute toxicity is Category 1 and the behavior in water is unknown from which it is a metal compound.",
+                "Classified into Category 1, since acute toxicity was Category 1, and it is a metallic compound, behavior in water is unknown, though less bioaccumulative (BCF=217 (existing chemical safety inspections data))."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Environment",
+                "Environment",
+                "Environment"
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                16.0,
+                16.0,
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals",
+                "corrosive_to_metals",
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Test methods applicable to solid substances are not available.\n",
+                "Test methods applicable to solid substances are not available."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "explosives",
+                "explosives",
+                "explosives"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "There are no chemical groups associated with explosive properties present in the molecules.\n",
+                "There are no chemical groups associated with explosive properties present in the molecules."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols",
+                "flammable_aerosols",
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Not aerosol products\n",
+                "Not aerosol products"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases",
+                "flammable_gases",
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)\n",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids",
+                "flammable_liquids",
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)\n",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids",
+                "flammable_solids",
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Not combustible (ICSC (2004))\n",
+                "Non-combustible substance"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure",
+                "gases_under_pressure",
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)\n",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Three well-performed skin sensitizing tests in guinea pigs (Maximization test: Directive 96/54/EC B.6, OECD TG406) were reported (EU-RAR (2004)). The positive rates were 1) 40% (4/10) in experimental group, 0% (0/5) in control group, 2) 0% (0/10) in experimental group, 20% (1/5) in control group, and 3) 0% (0/10) in experimental group, 0% (0/5) in control group. While the first test produced conflicting results (positive rate of 40%), the weight of evidence does not indicate that zinc oxide is a very potent sensitizing agent (EU-RAR (2004)). In a patch test for contact allergy, no positive responses were observed in the 14 patients when only zinc oxide was used (EU-RAR (2004)). It was concluded in EU-RAR (2004) that Zinc oxide does not have to be classified/labelled for skin sensitization, therefore, the substance was classified as \"Not classified\".",
+                "Skin sensitization was put outside of the division according to the comprehensive judgment of EU-RAR (2004)."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                15.0,
+                15.0,
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides",
+                "organic_peroxides",
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Inorganic compound\n",
+                "Inorganic substance"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases",
+                "oxidizing_gases",
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)\n",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                13.0,
+                13.0,
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids",
+                "oxidizing_liquids",
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)\n",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Not classified"
+            ],
+            "hazard_id": [
+                14.0,
+                14.0,
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids",
+                "oxidizing_solids",
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data by the test method designated by UNRTDG are available. Divalent zinc oxide is the most stable and it is considered that contained oxygen does not enhance combustion of cellulose.\n",
+                "It reacts at a high temperature with metals such as magnesium and aluminum with a higher ionization tendency (ICSC (2004), but does not meet the definition of oxidativity."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids",
+                "pyrophoric_liquids",
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Solid (GHS definition)\n",
+                "Solid (GHS definition)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                10.0,
+                10.0,
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids",
+                "pyrophoric_solids",
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Not combustible (ICSC (2004))\n",
+                "Non-combustible"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "No data available.",
+                "Since there is no data, respiratory sensitization cannot be classified."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances",
+                "self_heating_substances",
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Not combustible (ICSC (2004))\n",
+                "Not combustible"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances",
+                "self_reactive_substances",
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.\n",
+                "There are no chemical groups associated with explosive or self-reactive properties present in the molecule."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "In a test (OECD TG405) where 3 rabbits were treated by instillation into the conjunctival sac, no corneal opacity was observed, iridial irritation (grade 1) was observed in 1 animal at 1-hour only, conjunctivae redness (grade 1 - 2) was seen in all animals and completely resolved at 72-hour, chemosis (grade 2) and discharge (grade 1) were observed in all animals at 1-hour only (EU-RAR (2004)). Based on the data, the substance was classified as \"Not classified\". In other rabbit tests, slight erythema and edema were observed up to 2 days after treatment, therefore the substance was considered to be \"not irritating\" or \"borderline positive for irritation\" (EU-RAR (2004).",
+                "In the report of three affairs currently recorded and selected by EU-RAR (2004), two affairs had a very slight stimulus and one affair did not stimulate. And EU-RAR (2004) had judged no stimulating. So it was set as \"Outsaide of Category .\"                       "
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "In a test using rabbits, no dermal reactions were noted after the application (ear) of 500 mg during 24-hour under occlusion (EU RAR (2004)). No signs of skin irritation were noted after open or occlusive application of 0.5 mL on the dorsal skin of rabbits for 5 consecutive days (EU-RAR (2004)). Based on these data, the substance was classified as \"Not classified\". No signs of skin irritation were noted after open application on the skin of mice and guinea pigs for 5 consecutive days (ACGIH (2003)). Additionally, In humans, a rash and follicular pustules developed in one of 6 volunteers who received treatment with a 40% ointment under occlusive dressings. However, it could not be derived whether the dermal effects were a result of zinc oxide or from other treatment-related stimuli (EU-RAR (2004)).",
+                "Since the experiment of the rabbit quoted shows no stimulation as a result (ACGIH (2003) and EU-RAR 43 (2004)), it was classified as \"out of Category\"."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                12.0,
+                12.0,
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Insoluble in water (Merck (14th, 2006))\n",
+                "Not classified because of a water-insoluble substance practically"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Category 1 (respiratory system, systemic toxicity)",
+                "Category 1 (lung, systemic toxicity)",
+                "Category 1 (Inhalation: systemic toxicity)"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                "Causes damage to organs (respiratory system, systemic toxicity)",
+                "Causes damage to organs (lung, systemic toxicity)",
+                "Causes damage to organs (Inhalation: systemic toxicity)"
+            ],
+            "rationale": [
+                " - ",
+                "Numerous cases of metal fume fever caused by inhalation exposure of zinc oxide micro dusts are reported and symptoms such as cough, chest pain, chill, fever, dyspnea, muscular pain and nausea may occur (ACGIH (2003), IRIS (2005), ATSDR (2005)). Since metal fume fever presents mainly symptoms in the respiratory system, the substance was classified into Category 1 (lung, systemic toxicity). In a rat test by gavage at doses of 5,000 mg/kg and 15,000 mg/kg, no mortality occurred. Additionally, no signs of toxicity were observed except for ruffled fur, decreased body weights and diarrhea at a dose level of 15,000 mg/kg (EU-RAR (2004)). Based on the rat data, the substance corresponds to \"Not classified\" with oral exposure.",
+                "Since producing metal FUMU heat by inhalations of fine dusts was known, it is classified into \"Category 1.\" Respiratory irritation is not acknowledged (EU-RAR 43 (2004))."
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Category 2",
+                "Category 2",
+                "Not classified"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                "Suspected of damaging fertility or the unborn child",
+                "Suspected of damaging fertility or the unborn child",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "In a rat test, the administration of 0.4% in diet for 21 days prior to mating until day 15 of gestation resulted in resorptions of all fetuses (EU-RAR (2004)). In rats administered in diet from day 0 of gestation to day 14 of lactation, stillborn pups were observed at 2000 ppm and higher concentrations (EU-RAR (2004)). Since the manifestation of maternal general toxicity was not denied at the above toxic levels, the substance was classified into Category 2.",
+                "Not classified following to the overall judgment (EU-RAR, 2004)"
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning",
+                " - "
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard",
+                " - "
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Classification not possible",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction",
+                "toxic_to_reproduction",
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                " - ",
+                "Based on the classification of \"D\" in EPA (PATTY (5th, 2001)), the substance was classified as \"Not classified\".\n",
+                "U.S. EPA is considering it as Group D. Since there was nothing that suggests carcinogenicity also to an animal data, it considered as \"Category Outside.\""
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        }
     }
-  }
 }

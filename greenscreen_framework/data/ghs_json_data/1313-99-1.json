@@ -1,758 +1,1218 @@
 {
-  "ID": [
-    "ID452"
-  ],
-  "cas_no": [
-    "1313-99-1"
-  ],
-  "country": [
-    "Japan"
-  ],
-  "date_classified": [
-    "Jul. 24, 2006 (Environmental Hazards: Mar. 31, 2006)"
-  ],
-  "date_imported": [
-    "Wed Jun 10 08:51:35 2015"
-  ],
-  "descriptive_name": [
-    "Nickel monoxide"
-  ],
-  "hazards": {
-    "acute_aquatic_toxicity": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "acute_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "-"
-      ],
-      "rationale": [
-        "Since it was suggested that relevant toxicity is not indicated within the water solubility (insolubility (CERI/NITE Hazard Assessment Report (preliminary version) (2006)) of this substance in spite of 48 hours EC50>100mg/L of the crustacea (Daphnia magna) (IUCLID (2000) and others), it was classified into Not classified."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "acute_toxicity_dermal": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_dermal"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "acute_toxicity_inhalation_dust": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_dust"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "acute_toxicity_inhalation_gas": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_gas"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Due to the fact that the substance is \"solid\" according to the GHS definition and inhalation of its gas is not expected."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "acute_toxicity_inhalation_vapor": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_inhalation_vapor"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "acute_toxicity_oral": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "acute_toxicity_oral"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the rat LD50 (oral route) value of >=5,000mg/kg ((ECETOC TR33 (1989))."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "aspiration_hazard": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "aspiration_hazard"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "carcinogenicity": {
-      "classification": [
-        "Category 1A"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "carcinogenicity"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Due to the fact that the substance is classified as Category K by NTP (2005), Category A1 by ACGIH (2001) and Group 1 by IARC (1990)."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "chronic_aquatic_toxicity": {
-      "classification": [
-        "Category 4"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "chronic_aquatic_toxicity"
-      ],
-      "hazard_statement": [
-        "May cause long lasting harmful effects to aquatic life"
-      ],
-      "rationale": [
-        "Since although acute toxicity is not reported within the aqueous solubility concentrations, it was a metallic compound, and  the underwater action was unknown, it was classified into Category 4."
-      ],
-      "signal_word": [
-        "-"
-      ],
-      "symbol": [
-        "-"
-      ]
-    },
-    "corrosive_to_metals": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        16.0
-      ],
-      "hazard_name": [
-        "corrosive_to_metals"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Test methods applicable to solid substances are not available "
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "explosives": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        1.0
-      ],
-      "hazard_name": [
-        "explosives"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Containing no chemical groups with explosive properties  "
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "flammable_aerosols": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "flammable_aerosols"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Not aerosol products"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "flammable_gases": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "flammable_gases"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"solid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "flammable_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        6.0
-      ],
-      "hazard_name": [
-        "flammable_liquids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"solid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "flammable_solids": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "flammable_solids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Non-flammable (ICSC, 2004)"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "gases_under_pressure": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "gases_under_pressure"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"solid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "germ_cell_mutagenicity": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        5.0
-      ],
-      "hazard_name": [
-        "germ_cell_mutagenicity"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "There is no available data on heritable mutagenicity and in vivo germ cell mutagenicity /genotoxicity, whereas two data are available on in vivo somatic cell mutagenicity; one showed positive result (chromosome aberration/study on lymphocytes from exposed workers; however, this data is considered insufficient. (ECETOC TR33, 1989)), the other showed negative result (peripheral blood micronucleus tests on mice /90 days inhalation exposure)(NTP CB (Access on Mar., 2006), IARC 49 (1990), ATSDR (2005), ECETOC TR33 (1989). Although nickel has been known to possess a genotoxic potential (ATSDR, 2005), available data are considered insufficient to serve as a basis for classification as \"Category 2\" or \"Not classified\" with respect to mutagenicity defined in the GHS, since epidemiological data is not conclusive and animal data is negative. Therefore the substance has been classified as \"classification is not possible\"."
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "organic_peroxides": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        15.0
-      ],
-      "hazard_name": [
-        "organic_peroxides"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Not organic compounds  "
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "oxidizing_gases": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "oxidizing_gases"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"solid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "oxidizing_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        13.0
-      ],
-      "hazard_name": [
-        "oxidizing_liquids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"solid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "oxidizing_solids": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        14.0
-      ],
-      "hazard_name": [
-        "oxidizing_solids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classification not possible due to lack of data, though inorganic compounds containing oxygen"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "pyrophoric_liquids": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "pyrophoric_liquids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Classified as \"solid\" according to GHS definition"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "pyrophoric_solids": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        10.0
-      ],
-      "hazard_name": [
-        "pyrophoric_solids"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Non-combustible (ICSC, 2004)"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "respiratory_skin_sensitizer": {
-      "classification": [
-        "Respiratory sensitizer: Category 1\nSkin sensitizer: Category 1\n"
-      ],
-      "hazard_id": [
-        4.0
-      ],
-      "hazard_name": [
-        "respiratory_skin_sensitizer"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Respiratory sensitizer: Due to the fact that the substance is classified as a Respiratory Sensitizing Substance by DFG and \"Respiratory Sensitizing Substance: Group 2\" (as nickel compounds) according to the Recommendation on Occupational Exposure Limits for Chemical Substances (Japan Society for Occupational Health (2005)).  \nSkin sensitizer: Due to the fact that the substance is classified as a Skin Sensitizing Substance by DFG and \"Skin Sensitizing Substance: Group 1\" (as nickel compounds) according to the Recommendation on Occupational Exposure Limits for Chemical Substances (Japan Society for Occupational Health (2005)).  \n"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "self_heating_substances": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        11.0
-      ],
-      "hazard_name": [
-        "self_heating_substances"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Non-combustible (ICSC, 2004)"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "self_reactive_substances": {
-      "classification": [
-        "Not applicable"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "self_reactive_substances"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Containing no chemical groups with explosive or self-reactive properties  "
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "serious_eye_damage_irritation": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        3.0
-      ],
-      "hazard_name": [
-        "serious_eye_damage_irritation"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "skin_corrosion_irritation": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        2.0
-      ],
-      "hazard_name": [
-        "skin_corrosion_irritation"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "No data available"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
-      "classification": [
-        "Not classified"
-      ],
-      "hazard_id": [
-        12.0
-      ],
-      "hazard_name": [
-        "substances_mixtures_emit_flammable_gas_in_contact_with_water"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Stable to water (insoluble, ICSC (2004))"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "systemic_toxicity_repeat_exposure": {
-      "classification": [
-        "Category 1 (respiratory organs) "
-      ],
-      "hazard_id": [
-        9.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_repeat_exposure"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Based on the human evidence including \"pulmonary impairment, typical pneumoconiosis\" (EHC 108 (1991)) and the evidence from animal studies including \"granulomatous inflammation, hyperplasia of the bronchi/mediastinal lymph node,\" \"alveolar wall thickening\" (ATSDR (2005)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 1. \nChronic exposure to nickel and its compounds may produce respiratory irritation and degeneration in humans even at doses close to occupational exposure limits. Prolonged exposure to high concentrations is likely to result in the fibroid lung (ECETOC TR33 (1989)).   \n"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "systemic_toxicity_single_exposure": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        8.0
-      ],
-      "hazard_name": [
-        "systemic_toxicity_single_exposure"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "No data available\nThe acute toxicity of nickel compounds manifests in humans as \"nausea, diarrhea, dizziness, headache\" (ECETOC TR33 (1989)).  \n"
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
-    },
-    "toxic_to_reproduction": {
-      "classification": [
-        "Classification not possible"
-      ],
-      "hazard_id": [
-        7.0
-      ],
-      "hazard_name": [
-        "toxic_to_reproduction"
-      ],
-      "hazard_statement": [
-        ""
-      ],
-      "rationale": [
-        "Insufficient data available   "
-      ],
-      "signal_word": [
-        ""
-      ],
-      "symbol": [
-        ""
-      ]
+    "ID": [
+        "1313-99-1",
+        "1313-99-1",
+        "1313-99-1"
+    ],
+    "cas_no": [
+        "1313-99-1",
+        "1313-99-1",
+        "1313-99-1"
+    ],
+    "country": [
+        "Japan",
+        "Japan",
+        "Japan"
+    ],
+    "date_classified": [
+        "FY2009",
+        "FY2008",
+        "FY2006"
+    ],
+    "date_imported": [
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015"
+    ],
+    "descriptive_name": [
+        "Nickel (II) oxide",
+        "Nickel(II) oxide",
+        "Nickel monoxide"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Not classified",
+                "",
+                "Not classified"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classified into Not classified since it is suggested that the toxicity is not shown at its water solubility (Hazard Assessment Report (CERI, NITE) (Preliminary version), 2006)) from its 48h-EC50 >100 mg/L for Crustacea (Daphnia magna) (IUCLID, 2000), etc. ",
+                "-",
+                "Since it was suggested that relevant toxicity is not indicated within the water solubility (insolubility (CERI/NITE Hazard Assessment Report (preliminary version) (2006)) of this substance in spite of 48 hours EC50>100mg/L of the crustacea (Daphnia magna) (IUCLID (2000) and others), it was classified into Not classified."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid (GHS definition)",
+                "Solid (GHS definition)",
+                "Due to the fact that the substance is \"solid\" according to the GHS definition and inhalation of its gas is not expected."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral",
+                "acute_toxicity_oral",
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Based on a LD50 value of >5000 mg/kg for rats (ECETOC TR33 (1989)), the substance was classified into \"Not classified\".",
+                "Based on the LD50 of > 5000 mg/kg for rats (ECETOC TR 33 (1989)), the substance was classified into the \"Not classified\" category.",
+                "Based on the rat LD50 (oral route) value of >=5,000mg/kg ((ECETOC TR33 (1989))."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Category 1 (respiratory system)",
+                "Category 1 (respiratory system)",
+                "Category 1 (respiratory system)"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard",
+                "aspiration_hazard",
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                "Cause damage to organs through prolonged or repeated exposure (respiratory system)",
+                "Cause damage to organs through prolonged or repeated exposure (respiratory system)",
+                "Cause damage to organs through prolonged or repeated exposure (respiratory system)"
+            ],
+            "rationale": [
+                "It was reported that a high risk of mortality from respiratory disease is found among workers exposed occupationally to nickel oxides and metal nickel at concentrations of 0.04 mg/m3 and higher. In addition, rhinitis, sinusitis, nasal septal perforations and dysplasia of the nasal mucosa were reported in nickel refinery and nickel plating workers (Risk assessment report of nickel and nickel compounds (Ministry of Health, Labour and Welfare) (2009)). Based on the data, the substance was classified into Category 1 (respiratory system). For animals, in a 13-week inhalation test with rats, lung granulomatous inflammation, lymphoid hyperplasia in bronchial and mediastinal lymph nodes were noted at a dose level of 0.004 mg Ni/L which is within the guidance value range for Category 1 (ATSDR (2005)). In a 104-week inhalation test with rats, alveolar squamous metaplasia, alveolar epithelial hyperplasia and fibrosis in the lung were present at 0.0006 mg/L which is within the guidance value range for Category 1 (NTP TR-451 (1996)). In a 104-week inhalation test with mice, inflammation in the lung, and lymphoid hyperplasia in the bronchial lymph node were noted at dose levels within the guidance value range for Category 1 (NTP TR-451 (1996)). Based on the data, the substance was classified into Category 1 (respiratory system).",
+                "In a 13-week inhalation test using rats, granulomatous inflammation and hyperplasia in the bronchial and mediastinal lymph nodes were noted at 0.004 mg Ni/L, which falls under Category 1 guidance doses (ATSDR (2005)). In addition, in a 104 week inhalation test using rats, squamous metaplasia of the amnion, and hyperplasia and fibrosis of the pulmonary alveoli were detected at 0.0006 mg/L, which falls under Category 1 guidance doses (NTP TR-451 (1996)). Also, in a 104-week inhalation test using mice, pulmonary inflammation and hyperplasia in the bronchial lymph nodes were observed at Category 1 guidance doses (NTP TR-451 (1996)). Based on these results, the substance was classified into Category 1 (respiratory system).\nSee also health hazards associated with other nickel compounds (Nickel(II) chloride and nickel sulfate, etc.).",
+                "Based on the human evidence including \"pulmonary impairment, typical pneumoconiosis\" (EHC 108 (1991)) and the evidence from animal studies including \"granulomatous inflammation, hyperplasia of the bronchi/mediastinal lymph node,\" \"alveolar wall thickening\" (ATSDR (2005)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 1. \nChronic exposure to nickel and its compounds may produce respiratory irritation and degeneration in humans even at doses close to occupational exposure limits. Prolonged exposure to high concentrations is likely to result in the fibroid lung (ECETOC TR33 (1989)).   \n"
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "carcinogenicity",
+                "carcinogenicity",
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Based on negative results in bone marrow and peripheral blood micronucleus tests by inhalation exposure to mice (in vivo somatic cell mutagenicity test) (NTP DB (access on January. 2009)) and micronucleus test by oral or intraperitoneal administration to mice and rats (ATSDR (2005)), the substance was classified as \"Not classified\". As relevant information, from in vitro mutagenicity tests, there are reports of a positive CHO cell gene mutation test (ATSDR (2005)), a negative human peripheral lymphocyte chromosomal aberration test (EHC 108 (1991)) and a negative Ames test (NTP DB (access on January 2009)).",
+                "Micronucleus tests using bone marrow or peripheral blood of mice that underwent inhalation exposure (in vivo mutagenicity tests using somatic cell) gave negative results (NTP DB (accessed in January 2009)). Similarly, micronucleus tests using mice or rats that underwent oral or intraperitoneal administration produced negative results (ATSDR (2005)). Based on these negative results, the substance was classified into the \"Not classified\" category. Regarding in vitro mutagenicity tests, mutation tests using CHO cells gave positive results (ATSDR (2005)), while chromosomal aberration tests using human peripheral blood lymphocytes (EHC 108 (1991)) and Ames tests (NTP DB (accessed in January 2009)) yielded negative results.",
+                "There is no available data on heritable mutagenicity and in vivo germ cell mutagenicity /genotoxicity, whereas two data are available on in vivo somatic cell mutagenicity; one showed positive result (chromosome aberration/study on lymphocytes from exposed workers; however, this data is considered insufficient. (ECETOC TR33, 1989)), the other showed negative result (peripheral blood micronucleus tests on mice /90 days inhalation exposure)(NTP CB (Access on Mar., 2006), IARC 49 (1990), ATSDR (2005), ECETOC TR33 (1989). Although nickel has been known to possess a genotoxic potential (ATSDR, 2005), available data are considered insufficient to serve as a basis for classification as \"Category 2\" or \"Not classified\" with respect to mutagenicity defined in the GHS, since epidemiological data is not conclusive and animal data is negative. Therefore the substance has been classified as \"classification is not possible\"."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Category 4",
+                "",
+                "Category 4"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "May cause long lasting harmful effects to aquatic life",
+                " - ",
+                "May cause long lasting harmful effects to aquatic life"
+            ],
+            "rationale": [
+                "Classified into Category 4 since it is a metal compound and its behavior in water and bioaccumulative potential are unknown though its acute toxicity has not been reported at or lower concentration than water solubility. ",
+                "-",
+                "Since although acute toxicity is not reported within the aqueous solubility concentrations, it was a metallic compound, and  the underwater action was unknown, it was classified into Category 4."
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                16.0,
+                16.0,
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals",
+                "corrosive_to_metals",
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Test methods applicable to solid substances are not available.",
+                "Test methods applicable to solid substances are not available.",
+                "Test methods applicable to solid substances are not available "
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "explosives",
+                "explosives",
+                "explosives"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "There are no chemical groups associated with explosive properties present in the molecules.",
+                "There are no chemical groups associated with explosive properties present in the molecules.",
+                "Containing no chemical groups with explosive properties  "
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols",
+                "flammable_aerosols",
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Not aerosol products.",
+                "Not aerosol products.",
+                "Not aerosol products"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases",
+                "flammable_gases",
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid (GHS definition)",
+                "Solid (GHS definition)",
+                "Classified as \"solid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids",
+                "flammable_liquids",
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid (GHS definition)",
+                "Solid (GHS definition)",
+                "Classified as \"solid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids",
+                "flammable_solids",
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Not combustible (ICSC (2004))",
+                "Not combustible (ICSC (2004))",
+                "Non-flammable (ICSC, 2004)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure",
+                "gases_under_pressure",
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid (GHS definition)",
+                "Solid (GHS definition)",
+                "Classified as \"solid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Category 1",
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                "May cause an allergic skin reaction",
+                "May cause an allergic skin reaction",
+                "May cause an allergic skin reaction"
+            ],
+            "rationale": [
+                "Since nickel and its compounds are classified into R43 in EU classification, Category 1 for skin sensitizer in Japan Society For Occupational Health (JSOH), (Recommendations for allowable concentrations (2008)) and skin sensitizer in DFG (MAK/BAT No. 43 (2007)), the substance was classified into Category 1.",
+                "It is rated as R43 in the EU classification. In addition, Nickel and its compounds are rated as skin sensitizers (Group 1) in the Recommendations of Occupational Exposure Limits (Japan Society for Occupational Health, 2008). Similarly, they are rated as skin sensitizers by the DFG (MAK/BAT No. 43 (2007)). Thus, the substance was classified into Category 1.",
+                "Due to the fact that the substance is classified as a Skin Sensitizing Substance by DFG and \"Skin Sensitizing Substance: Group 1\" (as nickel compounds) according to the Recommendation on Occupational Exposure Limits for Chemical Substances (Japan Society for Occupational Health (2005))."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                15.0,
+                15.0,
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides",
+                "organic_peroxides",
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Inorganic compound",
+                "Inorganic compound",
+                "Not organic compounds  "
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases",
+                "oxidizing_gases",
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid (GHS definition)",
+                "Solid (GHS definition)",
+                "Classified as \"solid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                13.0,
+                13.0,
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids",
+                "oxidizing_liquids",
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid (GHS definition)",
+                "Solid (GHS definition)",
+                "Classified as \"solid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                14.0,
+                14.0,
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids",
+                "oxidizing_solids",
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classification is not possible since no data are available though the substance is inorganic compound containing oxygen (but not fluorine or chlorine).",
+                "An inorganic compound containing oxygen (but not fluorine or chlorine). Due to lack of further information, classification is not possible.",
+                "Classification not possible due to lack of data, though inorganic compounds containing oxygen"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids",
+                "pyrophoric_liquids",
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid (GHS definition)",
+                "Solid (GHS definition)",
+                "Classified as \"solid\" according to GHS definition"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                10.0,
+                10.0,
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids",
+                "pyrophoric_solids",
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "The substance is \"Not combustible\" (ICSC (2004)) and it does not spontaneously ignite on contact with room temperature air.",
+                "It is not combustible (ICSC (2004)) and does not ignite spontaneously in contact with air at room temperature.",
+                "Non-combustible (ICSC, 2004)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Category 1",
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                "May cause allergy or asthma symptoms or breathing difficulties if inhaled",
+                "May cause allergy or asthma symptoms or breathing difficulties if inhaled",
+                "May cause allergy or asthma symptoms or breathing difficulties if inhaled"
+            ],
+            "rationale": [
+                "Since nickel and its compounds are classified into Category 2 for respiratory tract sensitizer in Japan Society For Occupational Health (JSOH) (Recommendations for allowable concentrations (2008)) and respiratory tract sensitizer in DFG (MAK/BAT No.43 (2007)), the substance was classified into Category 1.",
+                "Nickel and its compounds are rated as respiratory tract sensitizers (Group 2) in the Recommendations of Occupational Exposure Limits (Japan Society for Occupational Health, 2008). Similarly, they are rated as respiratory tract sensitizers by the DFG (MAK/BAT No. 43 (2007)). Thus, the substance was classified into Category 1.",
+                "Due to the fact that the substance is classified as a Respiratory Sensitizing Substance by DFG and \"Respiratory Sensitizing Substance: Group 2\" (as nickel compounds) according to the Recommendation on Occupational Exposure Limits for Chemical Substances (Japan Society for Occupational Health (2005)). "
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances",
+                "self_heating_substances",
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Not combustible (ICSC (2004))",
+                "Not combustible (ICSC (2004))",
+                "Non-combustible (ICSC, 2004)"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not applicable",
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances",
+                "self_reactive_substances",
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.",
+                "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.",
+                "Containing no chemical groups with explosive or self-reactive properties  "
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available.",
+                "No data available"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not classified",
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                12.0,
+                12.0,
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "The substance is insoluble in water through it is a metal compound (Merck (14th, 2006)). ",
+                "It is a metal which is insoluble in water (Merck (14th, 2006)).",
+                "Stable to water (insoluble, ICSC (2004))"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "No data available.",
+                "No data available. \nSee also health hazards associated with other nickel compounds (Nickel(II) chloride and nickel sulfate, etc.).",
+                "No data available\nThe acute toxicity of nickel compounds manifests in humans as \"nausea, diarrhea, dizziness, headache\" (ECETOC TR33 (1989)).  \n"
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "In developmental toxicity tests in rats by inhalation exposure during the organogenesis period, no adverse effect except for decreased fetal weight was observed at dose levels in which reduced body weight gain was observed in parental animals (ATSDR (2005)). Classification was not possible due to lack of data for sexual function and fertility.",
+                "In the test in which rats were exposed to the substance through inhalation during the organogenetic period, no effect of exposure on the offspring was detected except for a decrease in body weight at doses that caused reduction of body weight in parental animals. However, this study did not address the effects on sexual functions and fertility of parental animals. Thus, due to insufficient data available, classification is not possible.\nSee also health hazards associated with other nickel compounds (Nickel(II) chloride and nickel sulfate, etc.).",
+                "Insufficient data available   "
+            ],
+            "signal_word": [
+                " - ",
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - ",
+                " - "
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Category 1A",
+                "Category 1A",
+                "Category 1A"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction",
+                "toxic_to_reproduction",
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                "May cause cancer",
+                "May cause cancer",
+                "May cause cancer"
+            ],
+            "rationale": [
+                "Based on the classifications of \"Group 1\" in IARC (IARC 49 (1990)), \"A1\" in ACGIH (ACGIH (2001)), \"Carcinogenicity. Category 1\" in EU classification (EU-Annex I (2009)) and \"1\" in Japan Society For Occupational Health (JSOH) (Recommendations for allowable concentrations (2008)), the substance was classified into Category 1A.",
+                "It is rated as \"Group 1\" by the IARC (IARC 49 (1990)), \"A1\" by ACGIH (ACGIH (2001)), \"Carc. Cat. 1\" by the EU (EU-Annex 1 (2009)), and \"1\" by Japan Society for Occupational Health (Recommendations of Occupational Exposure Limits (2008)). Based on these ratings, the substance was classified into Category 1A.",
+                "Due to the fact that the substance is classified as Category K by NTP (2005), Category A1 by ACGIH (2001) and Group 1 by IARC (1990)."
+            ],
+            "signal_word": [
+                "Danger",
+                "Danger",
+                "Danger"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        }
     }
-  }
 }

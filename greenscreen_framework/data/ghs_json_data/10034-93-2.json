@@ -1,0 +1,988 @@
+{
+    "ID": [
+        "10034-93-2",
+        "10034-93-2"
+    ],
+    "cas_no": [
+        "10034-93-2",
+        "10034-93-2"
+    ],
+    "country": [
+        "Japan",
+        "Japan"
+    ],
+    "date_classified": [
+        "FY2008",
+        "FY2007"
+    ],
+    "date_imported": [
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015"
+    ],
+    "descriptive_name": [
+        "Hydrazine sulfate",
+        "Hydrazine sulfate"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Classification not possible",
+                "Category 1"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                "Very toxic to aquatic life"
+            ],
+            "rationale": [
+                "No data available",
+                "Using hydrazine (CAS 302-01-2), the 72-hour EC50 for algae (Selenastrum) is 0.006 mg/L (ECOTOX, 2007). Based on this information, the substance was classified into Category 1 for acute toxicity."
+            ],
+            "signal_word": [
+                " - ",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                "Environment"
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Although there is a description that LD50 value of the dermal administration test employing a rabbit is 91 mg/kg (BUA 205 (1996)) for [ID 56] Hydrazine (CAS 302-01-2), since it is not data of the substance itself, classification is not possible. ",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classification not possible due to lack of data",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since it was a solid by the definition of GHS and inhalation in gas was not assumed, it was classified into \"Not applicable\". ",
+                "Since the substance is a solid, it was classified into the \"Not applicable\" category."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Although it is written that LC50 value of the 4-hour inhalation exposure test employing rats about [ID56] Hydrazine (CAS 302-01-2) is 0.35-0.76 mg/L (BUA 205 (1996)), classification is not possible since it is not data of this substance itself. ",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Category 4",
+                "Category 4"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral",
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                "Harmful if swallowed",
+                "Harmful if swallowed"
+            ],
+            "rationale": [
+                "From a description of LD50 value of 670 mg/kg (BUA 205 (1996)) and 601 mg/kg (HSDB (2005)) in the oral administration test employing rats, it was classified into Category 4. ",
+                "Based on the oral LD50 of 418 mg/kg bw in mice administered with hydrazine sulfate (1:1) (CAS: 10034-93-2) (BUA 205, 1996), this substance was classified into Category 4."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Category 1 (liver, adrenal gland),\nCategory 2 (kidney, blood system, central nervous system)",
+                "Category 1 (nervous system, liver, respiratory system, kidney, adrenal gland)"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard",
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                "Cause damage to organs through prolonged or repeated exposure (liver, adrenal gland)\nMay cause damage to organs through prolonged or repeated exposure (kidney, blood system, central nervous system)",
+                "Cause damage to organs through prolonged or repeated exposure (nervous system, liver, respiratory system, kidney, adrenal gland)"
+            ],
+            "rationale": [
+                "In several cases where cancer patients were prescribed Hydrazine sulfate, it was reported that \"disorders of the central nervous system were seen in some, and when the dosing period was long severe cases of polyneuropathy syndrome were observed\" (ATSDR (1997)). However, the report concluded that \"The subjects were not healthy individuals so it is possible that the symptoms which presented may be caused by underlying conditions,\" so it was not used. On the other hand, HSDB (2005), which is the source of information for List 2, contains reports on humans that \"a man who received oral administration for 3-4 months presented hepatic encephalopathy, kidney failure and severe coagulopathy,\" and \"a man who received it for 7 weeks suffered severe cerebropathia.\" For animals, there are reports that \"brown discoloration was observed as non-tumorous lesions in the adrenal gland\" in a 25-week oral carcinogenicityity study in mice and that \"hepatic lesions, reticuloendothelial cell hyperplasia, liver cirrhosis and bile duct hyperplasia were observed\" in 15- and 25-week oral gavage administration study in hamsters (EHC 68 (1987)). Since the effects for both mice and hamsters are within the range of guidance values for Category 1, it was classified as Category 1 (liver, adrenal gland) and Category 2 (kidney, blood system, central nervous system). ",
+                "In humans who ingested hydrazine sulfate three times a day for 1 to 6 months, vomiting, dizziness, excitation, insomnia, and polyneuritis syndrome were observed (ATSDR, 1997). In tests in which hamsters underwent forced oral administration for 15 to 20 weeks, cirrhosis, reticuloendothelial cell hyperplasia, and bile-duct proliferation were observed (Hazard Assessment Report (CERI, NITE), 2004). These reports indicated that the nervous system and liver are target organs. The effects seen in test animals were associated with doses that fall under the range of Category 1 guidance values.\nRegarding the effect of hydrazine (CAS: 302-01-2) on humans, the following were observed: jaundice, pneumonia, elevated creatinine levels, urine proteins, and bloody urine, focal hepatocellular necrosis, severe nephritis, necrosis of renal tubules, glomerulonephritis (Hazard Assessment Report (CERI, NITE), No. 73, 2003), pleural effusion and lung shadowing shown in X-ray examinations, elevated bilirubin levels in the blood, and pneumonia and hepatocellular damage revealed by autopsy (EHC 68, 1987). In treated animals, the following changes were observed: proliferation of the liver and bile-duct, degeneration of the adrenal gland, inflammation of the nasal mucosa, and necrosis, scaling, hyperplasia, and squamous cell metaplasia of the nasal epithelium (Hazard Assessment Report (CERI, NITE), No. 73, 2003). Based on these reports, we think hydrazine's target organs are the liver, respiratory system, kidney, and adrenal gland. All the effects seen in test animals were associated with doses that fall under the range of Category 1 guidance values. Based on the information above, this substance was classified into Category 1 (nervous system, liver, respiratory system, kidney, and adrenal gland).\n"
+            ],
+            "signal_word": [
+                "Danger\nWarning",
+                "Danger"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Category 2",
+                "Category 2"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "carcinogenicity",
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                "Suspected of causing genetic defects",
+                "Suspected of causing genetic defects"
+            ],
+            "rationale": [
+                "Although in vivo genotoxicity test (sister chromosome fission exchange test employing a mouse) is negative (BUA 205 (1996)), in vitro mutagenicity test employing a Salmonella typhimurium is positive (EHC 68 (1987)), and there is a description of methylation (IARC 71 (1999)) of DNA in the body cell in vivo genotoxicity test employing a hamster. Although there is no data of in vivo mutagenicity test as sulfate, as hydrochloride salt (CAS number 2664-70-4), it is positive in body cell in vivo mutagenicity test (mouse spot test) (CERI/NITE Hazard Assessment Report (2004)). Although the water solubility of this substance was 1/10 of Hydrazine hydrochloride, it was considered that the affection comparable to that of Hydrazine hydrochloride reaches on a cell, and it was classified into Category 2. ",
+                "Because both mouse spot tests (Hazard Assessment Report (NITE, CERI), 2004) and mouse micronucleus tests (Mutat Res., 389, 3-122, 1997) yielded positive results, the substance was classified into Category 2.\nAccording to reports on hydrazine (CAS: 302-01-2), a heritable mutagenicity test (dominant lethal test) gave negative results, no in vivo germ cell mutagenicity test was conducted, an an in vivo mutagenicity test using somatic cell (micronucleus test using mouse erythrocytes) gave positive results, and no in vivo genotoxicity test was conducted (Hazard Assessment Report (NITE, CERI), No.73 (2004); EHC 68, 1987). Based on this information, the substance was classified into Category 2."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Classification not possible",
+                "Category 1"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                "Very toxic to aquatic life with long lasting effects"
+            ],
+            "rationale": [
+                "No data available",
+                "Its classification for acute toxicity is Category 1, its potential for bioaccumulation is presumably low (log Kow = -2.07 (PHYSPROP Database, 2005), and it is not rapidly degradable (degradability measured as BOD for hydrazine: 2% (Biodegradation and Bioconcentration of Existing Chemical Substances under the Chemical Substances Control Law)). Based on this information, the substance was classified into Category 1 for chronic toxicity."
+            ],
+            "signal_word": [
+                " - ",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                "Environment"
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                16.0,
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals",
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Test methods applicable to solid substances are not available.",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not classified",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "explosives",
+                "explosives"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Although it is hydrazine salt, it has been classified into Class 8 and PG III in the United Nations Recommendations on the Transport of Dangerous Goods and was classified into Not classified. \nIn addition, this TDG classification is based on the UN No.2923 by Merck KGaA data from March 2009. ",
+                "It contains chemical groups (hydrazine group) associated with explosive properties. Due to lack of test results, classification is not possible."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols",
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Not aerosol products",
+                "Not aerosol products."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases",
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid",
+                "Solid"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids",
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid",
+                "Solid"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Not classified",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids",
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since it was classified into Class 8 and PG III in the United Nations Recommendations on the Transport of Dangerous Goods and it is not Class 4.1(II), 4.1(III), it was classified into Not classified. \nIn addition, this TDG classification is based on the UN No.2923 by Merck KGaA data from March 2009. ",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure",
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid",
+                "Solid"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Category 1",
+                "Category 1"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                "May cause an allergic skin reaction",
+                "May cause an allergic skin reaction"
+            ],
+            "rationale": [
+                "It was classified as Category 1 since it has been described that \"allergic contact dermatitis arose to plant employee who employed hydrazine sulfate\" (EHC 68 (1987)), or that \"it may have sensitizing properties to humans and cause contact dermatitis\" (BUA 205 (1996)).",
+                "No test results are available on salts of hydrazine. However, hydrazine (CAS: 302-01-2) has been classified into Category 1 for the reasons that it is known to induce allergic contact dermatitis (EHC 68, 1987) and classified as a skin sensitizing substance by Japan society for Occupational Health (Recommendations of Occupational Exposure Limits (2007)). Thus, we determined that hydrazine sulfate falls under Category 1 as well."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                15.0,
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides",
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Inorganic compound",
+                "Organic compounds containing no bivalent -O-O- structure"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases",
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid",
+                "Solid"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                13.0,
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids",
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid",
+                "Solid"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Not classified",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                14.0,
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids",
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since it was classified into Class 8 and PG III, not Class 5.1 (I), 5.1 (II) and 5.1(III), in the United Nations Recommendations on the Transport of Dangerous Goods, it was classified into Not classified. In addition, this TDG classification was considered to be based on UN No.2923 by Merck KGaA data from March 2009. ",
+                "Since no information on salts of hydrazine is available, classification is not possible."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids",
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Solid",
+                "Solid"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Not classified",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                10.0,
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids",
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since it was classified into Class 8 (not 4.2) and PG III in the United Nations Recommendations on the Transport of Dangerous Goods, it was classified into Not classified. In addition, this TDG classification is based on the UN No.2923 by Merck KGaA data from March 2009. ",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classification is not possible since there is no data.",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Not classified",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances",
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since it was classified into Class 8 and PG III, not Class 4.2 (II) and 4.2 (III), in the United Nations Recommendations on the Transport of Dangerous Goods, it was classified into Not classified. In addition, this TDG classification is based on the UN No.2923 by Merck KGaA data from March 2009. ",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not classified",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances",
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since it was classified into Class 8 (not 4.1) and PG III in the United Nations Recommendations on the Transport of Dangerous Goods, it was classified into Not classified. In addition, this TDG classification is based on the UN No.2923 by Merck KGaA data from March 2009. ",
+                "It contains chemical groups (hydrazine group) associated with explosive properties. Due to lack of test results, classification is not possible."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Although in HSDB (2005), there is a description of \"There was no damage.\" in the eye irritation test where 0.02 mol concentrations of diluted solution (about 0.26%) was dropped employing rabbits with a corneal being removed, since it is the excessive condition that a corneal is removed and dropped to allow a chemical to penetrate easily and is the test with a diluted solution, classification is not possible. ",
+                "No data available."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Although it has been described as human data that \"no irritation on the skin was shown even if 25% hydrazines sulfate or its concentrated solution was applied for 24 hours in the skin exposure test in volunteers\" (CERI/NITE Hazard Assessment Report (2004)), this is a test data with dissolved solution for 24 hours. In addition, although it has also been described that \"there was no macroscopically observable symptom\" (CERI/NITE Hazard Assessment Report (2004)) in the tests in which the substance-dipped sponges were fixed to the external ears of rabbits for 24 hours, since all of the tests were conducted in 1950s with insufficient data, classification is not possible. ",
+                "No data available. With regard to hydrazine sulfate (2:1) (CAS: 13464-80-7), no signs of irritation were detected in rabbits or humans treated with this substance (Hazard Assessment Report (NITE, CERI), 2004; BUA 205, 1996)."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                12.0,
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At) are not included. ",
+                "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Category 1 (nervous system, liver),\nCategory 3 (respiratory tract irritation)",
+                "Category 1 (nervous system, liver),\nCategory 3 (narcotic effects)"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                "Causes damage to organs (nervous system, liver)\nMay cause respiratory irritation (respiratory tract irritation)",
+                "Causes damage to organs (nervous system, liver)\nMay cause drowsiness or dizziness (narcotic effects)"
+            ],
+            "rationale": [
+                "There is a datum dermal administration test on Hydrazine which calculated the lethal dose employing rabbits, which has a description that \"main influences of Hydrazine and Hydrazine sulfate salt are hepatotoxicity and the nephrotoxicity\" as consideration (BUA 205 (1996)). Although these influences were seen within the limits of the guidance value of Category 1, it is unknown whether it is a view in the example of survival. About human data, as an accidents cases about [ID 56] Hydrazine (CAS 302-01-2), CERI/NITE Hazard Assessment Report (2004) has an case that \"a worker who got the burn in explosion accident went into coma after 14 hours and his brain showed neurological symptoms, such as an activity fall, and the bloody urine and the impaired liver function without a kidney damage were seen three days after the accident\", and another case that \"the steep rise of the enzyme value relevant to the local irritation of nausea, vomiting, the exposure skin and a conjunctiva, and a top respiratory tract and liver toxicity were seen in workers exposed to steam for 4 to 5 hours. Since it was satisfactory to apply this data to the article, it is classified into Category 1 (a nervous system, liver) and Category 3 (Respiratory tract irritation). ",
+                "Classification of hydrazine salts is not possible due to insufficient test results available. With regard to the effects of hydrazine (CAS: 302-01-2), the following symptoms are reported in humans: confusion, lethargy, restlessness, unconsciousness, flushing, sporadic violent behavior and later developed ataxia, lateral nystagmus, decreased sense of vibration, paraesthesia in the arms and legs, elevated levels of AST, LDH, and total bilirubin (EHC 68 (1987)), and greatly elevated enzymatic values related to hepatic toxicity (Hazard Assessment Report (CERI, NITE) No. 73, 2003). These symptoms indicated that the nervous system and the liver are target organs. In addition, since lethargy was seen (EHC 68 (1987)), the substance presumably has narcotic effects and is classified into Category 3. Thus, this substance was classified into Category 1 for the nervous system and liver, and Category 3 for narcotic effects."
+            ],
+            "signal_word": [
+                "Danger\nWarning",
+                "Danger\nWarning"
+            ],
+            "symbol": [
+                "Health Hazard\nExclamation mark",
+                "Health Hazard\nExclamation mark"
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Classification not possible",
+                "Category 2"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                " - ",
+                "Suspected of damaging fertility or the unborn child"
+            ],
+            "rationale": [
+                "Classification not possible due to lack of data",
+                "In a hypodermal administration test in which pregnant rats were treated with hydrazine sulfate from day 11 to day 20 of gestation, the exposed dams showed a 20% decrease in body weight and 2 dams died. Reduced number of viable fetuses were found while no effects on numbers of implantation were noted by a Caesarean section performed on 9 dams on day 21 of gestation. The fetuses had reduced body weights and appeared pale and oedematous (neither body parts nor number of fetuses with these signs were given, presumably systemic in nature), but did not exhibit any major malformations. Based on this report, the substance was classified into Category 2. As additional background information, in a developmental toxicity test in which mice were treated with hydrazine (CAS: 302-01-2), excencephaly was seen in fetuses at doses that induced general toxicity. Thus, hydrazine is classified into Category 2."
+            ],
+            "signal_word": [
+                " - ",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                "Health Hazard"
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Category 2",
+                "Category 2"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction",
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                "Suspected of causing cancer",
+                "Suspected of causing cancer"
+            ],
+            "rationale": [
+                "IARC evaluates Hydrazines as group 2B (IARC 71 (1999), EHC 68 (1987)) and NTP evaluates Hydrazine and Hydrazine sulfate as R (NTP RoC (11th, 2005)). Priority was given to the classification of IARC and it was classified into Category 2. In addition, as for tests in which this article was administered to animals, there is a report that hepatocellular carcinoma was developed in the 2-year drinking water medication test which employed hamsters (IARC 71 (1999)), and there are descriptions that lung adenomas was developoed in the repeated oral dose study employing rats and mice and that liver cancer was developed in the 36-week forcible oral administration examination employing mice (EHC 68 (1987)). ",
+                "A salt of hydrazine is rated as \"Carc. Cat. 2/R45\" by the EU (2007). In addition, hydrazine/hydrazine sulfate are rated as \"B2\" by the U.S. EPA (1991) and \"R\" by the U.S. NTP (2005). Based on these ratings, the substance was classified into Category 2."
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        }
+    }
+}

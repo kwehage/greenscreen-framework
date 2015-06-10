@@ -1,0 +1,296 @@
+<ghs_data xmlns:ghs="http://amrl.engr.ucdavis.edu/ghs_japan" xmlns:py="http://codespeak.net/lxml/objectify/pytype">
+  <cas_no>57-06-7</cas_no>
+  <descriptive_name>Allyl isothiocyanate</descriptive_name>
+  <date_classified>FY2009</date_classified>
+  <ID>57-06-7</ID>
+  <date_imported>Wed Jun 10 13:26:33 2015</date_imported>
+  <country>Japan</country>
+  <explosives hazard_type="physical">
+    <hazard_name>Explosives</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>There are no chemical groups associated with explosive properties present in the molecules.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </explosives>
+  <flammable_gases hazard_type="physical">
+    <hazard_name>Flammable gases &#65288;including chemically unstable gases&#65289;</hazard_name>
+    <hazard_id>2.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </flammable_gases>
+  <flammable_aerosols hazard_type="physical">
+    <hazard_name>Aerosols</hazard_name>
+    <hazard_id>3.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Not aerosol products.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </flammable_aerosols>
+  <oxidizing_gases hazard_type="physical">
+    <hazard_name>Oxidizing gases</hazard_name>
+    <hazard_id>4.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </oxidizing_gases>
+  <gases_under_pressure hazard_type="physical">
+    <hazard_name>Gases under pressure</hazard_name>
+    <hazard_id>5.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </gases_under_pressure>
+  <flammable_liquids hazard_type="physical">
+    <hazard_name>Flammable liquids</hazard_name>
+    <hazard_id>6.0</hazard_id>
+    <classification>Category 3</classification>
+    <hazard_statement>Flammable liquid and vapour</hazard_statement>
+    <rationale>Classified into Category 3 since flash point 46 degC (closed-cup) (ICSC (1997)) is &gt;=23 degC and &lt;=60 degC.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Flame</symbol>
+  </flammable_liquids>
+  <flammable_solids hazard_type="physical">
+    <hazard_name>Flammable solids</hazard_name>
+    <hazard_id>7.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </flammable_solids>
+  <self_reactive_substances hazard_type="physical">
+    <hazard_name>Self-reactive substances and mixtures</hazard_name>
+    <hazard_id>8.0</hazard_id>
+    <classification>Type G</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Classified into Type G since the substance, which contains stabilizer and is classified into Division 6.1, Subsidiary risk 3, PG III in UNRTDG (UN1545), is being distributed though there are chemical groups (C-C unsaturated bond) present in the molecule associated with self-reactive properties.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </self_reactive_substances>
+  <pyrophoric_liquids hazard_type="physical">
+    <hazard_name>Pyrophoric liquids</hazard_name>
+    <hazard_id>9.0</hazard_id>
+    <classification>Not classified</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>The substance does not fall into upper Division 4.2, PG I since it is classified into Division 6.1, Subsidiary risk 3, PG II in UNRTDG (UN1545).</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </pyrophoric_liquids>
+  <pyrophoric_solids hazard_type="physical">
+    <hazard_name>Pyrophoric solids</hazard_name>
+    <hazard_id>10.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </pyrophoric_solids>
+  <self_heating_substances hazard_type="physical">
+    <hazard_name>Self-heating substances and mixtures</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Test methods applicable to liquid substances are not available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </self_heating_substances>
+  <substances_mixtures_emit_flammable_gas_in_contact_with_water hazard_type="physical">
+    <hazard_name>Substances and mixtures which, in contact with water, emit flammable gases</hazard_name>
+    <hazard_id>12.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At). ERG in UN1545 falls under No.155, however the water-reactivity is not applicable to GHS classification.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </substances_mixtures_emit_flammable_gas_in_contact_with_water>
+  <oxidizing_liquids hazard_type="physical">
+    <hazard_name>Oxidizing liquids</hazard_name>
+    <hazard_id>13.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Organic compounds containing no oxygen, fluorine or chlorine</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </oxidizing_liquids>
+  <oxidizing_solids hazard_type="physical">
+    <hazard_name>Oxidizing solids</hazard_name>
+    <hazard_id>14.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </oxidizing_solids>
+  <organic_peroxides hazard_type="physical">
+    <hazard_name>Organic peroxides</hazard_name>
+    <hazard_id>15.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Organic compounds containing no bivalent -O-O- structure</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </organic_peroxides>
+  <corrosive_to_metals hazard_type="physical">
+    <hazard_name>Corrosive to metals</hazard_name>
+    <hazard_id>16.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </corrosive_to_metals>
+  <acute_toxicity_oral hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Oral&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Category 4</classification>
+    <hazard_statement>Harmful if swallowed</hazard_statement>
+    <rationale>Based on LD50 values of 339 mg/kg and 490 mg/kg for rats (NTP TR No. 234 (1982)), the substance was classified into Category 4.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Exclamation mark</symbol>
+  </acute_toxicity_oral>
+  <acute_toxicity_dermal hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Dermal&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Category 2</classification>
+    <hazard_statement>Fatal in contact with skin</hazard_statement>
+    <rationale>Based on a LD50 value of 88 mg/kg for rabbits (RTECS (2008), the original literature: TXAPA9 Toxicology and Applied Pharmacology. 42, 417, 1977), the substance was classified into Category 2.</rationale>
+    <signal_word>Danger</signal_word>
+    <symbol>Skull and crossbones</symbol>
+  </acute_toxicity_dermal>
+  <acute_toxicity_inhalation_gas hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Inhalation: Gases&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_toxicity_inhalation_gas>
+  <acute_toxicity_inhalation_vapor hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Inhalation: Vapours&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_toxicity_inhalation_vapor>
+  <acute_toxicity_inhalation_dust hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Inhalation: Dusts and mists&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_toxicity_inhalation_dust>
+  <skin_corrosion_irritation hazard_type="health">
+    <hazard_name>Skin corrosion/irritation</hazard_name>
+    <hazard_id>2.0</hazard_id>
+    <classification>Category 2</classification>
+    <hazard_statement>Causes skin irritation</hazard_statement>
+    <rationale>Based on reports as human effects "irritates the mucous membranes and induced eczematous or vesicular skin reactions" and "the compound strongly irritates skin and mucous membranes" (IARC 73 (1999)), the substance was classified into Category 2.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Exclamation mark</symbol>
+  </skin_corrosion_irritation>
+  <serious_eye_damage_irritation hazard_type="health">
+    <hazard_name>Serious eye damage/eye irritation</hazard_name>
+    <hazard_id>3.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Classification not possible due to lack of data. However, there is a description that the substance has a very pungent, irritating odor and the vapor can cause keratitis which interferes with vision (HSDB (2003)). </rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </serious_eye_damage_irritation>
+  <respiratory_skin_sensitizer hazard_type="health">
+    <hazard_name>Respiratory sensitization</hazard_name>
+    <hazard_id>4.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </respiratory_skin_sensitizer>
+  <germ_cell_mutagenicity hazard_type="health">
+    <hazard_name>Skin sensitization</hazard_name>
+    <hazard_id>4.0</hazard_id>
+    <classification>Category 1</classification>
+    <hazard_statement>May cause an allergic skin reaction</hazard_statement>
+    <rationale>Since the substance is on the Frosch contact allergen list (FROSCH, TEXTBOOK OF CONTACT DERMATITIS), the substance was classified into Category 1. As relevant information, a positive result in an open epicutaneous test using guinea pigs is reported in a document in List 2 (IUCLID (2000)).</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Exclamation mark</symbol>
+  </germ_cell_mutagenicity>
+  <carcinogenicity hazard_type="health">
+    <hazard_name>Germ cell mutagenicity</hazard_name>
+    <hazard_id>5.0</hazard_id>
+    <classification>Not classified</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Based on negative results in dominant lethal tests by intraperitoneal injection to mice and oral administration to rats (in vivo heritable germ cell mutagenicity tests) (IARC 73 (1999)) and negative results in oral rat bone marrow chromosomal aberration test and intraperitoneal mouse bone marrow and peripheral blood micronucleus tests (in vivo somatic cell mutagenicity tests) (NTP DB (access on Sep. 2009)), the substance was classified as "Not classified". As relevant information, from in vitro mutagenicity tests, there are reports of a negative Ames test, a positive mouse lymphoma gene mutation test and a positive CHO cell chromosomal aberration test (NTP DB (access on Dep. 2009)).</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </carcinogenicity>
+  <toxic_to_reproduction hazard_type="health">
+    <hazard_name>Carcinogenicity</hazard_name>
+    <hazard_id>6.0</hazard_id>
+    <classification>Not classified</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Based on the classification of "Group 3" in IARC (IARC 73 (1999)), the substance was classified as "Not classified". A 103-week oral test was conducted with rats and mice. Transitional-cell papillomas in the urinary bladder occurred in dosed male rats but not in control male rats, and fibrosarcomas in the subcutaneous tissue occurred in female rats, but no increased incidences of tumors were observed in mice. It was concluded that under the condition of this test, the substance was carcinogenic for male rats, equivocal for female rats and not carcinogenic for mice (NTP TR234 (1982)).</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </toxic_to_reproduction>
+  <systemic_toxicity_single_exposure hazard_type="health">
+    <hazard_name>Reproductive toxicity</hazard_name>
+    <hazard_id>7.0</hazard_id>
+    <classification>Category 2</classification>
+    <hazard_statement>Suspected of damaging fertility or the unborn child</hazard_statement>
+    <rationale>In a developmental toxicity test by oral administration to rats during organogenesis period, there was no effect on fetuses at a dose at which general toxicity is manifested in maternal animals (IARC 73 (1999)). However, in developmental toxicity tests by oral administration to mice, hamsters, and rabbits during organogenesis period, no evidence of treatment-related maternal toxicity and teratogenicity were observed in any species, but there was some increase in the incidence of dead fetuses and resorbed embryos in mice at the highest dose (IARC 73 (1999)). Although the substance corresponds to Category 1B based on toxicity at a dose at which general toxicity is not manifested in maternal animals, the substance was classified into Category 2 since the toxicity was observed in mice only.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Health Hazard</symbol>
+  </systemic_toxicity_single_exposure>
+  <systemic_toxicity_repeat_exposure hazard_type="health">
+    <hazard_name>Specific target organ toxicity - Single exposure</hazard_name>
+    <hazard_id>8.0</hazard_id>
+    <classification>Category 2 (systemic toxicity)</classification>
+    <hazard_statement>May cause damage to organs (systemic toxicity)</hazard_statement>
+    <rationale>In rats receiving orally 200 - 400 mg/kg, inactivity, watery eyes and ruffled fur were observed. After oral administration to mice, death occurred at dose levels of 400 mg/kg and higher. Toxic signs such as inactivity and ruffled fur were observed at dose levels of 100 mg/kg and higher, and dose related thicken and necrosis in mucosal surface of the stomach were noted (NTP TR (1982)). In another rat oral test (HSDB (2003)), rats were exhausted and died within 4-hour to 15 days after administration. The LD50 value was determined to be 339 mg/kg. As in the other tests, death and signs such as inactivity, ruffled fur and exhaustion, and gross lesions such as thicken and necrosis in mucosal surface of the stomach were observed at dose levels of 300 - 400 mg/kg or higher, within the guidance value range for Category 2. The substance was classified into Category 2 (systemic toxicity) since the affected organ cannot be identified.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Health Hazard</symbol>
+  </systemic_toxicity_repeat_exposure>
+  <aspiration_hazard hazard_type="health">
+    <hazard_name>Specific target organ toxicity - Repeated exposure</hazard_name>
+    <hazard_id>9.0</hazard_id>
+    <classification>Category 2 (systemic toxicity)</classification>
+    <hazard_statement>May cause damage to organs through prolonged or repeated exposure (systemic toxicity)</hazard_statement>
+    <rationale>In a rat 14-day oral test, all rats died at dose levels of 200 and 400 mg/kg (90-day equivalence: 31.1 and 62.2 mg/kg/day). Gross pathological lesions such as thickened mucosal surface of the stomach and adhesion of the stomach to the peritoneum and toxic signs such as inactivity and ruffled fur were observed at dose levels of 50 - 400 mg/kg (7.8 - 62.2 mg/kg/day) (NTP TR 234 (1982)). In a mouse 14-day oral test, one mouse died, and gross pathological lesions such as thickened mucosal surface of the stomach and thickened urinary bladder wall were observed at a dose level of 50 mg/kg/day (7.8 mg/kg/day) (NTP TR 234 (1982)). On the other hand, in rat and mouse 13-week oral tests, no exposure-related effects were observed in either species, and the NOEL was reported to be the highest dose tested (25 mg/kg/day) (NTP TR 234 (1982)). In summary, for rats, deaths were observed at dose levels of 200 mg/kg/day (90-day equivalence: 31.1 mg/kg/day) and higher. Changes in the stomach and toxic signs were observed at dose levels of 50 mg/kg/day (90-day equivalence: 7.8 mg/kg/day) and higher. For mice, one death and changes in the stomach and urinary bladder were observed at 50 mg/kg/day (90-day equivalence: 7.8 mg/kg/day). The substance was classified into Category 2 (systemic toxicity) since the affected organ cannot be identified.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Health Hazard</symbol>
+  </aspiration_hazard>
+  <acute_aquatic_toxicity hazard_type="environmental">
+    <hazard_name>Hazardous to the aquatic environment &#65288;Acute&#65289;</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Category 1</classification>
+    <hazard_statement>Very toxic to aquatic life</hazard_statement>
+    <rationale>Classified into Category 1 from its 96h-LC50 = 0.077 mg/L for fish (Oryzias latipes) (AQUIRE, 2010).</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Environment</symbol>
+  </acute_aquatic_toxicity>
+  <chronic_aquatic_toxicity hazard_type="environmental">
+    <hazard_name>Hazardous to the aquatic environment &#65288;Long-term&#65289;</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Category 1</classification>
+    <hazard_statement>Very toxic to aquatic life with long lasting effects</hazard_statement>
+    <rationale>Classified into Category 1 since its acute toxicity is Category 1 and it is not rapidly degradable (BIOWIN).</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Environment</symbol>
+  </chronic_aquatic_toxicity>
+</ghs_data>

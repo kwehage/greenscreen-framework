@@ -1,0 +1,315 @@
+<ghs_data xmlns:ghs="http://amrl.engr.ucdavis.edu/ghs_japan" xmlns:py="http://codespeak.net/lxml/objectify/pytype">
+  <cas_no>13987-01-4</cas_no>
+  <descriptive_name>Propylene trimer</descriptive_name>
+  <date_classified>FY2009</date_classified>
+  <ID>13987-01-4</ID>
+  <date_imported>Wed Jun 10 13:26:33 2015</date_imported>
+  <country>Japan</country>
+  <explosives hazard_type="physical">
+    <hazard_name>Explosives</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>There are no chemical groups associated with explosive properties present in the molecules.
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </explosives>
+  <flammable_gases hazard_type="physical">
+    <hazard_name>Flammable gases &#65288;including chemically unstable gases&#65289;</hazard_name>
+    <hazard_id>2.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </flammable_gases>
+  <flammable_aerosols hazard_type="physical">
+    <hazard_name>Aerosols</hazard_name>
+    <hazard_id>3.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Not aerosol products
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </flammable_aerosols>
+  <oxidizing_gases hazard_type="physical">
+    <hazard_name>Oxidizing gases</hazard_name>
+    <hazard_id>4.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </oxidizing_gases>
+  <gases_under_pressure hazard_type="physical">
+    <hazard_name>Gases under pressure</hazard_name>
+    <hazard_id>5.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </gases_under_pressure>
+  <flammable_liquids hazard_type="physical">
+    <hazard_name>Flammable liquids</hazard_name>
+    <hazard_id>6.0</hazard_id>
+    <classification>Category 2</classification>
+    <hazard_statement>Highly flammable liquid and vapour</hazard_statement>
+    <rationale>Classified into Category 2 since flash point 24 degC (open-cup) is &lt;23 degC (closed-cup) and initial boiling point 133 - 142 degC is &gt;35 degC (NFPA (13th, 2006)), further the substance is classified into Class 3, PG II, III in UNRTDG (UN2057). However, classified into Category 3 from PG III in UNRTDG (UN2057), therefore, tests should be conducted by products to establish the classification.
+</rationale>
+    <signal_word>Danger</signal_word>
+    <symbol>Flame</symbol>
+  </flammable_liquids>
+  <flammable_solids hazard_type="physical">
+    <hazard_name>Flammable solids</hazard_name>
+    <hazard_id>7.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </flammable_solids>
+  <self_reactive_substances hazard_type="physical">
+    <hazard_name>Self-reactive substances and mixtures</hazard_name>
+    <hazard_id>8.0</hazard_id>
+    <classification>Type G</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Classified into Type G since the substance does not fall into upper Division 4.1 (Self-reactive substances and mixtures) from which it is classified into Class 3 in UNRTDG (UN2057) though there are chemical groups (unsaturated bond) present in the molecule associated with self-reactive properties.
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </self_reactive_substances>
+  <pyrophoric_liquids hazard_type="physical">
+    <hazard_name>Pyrophoric liquids</hazard_name>
+    <hazard_id>9.0</hazard_id>
+    <classification>Not classified</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Classified into Not classified since auto-ignition point is 260 degC (Hommel (1996)) exceeding 70 degC.
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </pyrophoric_liquids>
+  <pyrophoric_solids hazard_type="physical">
+    <hazard_name>Pyrophoric solids</hazard_name>
+    <hazard_id>10.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </pyrophoric_solids>
+  <self_heating_substances hazard_type="physical">
+    <hazard_name>Self-heating substances and mixtures</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Test methods applicable to liquid substances are not available.
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </self_heating_substances>
+  <substances_mixtures_emit_flammable_gas_in_contact_with_water hazard_type="physical">
+    <hazard_name>Substances and mixtures which, in contact with water, emit flammable gases</hazard_name>
+    <hazard_id>12.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </substances_mixtures_emit_flammable_gas_in_contact_with_water>
+  <oxidizing_liquids hazard_type="physical">
+    <hazard_name>Oxidizing liquids</hazard_name>
+    <hazard_id>13.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Containing no oxygen, fluorine or chlorine in the molecule
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </oxidizing_liquids>
+  <oxidizing_solids hazard_type="physical">
+    <hazard_name>Oxidizing solids</hazard_name>
+    <hazard_id>14.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </oxidizing_solids>
+  <organic_peroxides hazard_type="physical">
+    <hazard_name>Organic peroxides</hazard_name>
+    <hazard_id>15.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Organic compounds containing no bivalent -O-O- structure
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </organic_peroxides>
+  <corrosive_to_metals hazard_type="physical">
+    <hazard_name>Corrosive to metals</hazard_name>
+    <hazard_id>16.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </corrosive_to_metals>
+  <acute_toxicity_oral hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Oral&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.
+The LD50 values of the analogs for rats are as follows; CAS No. 68526-55-6 (Alkenes, C8-10, C9-rich): &gt;2332 mg/kg (SIDS (2004)), CAS No. 97593-01-6 (Alkenes, C8-10, C9-rich): &gt;2350 mg/kg (IUCLID (2000)), and CAS No. 27215-95-8 (Nonene): 2100 mg/kg (IUCLID (2000)). All analogs correspond to "Not classified" in JIS Classification (correspond to Category 5 in GHS classification). 
+
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_toxicity_oral>
+  <acute_toxicity_dermal hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Dermal&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available. The LD50 values of the analogs for rabbits are as follows; CAS No. 68526-55-6 (Alkenes, C8-10, C9-rich): &gt; 2332 mg/kg (SIDS (2004)), CAS No. 97593-01-6 (Alkenes, C8-10, C9-rich): &gt;2350 mg/kg (IUCLID (2000)), and CAS No. 27215-95-8 (Nonene): 5000 mg/kg (IUCLID (2000)). All analogs correspond to "Not classified" in JIS Classification (correspond to Category 5 in GHS classification).</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_toxicity_dermal>
+  <acute_toxicity_inhalation_gas hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Inhalation: Gases&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Liquid (GHS definition)
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_toxicity_inhalation_gas>
+  <acute_toxicity_inhalation_vapor hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Inhalation: Vapours&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available. LC50 values of the analogs for rats are as follows; CAS No. 68526-55-6 (Alkenes, C8-10, C9-rich): &gt;13.6 mg/L (vapour) (4-hour equivalence) (SIDS (2004)) and CAS No. 97593-01-6 (Alkenes, C8-10, C9-rich): 22.7 mg/L (IUCLID (2000)). The analogs correspond to Category 4 or "Not classified".</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_toxicity_inhalation_vapor>
+  <acute_toxicity_inhalation_dust hazard_type="health">
+    <hazard_name>Acute toxicity &#65288;Inhalation: Dusts and mists&#65289;</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.
+</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_toxicity_inhalation_dust>
+  <skin_corrosion_irritation hazard_type="health">
+    <hazard_name>Skin corrosion/irritation</hazard_name>
+    <hazard_id>2.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available. As relevant information, there are reports that in a rabbit 24-hour exposure occlusive dressing irritation test, the analogs, CAS No. 68526-55-6 (Alkenes, C8-10, C9-rich) and CAS No. 97593-01-6 (Alkenes, C8-10, C9-rich) induced slight erythema along with desquamation (SIDS (2004), IUCLID (2000)). These analogs correspond to "Not classified" in JIS Classification (correspond to Category 3 in GHS classification).</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </skin_corrosion_irritation>
+  <serious_eye_damage_irritation hazard_type="health">
+    <hazard_name>Serious eye damage/eye irritation</hazard_name>
+    <hazard_id>3.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available. As relevant information, there are reports that in a rabbit eye irritation test (Draize method), the analog, CAS No. 68526-55-6 (Alkenes, C8-10, C9-rich) induced "mild conjunctival irritation cleared by 24-hour" (SIDS (2004)) and another analog, CAS No. 97593-01-6 (Alkenes, C8-10, C9-rich) was estimated to be "slightly irritating " (IUCLID (2000)). These analogs correspond to "Not classified".</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </serious_eye_damage_irritation>
+  <respiratory_skin_sensitizer hazard_type="health">
+    <hazard_name>Respiratory sensitization</hazard_name>
+    <hazard_id>4.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </respiratory_skin_sensitizer>
+  <germ_cell_mutagenicity hazard_type="health">
+    <hazard_name>Skin sensitization</hazard_name>
+    <hazard_id>4.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available. For the analogs, CAS No. 68526-55-6 (Alkenes, C8-10, C9-rich) and CAS No. 97593-01-6 (Alkenes, C8-10, C9-rich), negative results in a guinea pig skin sensitization test (Maximization test, OECD TG406) were reported (IUCLID (2000)).</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </germ_cell_mutagenicity>
+  <carcinogenicity hazard_type="health">
+    <hazard_name>Germ cell mutagenicity</hazard_name>
+    <hazard_id>5.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available. As relevant information, the analogs, CAS No. 68526-55-6 (Alkenes, C8-10, C9-rich) and CAS No. 97593-01-6 (Alkenes, C8-10, C9-rich) correspond to "Not classified" based on negative results in mouse bone marrow micronucleus tests (in vivo somatic cell mutagenicity tests, GLP) (SIDS (2004), IUCLID (2000)). In addition, the results of bacteria reverse mutation tests (in vitro mutagenicity tests, GLP) of these analogs were also negative (SIDS (2004), IUCLID (2000)).</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </carcinogenicity>
+  <toxic_to_reproduction hazard_type="health">
+    <hazard_name>Carcinogenicity</hazard_name>
+    <hazard_id>6.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </toxic_to_reproduction>
+  <systemic_toxicity_single_exposure hazard_type="health">
+    <hazard_name>Reproductive toxicity</hazard_name>
+    <hazard_id>7.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </systemic_toxicity_single_exposure>
+  <systemic_toxicity_repeat_exposure hazard_type="health">
+    <hazard_name>Specific target organ toxicity - Single exposure</hazard_name>
+    <hazard_id>8.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available. As relevant information, for the analogs, CAS No. 68526-55-6 (Alkenes, C8-10, C9-rich), nasal discharge and congested adrenal glands were observed at higher dose levels (73.5 mg/kg and higher) in a rat oral test (SIDS (2004)); atonia was observed at a dose level of 73.8 mg/kg in a rabbit dermal test (SIDS (2004)); and in a inhalation test with mice, rats and guinea pigs, at a dose level of 11.1 mg/L, mice exhibited labored breathing patterns, rats exhibited limb ataxia and general lethargic behavior and guinea pigs showed slight tremors (SIDS (2004)). Since the respiratory system, central nervous system and adrenal gland are regarded as target organs, the substance was classified into Category 1 (nasal cavity, adrenal gland) and Category 2 (respiratory system, central nervous system).</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </systemic_toxicity_repeat_exposure>
+  <aspiration_hazard hazard_type="health">
+    <hazard_name>Specific target organ toxicity - Repeated exposure</hazard_name>
+    <hazard_id>9.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </aspiration_hazard>
+  <acute_aquatic_toxicity hazard_type="environmental">
+    <hazard_name>Hazardous to the aquatic environment &#65288;Acute&#65289;</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Classification not possible due to lack of data.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </acute_aquatic_toxicity>
+  <chronic_aquatic_toxicity hazard_type="environmental">
+    <hazard_name>Hazardous to the aquatic environment &#65288;Long-term&#65289;</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement> - </hazard_statement>
+    <rationale>Classification not possible due to lack of data.</rationale>
+    <signal_word> - </signal_word>
+    <symbol> - </symbol>
+  </chronic_aquatic_toxicity>
+</ghs_data>

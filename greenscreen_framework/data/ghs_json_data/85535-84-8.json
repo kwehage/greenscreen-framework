@@ -1,0 +1,988 @@
+{
+    "ID": [
+        "85535-84-8",
+        "85535-84-8"
+    ],
+    "cas_no": [
+        "85535-84-8",
+        "85535-84-8"
+    ],
+    "country": [
+        "Japan",
+        "Japan"
+    ],
+    "date_classified": [
+        "FY2008",
+        "FY2007"
+    ],
+    "date_imported": [
+        "Wed Jun 10 13:28:14 2015",
+        "Wed Jun 10 13:28:14 2015"
+    ],
+    "descriptive_name": [
+        "Chloroalkane(C10-13)",
+        "Alkanes, C10-13, chloro(shortchain chlorinated paraffins)"
+    ],
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": [
+                "Category 1",
+                ""
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "acute_aquatic_toxicity",
+                "acute_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "Very toxic to aquatic life",
+                " - "
+            ],
+            "rationale": [
+                "It was classified into Category 1 from 24 hours EC50=0.3mg/L of the crustacea (Daphnia magna) (EU-RAR (2000)).",
+                " - "
+            ],
+            "signal_word": [
+                "Warning",
+                " - "
+            ],
+            "symbol": [
+                "Environment",
+                " - "
+            ]
+        },
+        "acute_toxicity_dermal": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_dermal",
+                "acute_toxicity_dermal"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "It was classified into \"Not classified\" from LD50 value 13,500 mg/kg (number of carbon: C12 / rate of chlorination: 59%) (EU-RAR (1999)) of the dermal administration test employing a rabbit. ",
+                "It was classified into \"Not classified\" from LD50 value >13,500 mg/kg (number of carbon: C12 / rate of chlorination: 59%) (EU-RAR (1999)) of the dermal administration test employing a rabbit. "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_dust",
+                "acute_toxicity_inhalation_dust"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "It is written that there is no mortality with 3.3 mg/L of 1-hour exposure amount in carbon number C12/ chloridization rate 59%, and there is no mortality with 48 mg/L of 1-hour exposure amount in carbon number C10-C13/ chloridization rate 50% in the inhalation exposure test (EU-RAR (1999)). Since saturated vapor pressure at 25degC is 0.000037-0.00014 mg/L (carbon number C10-C13/ chloridization rate 50%), the mist standard is applied. Since it was presumed that 4-hour equivalent LC50 values are >0.83 mg/L and >12 mg/L ,respectively, it was classified into \"Not classified\". ",
+                "Since there was no mortality with dose 3.3 mg/L/1hr (4hr equivalent: 0.83 mg/L) (carbon number C12/ chloridization rate 59%), and there was no mortality with dose 48 mg/L/1hr (carbon number C10-C13/ chloridization rate 50%)in the inhalation administration test employing rats (EU-RAR (1999)), it was classified into \"Not classified\". Since saturation vapor pressure concentration was computed to be 0.000037-0.00014 mg/L from saturation vapor pressure 0.00014-0.00052 Pa (25degC) (rate of carbon number C12/chlorination, 59%) (Risk Assessment Documents vol. 5 (2005)), it was classified according to the coarse particulate and mist standard. "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": [
+                "Not applicable",
+                "Not applicable"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_gas",
+                "acute_toxicity_inhalation_gas"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since it was a solid by the definition of GHS and inhalation in gas was not assumed, it was classified into \"Not applicable\". ",
+                "Since it was a liquid by the definition of GHS, it was classified into \"Not applicable\". "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_inhalation_vapor",
+                "acute_toxicity_inhalation_vapor"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classification not possible due to lack of data",
+                "Classification not possible due to lack of data"
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "acute_toxicity_oral": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "acute_toxicity_oral",
+                "acute_toxicity_oral"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "In the oral administration test employing a rat, from the fact that there was no mortality at dose of 10,000 mg/kg (carbon number C10-13/chlorination rate (41- 50%, 51-60% or 61-70%)) and at dose of 13,600 mg/kg (carbon number C12/chlorination rate 60%) (EU-RAR (1999)), it was classified into \"Not classified\". In addition, EU-RAR (1999) indicates that the symptom and its extent are irrelevant to the chlorination rate. ",
+                "In the oral administration test employing a rat, from the fact that there was no mortality at dose of 10,000 mg/kg (carbon number C10-13/chlorination rate (41- 50%, 51-60% or 61-70%)) and at dose of 13,600 mg/kg (carbon number C12/chlorination rate 60%) (EU-RAR (1999)), it was classified into \"Not classified\". In addition, EU-RAR (1999) indicates that the symptom and its extent are irrelevant to the chlorination rate. "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "aspiration_hazard": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "aspiration_hazard",
+                "aspiration_hazard"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "According to EU-RAR (1999), in a 90-day oral administration study in rats, weight increases in the liver and kidney and mild nephritis (carbon number C10-12/chlorination ratio 58%) in males were observed at 100 mg/kg. However, it was reported in EU-RAR (1999) that \"the increase in liver weight reflects peroxisome proliferation, to which humans are not highly susceptible, so this is not relevant for human health,\" \"it is uncertain if the effects on the kidney are toxicologically significant,\" and \"the dosage at which other effects manifest themselves in rats is greater than 100 mg/kg.\" Using the reports in EU-RAR (1999), which are based on expert opinion, it was classified into \"Not classified\".",
+                "According to EU-RAR (1999), in a 90-day oral administration study in rats, weight increases in the liver and kidney and mild nephritis (carbon number C10-12/chlorination ratio 58%) in males were observed at 100 mg/kg. However, it was reported in EU-RAR that \"the increase in liver weight reflects peroxisome proliferation, to which humans are not highly susceptible, so this is not relevant for human health,\" \"it is uncertain if the effects on the kidney are toxicologically significant,\" and \"the dosage at which other effects manifest themselves in rats is greater than 100 mg/kg.\" Description of EU-RAR was adopted based on the expert judgment in the Review Meeting (GHS Classification Investigating Committee on substance designated by the Chemical Substance Control Enhancement Law), and it was defined as \"Not classified\". "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "carcinogenicity": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "carcinogenicity",
+                "carcinogenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Since there was no change in lost number or position of live embryos, dead embryos, early absorbed embryos, and preimplantation embryos in a productive cell in vivo heritable mutagenicity test (dominant lethal tests employing a rat) (58% of carbon number C10-12/chlorination rate), and there was no increase in frequency of a chromosome aberration by the body cell in vivo mutagenicity test (chromosome aberration test employing rats bone marrow cell) (58% of carbon number C10-12/chlorination rate) (EU-RAR (1999), it was classified into \"Not classified\". It was negative in the reverse mutation test employing the bacterial (number of carbon: C12/chlorination rate: 57%, 60%, number of carbon: C10-13/chlorination rate: 50%) and in the gene mutation test employing Chinese hamster culture cells (number of carbon: C10-13/chlorination rate: 56%) (EU-RAR (1999)) in the in vitro. ",
+                "Since it was negative in the rat dominant lethal test (carbon number: C10-12/chlorination rate: 58%) in vivo and the bone marrow rats bone marrow cell chromosome aberration test (carbon number: C10-12/chlorination rate: 58%) (EU-RAR (1999)), it was classified into \"Not classified\". In addition, it was negative (carbon number: C12/chlorination rate: 57%, 60%, carbon number: C10-13, chlorination rate: 50%) in the reverse mutation test employing bacterial cells in vitro and it was negative (carbon number: C10-13/chlorination rate: 56%) in the gene mutation test using Chinese hamster culture cells (EU-RAR (1999)). "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": [
+                "Category 1",
+                ""
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "chronic_aquatic_toxicity",
+                "chronic_aquatic_toxicity"
+            ],
+            "hazard_statement": [
+                "Very toxic to aquatic life with long lasting effects",
+                " - "
+            ],
+            "rationale": [
+                "Since acute toxicity was Category 1 and there were no rapid degradability (EU-RAR (2000)), it was classified into Category 1.",
+                " - "
+            ],
+            "signal_word": [
+                "Warning",
+                " - "
+            ],
+            "symbol": [
+                "Environment",
+                " - "
+            ]
+        },
+        "corrosive_to_metals": {
+            "classification": [
+                "Classification not possible",
+                ""
+            ],
+            "hazard_id": [
+                16.0,
+                16.0
+            ],
+            "hazard_name": [
+                "corrosive_to_metals",
+                "corrosive_to_metals"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classification not possible due to lack of data",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "explosives": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                1.0,
+                1.0
+            ],
+            "hazard_name": [
+                "explosives",
+                "explosives"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "There are no chemical groups associated with explosive properties present in the molecules.",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_aerosols": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "flammable_aerosols",
+                "flammable_aerosols"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Not aerosol products",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_gases": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "flammable_gases",
+                "flammable_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_liquids": {
+            "classification": [
+                "Not classified",
+                ""
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "flammable_liquids",
+                "flammable_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "The flash point by IUCLID(2000), which has 49% or more of Cl content, is more than 166degC(closed type) it was classified into Not classified. ",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "flammable_solids": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "flammable_solids",
+                "flammable_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "gases_under_pressure": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                5.0,
+                5.0
+            ],
+            "hazard_name": [
+                "gases_under_pressure",
+                "gases_under_pressure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "germ_cell_mutagenicity": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "germ_cell_mutagenicity",
+                "germ_cell_mutagenicity"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "A conclusion in humans cannot be drawn from information of no allergic reaction in the human skin application (carbon number C12/ chlorination rate 59%) and of no positive reaction in cut refrigerant production workers (unknown carbon number and chlorination rate) (EU-RAR (1999)). On the other hand, it was classified into \"Not classified\" since it has been concluded in EU-RAR (1999) that there is no potential to produce sensitization from data of no skin reaction (carbon number C10-13/ chlorination rate 50%, including stabilizer) and no sensitization (carbon number C10-13/ chlorination rate 56%, incuding stabilizer) in guinea pig. In addition, it has been concluded that \"although it has been widely used in industrially important substances despite no information on humans or animals, since there is no report indicating respiratory sensitization, it has no respiratory sensitization\" in EU-RAR (1999)",
+                "A conclusion in humans cannot be drawn from information of no allergic reaction in the human skin application (carbon number C12/ chlorination rate 59%) and of no positive reaction in cut refrigerant production workers (unknown carbon number and chlorination rate) (EU-RAR (1999)). On the other hand, from the data such as no skin reactions (rate of carbon number C10-13/chlorination, 50%, including stabilizer) and no sensitization (rate of carbon number C10-13/chlorination, 56%, including stabilizer) in guinea pig, EU-RAR (1999) summarized that \"there is no possibility of sensitization\" and it was defined as \"Not classified\"."
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "organic_peroxides": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                15.0,
+                15.0
+            ],
+            "hazard_name": [
+                "organic_peroxides",
+                "organic_peroxides"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "The organic compound not including peroxy group in molecule. ",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_gases": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "oxidizing_gases",
+                "oxidizing_gases"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_liquids": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                13.0,
+                13.0
+            ],
+            "hazard_name": [
+                "oxidizing_liquids",
+                "oxidizing_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Although it is an organic compound including chlorine, not fluorine and oxygen, this chlorine has not chemically bound to any elements other than carbon and hydrogen. ",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "oxidizing_solids": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                14.0,
+                14.0
+            ],
+            "hazard_name": [
+                "oxidizing_solids",
+                "oxidizing_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_liquids": {
+            "classification": [
+                "Classification not possible",
+                ""
+            ],
+            "hazard_id": [
+                9.0,
+                9.0
+            ],
+            "hazard_name": [
+                "pyrophoric_liquids",
+                "pyrophoric_liquids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classification not possible due to lack of data",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "pyrophoric_solids": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                10.0,
+                10.0
+            ],
+            "hazard_name": [
+                "pyrophoric_solids",
+                "pyrophoric_solids"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Liquid",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "respiratory_skin_sensitizer": {
+            "classification": [
+                "Classification not possible",
+                "Classification not possible"
+            ],
+            "hazard_id": [
+                4.0,
+                4.0
+            ],
+            "hazard_name": [
+                "respiratory_skin_sensitizer",
+                "respiratory_skin_sensitizer"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Classification is not possible since there is no data. It has been concluded that \"although it has been widely used in industrially important substances despite no information on humans or animals, since there is no report indicating respiratory sensitization, it has no respiratory sensitization\" in EU-RAR (1999).",
+                "Classification is not possible since there is no data. "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_heating_substances": {
+            "classification": [
+                "Classification not possible",
+                ""
+            ],
+            "hazard_id": [
+                11.0,
+                11.0
+            ],
+            "hazard_name": [
+                "self_heating_substances",
+                "self_heating_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "The test method suitable for liquid substances is not established. ",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "self_reactive_substances": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "self_reactive_substances",
+                "self_reactive_substances"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "serious_eye_damage_irritation": {
+            "classification": [
+                "Category 2B",
+                "Category 2B"
+            ],
+            "hazard_id": [
+                3.0,
+                3.0
+            ],
+            "hazard_name": [
+                "serious_eye_damage_irritation",
+                "serious_eye_damage_irritation"
+            ],
+            "hazard_statement": [
+                "Causes eye irritation",
+                "Causes eye irritation"
+            ],
+            "rationale": [
+                "Since EU-RAR (1999) has summarized that it is a mild irritation from the data of slight redness (59% of carbon number C12-/chlorination rate) and redness and conjunctiva dropsy being produced and continuing for 24 hours (carbon number: C10-13/chlorination rate: 63%, including an additive or stabilizer), and mild hyperaemia/ redness of conjunctiva (carbon number: C10-13/chlorination rate: 40%, 52%, including an additive or stabilizer) in rabbits, etc., it was classified into Category 2B. ",
+                "Since EU-RAR (1999) has summarized that it is a mild irritation from the data of slight redness (59% of carbon number C12-/chlorination rate) and redness and conjunctiva dropsy being produced and continuing for 24 hours (carbon number: C10-13/chlorination rate: 63%, including an additive or stabilizer), and mild hyperaemia/ redness of conjunctiva (carbon number: C10-13/chlorination rate: 40%, 52%, including an additive or stabilizer) in rabbits, etc., it was classified into Category 2B. "
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "skin_corrosion_irritation": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                2.0,
+                2.0
+            ],
+            "hazard_name": [
+                "skin_corrosion_irritation",
+                "skin_corrosion_irritation"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "There is an information that erythema and slight edema could be seen in rabbits but such symptoms disappeared (carbon number C10-13/chloridization rate 70%) within 7 days (EU-RAR (1999)). In this datum the score value for erythema of 2 out of 3 animals is 1 (maximum: 4) and the score value for edema of 2 out of 3 animals is 1 (maximum:4 until 24 hours after application). There is an information about humans beside them that although slight erythema and dry skin were observed, the effect (carbon number C10-12/ chloridization rate 5-% 63%) was corresponding to that of the control group or there was no symptom (carbon number C12/chloridization rate 59%), and there is an information about rabbits that there is no irritation (carbon number C10-13/chloridization rate 59%) (EU-RAR (1999)). It was classified into \"Not classified\" based on the above-mentioned. ",
+                "There is an information that erythema and slight edema could be seen in rabbits but such symptoms disappeared (carbon number C10-13/chloridization rate 70%) within 7 days (EU-RAR (1999)). Since the score value in this datum for erythema of 2 out of 3 animals was 1 (maximum 4) and the score value for edema of 2 out of 3 animals was 1 (maximum 4 untill 24 hours after application), they do not correspond to GHS Category 3. There is an information about humans beside them that although slight erythema and dry skin were observed, the effect (carbon number C10-12/ chloridization rate 5-% 63%) was corresponding to that of the control group or there was no symptom (carbon number C12/chloridization rate 59%), and there is an information about rabbits that there is no irritation (carbon number C10-13/chloridization rate 59%) (EU-RAR (1999)). It was classified into \"Not classified\" based on the above-mentioned. "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": [
+                "Not applicable",
+                ""
+            ],
+            "hazard_id": [
+                12.0,
+                12.0
+            ],
+            "hazard_name": [
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water",
+                "substances_mixtures_emit_flammable_gas_in_contact_with_water"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "Metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At) are not included. ",
+                " - "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": [
+                "Category 3 \uff08Narcotic effects\uff09",
+                "Category 3 \uff08Narcotic effects\uff09"
+            ],
+            "hazard_id": [
+                8.0,
+                8.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_repeat_exposure",
+                "systemic_toxicity_repeat_exposure"
+            ],
+            "hazard_statement": [
+                "May cause drowsiness or dizziness (narcotic effects)",
+                "May cause drowsiness or dizziness (narcotic effects)"
+            ],
+            "rationale": [
+                "From a description that inactivity and locomotor ataxia are seen in the oral administration test employing rats (EU-RAR (1999)) (number of carbon: C12/chlorination rate: 60%), it was classified into Category 3 (Narcotic effects). ",
+                "Since hypoactivity and locomotor ataxia were seen in theoral administration test employing rats (carbon number: C12-/chlorination rate: 60%) (EU-RAR (1999)), it was classified into Category 3 (Narcotic effects). "
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Exclamation mark",
+                "Exclamation mark"
+            ]
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": [
+                "Not classified",
+                "Not classified"
+            ],
+            "hazard_id": [
+                7.0,
+                7.0
+            ],
+            "hazard_name": [
+                "systemic_toxicity_single_exposure",
+                "systemic_toxicity_single_exposure"
+            ],
+            "hazard_statement": [
+                " - ",
+                " - "
+            ],
+            "rationale": [
+                "According to EU-RAR (1999), while weight reduction of ovaria can be observed with the dose amount of 3,000mg/kg/day in the 14 day repeated oral administration study with rats (carbon number C10-12/chloridization rate 58%), no effect has been observed on male and female fertile capacities with the dose amount of 5,000mg/kg/day in the 13 week oral administration study (carbon number C12/chloridization rate 60%). Moreover, in the developmental toxicity study (carbon number C10-13/chloridization rate 58%) via oral administration using 25 pregnant rats in one group published in EU-RAR (1999) increase in the number of lost embryos after implantation and reduction in the number of live fetuses per mother animal have been observed with 2,000mg/kg/day where death (8 out of 25 animals), weakening, salivation and reduced activities of pregnant rats can be observed. There is a description as follows in AIST's Risk Assessment Documents 5 (2005), \" The recognized reproductive toxicity is considered to be the secondary effect of the maternal toxicity and no effect on the development has been observed with the dose amount of 500mg/kg/day. Therefore, it was classified into \"Not classified\". ",
+                "According to EU-RAR (1999), while weight reduction of ovaria can be observed with the dose amount of 3,000mg/kg/day in the 14 day repeated oral administration study with rats (carbon number C10-12/chloridization rate 58%), no effect has been observed on male and female genital organs with the dose amount of 5,000mg/kg/day in the 13 week oral administration study (carbon number C12/chloridization rate 60%). Moreover, in the developmental toxicity study (carbon number C10-13/chloridization rate 58%) via oral administration using 25 pregnant rats in one group published in EU-RAR (1999) increase in the number of lost embryos after implantation and reduction in the number of live fetuses per mother animal have been observed at the level of 2,000mg/kg/day where death (8 out of 25 animals), weakening, salivation and reduced activities of pregnant rats can be observed. The recognized reproductive toxicity is considered to be the secondary effect of maternal toxicity and no effect on the development has been observed with the dose amount of 500mg/kg/day. Therefore, it was classified into \"Not classified\". "
+            ],
+            "signal_word": [
+                " - ",
+                " - "
+            ],
+            "symbol": [
+                " - ",
+                " - "
+            ]
+        },
+        "toxic_to_reproduction": {
+            "classification": [
+                "Category 2",
+                "Category 2"
+            ],
+            "hazard_id": [
+                6.0,
+                6.0
+            ],
+            "hazard_name": [
+                "toxic_to_reproduction",
+                "toxic_to_reproduction"
+            ],
+            "hazard_statement": [
+                "Suspected of causing cancer",
+                "Suspected of causing cancer"
+            ],
+            "rationale": [
+                "Since it is classified in group 2B (IARC 48 (1990)) by IARC and in Cat. 3; R40 (EU-Annex I) by the European Union classification, it is taken as Category 2. In addition, although it does not match up with the CAS number (85535-84-8) of this article, \"Chlorinated Paraffins (C12, 60% Chlorine)\" (CAS 108171-26-2) is classifiied into R by NTP (NTP RoC 11th, 2005), and Chlorinated Paraffins is classified into 2B (Japan Society for Occupational Health society advice (2007)) in Japan Society for Occupational Health, which are all equivalent to Category 2 of GHS. ",
+                "Since it is classified into group 2B according to IARC 48 (1990) and is classified into Carc.Cat.3; R40 according to EU-Annex I, it is classified into Category 2. In addition, \"Chlorinated Paraffins (C12, 60% Chlorine)\" (CAS number 108171-26-2) is classified as R (NTP RoC 11th (2005)) in NTP, though it does not correspond to the CAS number (85535-84-8) of this substance. And also \"Chlorinated Paraffins\" is classified as 2B by Japan Academic Society for Industrial Hygiene (the Society's Advice (2007)). Both classifications are equivalent to GHS Category 2. "
+            ],
+            "signal_word": [
+                "Warning",
+                "Warning"
+            ],
+            "symbol": [
+                "Health Hazard",
+                "Health Hazard"
+            ]
+        }
+    }
+}

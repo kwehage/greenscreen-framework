@@ -1,0 +1,332 @@
+<ghs_data xmlns:ghs="http://amrl.engr.ucdavis.edu/ghs_japan" xmlns:py="http://codespeak.net/lxml/objectify/pytype">
+  <cas_no>25167-80-0</cas_no>
+  <descriptive_name>chlorophenol</descriptive_name>
+  <date_classified>Jul. 24, 2006 (Environmental Hazards: Mar. 31, 2006)</date_classified>
+  <ID>ID712</ID>
+  <date_imported>Wed Jun 10 10:25:58 2015</date_imported>
+  <country>Japan</country>
+  <explosives hazard_type="physical">
+    <hazard_name>Explosives</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Not applicable (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>There are no chemical groups associated with explosive properties present in the molecule (o-, m-, p-).</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </explosives>
+  <flammable_gases hazard_type="physical">
+    <hazard_name>Flammable gases</hazard_name>
+    <hazard_id>2.0</hazard_id>
+    <classification>Not applicable (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Not Gas (GHS definition) (o-, m-, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </flammable_gases>
+  <flammable_aerosols hazard_type="physical">
+    <hazard_name>Flammable aerosols</hazard_name>
+    <hazard_id>3.0</hazard_id>
+    <classification>Not applicable (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Not aerosol products (o, m, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </flammable_aerosols>
+  <oxidizing_gases hazard_type="physical">
+    <hazard_name>Oxidizing gases</hazard_name>
+    <hazard_id>4.0</hazard_id>
+    <classification>Not applicable (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Not Gas (GHS definition) (o, m, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </oxidizing_gases>
+  <gases_under_pressure hazard_type="physical">
+    <hazard_name>Gases under pressure</hazard_name>
+    <hazard_id>5.0</hazard_id>
+    <classification>Not applicable (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Not Gas (GHS definition) (o, m, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </gases_under_pressure>
+  <flammable_liquids hazard_type="physical">
+    <hazard_name>Flammable liquids</hazard_name>
+    <hazard_id>6.0</hazard_id>
+    <classification>Category 4 (o-)  
+Not applicable (m, p-)</classification>
+    <hazard_statement>Combustible liquid</hazard_statement>
+    <rationale>Category 4 because of its flash point: 64degC (closed cup) (o-). Solid (GHS definition) (m, p-)</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>-</symbol>
+  </flammable_liquids>
+  <flammable_solids hazard_type="physical">
+    <hazard_name>Flammable solids</hazard_name>
+    <hazard_id>7.0</hazard_id>
+    <classification>Not applicable (o-) 
+Classification not possible (m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Liquid (GHS definition) (o-)  No data available (m, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </flammable_solids>
+  <self_reactive_substances hazard_type="physical">
+    <hazard_name>Self-reactive substances and mixtures</hazard_name>
+    <hazard_id>8.0</hazard_id>
+    <classification>Not applicable (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Containing no chemical groups with explosive or self-reactive properties present (o-, m-, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </self_reactive_substances>
+  <pyrophoric_liquids hazard_type="physical">
+    <hazard_name>Pyrophoric liquids</hazard_name>
+    <hazard_id>9.0</hazard_id>
+    <classification>Classification not possible (o) 
+Not applicable (m, p)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>No data. (o-body)
+It is a solid by the definition of GHS. (m-body, p-body)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </pyrophoric_liquids>
+  <pyrophoric_solids hazard_type="physical">
+    <hazard_name>Pyrophoric solids</hazard_name>
+    <hazard_id>10.0</hazard_id>
+    <classification>Not applicable (o) 
+Not classified (m, p)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>It is a liquid according to the definition of GHS. (o-body)
+It was judged that it did not ignite spontaneously from the fact that the measurement of flash point was performed at the temperature of 112 degC or more (ICSC (1999)). (m-body, p-body)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </pyrophoric_solids>
+  <self_heating_substances hazard_type="physical">
+    <hazard_name>Self-heating substances and mixtures</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Classification not possible (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>The test suitable for a liquid state substance is not established. (o-body)
+The test suitable for a solids material is not established. (Solid with a melting point of 140 degC or less)   (m-body, p-body)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </self_heating_substances>
+  <substances_mixtures_emit_flammable_gas_in_contact_with_water hazard_type="physical">
+    <hazard_name>Substances and mixtures, which in contact with water, emit flammable gases</hazard_name>
+    <hazard_id>12.0</hazard_id>
+    <classification>Not applicable (o, m, p)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)(o, m, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </substances_mixtures_emit_flammable_gas_in_contact_with_water>
+  <oxidizing_liquids hazard_type="physical">
+    <hazard_name>Oxidizing liquids</hazard_name>
+    <hazard_id>13.0</hazard_id>
+    <classification>Not applicable (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Organic compounds containing oxygen and chlorine (but not fluorine) and the oxygen is chemically bonded only to carbon and hydrogen (but not to other elements) (ortho). Solid (GHS definition) (meta, para).</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </oxidizing_liquids>
+  <oxidizing_solids hazard_type="physical">
+    <hazard_name>Oxidizing solids</hazard_name>
+    <hazard_id>14.0</hazard_id>
+    <classification>Not applicable (o, m, p-)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Organic compounds containing oxygen and chlorine (but not fluorine) and the oxygen and chlorine are chemically bonded only to carbon and hydrogen (but not to other elements) (meta, para). Liquid (GHS definition) (ortho).</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </oxidizing_solids>
+  <organic_peroxides hazard_type="physical">
+    <hazard_name>Organic peroxides</hazard_name>
+    <hazard_id>15.0</hazard_id>
+    <classification>Not applicable(o, m, p)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>Organic compounds containing no -0-0- structure (o-, m-, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </organic_peroxides>
+  <corrosive_to_metals hazard_type="physical">
+    <hazard_name>Corrosive to metals</hazard_name>
+    <hazard_id>16.0</hazard_id>
+    <classification>Classification not possible(o, m, p)</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>No data available (o, m, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </corrosive_to_metals>
+  <acute_toxicity_oral hazard_type="health">
+    <hazard_name>Acute toxicity (oral)</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>o-:Category 4, m-:Category 4, p-:Category 3</classification>
+    <hazard_statement>Toxic if swallowed</hazard_statement>
+    <rationale>O-object: lower LD50= 670mg/kg was adopted between two data (the Health, Labor and Welfare Ministry reports (2005), EHC 93 (1989)) of rat LD50 values, and it was set as Category 4.
+M-object: It was set as Category 4 based on rat LD50= 570mg/kg (EHC 93 (1989)).
+P-object: It was set as Category 3 based on rat LD50= 261mg/kg (EHC 93 (1989)).</rationale>
+    <signal_word>Danger</signal_word>
+    <symbol>Skull and crossbones</symbol>
+  </acute_toxicity_oral>
+  <acute_toxicity_dermal hazard_type="health">
+    <hazard_name>Acute toxicity (dermal)</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>o-:Category 4, m-:Classification not possible, p-:Classification not possible</classification>
+    <hazard_statement>Harmful in contact with skin</hazard_statement>
+    <rationale>O-body: It was set as Category 4 based on rabbit LD50 = 1000 - 1580mg/kg (ATSDR (1999)).
+M-body: no data.
+P-body: no data.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Exclamation mark&#13;
+</symbol>
+  </acute_toxicity_dermal>
+  <acute_toxicity_inhalation_gas hazard_type="health">
+    <hazard_name>Acute toxicity (inhalation: gas)</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>Not applicable</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>o-body is liquid, m-body and p-body are solids, respectively according to the definition of GHS.</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </acute_toxicity_inhalation_gas>
+  <acute_toxicity_inhalation_vapor hazard_type="health">
+    <hazard_name>Acute toxicity (inhalation: vapour)</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>o-:Category 2, m-:Classification not possible, p-:Classification not possible
+</classification>
+    <hazard_statement>Fatal if inhaled</hazard_statement>
+    <rationale>o-body: saturated vapor pressure concentration is 2277ppm (11.98mg/L). And it was classified as Category 2 based on rat LC50 = 389.5ppm (converted from 2.05mg/L) (ATSDR (1999)) obtained from the test considered to have been performed with vapor.
+m-body: No data.
+p-body: No data.</rationale>
+    <signal_word>Danger</signal_word>
+    <symbol>Skull and crossbones</symbol>
+  </acute_toxicity_inhalation_vapor>
+  <acute_toxicity_inhalation_dust hazard_type="health">
+    <hazard_name>Acute toxicity (inhalation: dust, mist)</hazard_name>
+    <hazard_id>1.0</hazard_id>
+    <classification>o-:Classification not possible, m-:Classification not possible, p-:Category 4</classification>
+    <hazard_statement>Harmful if inhaled</hazard_statement>
+    <rationale>Based on mouse LC50=49 mg/L (DFGOT vol.1 (1991)) of the inhalation test carried out in mist, it carried out the outside of Category.
+O-body: datum without.
+M-body: datum without.
+P-body: saturated vapor pressure pressures concentrations is 128.7ppm (0.677mg/L), and it was set to category 4 based on rat LC50 = 1.01mg/L (IUCLID (2000)) obtained by the test considered that the dust performed.</rationale>
+    <signal_word>Warning&#13;
+</signal_word>
+    <symbol>Exclamation mark&#13;
+</symbol>
+  </acute_toxicity_inhalation_dust>
+  <skin_corrosion_irritation hazard_type="health">
+    <hazard_name>Skin corrosion / irritation</hazard_name>
+    <hazard_id>2.0</hazard_id>
+    <classification>o-:Category 1A-1C, m-:Category 2, p-:Category 1A-1C</classification>
+    <hazard_statement>Causes severe skin burns and eye damage</hazard_statement>
+    <rationale>o-body: It was classified as Category 1A-1C based on the statements that serious stimulativeness and corrosion were observed on rabbits (ATSDR (1999)) and that there were redness and pain on humans (ICSC (J) (1999)).
+m-body: It was classified as Category 2 based on the statement that there are redness and pain on humans (ICSC (J) (1999)).
+p-body: It was classified as Category 1A-1C based on the statements that there were serious stimulativeness and corrosiveness for animals (ATSDR (1999), RTECS (2004), and IUCLID (2000)) and that there are redness and pain on humans (ICSC (J) (1999)). In addition, monochlorophenol is reported to have corrosivity on animals (ATSDR (1999)).</rationale>
+    <signal_word>Danger</signal_word>
+    <symbol>Corrosion</symbol>
+  </skin_corrosion_irritation>
+  <serious_eye_damage_irritation hazard_type="health">
+    <hazard_name>Serious eye damage / eye irritation
+</hazard_name>
+    <hazard_id>3.0</hazard_id>
+    <classification>o-:Category 1; m-:Category 2A-2B; p-:Category 1</classification>
+    <hazard_statement>Causes serious eye damage</hazard_statement>
+    <rationale>O-body : it is a skin corrosive substance, and there is a statement that significant discomfort and corrosion were seen with the rabbit (ATSDR (1999)), and that redness, a pain, and a haze eyes were seen with humans (ICSC (J), (1999)). So it was set as Category 1.
+M-body: It was set as Category 2A-2B based on the statement that redness, a pain, and a haze eyes were seen with humans (ICSC (J) (1999)) .
+P-body: it is a skin corrosive substance, and there is a statement that caustic was seen with the rabbit (RTECS and (2004), IUCLID (2000)), and that redness, a pain, and a haze eyes were seen with human (ICSC (J) (1999)). So it was set as Category 1.</rationale>
+    <signal_word>Danger</signal_word>
+    <symbol>Corrosion</symbol>
+  </serious_eye_damage_irritation>
+  <respiratory_skin_sensitizer hazard_type="health">
+    <hazard_name>Respiratory/skin sensitizer</hazard_name>
+    <hazard_id>4.0</hazard_id>
+    <classification>Respiratory sensitization, o-: Classification not possible, m-: Classification not possible, p-: Classification not possible; Skin sensitization, o-: Classification not possible, m-: Classification not possible, p-: Classification not possible</classification>
+    <hazard_statement>(Respiratory sensitization)-&#13;; (Skin sensitization)-</hazard_statement>
+    <rationale>Respiratory sensitization:  o-object: no data, m-object: no data, p-object: no data
+Skin sensitization: o-object: no data, m-object: no data, p-object: no data</rationale>
+    <signal_word>(Respiratory sensitization)-; &#13;(Skin sensitization)-</signal_word>
+    <symbol>(Respiratory sensitization)-; (Skin sensitization)-&#13;</symbol>
+  </respiratory_skin_sensitizer>
+  <germ_cell_mutagenicity hazard_type="health">
+    <hazard_name>Germ cell mutagenicity</hazard_name>
+    <hazard_id>5.0</hazard_id>
+    <classification>o-:Not classified, m-:Classification not possible, p-:Classification not possible</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>O-body : There was no positive finding in any of human over generation epidemiology, over generation mutagenicity test, in vivo mutagenicity test of the productive cells and the somatic cells, and based on the statement (ATSDR (1999)) that it gave negative in the in vivo sister chromatid exchange tests using the mouse spermary cells and marrow cells, and on the statement (IUCLID (2000)) that it gave negative for the in vivo mouse micronucleus assay. So we classified it as Out Of Category according to the technical guideline.
+m-body: No data.
+p-body: Based on the fact that there being no in vivo test results and there being no strong positive in vitro examination results in multiple indices So we presupposed that we could not categorize it according to the technical guideline.                          </rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </germ_cell_mutagenicity>
+  <carcinogenicity hazard_type="health">
+    <hazard_name>Carcinogenicity</hazard_name>
+    <hazard_id>6.0</hazard_id>
+    <classification>o-:Category 2, m-:Classification not possible, p-:Classification not possible</classification>
+    <hazard_statement>Suspected of causing cancer (state route of exposure if it is conclusively proven that no other routes of exposure cause the hazard)</hazard_statement>
+    <rationale>O-body: It was set as Category 2 based on what is classified into 2B in Japan Society for Occupational Health (JETOC specially data No.190 (2004)).
+M-body: datum without.
+P-body: datum without.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Health hazard</symbol>
+  </carcinogenicity>
+  <toxic_to_reproduction hazard_type="health">
+    <hazard_name>Toxic to reproduction</hazard_name>
+    <hazard_id>7.0</hazard_id>
+    <classification>o-: Category 2, m-: Classification not possible, p-: Category 2</classification>
+    <hazard_statement>Suspected of damaging fertility or the undorn child </hazard_statement>
+    <rationale>O-object: Since with the rat and the mouse, although there was no descriptions of general toxicity on parental animals, there was the description of decrease of litters count and increase conception rate and stillborn pups count (IRIS (2005) and EHC 93 (1989)), it was classified into Category 2.
+M-object: no data.
+P-object : Since with rats and mice, although there is no descriptions of general toxicity on parental animals, there was description of effects on spermatogenesis (genetic factor, spermatozoa morphology, sperm motility and sperm count), increase postimplantation lethality, embryotoxicity, fetotoxicity and fetal death (RTECS (2004)), it is classified into the Category 2.</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Health hazard</symbol>
+  </toxic_to_reproduction>
+  <systemic_toxicity_single_exposure hazard_type="health">
+    <hazard_name>Specific target organs/systemic toxicity following single exposure</hazard_name>
+    <hazard_id>8.0</hazard_id>
+    <classification>o-: Category 1 (central nervous system) and Category 3 (respiratory tract irritation); m-: Classification not possible, p-: Category 1 (central nervous system) and Category 3 (respiratory tract irritation)</classification>
+    <hazard_statement>o-: Cause damage to organs (central nervous system) and May cause respiratory irritation or may cause drowsiness and dizziness (respiratory tract irritation); m-: Classification not possible, p-: Cause damage to organs (central nervous system) and May cause respiratory irritation or may cause drowsiness and dizziness (respiratory tract irritation)</hazard_statement>
+    <rationale>O-body: In the dose of guidance value within the Category 1, in rats and mouse, there are backward curvature, a woolen handstand, excitement, a respiratory promotion action, the signs of an eye stimulus, the excess of saliva, thrill and convulsion (ATSDR (1999), RTECS (2004), IUCLID (2000)), and in humans, there are lethargica, a sense of weakness and convulsion (ICSC (J) (1999)). It is classified into Category 1 (central nervous systems) based on these. And there are stimulation of the nasal mucosa is indicated by the rat (IUCLID (2000)), and a cough, breathlessness, and pharyngalgia are indicated in humans (ICSC (J) (1999)). It is classified into Category 3 (respiratory irritation) based on those.
+M-body: datum without.
+P-body: By the dose of guidance value within the Category 1, in a rat, there are the description that there are a droopy eyelid, blood vessel extension, polypnea, dyspnoea, the low response to a sound stimulus, clonic convulsion, and decubitus position      (IUCLID (2000)), and in human, there are dizziness, headache, closeness, feeling of sickness, vomiting, a weakness, and unconsciousness (ICSC (J) (1999), IUCLID (2000)). So it is classified into Category 1 (central nervous systems). And there is the statement (ICSC (J), (1999), IUCLID (2000)) that a cough, pharyngeal pain, and mucosa stimulativeness are seen by humans. It is classified into Category 3 (respiratory irritation).</rationale>
+    <signal_word>Danger</signal_word>
+    <symbol>Health hazard</symbol>
+  </systemic_toxicity_single_exposure>
+  <systemic_toxicity_repeat_exposure hazard_type="health">
+    <hazard_name>Specific target organs/systemic toxicity following repeated exposure</hazard_name>
+    <hazard_id>9.0</hazard_id>
+    <classification>o-:Category 2 (central nervous system, liver); m-:Classification not possible; p-:Category 2 (central nervous system)</classification>
+    <hazard_statement>o-:May cause damage to organs (central nervous system, liver) through prolonged or repeated exposure; m-:-; p-:May cause damage to organs (central nervous system) through prolonged or repeated exposure</hazard_statement>
+    <rationale>O-object : It was classified to as Category 2 (central nervous systems,liver) based on the statement that in rats and mouse, with administration of guidance value within the limits of Category 2, tremorg, reduction of operant behavior, hypersalivation, hyperkinesia, reduction of brain weight, the increase in liver weight, hepatocellular hypertrophy, and hepatocytes are observed (the Health, Labor and Welfare Ministry reports (2005), ATSDR (1999)) .
+M-object: no data.
+P-object: It was classified to as Category 2 (central nervous systems) based on the statement that sleep disorders (sleepiness or insomnia), excitability, mood disorders, and a rapid fatiguability were observed in humans (IUCLID (2000)).</rationale>
+    <signal_word>Warning</signal_word>
+    <symbol>Health hazard</symbol>
+  </systemic_toxicity_repeat_exposure>
+  <aspiration_hazard hazard_type="health">
+    <hazard_name>Aspiration hazard</hazard_name>
+    <hazard_id>10.0</hazard_id>
+    <classification>o-: Classification not possible; m-: Classification not possible; p-: Classification not possible</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>No data available (o-, m-, p-)</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </aspiration_hazard>
+  <acute_aquatic_toxicity hazard_type="environmental">
+    <hazard_name>Hazardous to the aquatic environment (acute)</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>No data available</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </acute_aquatic_toxicity>
+  <chronic_aquatic_toxicity hazard_type="environmental">
+    <hazard_name>Hazardous to the aquatic environment (chronic)</hazard_name>
+    <hazard_id>11.0</hazard_id>
+    <classification>Classification not possible</classification>
+    <hazard_statement>-</hazard_statement>
+    <rationale>No data available.</rationale>
+    <signal_word>-</signal_word>
+    <symbol>-</symbol>
+  </chronic_aquatic_toxicity>
+</ghs_data>
