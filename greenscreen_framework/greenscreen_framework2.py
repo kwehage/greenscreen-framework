@@ -123,17 +123,16 @@ def excel_col_to_num(c):
         sum_ += ord(l.upper()) - 64
     return sum_ - 1
 
-
 #
 # Use to import data from GHS_Japan data files to Python lxml format
 #
 def import_ghs_japan(ghs_data_files, data_dir, file_type):
     '''
     import_ghs_japan is used to import data from GHS Japan data files in to
-    Python lxml format
+    Python lxml or dict (json) format
 
     Indexing is assigned using Excel row/col convention for convenience,
-    later this is converted to pythonic indexing for looking up within the
+    and is later converted to pythonic indexing for looking up within the
     excel document.
     '''
 
@@ -252,8 +251,8 @@ def import_ghs_japan(ghs_data_files, data_dir, file_type):
 
                 cas_no_ind = ghs_japan_data.xpath('/root/ghs_data/cas_no')
 
-                ## This method appends new cas-no to the end of XML file.
-                #  Checking to see whether CAS_number is already in the file
+                # This method appends new cas-no to the end of XML file.
+                # Checking to see whether CAS_number is already in the file
                 if cas_no_check in cas_no_ind:
                     ind = cas_no_ind.index(cas_no_check)
 

@@ -401,10 +401,6 @@ def import_ghs_japan(ghs_data_files, data_dir, file_type):
                     data['hazards'] = hazard_traits
                     total_data[cas_no] = data
 
-        # This print statement demonstrates how data can be accessed
-        # after converting to JSON
-        # print(json.dumps(total_data['6-85-2']['hazards']['explosives'],
-        # indent=2))
         return total_data
 
 
