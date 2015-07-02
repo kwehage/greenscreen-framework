@@ -1,15 +1,8 @@
 #!/usr/bin/env python3
 
-from lxml import objectify
-from lxml import etree
 import sys
 import os.path
-import xlrd
-import string
-import time
-import getpass
-import json
-import re
+
 if sys.version_info > (3,):
     from urllib.request import urlopen
 else:
@@ -28,21 +21,6 @@ example usage.
 
 Copyright 2013-2015 Kristopher Wehage
 University of California-Davis
-
-XML functionality requires the lxml module, available for download at
-http://lxml.de
-
-The lxml XML toolkit is a Pythonic binding for the C libraries
-libxml2 and libxslt. It is unique in that it combines the speed
-and XML feature completeness of these libraries with the simplicity
-of a native Python API, mostly compatible but superior to the
-well-known ElementTree API.
-
-Note that the lxml toolkit is included as part of the enthought python
-distribution. For other python distributions, the toolkit may need to be
-installed. libxml2 and libxsl2 C libraries may also need to be
-installed or updated. Refer to http://lxml.de for
-more information.
 
 THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
@@ -122,6 +100,7 @@ def excel_col_to_num(c):
         sum_ *= 26
         sum_ += ord(l.upper()) - 64
     return sum_ - 1
+
 
 #
 # Use to import data from GHS_Japan data files to Python lxml format
@@ -1620,35 +1599,9 @@ def save_json_individual_gs(json_data, data_dir):
     print('Done.')
 
 
-def main():
-    ## Report time of code execution to check performance
+if __name__ == "__main__":
     t = time.time()
 
-    ## Import data: The download_files function requires a list of files to
-    #  download.
-
-    ## The files were previously available at the following location
-    #
-
-    # url = 'http://www.safe.nite.go.jp/english/files/ghs_xls/'
-    # file_names = (['classification_result_e(ID001-100).xls',
-    #                'classification_result_e(ID101-200).xls',
-    #                'classification_result_e(ID201-300).xls',
-    #                'classification_result_e(ID301-400).xls',
-    #                'classification_result_e(ID401-500).xls',
-    #                'classification_result_e(ID501-600).xls',
-    #                'classification_result_e(ID601-700).xls',
-    #                'classification_result_e(ID701-800).xls',
-    #                'classification_result_e(ID801-900).xls',
-    #                'classification_result_e(ID901-1000).xls',
-    #                'classification_result_e(ID1001-1100).xls',
-    #                'classification_result_e(ID1101-1200).xls',
-    #                'classification_result_e(ID1201-1300).xls',
-    #                'classification_result_e(ID1301-1400).xls',
-    #                'classification_result_e(ID1401-1424).xls'])
-
-    ## As of 2015, the file locations has been updated to
-    #
     url = 'http://www.safe.nite.go.jp/english/ghs/files/'
     file_names = (['h25_mhlw_new_e.xls',
                    'h25_mhlw_rev_e.xls',
@@ -1670,23 +1623,21 @@ def main():
                    'h19_meti_rev_e.xls',
                    'h18_imcg_e.xls'])
 
-    ## Specify where to save the data.
-    #  If the directory does not exist, it will be created.
-    #  You may also skip this step and download data manually.
+    # Specify where to save the data.
+    # If the directory does not exist, it will be created.
+    # Alternatively, one may skip this step and download data manually.
     data_dir = 'data/'
 
-    ##  Download the excel files from GHS Japan website.
+    # Download the excel files from GHS Japan website.
     download_files(url, data_dir, file_names)
 
-    ## Import GHS Japan Data: This step converts the excel files to an lxml
-    #  data structure. First we need to specify which file in the list is the
-    #  directory and which are the data files. This function was custom written
-    #  around the format of the GHS_Japan Excel files. To import other
-    #  databases it is necessary to develop additional import functions.
-    ghs_japan_data_xml = \
-        import_ghs_japan(file_names, data_dir, file_type='xml')
+    # Import GHS Japan Data: This step converts the excel files to an lxml
+    # data structure. First we need to specify which file in the list is the
+    # directory and which are the data files. This function was custom written
+    # around the format of the GHS_Japan Excel files. To import other
+    # databases it is necessary to develop additional import functions.
     ghs_japan_data_json = \
-        import_ghs_japan(file_names, data_dir, file_type='json')
+        import_ghs_japan(file_names, data_dir)
 
     ## Translate to Green Screen format.
     #  This function is also custom written for the ghs japan country list.
@@ -1713,7 +1664,3 @@ def main():
 
     elapsed = time.time() - t
     print('Time elapsed: ', elapsed, ' seconds.')
-
-
-if __name__ == "__main__":
-    main()
