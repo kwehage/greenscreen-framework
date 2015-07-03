@@ -45,8 +45,122 @@ class GHSJapanData(object):
     '''
     def __init__(self, sheet=None, filename=None):
         '''
-        Class constructor
+        GHSJapanData Class constructor
         '''
+        self.translation_criteria = {}
+        self.translation_criteria['hazards'] = {
+            'AA': {'name': 'Acute Aquatic Toxicity',
+                   'list_members': []},
+            'AT': {'name': 'Acute Mammalian Toxicity',
+                   'list_members': []]},
+            'C': {'name': 'Carcinogenicity',
+                  'group': 'Group I Human'},
+            'CA': {'name': 'Chronic Aquatic Toxicity',
+                   'group': 'Ecotoxicity'},
+            'D': {'name': 'Developmental Hazard',
+                  'group': 'Group I Human'},
+            'F': {'name': 'Flammability',
+                  'group': 'Physical'},
+            'IrE': {'name': 'Eye Irritation',
+                    'group': 'Group II and II*'},
+            'M': {'name': 'Mutagenicity',
+                  'group': 'Group I'},
+            'N_r': {'name': 'Neurotoxicity, Repeat Exposure',
+                    'group': 'Group II and II*'},
+            'N_s': {'name': 'Neurotoxicity, Single Exposure',
+                    'group': 'Group II and II*'},
+            'R': {'name': 'Reproductive',
+                  'group': 'Group I'},
+            'Rx': {'name': 'Reactivity',
+                   'group': 'Physical'},
+            'ST_r': {'name': 'Systemic Toxicity, Repeat Exposure',
+                     'group': 'Group II and II*'},
+            'ST_s': {'name': 'Systemic Toxicity, Single Exposure',
+                     'group': 'Group II and II*'},
+            'SnR': {'name': 'Sensitization, Respiratory',
+                    'group': 'Group II and II*'},
+            'SnS': {'name': 'Sensitization, Skin',
+                    'group': 'Group II and II*'},
+            'E': {'name': 'Endocrine Activity',
+                  'group': 'Group I'},
+            'P': {'name': 'Persistence',
+                  'group': 'Fate'},
+            'B': {'name': 'Bioaccumulation',
+                  'group': 'Fate'},
+            'IrS': {'name': 'Skin Irritation',
+                    'group': 'Group II and II*'}}
+
+        self.translation_criteria['lookup']['1'] = {}
+        self.translation_criteria['lookup']['1']['Category 1A'] = 4
+        self.translation_criteria['lookup']['1']['Category 1B'] = 4
+        self.translation_criteria['lookup']['1']['Category 2'] = 3
+        self.translation_criteria['lookup']['1']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['2'] = {}
+        self.translation_criteria['lookup']['2']['Category 1'] = 5
+        self.translation_criteria['lookup']['2']['Category 2'] = 5
+        self.translation_criteria['lookup']['2']['Category 3'] = 4
+        self.translation_criteria['lookup']['2']['Category 4'] = 3
+        self.translation_criteria['lookup']['2']['Category 5'] = 2
+        self.translation_criteria['lookup']['2']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['3'] = {}
+        self.translation_criteria['lookup']['3']['Category 1'] = 5
+        self.translation_criteria['lookup']['3']['Category 2'] = 4
+        self.translation_criteria['lookup']['3']['Category 3'] = 3
+        self.translation_criteria['lookup']['3']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['4'] = {}
+        self.translation_criteria['lookup']['4']['Category 1'] = 4
+        self.translation_criteria['lookup']['4']['Category 2'] = 3
+        self.translation_criteria['lookup']['4']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['5'] = {}
+        self.translation_criteria['lookup']['5']['Category 1A'] = 4
+        self.translation_criteria['lookup']['5']['Category 1B'] = 3
+        self.translation_criteria['lookup']['5']['Not classified'] = 2
+        self.translation_criteria['lookup']['5']['Category1'] = 4
+
+        self.translation_criteria['lookup']['6'] = {}
+        self.translation_criteria['lookup']['6']['Category 1'] = 5
+        self.translation_criteria['lookup']['6']['Category 2A'] = 4
+        self.translation_criteria['lookup']['6']['Category 2B'] = 3
+        self.translation_criteria['lookup']['6']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['7'] = {}
+        self.translation_criteria['lookup']['7']['Category 4'] = 3
+
+        self.translation_criteria['lookup']['8'] = {}
+        self.translation_criteria['lookup']['8']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['9'] = {}
+        self.translation_criteria['lookup']['9']['Category 1'] = 3
+        self.translation_criteria['lookup']['9']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['10'] = {}
+        self.translation_criteria['lookup']['10']['Category 1'] = 5
+        self.translation_criteria['lookup']['10']['Category 2'] = 4
+        self.translation_criteria['lookup']['10']['Category 3'] = 3
+        self.translation_criteria['lookup']['10']['Category 4'] = 3
+        self.translation_criteria['lookup']['10']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['11'] = {}
+        self.translation_criteria['lookup']['11']['Category 1'] = 4
+        self.translation_criteria['lookup']['11']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['12'] = {}
+        self.translation_criteria['lookup']['12']['Category 1'] = 4
+        self.translation_criteria['lookup']['12']['Category 2'] = 3
+        self.translation_criteria['lookup']['12']['Category A'] = 3
+        self.translation_criteria['lookup']['12']['Category B'] = 2
+        self.translation_criteria['lookup']['12']['Not classified'] = 2
+
+        self.translation_criteria['lookup']['13'] = {}
+        self.translation_criteria['lookup']['13']['Category 1'] = 4
+        self.translation_criteria['lookup']['13']['Category 2'] = 3
+        self.translation_criteria['lookup']['13']['Category 3'] = 2
+        self.translation_criteria['lookup']['13']['Not classified'] = 2
+
         if filename is None and sheet:
             absolute_fields = {'cas_number': [3, 'C'],
                                'descriptive_name': [4, 'C'],
@@ -157,11 +271,11 @@ class GHSJapanData(object):
         else:
             raise(InvalidGHSJapanFile_Error)
 
-    def excel_col_to_num(self, c):
+    def excel_col_to_num(self, column):
         '''utility to convert excel column indices to Python column
         indices'''
         sum_ = 0
-        for l in c:
+        for l in column:
             if l not in string.ascii_letters:
                 return False
             sum_ *= 26
@@ -175,6 +289,7 @@ class GHSJapanData(object):
             json.dump(self.data, f, indent=4, sort_keys=True)
 
 if __name__ == "__main__":
-    sheet = xlrd.open_workbook('data/h25_mhlw_new_e.xls').sheet_by_index(1)
+    sheet = xlrd.open_workbook(
+        'greenscreen_framework/data/h25_mhlw_new_e.xls').sheet_by_index(1)
     ghs_japan_data = GHSJapanData(sheet=sheet)
-    ghs_japan_data.save("newdata")
+    ghs_japan_data.save("greenscreen_framework/data/ghs_json_data")
