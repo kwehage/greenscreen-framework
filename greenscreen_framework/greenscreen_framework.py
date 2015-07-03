@@ -632,7 +632,7 @@ def translate_ghs_japan_json(json_data):
                         cas_data['CA']['overall_hazard_rating'] = \
                             max(cas_data['CA']['hazard_rating'])
 
-                    ## Developmental or Reproductive
+                    ## Developmental or Reproductive hazard
                     elif hazard == "toxic_to_reproduction":
                         cas_data['D'] = \
                             jsonify_hazard(json_data, cas_data, 'D', CAS,
