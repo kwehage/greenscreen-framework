@@ -422,24 +422,40 @@ class GHSJapanData(object):
         if format == 'GreenScreen':
             self.translated_data = {}
             for key, value in self.translation_criteria.items():
-                for native_hazard, pattern in \
-                        zip(value['native_classification'], value['pattern']):
-                    # if no parsing is required, the translation is a direct
-                    # conversion using the lookup patterns defined in
-                    # self.translation_patterns
-                    if not value['requires_parsing']:
+
+                # if no parsing is required, the translation is a direct
+                # conversion using the lookup patterns defined in
+                # self.translation_patterns
+                if not value['requires_parsing']:
+                    rating = []
+                    for native_hazard, pattern in \
+                            zip(value['native_classification'],
+                                value['pattern']):
                         for classification in pattern:
                             if classification in \
                                     self.data['hazards'][native_hazard][
                                     'classification']:
-                                self.translated_data[hazard]
-                        self.translated_data[key] = \
-                            max([])
-
-                    # otherwise, if parsing is required, use the regular
-                    # expressions and keywords to identify hazard.
+                                rating.append(pattern[classification])
+                    if rating:
+                        self.translated_data[key] = max(rating)
                     else:
-                        pass
+                        self.translated_data[key] = 0
+
+                # otherwise, if parsing is required, use the regular
+                # expressions and keywords to identify groups of hazards.
+                else:
+                    for native_hazard, pattern in \
+                            zip(value['native_classification'],
+                                value['pattern']):
+                        for classification in pattern:
+                            if classification in \
+                                    self.data['hazards'][native_hazard][
+                                    'classification']:
+                                rating.append(pattern[classification])
+                    if rating:
+                        self.translated_data[key] = max(rating)
+                    else:
+                        self.translated_data[key] = 0
 
     def save(self, filepath):
         if not os.path.exists(filepath):
