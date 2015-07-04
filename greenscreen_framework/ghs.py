@@ -34,6 +34,8 @@ SUCH DAMAGE.
 
 __author__ = '''Kristopher Wehage (ktwehage@ucdavis.edu)'''
 
+regex = re.compile(r"[A-Za-z][A-Za-z1-9 ]*?\(.*?\)")
+
 
 class InvalidGHSJapanFile_Error(Exception):
     pass
@@ -41,125 +43,259 @@ class InvalidGHSJapanFile_Error(Exception):
 
 class GHSJapanData(object):
     '''
-    description
+    GHSJapanData Constructor
     '''
     def __init__(self, sheet=None, filename=None):
         '''
         GHSJapanData Class constructor
         '''
-        self.translation_criteria = {}
-        self.translation_criteria['hazards'] = {
+
+        self.systemic_keywords = [
+            'respiratory', 'blood', 'kidney', 'liver',
+            'adrenal', 'gastro', 'systemic', 'eye', 'heart',
+            'bone', 'hematop', 'cardio', 'spleen', 'thyroid',
+            'lung', 'gingi', 'testes']
+
+        self.neuro_keywords = ['neuro', 'nervous']
+
+        self.translation_patterns = {
+            '1': {
+                'Category 1A': 4,
+                'Category 1B': 4,
+                'Category 2': 3,
+                'Not classified': 2
+            },
+            '2': {
+                'Category 1': 5,
+                'Category 2': 5,
+                'Category 3': 4,
+                'Category 4': 3,
+                'Category 5': 2,
+                'Not classified': 2
+            },
+            '3': {
+                'Category 1': 5,
+                'Category 2': 4,
+                'Category 3': 3,
+                'Not classified': 2
+            },
+            '4': {
+                'Category 1': 4,
+                'Category 2': 3,
+                'Not classified': 2
+            },
+            '5': {
+                'Category 1A': 4,
+                'Category 1B': 3,
+                'Not classified': 2,
+                'Category1': 4
+            },
+            '6': {
+                'Category 1': 5,
+                'Category 2A': 4,
+                'Category 2B': 3,
+                'Not classified': 2
+            },
+            '7': {
+                'Category 4': 3
+            },
+            '8': {
+                'Not classified': 2
+            },
+            '9': {
+                'Category 1': 3
+                'Not classified': 2
+            },
+            '10': {
+                'Category 1': 5,
+                'Category 2': 4,
+                'Category 3': 3,
+                'Category 4': 3,
+                'Not classified': 2
+            },
+            '11': {
+                'Category 1': 4,
+                'Not classified': 2
+            },
+            '12': {
+                'Category 1': 4,
+                'Category 2': 3,
+                'Category A': 3,
+                'Category B': 2,
+                'Not classified': 2
+            },
+            '13': {
+                'Category 1': 4,
+                'Category 2': 3,
+                'Category 3': 2,
+                'Not classified': 2
+            }
+        }
+
+        self.translation_criteria = {
             'AA': {'name': 'Acute Aquatic Toxicity',
-                   'list_members': []},
+                   'native_classification': [
+                       'acute_aquatic_toxicity'],
+                   'pattern': [self.translation_patterns['3']],
+                   'requires_parsing': False},
+
             'AT': {'name': 'Acute Mammalian Toxicity',
-                   'list_members': []]},
+                   'native_classification': [
+                       'acute_toxicity_oral',
+                       'acute_toxicity_dermal',
+                       'acute_toxicity_inhalation_gas',
+                       'acute_toxicity_inhalation_vapor',
+                       'acute_toxicity_inhalation_dust'],
+                   'pattern': [self.translation_patterns['2']] * 5,
+                   'requires_parsing': False},
+
             'C': {'name': 'Carcinogenicity',
-                  'group': 'Group I Human'},
+                  'native_classification': [
+                      'carcinogenicity'],
+                  'pattern': [self.translation_patterns['1']],
+                  'requires_parsing': False},
+
             'CA': {'name': 'Chronic Aquatic Toxicity',
-                   'group': 'Ecotoxicity'},
-            'D': {'name': 'Developmental Hazard',
-                  'group': 'Group I Human'},
+                   'native_classification': [
+                       'chronic_aquatic_toxicity'],
+                   'pattern': [self.translation_patterns['7']],
+                   'requires_parsing': False},
+
             'F': {'name': 'Flammability',
-                  'group': 'Physical'},
-            'IrE': {'name': 'Eye Irritation',
-                    'group': 'Group II and II*'},
+                  'native_classification': [
+                      'flammable_gases',
+                      'flammable_aerosols',
+                      'flammable_liquids',
+                      'flammable_solids'],
+                  'pattern': [
+                      self.translation_patterns['12'],
+                      self.translation_patterns['13'],
+                      self.translation_patterns['10'],
+                      self.translation_patterns['4']],
+                  'requires_parsing': False},
+
             'M': {'name': 'Mutagenicity',
-                  'group': 'Group I'},
-            'N_r': {'name': 'Neurotoxicity, Repeat Exposure',
-                    'group': 'Group II and II*'},
-            'N_s': {'name': 'Neurotoxicity, Single Exposure',
-                    'group': 'Group II and II*'},
+                  'native_classification': [
+                      'germ_cell_mutagenicity'],
+                  'pattern': [self.translation_patterns['1']],
+                  'requires_parsing': False},
+
+            'D': {'name': 'Developmental Hazard',
+                  'native_classification': [
+                      'reproductive_toxicity'],
+                  'pattern': [self.translation_patterns['1']],
+                  'requires_parsing': False},
+
             'R': {'name': 'Reproductive',
-                  'group': 'Group I'},
+                  'native_classification': [
+                      'reproductive_toxicity'],
+                  'pattern': [self.translation_patterns['1']],
+                  'requires_parsing': False},
+
             'Rx': {'name': 'Reactivity',
-                   'group': 'Physical'},
-            'ST_r': {'name': 'Systemic Toxicity, Repeat Exposure',
-                     'group': 'Group II and II*'},
-            'ST_s': {'name': 'Systemic Toxicity, Single Exposure',
-                     'group': 'Group II and II*'},
+                   'native_classification': [
+                       'explosives',
+                       'self_reactive_substances',
+                       'substances_mixtures_emit_flammable' +
+                       '_gas_in_contact_with_water',
+                       'oxidizing_gases',
+                       'oxidizing_solids',
+                       'organics_peroxides',
+                       'self_heating_substances',
+                       'corrosive_to_metals'],
+                   'pattern': [
+                       self.translation_patterns['8'],
+                       self.translation_patterns['8'],
+                       self.translation_patterns['3'],
+                       self.translation_patterns['11'],
+                       self.translation_patterns['3'],
+                       self.translation_patterns['3'],
+                       self.translation_patterns['8'],
+                       self.translation_patterns['4'],
+                       self.translation_patterns['9']],
+                   'requires_parsing': False},
+
             'SnR': {'name': 'Sensitization, Respiratory',
-                    'group': 'Group II and II*'},
+                    'native_classification': [
+                        'respiratory_sensitizer'],
+                    'pattern': [self.translation_patterns['5']],
+                    'requires_parsing': False},
+
             'SnS': {'name': 'Sensitization, Skin',
-                    'group': 'Group II and II*'},
+                    'native_classification': [
+                        'skin_sensitizer'],
+                    'pattern': [self.translation_patterns['5']],
+                    'requires_parsing': False},
+
             'E': {'name': 'Endocrine Activity',
-                  'group': 'Group I'},
+                  'native_classification': [],
+                  'pattern': [],
+                  'requires_parsing': False},
+
             'P': {'name': 'Persistence',
-                  'group': 'Fate'},
+                  'native_classification': [],
+                  'pattern': [],
+                  'requires_parsing': False},
+
             'B': {'name': 'Bioaccumulation',
-                  'group': 'Fate'},
+                  'native_classification': [],
+                  'pattern': [],
+                  'requires_parsing': False},
+
             'IrS': {'name': 'Skin Irritation',
-                    'group': 'Group II and II*'}}
+                    'native_classification': [
+                        'skin_corrosion_irritation'],
+                    'pattern': [self.translation_patterns['3']],
+                    'requires_parsing': False},
 
-        self.translation_criteria['lookup']['1'] = {}
-        self.translation_criteria['lookup']['1']['Category 1A'] = 4
-        self.translation_criteria['lookup']['1']['Category 1B'] = 4
-        self.translation_criteria['lookup']['1']['Category 2'] = 3
-        self.translation_criteria['lookup']['1']['Not classified'] = 2
+            'IrE': {'name': 'Eye Irritation',
+                    'native_classification': [
+                        'serious_eye_damage_irritation'],
+                    'pattern': [self.translation_patterns['6']],
+                    'requires_parsing': False},
 
-        self.translation_criteria['lookup']['2'] = {}
-        self.translation_criteria['lookup']['2']['Category 1'] = 5
-        self.translation_criteria['lookup']['2']['Category 2'] = 5
-        self.translation_criteria['lookup']['2']['Category 3'] = 4
-        self.translation_criteria['lookup']['2']['Category 4'] = 3
-        self.translation_criteria['lookup']['2']['Category 5'] = 2
-        self.translation_criteria['lookup']['2']['Not classified'] = 2
+            # In the following four cases, multiple greenscreen hazards
+            # are stored under a single ghs japan hazard. A regular expression
+            # is provided that uniquely identifies each hazard group.
+            # The hazard is only assigned to the greenscreen hazard if
+            # one of the provided keywords is found in the grouping
 
-        self.translation_criteria['lookup']['3'] = {}
-        self.translation_criteria['lookup']['3']['Category 1'] = 5
-        self.translation_criteria['lookup']['3']['Category 2'] = 4
-        self.translation_criteria['lookup']['3']['Category 3'] = 3
-        self.translation_criteria['lookup']['3']['Not classified'] = 2
+            # Neurotoxicity / systemic toxicity, repeat exposure
+            # are grouped together under 'systemic_toxicity_repeat_exposure'
+            'N_r': {'name': 'Neurotoxicity, Repeat Exposure',
+                    'native_classification': [
+                        'systemic_toxicity_repeat_exposure'],
+                    'pattern': [self.translation_patterns['4']],
+                    'requires_parsing': True,
+                    'regex': regex,
+                    'keywords': self.neuro_keywords},
 
-        self.translation_criteria['lookup']['4'] = {}
-        self.translation_criteria['lookup']['4']['Category 1'] = 4
-        self.translation_criteria['lookup']['4']['Category 2'] = 3
-        self.translation_criteria['lookup']['4']['Not classified'] = 2
+            'ST_r': {'name': 'Systemic Toxicity, Repeat Exposure',
+                     'native_classification': [
+                         'systemic_toxicity_repeat_exposure'],
+                     'pattern': [self.translation_patterns['3']],
+                     'requires_parsing': True,
+                     'regex': regex,
+                     'keywords': self.systemic_keywords},
 
-        self.translation_criteria['lookup']['5'] = {}
-        self.translation_criteria['lookup']['5']['Category 1A'] = 4
-        self.translation_criteria['lookup']['5']['Category 1B'] = 3
-        self.translation_criteria['lookup']['5']['Not classified'] = 2
-        self.translation_criteria['lookup']['5']['Category1'] = 4
+            # Neurotoxicity / systemic toxicity, single exposure
+            # are grouped together under 'systemic_toxicity_single_exposure'
+            'N_s': {'name': 'Neurotoxicity, Single Exposure',
+                    'native_classification': [
+                        'systemic_toxicity_single_exposure'],
+                    'pattern': [self.translation_patterns['4']],
+                    'requires_parsing': True,
+                    'regex': regex,
+                    'keywords': self.neuro_keywords},
 
-        self.translation_criteria['lookup']['6'] = {}
-        self.translation_criteria['lookup']['6']['Category 1'] = 5
-        self.translation_criteria['lookup']['6']['Category 2A'] = 4
-        self.translation_criteria['lookup']['6']['Category 2B'] = 3
-        self.translation_criteria['lookup']['6']['Not classified'] = 2
-
-        self.translation_criteria['lookup']['7'] = {}
-        self.translation_criteria['lookup']['7']['Category 4'] = 3
-
-        self.translation_criteria['lookup']['8'] = {}
-        self.translation_criteria['lookup']['8']['Not classified'] = 2
-
-        self.translation_criteria['lookup']['9'] = {}
-        self.translation_criteria['lookup']['9']['Category 1'] = 3
-        self.translation_criteria['lookup']['9']['Not classified'] = 2
-
-        self.translation_criteria['lookup']['10'] = {}
-        self.translation_criteria['lookup']['10']['Category 1'] = 5
-        self.translation_criteria['lookup']['10']['Category 2'] = 4
-        self.translation_criteria['lookup']['10']['Category 3'] = 3
-        self.translation_criteria['lookup']['10']['Category 4'] = 3
-        self.translation_criteria['lookup']['10']['Not classified'] = 2
-
-        self.translation_criteria['lookup']['11'] = {}
-        self.translation_criteria['lookup']['11']['Category 1'] = 4
-        self.translation_criteria['lookup']['11']['Not classified'] = 2
-
-        self.translation_criteria['lookup']['12'] = {}
-        self.translation_criteria['lookup']['12']['Category 1'] = 4
-        self.translation_criteria['lookup']['12']['Category 2'] = 3
-        self.translation_criteria['lookup']['12']['Category A'] = 3
-        self.translation_criteria['lookup']['12']['Category B'] = 2
-        self.translation_criteria['lookup']['12']['Not classified'] = 2
-
-        self.translation_criteria['lookup']['13'] = {}
-        self.translation_criteria['lookup']['13']['Category 1'] = 4
-        self.translation_criteria['lookup']['13']['Category 2'] = 3
-        self.translation_criteria['lookup']['13']['Category 3'] = 2
-        self.translation_criteria['lookup']['13']['Not classified'] = 2
+            'ST_s': {'name': 'Systemic Toxicity, Single Exposure',
+                     'native_classification': [
+                         'systemic_toxicity_single_exposure'],
+                     'pattern': [self.translation_patterns['3']],
+                     'requires_parsing': True,
+                     'regex': regex,
+                     'keywords': self.systemic_keywords}
+        }
 
         if filename is None and sheet:
             absolute_fields = {'cas_number': [3, 'C'],
@@ -281,6 +417,29 @@ class GHSJapanData(object):
             sum_ *= 26
             sum_ += ord(l.upper()) - 64
         return sum_ - 1
+
+    def translate(self, format='GreenScreen'):
+        if format == 'GreenScreen':
+            self.translated_data = {}
+            for key, value in self.translation_criteria.items():
+                for native_hazard, pattern in \
+                        zip(value['native_classification'], value['pattern']):
+                    # if no parsing is required, the translation is a direct
+                    # conversion using the lookup patterns defined in
+                    # self.translation_patterns
+                    if not value['requires_parsing']:
+                        for classification in pattern:
+                            if classification in \
+                                    self.data['hazards'][native_hazard][
+                                    'classification']:
+                                self.translated_data[hazard]
+                        self.translated_data[key] = \
+                            max([])
+
+                    # otherwise, if parsing is required, use the regular
+                    # expressions and keywords to identify hazard.
+                    else:
+                        pass
 
     def save(self, filepath):
         if not os.path.exists(filepath):
