@@ -1,0 +1,336 @@
+{
+    "ID": "61-82-5",
+    "cas_number": [
+        "61-82-5"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Sat Jul  4 18:35:24 2015",
+    "descriptive_name": "Amitrol",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "It was classified into Category 2 from 48-hour EC50=1.54mg/L of Crustacea (Daphnia magna) (EHC158, 1994).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Based on rabbit LD50 >10000mg/kg (EHC 158 (1994)), it was set as the outside of Category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "Based on rat LD=25000 mg/kg (ACGIH (2001)) and 24600 mg/kg (EHC 158 (1994)), it was set as the outside of Category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "It was estimated by two or more organizations and Category differed. But based on the classification (2001) of group 3 by the latest IARC, it was set as the outside of Category. In addition, as information about the carcinogenicity of humans and animals, there is also a report that tumor generating of the thyroid gland, liver, and hypophysis increased in studies using rats (DFGOT vol.4 (1992), IARC 41 (1986)).   ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Toxic to aquatic life with long lasting effects",
+            "rationale": "Classified into Category 2, since acute toxicity was Category 2 and not rapidly degrading (BOD: 0% (existing chemical safety inspections data)), though less bio-accumulative (BCF<=3.1 (existing chemical safety inspections data)).",
+            "signal_word": " - ",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Non-flammable (IUCLID (2000))",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "There is the results of the 2 dominant lethal tests using mice (multi-generation mutagenicity tests) are both negative (EHC 158(1994)), and the results of the 3 micronucleus tests using mouse bone-marrow cells (the somatic in vivo mutagenicity tests) are all negative (IARC 79(2001), EHC 158(1994)). So the substance was regarded as outside the categories.   ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Containing no -0-0- structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Containing no oxygen , chlorine and fluorine.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Non-flammable (IUCLID, 2000)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "To a rat, increase of child mortality rate after weaning in one-generation exposure (DFGOT vol.18 (2002)), change of indices of copulation or reproduction in two-generation exposure (JMPR 926 (1997)), to mouse increase of resorpted embryo in exposure during organogenetic period (DFGOT vol.18 (2002)) and increase of fetal death (JMPR 926(1997)),  and to rabbit increase of miscarriage and morphological change as fetal anophthalmia or microphthalmia (JMPR 926(1997)) are observed. Since there is general toxicity such as reduced weight gain and changing of organ weigt even in parent animals in these dose, it is considered as in the Category 2.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Non-flammable (IUCLID, 2000)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes eye irritation",
+            "rationale": "It is estimated mild stimulativeness by the eye irritation test using a rabbit (EHC 158 (1994), IUCLID (2000)). There is also description (EHC 158 (1994)) that most animals were recovered within 24 hours, and it was set as Category 2B.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 3",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes mild skin irritation",
+            "rationale": "There are descriptions \"although slight erythema was observed only with higher doses, recovered in 48 hours\" and \"a very slight stimulativeness was found\" as results of two skin irritation study on rabbits (EHC 158 (1994), ACGIH (2001)). Moreover, as for humans, mild irritations in occupational exposure and slight dermatitis on three persons among six in 24-hour apply patch tests are reported (EHC 158 (1994)). Since very slight stimulativeness was reported both on humans and animals as mentioned above, it was classified as out of Category 3.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "Although skin sensitization is not found by the two tests using guinea pigs: Open epicutaneous test and Buehler test (DFGOT vol.18 (2002)), we classified this as Category 1 based on IUCLID (2000), which obtains a positive finding in the Magnusson-Kligman maximization test (EHC 158 (1994)) and reports a case that reveals allergic dermatitis in human patch test (EHC 158 (1994)).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metaloids(B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (thyroid),\nCategory 2 (liver)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (thyroid)\nMay cause damage to organs through prolonged or repeated exposure (liver)",
+            "rationale": "In the repeated oral administration test using rat, at 0.5-15 mg/kg (number of days of exposure is 90 daysin equivalent) dose, there are some reports of the hypertrophy of thyroid, thyroid hyperplasia and goiter (EHC 158 (1994), IARC 79 (2001), DFGOT vol.18 (2002), JMPR 280 (1974)). Moreover, at 35 mg/kg (number of days of exposure is 90 days in equivalent), vacuolation of hepatocyte and fatty degenerations are observed (EHC 158 (1994)). Based on these results, they were classified into as Category 1 (thyroid) and Category 2 (liver) with reference to the guidance value.",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Classification not possible",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": " - ",
+            "rationale": "No symptoms have been observed after inhalation exposure to the substance in rats (ACGIH (2001)), but effects on the lungs and nervous system after exposure through oral intake or inhalation of mixture containing the substance in humans have been reported (EHC 158 (1994, IARC 79 (2001)). Although it is suggested that thiocyanate which is mixed in the substance is the leading cause (IARC 79(2001)), the possibility of the substance itself being the cause could not be ruled out. So it was decided that the substance could not be classified due to insufficient data. (EHC 158 (1994), IARC 79 (2001)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 2,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 2,
+        "IrE": 3,
+        "IrS": 3,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 3,
+        "Rx": 2,
+        "ST_r": 5,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

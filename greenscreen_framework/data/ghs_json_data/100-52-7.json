@@ -1,0 +1,336 @@
+{
+    "ID": "100-52-7",
+    "cas_number": [
+        "100-52-7"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Sat Jul  4 18:35:25 2015",
+    "descriptive_name": "Benzaldehyde",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "It was classified into Category 2 from 96 hours LC50=1070microg/L of the fish (Bluegill) (MOE Risk Assessment vol. 2 (2003) and others.).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible because the rabbit LD50 (dermal route) value of >1,250mg/kg (SIDS (1996)) is not a definitive value.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that the substance is \"liquid\" according to the GHS definition and inhalation of its gas is not expected.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "Based on the LD50 value of 1,500mg/kg calculated from the testing data of rat LD50 (oral route) of 1,300mg/kg (SIDS (1996)), 1,292mg/kg, 1,502mg/kg, 2,279mg/kg, 2,400mg/kg and 2,850mg/kg (DFGOT Vol.17 (2002)).\n",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on expert judgment in the absence of any carcinogenic effects in carcinogenicity studies in mice and rats, described in NTP TR-378 (1990).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Since there was rapidly degrading (the decomposition by BOD: 66% (Existing Chemical Safety Inspections Data)) and the bio-accumulation was low (log Kow=1.48 (PHYSPROP Database, 2005)), it was claasified into Not classified.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Not classified",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Class 9 (UN#1990) (UN Recommendations on the Transport of Dangerous Goods).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "Containing no chemical groups with explosive properties",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 4",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Combustible liquid",
+            "rationale": "The flash point is 62degC (ICSC (1999)), which is classified into Category 4.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible in the absence of data on in vivo mutagenicity/genotoxicity tests. Also benzaldehyde has been known to possess only a low genotoxicity potential, though in vitro mutagenicity tests (two indices: mutation (mouse lymphoma assay) and chromosome aberration) gave positive results, described in NTP DB (Access on May, 2006), SIDS (1996) and DFGOT (2002).\n\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no \"-O-O-\" structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing oxygen (but not fluorine and chlorine), with the oxygen bound to carbon and hydrogen (but not to other elements)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Not pyrophoric when in contact with air at ordinary temperatures: the auto-ignition temperature is 190degC (ICSC, 1999).\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Insufficient data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Containing no chemical groups with explosive or self-reactive properties",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes eye irritation",
+            "rationale": "Based on the description in the report on rabbit eye irritation tests (DFGOT Vol.17 (2002)): \"slightly irritative.\" ",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "Based on the description in the report on rabbit skin irritation tests evaluated according to the Draize scheme (CERI Hazard Data 99-21 (2000)): \"Moderate irritation.\" Also based on the description in the report on rabbit skin irritation tests (DFGOT Vol.17 (2002)): \"moderately irritating.\" The substance is thus considered a moderate irritant (though these results are those of 24 hour application).\n\n",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "Based on the description in the report on guinea pig skin sensitization tests evaluated in accordance with Draize, Maximization and FCA schemes (DFGOT Vol.17 (2002)): \"Positive results were obtained in all three schemes.\" Also based on the description in the report on epidemiological studies of human exposure (MOE Risk Assessment vol. 2 (2003)): \"Patch tests on human volunteers gave positive results.\"",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (nervous system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (nervous system)",
+            "rationale": "Based on the human evidence: \"benzaldehyde produces depression at small doses; spasm at large doses\" (CERI Hazard Data 99-21 (2000)).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 2 (nervous system),\nCategory 3 (respiratory tract irritation, narcotic effects)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause damage to organs (nervous system)\nMay cause respiratory irritation (respiratory tract irritation, narcotic effects)\nMay cause drowsiness or dizziness (respiratory tract irritation, narcotic effects)",
+            "rationale": "Based on the human evidence: \"volunteers exposed to benzaldehyde (4.5ppm) for a minute exhibited irritation of the upper respiratory tract\" (SIDS (1996)), \"benzaldehyde has been reported to have local narcotic effects\" (MOE Risk Assessment vol. 2 (2003)). Also based on the evidence from animal studies including \"tremor\" (RTECS (2006)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 2. The priority rating of the referenced study is 2.\n\n",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard\nExclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 3,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 3,
+        "IrE": 3,
+        "IrS": 4,
+        "M": 0,
+        "N_r": 4,
+        "N_s": 3,
+        "P": 0,
+        "R": 0,
+        "Rx": 2,
+        "ST_r": 0,
+        "ST_s": 4,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

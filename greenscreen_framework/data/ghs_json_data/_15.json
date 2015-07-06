@@ -1,0 +1,336 @@
+{
+    "ID": "",
+    "cas_number": [
+        ""
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Sat Jul  4 18:35:25 2015",
+    "descriptive_name": "Dioxins",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "It was classified into Category 1 from 72 hours LC50=0.0135microg/L(the fish (Oryzias latipes)) of 2,3,7,8-tetrachlorodibenzodioxin was 0.0135microg/L (AQUIRE (2003)).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 1",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Fatal in contact with skin",
+            "rationale": "Based on the rabbit LD50 (dermal route) value of 0.275mg/kg (PATTY (4th,1999)) (tetrachlorodibenzodioxin).",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that the substance is a solid according to the GHS definition and inhalation of its gas is not expected. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 1",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Fatal if swallowed",
+            "rationale": "Based on the rat LD50 (oral route) value of 0.022mg/kg representing the lower of the two testing data, 0.022mg/kg and 0.045mg/kg (PATTY (4th, 1999)) (tetrachlorodibenzodioxin).\nBased on the LD50 value of 0.013mg/kg calculated from the testing data of rat LD50 (oral route) of 0.022mg/kg, 0.013mg/kg, 0.043mg/kg and 0.34mg/kg (IARC 69 (1997)) (2,3,7,8-tetrachlorodibenzodioxin).",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible based on expert judgment since existing classification is available only for individual compounds of dioxins and not for \"dioxins\" as a whole.  2,3,7,8-Tetrachlorodibenzodioxin (CAS 1746-01-6) is classified as Category 1 (Group 1 by IARC (1997) and Category K by NTP (2005)), 1,2,3,7,8-pentachlorodibenzodioxin (CAS 40321-76-4) is \"Not classified\" (Category 3 by IARC (1997)), 1,2,3,6,7,8-hexachlorodibenzodioxin (CAS 57653-85-7) is classified as Category 2 (Category 3 by IARC (1997) and Category B2 by EPA (1991)), and 1,2,3,7,8,9-hexachlorodibenzodioxin (CAS 19408-74-3) is \"Not classified\" (Category 3 by IARC (1997) and Category B2 by EPA (1991)).\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Since acute toxicity was Category 1 and there was no rapidly degrading (the half life is 550-590 days in the water including bottom material (EHC88 (1989))), and there was the bio-accumulation (BCF=86000(rainbow trout) (AQUIRE (2003))), it was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances with melting point of >55degC are not available (melting point: 305-306degC, 2,3,7,8-tetrachlorodibenzo-p-dioxin, ICSC (2004)). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "Containing no chemical groups with explosive properties",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition (2,3,7,8-tetrachlorodibenzo-p-dioxin)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition (2,3,7,8-tetrachlorodibenzo-p-dioxin)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Division 6.1 (UN#2811 (ICSC (2004)), toxic, solid, organic, n.o.s.) (UN Recommendation on the Transport of Dangerous Goods)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition (2,3,7,8-tetrachlorodibenzo-p-dioxin)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Based on negative data on multi-generation mutagenicity tests (dominant lethal tests), the absence of data on germ cell mutagenicity tests in vivo and germ cell genotoxicity tests in vivo, and positive data on somatic cell mutagenicity tests in vivo (chromosome aberration tests), described in ATSDR (1998), NTP DB (Access on August 2006), EHC 88 (1989) and IARC 69 (1997).\n\n",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no \"-O-O-\" structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition (2,3,7,8-tetrachlorodibenzo-p-dioxin) ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition (2,3,7,8-tetrachlorodibenzo-p-dioxin)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing chlorine and oxygen (but not fluorine), with the chlorine and oxygen bound to carbon and hydrogen (but not to other elements) ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition (2,3,7,8-tetrachlorodibenzo-p-dioxin)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Division 6.1 (UN#2811 (ICSC (2004)), toxic, solid, organic, n.o.s.) (UN Recommendation on the Transport of Dangerous Goods)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 1B",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "May damage fertility or the unborn child",
+            "rationale": "Based on the evidence of cleft palate in the pups at non-parentally toxic doses in mouse teratogenicity studies, described in EHC 88 (1989), ATSDR (1998) and IARC 15 (1977).\n",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Division 6.1 (UN#2811 (ICSC (2004)), toxic, solid, organic, n.o.s.) (UN Recommendation on the Transport of Dangerous Goods)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Containing no chemical groups with explosive or self-reactive properties",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to the insufficiency of data. \n\nAs the human health effects (though not local toxic effects on the eye) of 2,3,3',4,4'-pentachlorobiphenyl, \"most patients showed eye discharge and other severe ocular effects during the acute phase of the Yusho and Yu-Cheng syndrome. These effects include meibomian gland changes (enlargement, inflammation, hypersecretion of cheese-like material) and dark-colored pigmentation of the conjunctivae and eyelids.\"\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (skin, liver, urinary bladder, visual organs, nervous system, auditory organ, respiratory system, blood system, gastrointestinal tract, kidney, thyroid, thymus, ovaria, bone marrow, adrenal gland, pancreas, cardiovascular system, spleen)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (skin, liver, urinary bladder, visual organs, nervous system, auditory organ, respiratory system, blood system, gastrointestinal tract, kidney, thyroid, thymus, ovaria, bone marrow, adrenal gland, pancreas, cardiovascular system, spleen)",
+            "rationale": "Based on the human evidence including \"chloracne and neurological symptoms; liver biopsies revealed mild steatosis, periportal fibrosis; hemorrhagic cystitis and focal pyelonephritis\" (ATSDR 1998), \"ocular manifestations, numbness of the limbs, feeling of weakness, muscular spasms, hearing difficulties, and a persistent bronchitis\" (EHC 88 (1989)), and the evidence from animal studies including \"anemia, leukopenia, atrophy of ovary, hypocellularity of the bone marrow, liver necrosis, bile duct hyperplasia and edema, atrophy of spleen and thymus, and gastrointestinal hemorrhages\" (EHC 88 (1998)), \"adrenal cortic atrophy/hyperplasia, cardiomyopathy, mesenteric arteritis, nephropathy, hyperplasia of thyroid gland follicular cells; persistent inflammation of the pancreas\" (NTP TR 521 (2006)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 1. ",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (respiratory system, nervous system, cardiovascular system, skin, skin appendage, liver, urinary bladder, kidney, adrenal gland, gastrointestinal tract, testis, blood system, thymus, visual organs, bone marrow)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (respiratory system, nervous system, cardiovascular system, skin, skin appendage, liver, urinary bladder, kidney, adrenal gland, gastrointestinal tract, testis, blood system, thymus, visual organs, bone marrow)",
+            "rationale": "Based on the human evidence including \"bronchitis and laryngitis, hemorrhagic pneumonia, peripheral neuropathy, chloracne\" (ATSDR (1998)), \"cardiomyopathy\" (EHC 88 (1989)), and the evidence from animal studies including \"epithelial hyperplasia in the renal pelvis, inflamed eyelids, facial hair loss with acneform lesions, moderate to severe ileitis characterized by hyperplasia of the mucosal epithelium with hemorrhaging and necrosis,\" (ATSDR (1998)), \"adrenal hemorrhages and moderate atrophy of the zona glomerulosa were seen; changes in the spermatogenic epithelium were observed; central congestion with occasional degeneration of hepatocytes; hemolysis and hyperproteinemia were found; retro-orbital hemorrhages with exophthalmus and hemorrhages with detachment of the retina were seen; bone marrow atrophy, hyperplasia of the renal pelvis extending into the ureter and involving the urinary bladder mucosa; loss of toe and finger nails; hyperkeratosis of the skin; atrophy of the thymus with reduced lymphocyte counts.\" (EHC 88 (1989)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 1. ",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 5,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 4,
+        "E": 0,
+        "F": 2,
+        "IrE": 0,
+        "IrS": 0,
+        "M": 3,
+        "N_r": 4,
+        "N_s": 4,
+        "P": 0,
+        "R": 4,
+        "Rx": 2,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

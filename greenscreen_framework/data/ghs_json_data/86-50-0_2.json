@@ -1,0 +1,336 @@
+{
+    "ID": "86-50-0",
+    "cas_number": [
+        "86-50-0"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Sat Jul  4 18:35:25 2015",
+    "descriptive_name": "O,O-dimethyl-4-oxobenzotriazin-3-ylmethyl phosphorodithioate",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "It was classified into Category 1 from 96-hour LC50=0.00029mg/L of Crustacea (Mysid shrimp) (ECETOC TR91, 2003).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Fatal in contact with skin",
+            "rationale": "It was classified into Category 2 based on the value of LD50 = 93.77mg/kg obtained by statistics calculation of ten data (JMPR 818 (1991), ACGIH (2002), PD No.59 (1985)) of rat percutaneous LD50 values.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": "Fatal if inhaled",
+            "rationale": "Based on level LC50 = 0.126mg/L obtained by statistics calculation of six data of rat inhalation LC50 (4hr) level (PATTY (5th, 2001), JMPR 818 (1991), ACGIH (2002)), it was classified into category 2.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Fatal if swallowed",
+            "rationale": "They were classified into Category 2 based on the value of LD50=10.87 mg/kg obtained by statistics calculation from 32 data of rat oral LD50 value (JMPR 818 (1991), ACGIH (2002), JMPR 111 (1968), PD No.59 (1985), and EHC 63 (1986)).",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "It is classified into A4 according to GCGIH. Based on that sufficient evidence of carcinogenic is not acquired in the 80-week and two-year tests using rats and mice (NTP TR/69 (1978), ACGIH (2002)), it was classified out of Category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Classified into Category 1, since acute toxicity was Category 1, supposed not rapidly degrading (BIOWIN), though supposed less bioaccumulative (log Kow=2.75(PHYSPROP Database, 2005)).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substance are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on the negative results (ACGIH (2002), JMPR 255 (1973), and JMPR 818 (1991)) for the in vivo mouse dominant lethality examination (over generation mutagenicity test) and the in vivo mouse micronucleus examination (somatic mutagenicity test), we classified it as Out Of Category.  ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with peroxide present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Even if it contacts the normal temperature air, it does not ignite (HSDB (2005)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "It was classified into category 2 based on the statement that increase lethality pre/post implantation and decrease of fetal viability were observed with dose of the level causing a decreased cholinesterase activities in maternal in pregnant rabbit administration (ACGIH (2002)), that decrease of offspring viability is observed in rat one- and two-generation administration test with dose of the level occuring mortality and cholinesterase inhibition to parental animals (ACGIH (2002)) and that decline of child viability till weaning on the level causing maternal mortality in 3 generations of mice study (JMPR 111 (1968)) .",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Since the melting points are 73 - 74 degC (ICSC (1998), Merck (13th, 2001)), and 140 degC or less, test for which it was suitable has not been established.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes eye irritation",
+            "rationale": "Based on the statement that \"Caused no significant reaction\"(JMPR 818 (1991), and \"slightly irritating\" (IUCLID (2000) in the rabbit test, it was set as Category 2B.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Since irritation is not caused in rabbit test(ACGIH (2002), JMPR 818 (1991)), it classified as out of Category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "We classified it as Category 1 since it had induced skin sensitization (JMPR 818 (1991)) for two kinds of skin sensitivity tests (Magnusson and Kligman maximization test and Buehler Patch test).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not classified",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Not react with water. (Weiss, 2nd, 1985)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (nervous system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (nervous system)",
+            "rationale": "Based on that in the study using a rat, a mouse, and a dog within the limits of the guidance value dosage of Category 1, the influence simptom to nervous systems, such as cholinergic signs, and cholinesterase inhibition were observed (ACGIH and (2002), JMPR 111 (1968)), and cholinesterase inhibition being observed in humans (ACGIH (2002), JMPR 255 (1973), PD No.59 (1985)), it was classified into Category 1 (nervous systems).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (nervous system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (nervous system)",
+            "rationale": "It classified into Category 1 (nervous systems). Based on the cholinesterase prevention and cholinergic action in rat oral examination (PATTY (5th, 2001)), and the report of the condition under the nerve influence in humans (ACGIH (2002)).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 5,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 0,
+        "IrE": 3,
+        "IrS": 2,
+        "M": 2,
+        "N_r": 4,
+        "N_s": 4,
+        "P": 0,
+        "R": 3,
+        "Rx": 2,
+        "ST_r": 0,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

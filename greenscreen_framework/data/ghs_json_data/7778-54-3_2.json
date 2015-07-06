@@ -1,0 +1,344 @@
+{
+    "ID": "7778-54-3",
+    "cas_number": [
+        "7778-54-3"
+    ],
+    "country": "Japan",
+    "date_classified": "2009",
+    "date_imported": "Sat Jul  4 18:35:19 2015",
+    "descriptive_name": "Calcium hypochlorite",
+    "file_path": "h21_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "Classified into Category 1 from its 96h-LC50 = 0.06 mg free chlorine/L (0.12 mg/L as calcium hypochlorite) for fish (Rainbow trout and Channel catfish) (SIDS, 2006).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Based on a LD50 value of >2000 mg/kg for rabbits (IUCLID (2000)), the substance was classified as \"Not classified\" in JIS Classification (correspond to Category 5 or \"Not classified\" in GHS classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (room temperature)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "Based on a LD50 value of 790 mg/kg for rats (male) (SIDS (2004)), the substance was classified into Category 4.\n[For health hazards, refer also to sodium hypochlorite.]",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on the classifications of \"Group 3\" in IARC (IARC 52 (1991)), the substance was classified as \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Classified into Category 1 since its acute toxicity is Category 1 and it is hard to forecast the behavior in water from which it varies with environmental conditions.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid (melting point >55 degC) substances are not available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "The substance is classified into Division 5.1 in UNRTDG (UN1748).\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (room temperature)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (room temperature)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Not combustible (NPFA (13th, 2006), Hommel (1996), IUCLID (2000))\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid (room temperature)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on a negative result in a bone marrow micronucleus test by intraperitoneal injection to mice (in vivo somatic cell mutagenicity test) (SIDS (2004)), the substance was classified as \"Not classified\". As relevant information, from in vitro mutagenicity tests, there are reports of a positive chromosomal aberration test (SIDS (2004)) and a positive Ames tests (SIDS (2004)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Hazardous to the ozone layer",
+            "hazard_statement": " - ",
+            "rationale": "This substance is not listed in Annexes to the Montreal Protocol.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Inorganic compound\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (room temperature)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (room temperature)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Category 2",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": "May intensity fire; oxidizer",
+            "rationale": "The substance is classified into Division 5.1, PG II in UNRTDG (UN1748).\n",
+            "signal_word": "Danger",
+            "symbol": "Flame over circle"
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (room temperature)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Not combustible (NPFA (13th, 2006), Hommel (1996), IUCLID (2000))\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data. In a rat developmental test by oral administration during the organogenesis period, there were no effects on fetal development (IUCLID (2000)). In a one-generation reproductive toxicity test in rats, no reproductive toxicity was observed (SIDS (2004)). However, since hydrogen chloride or sodium hypochlorite was used in these tests, classification was not possible.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Not combustible (NPFA (13th, 2006), Hommel (1996), IUCLID (2000))\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "The substance is classified as Oxidizing solids.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "Based on reports of \"corrosive\" to the eyes of test animals (IUCLID (2000)), superficial loss of epithelium from corneas and conjunctivas following experimental application to eyes of rabbits for 30 seconds (HSDB (2002)) and a pH of 11.5 (HSDB (2002)), the substance was classified into Category 1. As relevant information, the substance is also corrosive to the skin.",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes severe skin burns and eye damage",
+            "rationale": "Based on a report of \"highly corrosive\" to rabbit skin (IUCLID (2000)) and classification as C; R34 in EU classification (EU-Annex I (access on May 2009)), the substance was classified into Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "Since the substance is on the Frosch contact allergen list (FROSCH, TEXTBOOK OF CONTACT DERMATITIS), the substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Classification not possible",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 2 (respiratory system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause damage to organs (respiratory system)",
+            "rationale": "Inhalation of hypochlorous acid fumes causes severe respiratory tract irritation and pulmonary edema (HSDB (2002)). Since the information is reported in a document in List 2, the substance was classified into Category 2 (respiratory system).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 3,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 2,
+        "IrE": 5,
+        "IrS": 5,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 4,
+        "ST_r": 0,
+        "ST_s": 4,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

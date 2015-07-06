@@ -1,0 +1,336 @@
+{
+    "ID": "106-92-3",
+    "cas_number": [
+        "106-92-3"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Sat Jul  4 18:35:24 2015",
+    "descriptive_name": "1-Allyloxy-2,3-epoxypropane",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 3",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Harmful to aquatic life",
+            "rationale": "It was classified into Category 3 from 96 hours LC50=30mg/L of the fish (Goldfish) (CERI/NITE Hazard Assessment Report (2005) and others.).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 5",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "May be harmful in contact with skin",
+            "rationale": "Based on the rabbit LD50 (dermal route) of 2,550mg/kg (ACGIH (7th, 2001)).",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that the substance is \"liquid\" according to the GHS definition and inhalation of its gas is not expected.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": "Toxic if inhaled",
+            "rationale": "Based on the rat LC50 (4 hours) value of 950ppm, calculated from the testing data of rat LC50 (inhalation of vapour) of 3.1mg/L (8 hours), was lower than 90% of the saturated vapor concentration (6,300ppm) under a saturated vapour pressure of 0.63kPa (25degC) (ICSC, 1999), the substance was considered as \"vapour containing substantially no mist\" and was classified based on standard values expressed in ppm.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "Based on the rat LD50 (oral route) of 830mg/kg (PATTY (4th, 1999)).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that the substance is classified as Category A4 by ACGIH (2001).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 3",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Harmful to aquatic life with long lasting effects",
+            "rationale": "Although acute toxicity was Category 3 and the bio-accumulation potential was low (log Kow=0.34(Existing Chemical Safety Inspections Data)), since there was no rapidly degrading (the decomposition by BOD: 37%(Existing Chemical Safety Inspections Data)), it was classified into Category 3.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Not classified",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Class 3 (UN Recommendations on the Transport of Dangerous Goods, UN#2219)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "Containing no chemical groups with explosive properties",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 3",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Flammable liquid and vapour",
+            "rationale": "The flash point is 48degC (c.c.) (ICSC, 1999) which is classified into Category 3. Classified into Class 3 and Packing Group III (UN#2219) (UN Recommendations on the Transport of Dangerous Goods)",
+            "signal_word": "Warning",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Based on negative data on germ cell multi-generation mutagenicity tests in vivo (dominant lethal tests), the absence of data on germ cell mutagenicity tests in vivo, positive data on somatic cell mutagenicity tests in vivo (chromosome aberration tests), and the absence of data on germ cell genotoxicity tests in vivo, described in CERI-NITE Hazard Assessment No.68 (2005).\n",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no \"-O-O-\" structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing oxygen (but not fluorine and chlorine), with the oxygen bound to carbon and hydrogen (but not to other elements)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Classification not possible",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "Based on the description in CERI-NITE Hazard Assessment No.68 (2005): The results of rat reproductive toxicity tests suggest a decrease in male fertility potential and the number of corpus luteum, and an increase in the incidence of abnormal spermatozoa (no description available of the general toxicity).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not classified",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "No data available, though containing unsaturated bonds and a distorted ring structure. Classified into Class 3 (UN Recommendations on the Transport of Dangerous Goods, UN#2219)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2A",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "Based on the testing data of animal eye irritation tests (CERI Hazard Data 2001-14 (2002), CERI-NITE Hazard Assessment No.68 (2005), PATTY (4th, 1999)): \"severe irritant, with irreversible effects observed.\"",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "Based on the testing data of rabbit skin irritation tests (CERI Hazard Data 2001-14 (2002), CERI-NITE Hazard Assessment No.68 (2005), PATTY (4th, 1999)): \"severe or moderate irritant.\"",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "Based on data on human health effects (CERI-NITE Hazard Assessment No.68 (2005), PATTY (4th, 1999)).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (respiratory system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (respiratory system)",
+            "rationale": "Based on the evidence from animals including \"inflammation of the nasal respiratory/olfactory epithelium,\" \"hyperplasia of the nasal gland, purulent inflammation. of the nasal mucosa, degeneration/hyperplasia of the respiratory epithelium,\" and  \"squamous epithelium metaplasia, pneumonia\" (CERI-NITE Hazard Assessment No.68 (2005)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 1 (respiratory organs).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (central nervous system, respiratory system, liver, kidney),\nCategory 3 (narcotic effects)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (central nervous system, respiratory system, liver, kidney)\nMay cause drowsiness or dizziness (narcotic effects)",
+            "rationale": "Based on the evidence from animal studies including \"suppression of the central nervous system, severe irritation to the respiratory organs (salvation, dyspnea, etc.),\" \"gasping respiration caused by irritation, dilation of the stomach caused by aerophagia, turbinate congestion/edema, nasal exudates, hepatic/renal congestion, pulmonary edema\" (inhalation exposure), \"moderate/severe edema, discoloration (purple), dyspnea and lethargy (observed in deceased subjects)\" (dermal exposure) (CERI-NITE Hazard Assessment No.68 (2005)), with respiratory irritation and narcotic effects observed. ",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard\nExclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 3,
+        "AT": 4,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 3,
+        "IrE": 4,
+        "IrS": 4,
+        "M": 3,
+        "N_r": 0,
+        "N_s": 4,
+        "P": 0,
+        "R": 3,
+        "Rx": 2,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

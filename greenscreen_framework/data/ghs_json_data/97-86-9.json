@@ -1,0 +1,336 @@
+{
+    "ID": "97-86-9",
+    "cas_number": [
+        "97-86-9"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Sat Jul  4 18:35:20 2015",
+    "descriptive_name": "isobutyl methacrylate",
+    "file_path": "h20_mhlw_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "Since its 72h-EC50 = 0.29 mg/L for algae (Pseudokirchn eriella subcapitata) (ECETOC, 1997), the substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Since its LD50 > 17760 mg/kg for guinea pigs (IUCLID, 2000), the substance is classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Its 6h-LC50 is 3600 ppm or more (ECETOC JACC No.36, 1996), and 4h-conversion will be approximately 4410 ppm or more. Its vapour pressure is documented to be 3.63 mmHg (25degC) (conversion, 483 Pa (25degC)) (HSDB (2003)) and 4.11 mmHg (25degC) (conversion, 547 Pa (25degC)) (Howard (1997)), and its calculated saturated vapour pressure concentration is 4782 ppm and 5416 ppm, respectively. Since its 6h-LC50 is less than the 90% value of the saturated vapour pressure concentration, the substance is \"vapour with almost no included mists.\" Thus, it would be classified into Category 4 or \"Not classified\", but it is classified into \"Classification not possible\" due to lack of data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "Since its LD50 is 6400 - 12800, 9600, and 11824 mg/kg for rats (ECETOC No. 36, 1996), the substance is classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Although its preexisting classification for acute toxicity is Category 1, it is rapidly degradable (28-day degradability of OECD TG 301D = 74.3% (ECETOC, 1997)) and it is estimated to have low potential for bioconcentration (LogPow = 2.66 (ECETOC, 1997)), thus, the substance was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 3",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Flammable liquid and vapour",
+            "rationale": "Since its flash point is 35degC (in a closed system) (IUCLID, 2000), which is within guidance values of Category 3 (23 - 60degC). Also, it is rated Class 3, Packing group III in TDG classification, thus the substance is classified into Category 3.",
+            "signal_word": "Warning",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since it was negative in a micronucleus test in mouse bone marrow cells (according to OECD Guideline 474) (ECETOC JACC No. 36 (1996)) (a somatic cell in vivo mutagenicity test), the substance was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure in the molecule",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "The substance contains oxygen (but not fluorine or chlorine) which is chemically bonded only to carbon or hydrogen.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Since its autoignition point is 390 - 514degC (Hommel, 1996; IUCLID, 2000), which is above 70degC, and it is rated Class 3 in TDG classification (UN No. 2283), the substance was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Although it has been documented that in a developmental toxicity test in which the substance was administered by the i.p. route to rats on day 5, 10, and 15 of gestation, increase of resorption and skeletal abnormalities were observed (ECETOC JACC No. 36 (1996), it has been documented that the control group treated with normal saline and cotton-seed oils also showed skeletal abnormalities, and the i.p. route is not an appropriate route of administration. Thus, the substance was classified into \"Classification not possible\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Type G",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "The substance contains chemical groups (acrylic group, which is an unsaturated bond) associated with self-reactive properties. However, the substance used in the commercially distributed products is mixed with a self-polymerization inhibitor (hydroquinone monomethyl ether), making the products non-self-reactive. Thus, according to the UNRTDG, the product (UN 2283) is rated as Class 3 and the substance is classified into Type G.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": " - ",
+            "rationale": "Based on a rabbit test (according to OECD Guideline 405, GLP; ECETOC JACC No. 36 (1996)), the substance is classified into \"Not classified\". Although it is rated Xi; R36/37/38 in EU classification, the substance was classified into \"Not classified\" based on expert judgement.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "It is documented that in a Draize test the substance was applied for 24 hours to skin of rabbits, well-defined erythema and moderate edema were exhibited (ECETOC JACC No. 36 (1996)). In addition, the substance is rated Xi; R36/37/38 in EU classification. Thus, it was classified into Category 2.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "It is rated R43 in the EU classification, and allergic hypersensitivity marked in five persons in a human patch test was evaluated to be ambiguous (IUCLID, 2000). A test using guinea pigs showed negative results (ECETOC JACC No. 36 (1996)). Thus, the substance cannot be classified due to limited data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Classification not possible",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": " - ",
+            "rationale": "Since the four-week test via inhalation using rats and the four to six month test via diet feeding (both from PATTY (5th, 2001)) do not provide detailed descriptions on such factors as feeding amount and exposure period, the substance was classified into \"Classification not possible\" due to lack of data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Classification not possible",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": " - ",
+            "rationale": "In a four-hour inhalation test using rats, signs such as decreased motor activity, eye squint, erythema, and slight dyspnea, all of which subsided on the 14th day were observed at doses >= 2 mg/L (being less than 90% of the saturated vapour pressure concentration, and the substance is considered to be vapour) were reported (IUCLID (2000)). However, since no other information is available, the substance cannot be classified due to lack of data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 2,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 3,
+        "IrE": 2,
+        "IrS": 4,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 0,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

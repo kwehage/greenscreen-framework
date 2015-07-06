@@ -1,0 +1,344 @@
+{
+    "ID": "126-99-8",
+    "cas_number": [
+        "126-99-8"
+    ],
+    "country": "Japan",
+    "date_classified": "2009",
+    "date_imported": "Sat Jul  4 18:35:19 2015",
+    "descriptive_name": "2-Chloro-1,3-butadiene",
+    "file_path": "h21_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified from its 96h-LC50 = 245 mg/L for fish (Bluegill) (SIDS, 2003) and 48h-EC50 = 348 mg/L for Crustacea (Daphnia magna) (SIDS, 2003).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Fatal in contact with skin",
+            "rationale": "Based on a LD50 value of 200 mg/kg for rats (SIDS (1998)), the substance was classified into Category 2.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": "Toxic if inhaled",
+            "rationale": "Based on LC50 values of 11.8 mg/L (3259 ppmV) (SIDS (1998)) and 8.2 mg/L (2264 ppmV) (IARC 19 (1979)) for rats, the lower value was adopted and the substance was classified into Category 3. Since saturated vapour pressure concentration was 282,895 ppmV, the classification criteria for gas was adopted.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Toxic if swallowed",
+            "rationale": "Based on LD50 values of 251 mg/kg and 450 mg/kg for rats (SIDS (1998)), the lower value was adopted and the substance was classified into Category 3.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "Based on the classification of \"Group 2B\" in IARC (IARC 71 (1999)), the substance was classified into Category 2. In 2-year inhalation tests in rats and mice (NTP TR467 (1998)), the incidences of neoplasms were significantly increased in the oral cavity, thyroid gland, lung, kidney and mammary gland of rats, and the lung, circulatory system, Harderian gland, forestomach, skin and mammary gland of mice. The substance is classified into \"Reasonably anticipated to be a human carcinogen\" in NTP (NTP ROC 11th (2000)). Additionally, the substance is classified into Category 2 in EU classification, however, the EU classification was not used for GHS classification since the evidence supporting the classification is not available. Classification in DFG (MAK) is Category 2 (Substances that are considered to be carcinogenic for man) (MAK/BAT (2007)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified since its acute toxicity is Not classified and it is not non-water soluble (Water solubility = 874.9 mg/L (PHYSPROP Database, 2009)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Highly flammable liquid and vapour",
+            "rationale": "Classified into Category 2 since flash point -20 degC (Hommel (1996)) is <23 degC and initial boiling point 59 degC (NFPA (13th, 2002)) is >35 degC. \n",
+            "signal_word": "Danger",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "There are conflicting results (positive at low concentrations and negative in high concentrations) in dominant lethal tests by inhalation exposure to mice and rats (in vivo heritable germ cell mutagenicity test) (SIDS (1998)). In addition, the results of mouse and rat bone marrow chromosomal aberration tests and micronucleus tests (in vivo somatic cell mutagenicity tests) are contradictory (SIDS (1998)). A possible explanation for the positive results may be presence of unknown impurities in the test substance. Additional investigations are required to evaluate the germ cell mutagenicity of the substance (SIDS (1998)). Classification was not possible due to lack of data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Hazardous to the ozone layer",
+            "hazard_statement": " - ",
+            "rationale": "This substance is not listed in Annexes to the Montreal Protocol.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "The substance contains chlorine (but not oxygen) which is chemically bonded only to carbon.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Auto-ignition point is 440 degC (Hommel (1996)) exceeding 70 degC.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "Meningoencephaloceles was observed in rats following inhalation or oral exposure during gestation (IARC 19 (1979)). An increase in resorptions, increased embryo toxicity and teratogenic effects (reduced length of the diaphase of the femur and fibula, hydrocephalus) were observed following inhalation exposure (SIDS (1998), ACGIH (2001)). Exposure to male rats and mice resulted in sterility or impotence (ACGIH (2001)). There are marked disparities among reported test results, therefore, the weight of evidence for teratogenicity and reproductive toxicity is very limited and insufficient (ACGIH (2001)). The substance was classified into Category 2 since there is no sufficient evidence to classify it in Category 1. On IARC monographs (1979), cases of children born with physical and mental defects are reported for women working in a chloroprene factory. Additionally, a threefold excess of miscarriage by the wives of workers occupationally exposed to chloroprene were reported (IARC 19 (1979)). These findings are not found in other IARC monographs (1999). This same data are reported in other documents (ACGIH (2001) and NTP TR467 (1998)), however, these documents reported that the methods used to gather data in these tests were questioned. In addition, there is a report in SIDS (1998) that there were not enough reliable data available to draw meaningful conclusions for the substance. These human case reports were not used as the basis of classification.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Type G",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Type G since the substance containing stabilizers (hydroquinone or phenothiazine) is classified into Class 3, Subsidiary risk 6.1 PG I in UNRTDG (UN1991) though there are chemical groups (unsaturated C=C)) associated with self-reactive properties present in the molecules.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "Based on a report that conjunctivitis lasted for 10 days in a rabbit test (SIDS (1998)) and classification as Xi; R36/37/38 in EU classification, the substance was classified into Category 2.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "Based on a report that after occlusive application to the skin of rabbits, mild to moderate erythema with edema was observed at 24-hour, and mild to moderate erythema persisted until 48-hour (SIDS (1998)), the substance was classified into Category 2. As relevant information, the substance is classified into Xi; R36/37/38 in EU classification.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (liver, blood, nervous system, stomach, respiratory system, cardiovascular system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (liver, blood, nervous system, stomach, respiratory system, cardiovascular system)",
+            "rationale": "Because following inhalation exposure to rats for 4-week, midzonal liver degeneration and necrosis were noted at a dose level of 160 ppm (0.579 mg/L, 90-day equivalence: 0.178 mg/L) and higher concentrations which are within the guidance value range for Category 1 (PATTY (5th, 2001)), the substance was classified into Category 1 (liver). Additionally, there are other reports of liver toxicity: a significant increase in the incidence of hepatocellular necrosis in rats following inhalation exposure to 200 ppm (0.724 mg/L) for 13-week (NTP TR467 (1998)) and observation of liver damage or jaundice in dogs and guinea pigs exposed via inhalation (SIDS (2009)).\nFor the blood system, inhalation exposure of rats for 13-week at concentration of 200 ppm (0.724 mg/L) produced normocytic, normochromic anemia (NTP TR467 (1998)), and inhalation exposure of mice for 13-week at concentrations of 32 ppm (0.116 mg/L) and higher produced significant decreases in hematocrit values and erythrocyte counts and a change in platelet counts (IARC 19 (1979)). Since these effects were observed at dose levels within the guidance value range for Category 1, the substance was classified into Category 1 (blood system).\nFor the nervous systems, 44% of patients with chronic chloroprene poisoning had pathological changes in the (cardiovascular and) nervous systems and symptoms such as dizziness and insomnia were reported (IARC 19 (1979)). It was reported that decreased blood cholinesterase activity occurred due to occupational exposure (IARC 19 (1979)). In rats, symptoms such as low motor activity, restlessness and lethargy were observed following exposure. Based on the information, the substance was classified into Category 1 (nervous systems).\nFor the stomach, in a 13-week inhalation test in mice (NTP TR467 (1998)), increased incidences of squamous epithelial hyperplasia of the forestomach occurred at dose levels of 80 ppm (0.290 mg/L) and higher concentrations. Additionally, there is a report that chronic exposure may result in gastrointestinal disorders (IARC 19 (1979)). Based on the information, the substance was classified into Category 1 (stomach).\nFor the respiratory system, inhalation exposure to rats for 4-week (PATTY (5th, 2001)) induced tissue damage to the lung at dose levels of 160 ppm (0.579 mg/L, 90-day equivalence: 0.178 mg/L) and higher concentrations which are within the guidance value range for Category 1. In a 13-week inhalation test in rats (NTP TR467 (1998)), increased incidences of olfactory epithelial degeneration and respiratory metaplasia occurred at dose levels of 80 ppm (0.290 mg/L) and higher concentrations. Additionally, there is a report that chronic exposure may result in respiratory irritation. Based on the information, the substance was classified into Category 1 (respiratory system).\nFor the cardiovascular system, based on a human case report that 44% of patients with chronic chloroprene poisoning had pathological changes in the cardiovascular and dystrophy of the myocardium (NTP TR467 (1998)), the substance was classified into Category 1 (cardiovascular system).\nFindings for the immune system were not used as the basis of classification, since the information was found in IARC monographs (1979) but not in other IARC monographs (1999) or other documents. The findings for the tooth/periodontal tissue were not used as the basis for classification since this information is only found in IARC 19 (1979) and introduction of NTP TR467 (1998) and not in other documents.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (central nervous system, respiratory system, liver, kidney)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (central nervous system, respiratory system, liver, kidney)",
+            "rationale": "Liver injury was observed in rats exposed via inhalation to 225 ppm (0.810 mg/L) and higher concentrations (IARC 71 (1999)). In another test, markedly more hepatotoxicity with increased hepatic enzyme activity was reported at 500 ppm (1.810 mg/L) and higher concentrations (IARC 71 (1999)). Oral administration to rats produced CNS depression (PATTY (5th, 2001)). In rats respiratory failure by inhalation exposure was reported (IARC 71 (1999)). In humans, there is a report that the symptoms of acute inhalation exposure include nervous system depression, and injury to the lungs, liver and kidney (IARC 71 (1999)), but there is no report of detailed symptoms of CNS depression or a report associated with narcotic effects. Since the above effects were observed in rats at dose levels within the guidance value range for Category 1 and the effects were also observed in human cases, the substance was classified into Category 1 (central nervous system, respiratory system, liver, kidney).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 2,
+        "AT": 5,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 4,
+        "IrE": 0,
+        "IrS": 4,
+        "M": 0,
+        "N_r": 4,
+        "N_s": 4,
+        "P": 0,
+        "R": 3,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

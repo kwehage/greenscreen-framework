@@ -1,0 +1,344 @@
+{
+    "ID": "108-45-2",
+    "cas_number": [
+        "108-45-2"
+    ],
+    "country": "Japan",
+    "date_classified": "2009",
+    "date_imported": "Sat Jul  4 18:35:19 2015",
+    "descriptive_name": "m-Phenylenediamine",
+    "file_path": "h21_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "Classified into Category 2 from its 48h-EC50 = 2.0 mg/L for Crustacea (Daphnia magna) (Test for the Ecological Effect of Chemical Substances (Ministry of the Environment), 2001), etc.).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Harmful in contact with skin",
+            "rationale": "Based on a LD50 value of 1100 mg/kg for rats (Initial Risk Assessment Report (NITE, CERI, NEDO) vol. 54 (2008)), the substance was classified into Category 4.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Toxic if swallowed",
+            "rationale": "Based on rat LD50 values of 280 mg/kg (Initial Environmental Risk Assessment of Chemicals (Ministry of Environment) vol. 3 (2004)), 650 mg/kg (IARC vol. 16 (1978)), 204, 255, 260, 360 and 450 mg/kg (BUA (1995)), the substance was classified into Category 3 since most of the LD50 values are in this category.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on the classifications of \"Group 3\" in IARC (IARC suppl. 7 (1987)) and \"A4\" in ACGIH (1988) (ACGIH-TLV (2009)), the substance was classified as \"Not classified\". In 2-year oral (drinking) tests of m-phenylenediamine dihydrochloride, increased incidences of tumors were not observed in either sex of rats or mice, and carcinogenic activity of m-phenylenediamine dihydrochloride in F344/DuCrj (Fischer) rats and Crj:BDF1 mice was not indicated (Results from Carcinogenicity tests (Ministry of Health, Labour and Welfare) (1988)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Toxic to aquatic life with long lasting effects",
+            "rationale": "Classified into Category 2 since its acute toxicity is Category 2 and it is not rapidly degradable (BOD degradation rate: 2% (Biodegradation and Bioconcentration of Existing Chemical Substances under the Chemical Substances Control Law, 1985)).",
+            "signal_word": " - ",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Based on a positive result in a mouse bone marrow micronucleus test (in vivo test) (IUCLID (2000)), the substance was classified into Category 2. Although there is a weakly positive result in 1 of 3 dominant lethal tests, technical grade substance (purity: 98%) was used in the weakly positive test and there is no reproducibility in the other two tests using >99% purity substance (BUA No. 97 (1992)). From other in vivo tests, there are reports of negative mouse bone marrow micronucleus test (test substance: m-phenylenediamine hydrochloride) (BUA No. 97 (1992)), positive mouse testis unscheduled DNA synthesis test (BUA No. 97 (1992)), and negative mouse germ cell unscheduled DNA synthesis test (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)). From in vitro mutagenicity tests, there are reports of positive CHO cell and CHL cell chromosomal aberration tests, Ames tests, CHL cell micronucleus tests as well as mouse lymphoma cell forward mutation tests (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008), NTP DB (access on Jul. 2009)). As relevant information, the substance is classified into Category 3; R68 in EU classification (EU-Annex I (access on Jul. 2009)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Hazardous to the ozone layer",
+            "hazard_statement": " - ",
+            "rationale": "This substance is not listed in Annexes to the Montreal Protocol.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no oxygen, fluorine or chlorine",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Auto-ignition point is 560 degC (ICSC (1999)) exceeding 70 degC.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "Since in an oral developmental toxicity test in rats, increased number of embryo resorptions was observed at dose levels at which decreased body weight gain was noted in the parental animals (Initial Environmental Risk Assessment of Chemicals (Ministry of the Environment) vol. 3 (2004)), the substance was classified into Category 2. As relevant information, decreased number of sternal ossification centers was observed in fetuses (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid (melting point <= 140 degC) substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "There is a report of \"irritating to eyes\" in human (Initial Environmental Risk Assessment of Chemicals (Ministry of the Environment) vol. 3 (2004)). 3 rabbit tests have been conducted. In the first test, no irritation was noted following application of a 2.5% solution of the substance. In the second test, following application of a 20% solution, conjunctival erythema and corneal cloudiness were observed and disappeared within 7 days. In the third test, when 50 mg of the substance was applied, corneal cloudiness occurred and persisted more than 7 days (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)). Based on these reports, the substance was classified into Category 2.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "There are reports of two tests where the substance was tested by open application to human skin. In the first test, the substance was found to have no effect when the solid was rubbed into human skin but a 10% alcoholic solution applied to the skin caused slight burning and itching. In the second test, one human subject was applied 1%, 5% and 10% solutions of the substance in alcohol, lanolin or Vaseline, and no visible effect was observed within 24-hour (DFGOT vol. 6 (1994)). Results for animal tests involving 4-hour applications are not reported. There is a result of \"not irritating\" following an occlusive application to rabbits for 24-hour (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)). In three rabbit tests (application periods are unknown), no effect was noted when the substance was applied in solid form. However, application of a 10% alcoholic solution resulted in slight erythema (DFGOT vol. 6 (1994)). In two tests, following application of a 2.5% solution, results were \"no irritation\" (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)) and slight erythema and edema, which disappeared within 24-hour (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)). Based on the reports, the substance was classified as \"Not classified\" in JIS Classification (correspond to Category 3 in GHS classification). As relevant information, in a rabbit test (application period is unknown), irritation was judged to be \"local and moderate\" (ACGIH (2001)). However, it is reported for the same test that direct application of the substance to rabbit skin resulted in no effects but application of a 10% alcoholic solution resulted in slight erythema (DFGOT vol. 6 (1994)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "In a scratch test of workers from a facility manufacturing this substance (exposure duration: 5 - 10 years), allergic positive response was observed in 9/112 persons (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)). In a patch test of 19 female patients with eczema after use of hair color, positive rate was 21% at 0.1% application and 53% at 1% application (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)). The substance is classified into Category 1 for skin sensitizer in Japan Society For Occupational Health (JSOH) (Recommendations for allowable concentrations (2008)) and R43 in EU classification (EU-Annex I (access on Jul. 2009)). The substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (nervous system, liver, kidney, urinary bladder),\nCategory 2 (blood)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (nervous system, liver, kidney, urinary bladder)\nMay cause damage to organs through prolonged or repeated exposure (blood)",
+            "rationale": "In humans, there is a report of \"abnormal reflex, cutaneous hyperesthesia and pathological changes in the kidney and liver\" (Initial Environmental Risk Assessment of Chemicals (Ministry of the Environment) vol. 3 (2004)). In workers, following long-term exposure to the substance \"dysuria, edema of mucosa, polypous swellings and (eosinophilic) infiltration of the area of the triangle and cervix of the urinary bladder\" were reported as effects (ACGIH (2001)). In animals, reported effects are as follows; \"an abundance of degenerative lesions with a significant increase in the numbers of pyknotic hepatocytes in the livers\" at 18 mg/kg following a 13-week oral exposure in rats (ACGIH (2001)); \"methemoglobinemia\" at 100 mg/kg (90-day equivalence: 31.1 mg/kg) following a 4-week oral exposure in rats; \"chronic renal disease\" at 40 mg/kg following a 104-week oral exposure in rats (Initial Environmental Risk Assessment of Chemicals (Ministry of the Environment) vol. 3 (2004)); and \"impairment of liver and central nervous system\" at 5.6 mg/kg and higher dose levels following a 4-month oral exposure in rats (IUCLID (2000)). The nervous system, liver, kidney, urinary bladder and blood system are considered to be target organs. Since the findings in animals were noted at dose levels within the guidance value range for Category 1 and 2, the substance was classified into Category 1 (nervous system, liver, kidney, urinary bladder) and Category 2 (blood system). Additionally, there are reports of \"pulmonary fibrosis, skin thickening of fingers\" and \"reflux esophagitis, pedal oedema, bradycardia, heart block, sclerodactyly, teleangiectasis over the fingers, pulmonary fibrosis, and dilation of oesophagus\" (IUCLID (2000)), however, these effects were derived from exposure data for amine mixtures which contained the substance as the main component (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)).The substance was not classified into Category 2 (cardiovascular system, respiratory system) since these effects may were induced by exposure to a mixture of the substance with other substances.",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (central nervous system, blood)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (central nervous system, blood)",
+            "rationale": "Reported effects on the central nervous system include a convulsion observed at 200 mg/kg following oral exposure to rats (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)). Reported effects on the blood system include cyanosis observed at 100 - 200 mg/kg following oral exposure in mice (IUCLID (2000)). Oral exposure in cats at a dose level of 10 mg/kg and higher concentrations resulted in an increased methemoglobin concentration in blood (Initial Risk Assessment Report (NITE, CERI, NEDO) No. 54 (2008)). Based on the data, the substance was classified into Category 1 (central nervous system, blood system). There is a report of \"acute pulmonary edema following dermal exposure\" (RTECS (2004)), however, this information regarding the respiratory system is on a document in List 3, therefore, the data was not used for this classification.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 4,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 0,
+        "IrE": 0,
+        "IrS": 2,
+        "M": 3,
+        "N_r": 4,
+        "N_s": 4,
+        "P": 0,
+        "R": 3,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

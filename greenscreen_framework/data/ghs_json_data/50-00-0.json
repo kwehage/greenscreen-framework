@@ -1,0 +1,336 @@
+{
+    "ID": "50-00-0",
+    "cas_number": [
+        "50-00-0"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Sat Jul  4 18:35:24 2015",
+    "descriptive_name": "Formaldehyde",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "It was classified into Category 2 from 96 hours LC50=1.8mg/L of the fish (Morone Saxatilis) (CICAD40 (2002) and others.).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Toxic in contact with skin",
+            "rationale": "Based on the testing data of rabbit LD50 (dermal route) of 270mg/kg (EHC 89 (1989)).",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": "Fatal if inhaled",
+            "rationale": "Based on the testing data of rat LC50 (inhalation of gas) of 480ppm (SIDS (2002)).",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "Based on the LD50 value of 605mg/kg calculated from the testing data of rat LD50 (oral route) of 600mg/kg (SIDS (2002)), 700mg/kg (SIDS (2002)) and 800mg/kg (SIDS (2002)).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that formaldehyde is a gas at ordinary temperatures and no data are available on the inhalation toxicity of formalin (formaldehyde solution) to the respiratory organs. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 1A",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "May cause cancer",
+            "rationale": "Due to the fact that the substance is classified as Group 1 (carcinogenic to humans) by IARC (2005).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Since there was rapidly degrading (the decomposition by BOD: 91% (Existing Chemical Safety Inspections Data)) and the bio-accumulation was low (log Kow=0.35 (PHYSPROP Database, 2005)), it was claasified into Not classified.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to gaseous substances are not available (gas). No data available. Corrosivity to metals remains uncertain, though classified as \"corrosive substances\" (as the classification based on UN Recommendations on the Transport of Dangerous Goods includes \"skin corrosivity\") (UN#1198 and 2209) (aqueous solution).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas). Containing no chemical groups with explosive properties (aqueous solution)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Category 1 (Gas),\nNot applicable (Aqueous solution)",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": "Extremely flammable gas (Gas)",
+            "rationale": "Based on the description in ICSC (2004): the lower explosion limit is 7vol%. There is no applicable substance listed in the UN Recommendations on the Transport of Dangerous Goods (gas). Classified as \"liquid\" according to GHS definition (aqueous solution)",
+            "signal_word": "Danger",
+            "symbol": "Flame"
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable (Gas),\nCategory 4 (Aqueous solution, 37% formaldehyde solution),\nClassification not possible (Aqueous solution, Solutions with unknown formaldehyde content)",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Combustible liquid (Aqueous solution, 37% formaldehyde solution)",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas) The flash point of 37% formaldehyde solution is 85degC (c.c.) (ICSC (2004)), which is classified into Category 4. Solutions with unknown formaldehyde content cannot be classified because the flash point of formaldehyde (aqueous solution) depends on its concentrations. Classified into Class 8 (UN#2209 Solutions with a concentration of 25 % by mass of more), or Class 3 and 8 (UN#1198 Flammable solutions (aqueous solutions)), according to the UN Recommendations on the Transport of Dangerous Goods.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas), or classified as \"liquid\" according to GHS definition (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Liquefied gas (Gas),\nNot applicable (Aqueous solution)",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": "Contains gas under pressure; may explode if heated (Gas)",
+            "rationale": "Classified as \"liquefied gas,\" based on the description in ICSC (2004) (boiling point: -20degC) and HSDB (2005) (critical temperature: 137.2-141.2degC). There is no applicable substance listed in the UN Recommendations on the Transport of Dangerous Goods (gas). Classified as \"liquid\" according to GHS definition (aqueous solution)",
+            "signal_word": "Warning",
+            "symbol": "Gas cylinder"
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Based on the negative data on  germ cell mutagenicity tests in vivo (chromosome aberration tests in the spermatocytes of mice), positive data on somatic cell mutagenicity tests in vivo (micronucleus and chromosome aberration tests) (exclusively for gastrointestinal/alveolar cells exposed directly to formaldehyde), and absence of data on  germ cell genotoxicity tests in vivo, described in CERI-NITE Hazard Assessment No.71 (2005) and SIDS (2004). Some dominant lethal studies in rats show slightly positive (ambiguous), which is not taken into account, because they are not considered valid for evaluation purposes. ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas) Organic compounds containing no \"-O-O-\" structure (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Classification not possible (Gas),\nNot applicable (Aqueous solution)",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "No data available (gas). Classified as \"liquid\" according to GHS definition (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas). Organic compounds containing oxygen (but not fluorine and chlorine), with the oxygen bound to carbon and hydrogen (but not to other elements) (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas), or classified as \"liquid\" according to GHS definition (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable (Gas),\nNot classified (Aqueous solution)",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas). The flash point of formaldehyde (gas) is 430degC (c.c.) (ICSC (2004)), not pyrophoric when in contact with air at ordinary temperature, and its solution not pyrophoric when in contact with air at ordinary temperature.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas), or classified as \"liquid\" according to GHS definition (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Insufficient data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": "May cause allergy or asthma symptoms or breathing difficulties if inhaled",
+            "rationale": "Based on the testing data of IgE specific immune responses of guinea pigs (CICAD 40 (2002)) (positive), data on human health effects (EHC 89 (1989)) and the classification by the Japan Society for Occupational Health.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "self_heating_substances": {
+            "classification": "Not applicable (Gas),\nClassification not possible (Aqueous solution)",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas). Test methods applicable to liquid substances are not available (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas) Containing no chemical groups with explosive or self-reactive properties (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2A",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "Based on epidemiological cases (EHC 89 (1989)) the results of animal eye irritation tests (SIDS (2002), EHC 89 (1989)) (moderate irritation).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "Based on the testing data of rabbit skin irritation tests (EHC 89 (1989)): \"mild to moderate\" and data on human health effects (EHC 89 (1989)). ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "Epidemiological cases (EHC 89 (1989), CERI-NITE Hazard Assessment No.71 (2005)) and the classification by the Japan Society for Occupational Health and the Japanese Society for Contact Dermatitis.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"gas\" according to GHS definition (gas). Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At) (aqueous solution)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (respiratory system, central nervous system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (respiratory system, central nervous system)",
+            "rationale": "In epidemiological study, respiratory effects caused by irritation and effects on the central nervous system were reported (ECETOC TR1 (1979)). In animal experimnet, squamous metaplasia in the nasal tissues, squamous metaplasia in the larynx, inflammation in the tracheal lumen, body weight loss, metaplasia of the bronchial epithelium, dyspnea, restlessness, hunched posture and death were reported (CERI Hazard Data Book (1997)). Based on these effects, the respiratory organs and centralnervous system are considered to be the target organs. And these effects were observed within the guidance values for Category 1 in the repeated-dose study.  Therefore, the substance was classified as Category 1 (respratory organs, central nervous system).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (nervous system, respiratory system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (nervous system, respiratory system)",
+            "rationale": "Based on the human evidence including \"irritation to the respiratory tract ACGIH\" (7th, 2001), \"irritation to the respiratory tract, a decrease in the sensitivity of the nasal and palatine nerve, adverse effects on the hypothalamus\" (CERI-NITE Hazard Assessment No.71 (2005)), and the evidence from animal studies including \"irritation to the respiratory tract, general convulsions (muscles, etc.), pulmonary edema\" (SIDS (2004)).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 5,
+        "B": 0,
+        "C": 4,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 4,
+        "IrE": 4,
+        "IrS": 4,
+        "M": 3,
+        "N_r": 4,
+        "N_s": 4,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

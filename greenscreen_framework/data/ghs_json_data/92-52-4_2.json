@@ -1,0 +1,336 @@
+{
+    "ID": "92-52-4",
+    "cas_number": [
+        "92-52-4"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Sat Jul  4 18:35:24 2015",
+    "descriptive_name": "Biphenyl",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "It was classified into Category 1 from 48-hour LC50=360microg/L of Crustacea (Daphnia magna) (MOE Risk Assessment No.1, 2002).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 5",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "May be harmful in contact with skin",
+            "rationale": "Based on rabbit LD50 value: 2500mg/kg (CERI Hazard Data, 1999, MOE Risk Assessment the 1st volume, 2002), and >5010mg/kg (MOE Risk Assessment the 1st volume, 2002), the lower value was adopted and it was set to as Category 5.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "There in only a data that mouse LC50 (4 hours) value: >43ppm (corresponding values 0.27mg/L) (CERI Hazard Data (1999), CICAD 6 (1999)), but the category could not be specified. Therefore, it cannot be classified since data is insufficient.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 5",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "May be harmful if swallowed",
+            "rationale": "Calculated based on rat LD50 values: 2400mg/kg (CERI Hazard Data, 1999 and MOE Risk Assessment the 1st volume, 2002),  3280mg/kg (MOE Risk Assessment the 1st volume, 2002, ACGIH 7th, 2001, and PATTY 4th, 1994), and 5040mg/kg (CERI Hazard Data, 1999). Since the calculated values was 2489mg/kg, it was set as Category 5.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since it was classified into D according to EPA (1991) (IRIS, 2005), it was set as the outside of Category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Since rapidly degrading (BOD: 66% (existing chemical safety inspections data)), and less bio-accumulative (log Kow=3.98 (PHYSPROP Database, 2005)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "There is information on flame ranges (Hommmel (1991) Card No. 241 and others), there is no data with a defined test method.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "The substance was regarded as outside the categories. Because there are negative results from the chromosome aberration tests using rat bone-marrow cells, which are in vivo mutagenicity tests using somatic cells (CERI Hazard Data, 1999, CICAD 6, 1999).   ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Containing no -0-0- structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Containing no oxygen , chlorine and fluorine.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Flash point: 540degC (ICSC (J), 1994)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Since there are the discription of no effect to reproductive potential in rat reproduction study (CERI Hazard Data (1999), MOE Risk Assessment volume 1 (2002), CICAD 6 (1999), PATTY (4th, 1994), IRIS(2005)), and there is no severe reproductive toxicity in the dose causing general toxicity to parent animals in pregnancy rat oral administration test (CERI Hazard Data (1999), CICAD 6 (1999), PATTY (4th, 1994), IRIS(2005)), it is considered as on the outside of Categry.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes eye irritation",
+            "rationale": "It was set as Category 2B from description that mild irritation was admitted in the test applied to the eye of the rabbit of CERI Hazard Data (1999) and CICAD 6 (1999).",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 3",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes mild skin irritation",
+            "rationale": "From descriptions that irritation was not observed in the rabbit test and human skin application test (CICAD 6 (1999)), it was thought to be out of Category. However, from description that weak irritation is indicated on the skin (CERI hazard data (1999)), it was judged that there was slight irritation and was classified as Category 3.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Not classified",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classified as out of category because CICAD 6 (1999) describes that no skin sensitization was found in the maximization test using guinea pigs.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metaloids(B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (liver, nervous system, respiratory system),\nCategory 2 (kidney)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (liver, nervous system, respiratory system)\nMay cause damage to organs through prolonged or repeated exposure (kidney)",
+            "rationale": "Based on the descriptions in CERI Hazard Data (1999), MOE Risk Assessment the 1st volume (2002), CICAD 6 (1999), ACGIH (7th, 2001), or PATTY (4th, 1994) that a liver damage, the influence on a center and the peripheral nervous system and bronchitis are reported in occupational explosure case, it was classified in Category 1 (liver, nervous systems,respiratory systems). Moreover, based on the description in CICAD 6 (1999) that  the renal effects was seen in the range of  guidance value of Category 2 in the oral feeding administration tests during 21 days using the rat, it was classified in Category 2 (kidney).",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 3 Respiratory tract irritation",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause respiratory irritation (respiratory tract irritation)",
+            "rationale": "Due to the descriptions that weak irritation is indicated to mucosa as the effect to human in CERI Hazard Data (1999), and that mild dyspnea was observed in the inhalation exposure test using mouse in CERI Hazard Data (1999) and CICAD 6 (1999). So it is judged that it has respiratory irritantation, therefore, it was classified into Category 3 (respiratory irritant).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 2,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 2,
+        "E": 0,
+        "F": 0,
+        "IrE": 3,
+        "IrS": 3,
+        "M": 2,
+        "N_r": 4,
+        "N_s": 0,
+        "P": 0,
+        "R": 2,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 2
+    }
+}

@@ -1,0 +1,336 @@
+{
+    "ID": "74-89-5",
+    "cas_number": [
+        "74-89-5"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Sat Jul  4 18:35:21 2015",
+    "descriptive_name": "Methylamine",
+    "file_path": "h20_meti_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "Since it was gas on a GHS definition, it was classified into \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": "Harmful if inhaled",
+            "rationale": "Since LC50 values of the 4-hour inhalation exposure test employing rats were 4,400 mL/m3 (4,400 ppm), and 6,400-9,100 mL/m3 (6,400-9,100 ppm) (DFGOT vol.7 (1996)), it was classified into Category 4. ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Since it was gas on a GHS definition, it was classified into \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Toxic if swallowed",
+            "rationale": "There is a description of LD50 value 100-200 mg/kg (ACGIH (7th, 2001), DFGOT vol.7 (1996)), and 698 mg/kg (DFGOT vol.7 (1996), IUCLID (2000)) of the oral administration test where 40% solution was administered to a rat. Moreover, there is description of 100-200 mg/kg (DFGOT vol.7 (1996), Patty (5th, 2001) and IUCLID (2000), HSDB (2008)) as LD50 value of the test where 10% solution was administered orally to a rat. Since two or more LD50 values fall within the range of Category 3, it was classified into Category 3. ",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that the substance is gas according to the GHS definition, it is classified as \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since no evaluation by major international evaluation agencies is made and there is no data, classification is not possible. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Although there is a description of \"positive\" (NTP DB (Access on January 2009), IUCLID (2000)) in a productive cell in vivo heritable mutagenicity test (dominant lethal test by inhalation exposure employing a rat), there is a statement that \"the test details are unknown and it cannot be evaluated.\"(IUCLID (2000)). Classification is not possible because there is no other data of in vivo examination. In addition, there are descriptions of \"positive\" in the mouse lymphoma assays and \"negative\" (NTP DB (Access on January 2009)) in the reverse mutation test employing salmonella as an in vitro mutagenicity test.   ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "There is a description as follows in the inhalation exposure test using pregnant rats, \"Although fetal death after implantation increased depending on the dose level, evaluation cannot be made, because study details are unknown\" (DFGOT vol.7 (1996). Moreover, there is a description as follows in the reproductive toxicity study via oral administration using female rats, \"Although no effect related with administration was observed on estrous cycles, reproductive capabilities, pregnancy, live baby birth, breast feeding, average body weight of baby animals at birth and at weaning, significant decrease in the number of fetuses per litter was observed\"(NTP DB (Access on January 2009), IUCLID (2000)). It has been concluded as follows regarding this in IUCLID (2000), \"No evaluation can be made because details of results are unknown.\" On the other hand, there are descriptions as follows in the reproductive toxicity study via administration into the ventral cavity using female mice, \" No toxicity was observed in mother animals and child animals\" (NTP DB (Access on January 2009), IUCLID (2000)) and \"No reproductive toxicity was observed\" (IUCLID (2000)). Classification is not possible, because sufficient data are not available as mentioned above. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "It has been described that \"one worker had an allergic or irritative bronchitis\" (ACGIH (7th, 2001), NTP DB (Access on January 2009), and Patty (5th, 2001)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "Although there is no data of eye irritation test with this substance (gas), it has been described that \"serious irritation was developed in eyes of rabbits\" with 40% solution (ACGIH (7th, 2001)), or that \"corneas were damaged 5 minutes after exposure\" (Patty (5th, 2001)). This substance was classified into Category 1since it was a skin corrosive substance, and there have been descriptions of \"irritative, European Union classification: risk of serious damage to eyes\" in the eye irritation test with 40% solution employing rabbits (IUCLID (2000)) and of \"corrosive to eyes\" in the section of short term exposure, ICSC (2003) although there was no description about recovery properties. ",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes severe skin burns and eye damage",
+            "rationale": "Although there is no data of skin irritation test with this substance (gas), the solution seems to have a skin corrosion from descriptions that 40% solution causes a necrosis on skin of rabbits (Patty (5th, 2001)) and that \"40% solution causes a necrosis on skin of guinea pig 40%\" (ACGIH (7th, 2001)). It was classified as Category 1with unknown further data and without subdivision. In addition, a solution with 10% or more of this substance concentration can be classified as R34 in the EU classification (EU-Annex I). ",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification is not possible since this case is the only case report with non-public and unspecified data. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 2 (respiratory system, liver)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "May cause damage to organs through prolonged or repeated exposure (respiratory system, liver)",
+            "rationale": "In the 4-month nasal i inhalation exposure test in male and female rats, \"there are reports of functional disorders in nervous system, liver and blood enzyme, and changes in immunologic indicators and the shape of organs, but there is no report about detailed method or data \" (DFGOT vol.7 (1996), IUCLID (2000)). Moreover, HSFS (2004) shows that \"the substance may cause lung irritation and bronchitis. High-concentration exposure may have effects on liver function.\" Therefore, it is classified into Category 2 (respiratory systems, liver). ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (respiratory system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (respiratory system)",
+            "rationale": "In Japan Assoc. of Industrial Health (1979) recommendations, there are descriptions of \"Cough and breathing difficulty occur,\" \"Oppressive irritation at 100 to 500 ppm occurs, and temporary irritation of the eye, nose, and throat at 20-100 occur in a short time.\" and \"The inflammation of tracheal gill, bronchus, and lungs and the lung blister occur if the high concentration at lethal dose or near the lethal dose was inhaled.\" in animals. Moreover, there are descriptions of \"Dronchial pneumonia occurred and was critical depending on dosage\" in the inhalation exposure test employing rats (DFGOT Vol.7 (1996)) and of \"Corrosiveness is shown to the airway. When high concentration is inhaled, lung edemas may occur.\"(ICSC (2002)). Furthermore, there is description of \"Aliphatic amines may irritate an airway and cause difficulty breathing, upper respiratory tract disorder, bronchitis, pneumonia and lung oedema. Moreover, headache, nausea, weakness and anxiety neurosis may be temporarily caused after inhalation\" (HSDB (2008)), and there is description of \"This guideline is based on the information on low molecular weight amines including Methyl amine.\" in BASF Chemical Emergency Medical Guidelines Aliphatic amines (Reviewed 2006) which is the attribution of this information. As mentioned above, it was classified into Category 1 (respiratory system). ",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 0,
+        "AT": 4,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 0,
+        "IrE": 5,
+        "IrS": 5,
+        "M": 0,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 4,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

@@ -1,0 +1,344 @@
+{
+    "ID": "64-19-7",
+    "cas_number": [
+        "64-19-7"
+    ],
+    "country": "Japan",
+    "date_classified": "2009",
+    "date_imported": "Sat Jul  4 18:35:19 2015",
+    "descriptive_name": "Acetic acid",
+    "file_path": "h21_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 3",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Harmful to aquatic life",
+            "rationale": "Classified into Category 3 from its 48h-EC50 = 65000 microg/L for Crustacea (Daphnia magna) (AQUIRE, 2010).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Harmful in contact with skin",
+            "rationale": "Based on a LD50 value of 1060 mg/kg for rabbits (PATTY (5th, 2001)), the substance was classified into Category 4.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "A LCLo value of 16,000 ppm for rats (PATTY (5th, 2001)) corresponds to Category 4 or \"Not classified\", classification was not possible. Since the value is lower than 90% of saturated vapour pressure concentration (20394.7 ppmV * 0.90 = 18355 ppmV), the classification criteria for gas was adopted.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "Based on LD50 values of 3310 and 3530 mg/kg for rats (PATTY (5th, 2001)), the substance was classified into \"Not classified\" in JIS Classification (correspond to Category 5 in GHS classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "An extensive epidemiological test was conducted at a chemical plant producing acetic acid and acetic anhydride (PATTY (5th, 2001)). Analysis of mortality from cancer among 1359 workers indicated that mortality from all cancers decreased with one exception, mortality from prostate cancer increased (6 cases). It was concluded that the mortality from prostate cancer was difficult to interpret (PATTY (5th, 2001)), therefore, classification was not possible due to lack of data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified since it is rapidly degradable (BOD degradation rate: 74% (Biodegradation and Bioconcentration of Existing Chemical Substances under the Chemical Substances Control Law, 1993)) and low bioaccumulative potential is estimated (log Kow = -0.17 (PHYSPROP Database, 2009)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 3",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Flammable liquid and vapour",
+            "rationale": "Classified into Category 3 (GHS criteria: flash point >=23 degC and <=60 degC) from the data of flash point 39 degC (closed-cup) (Merck (14th, 2006), ICSC (J) (1997)) and flash point 43 degC (open-cup) (The Society of Synthetic Organic Chemistry, Japan, Dictionary of Organic Compounds, Kodansha (1985)). The substance is classified into C:R10 (Flammable) in EU.\n",
+            "signal_word": "Warning",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data from in vivo mutagenicity tests. From in vitro mutagenicity tests, there are reports of a negative Ames test and a negative CHO cell chromosomal aberration test (PATTY (5th, 2001)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Hazardous to the ozone layer",
+            "hazard_statement": " - ",
+            "rationale": "This substance is not listed in Annexes to the Montreal Protocol.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Containing no bivalent -O-O- structure in the molecule\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "The substance is an organic compound containing oxygen (but not fluorine or chlorine) which is chemically bonded only to carbon or hydrogen.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified since auto-ignition point is 427 degC (ICSC (J) (1997)). \n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "In a rat test by exposure from parturition until 18 days old (PATTY (5th, 2001)) and a mouse developmental toxicity test by oral administration (HSDB (2005)), no effects on lactation or fetal development were reported. However, classification was not possible since in these tests there is no data for effects on sexual function and fertility by exposure before mating.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "There are reports that a patient with bronchial asthma reacted to a acetic acid challenge and that the response was similar to a type-I hypersensitivity reaction in an individual exposed either to alcohol or acetic acid (PATTY (5th, 2001)). Additionally, there is a report that a human developed anaphylactic reactions to ethanol and an immediate type allergy to acetic acid (HSDB (2005)). These reported cases are rare. No other data for human cases or animal test results are available, therefore classification was not possible due to lack of sufficient data. However, since association between this substance and asthmatic attack cannot be excluded, care should be taken when handling the substance.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "Glacial acetic acid causes devastating injury immediately after application to the eyes of rabbits (ACGIH (2004)). In another rabbit test, concentrations of 10% and higher produced severe irritation with permanent corneal damage (IUCLID (2000)). Additionally, there is a case report that accidental application to the eyes followed very quickly by irrigation resulted in corneal opacity and iritis. Regeneration of the epithelium took many months, but corneal opacity was permanent (PATTY (5th, 2001)). Based on these data, the substance was classified into Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes severe skin burns and eye damage",
+            "rationale": "In tests with rabbits and guinea pigs (PATTY (5th, 2001), ACGIH (2004)), the degree of irritation depended on the application concentrations and exposure periods. Concentrations from 50 - 80% produced severe burns and eschar formation. The substance is classified into C; R35 in EU classification. Based on these data, the substance was classified into Category 1. In addition, the pH is 2.4 (1.0M) (Merck (14th, 2006)).",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Classification not possible",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": " - ",
+            "rationale": "Treatment with 3% acetic acid administered intragastrically to rats for 6 months resulted in chronic inflammation of the esophageal mucosa (PATTY (5th, 2001)). Following occupational exposures, workers have complained of digestive disorders with pyrosis and constipation (PATTY (5th, 2001)). A cross-sectional test of 117 female workers found significantly higher prevalence of chronic cough, chest tightness, nasal catarrh, and sinusitis in exposed workers as compared to controls (ACGIH (2004)). However, classification was not possible due to lack of sufficient data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (blood, respiratory system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (blood, respiratory system)",
+            "rationale": "Since there are some case reports that disseminated intravascular coagulopathy, severe hemolysis or ischemic renal failure occurred after ingestion of glacial acetic acid or massive amounts of acetic acid (PATTY (5th, 2001), ACGIH (2004)), the substance was classified into Category 1 (blood system). In addition, based on reports that inhalation exposure can irritate the nose, upper respiratory tract and lung (PATTY (5th, 2001)) and that vapour inhalation to humans may cause corrosive effects on airways and lung oedema (ICSC (J) (1997)), and a report that after an accidental exposure at a petrochemical plant a patient developed both airways obstruction and interstitial pneumonitis (ACGIH (2004)), the substance was classified into Category 1 (respiratory system).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 3,
+        "AT": 3,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 3,
+        "IrE": 5,
+        "IrS": 5,
+        "M": 0,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 0,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

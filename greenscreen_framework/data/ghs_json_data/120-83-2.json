@@ -1,0 +1,336 @@
+{
+    "ID": "120-83-2",
+    "cas_number": [
+        "120-83-2"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Sat Jul  4 18:35:20 2015",
+    "descriptive_name": "2,4-dichlorophenol",
+    "file_path": "h20_mhlw_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "Since the 48-hour LC50 is 1.4mg/L for crustaceans (Daphnia magna) (SIDS, 2006), the substance was classified into Category 2.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Toxic in contact with skin",
+            "rationale": "Since the rat LD50 = 780mg/kg (OECD guidelines 402) (IUCLID (2000)), the substance was classified into Category 3.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": "Toxic if inhaled",
+            "rationale": "Since the rat LC50 = 0.97mg/L/4h (using a protocol similar to OECD TG 403) (IUCLID (2000)), the substance was classified into Category 3.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "The rat LD50 values documented are 580mg/kg, 4000mg/kg, and 2830mg/kg (EHC 93 (1989), NTP TR353 (1989)). Since 2 of these 3 values are equivalent to the \"Not classified\" category, the substance was classified into \"Not classified\" using JIS classification criteria (Category 5 in the United Nations classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "In carcinogenicity tests using rats and mice that underwent oral exposure for 2 years, high doses were associated with decreased body weight. There was no significant difference in survival rates among different doses tested including control, and exposure of both animal species to the substance did not increase the frequency of tumorigenesis (NTP TR353 (1989)). Since no evidence of carcinogenicity was detected (NTP TR353 (1989), the substance was classified into \"Not classified\". IARC documented that exposure to polychlorinated phenol complex or its sodium salts may have carcinogenic effects on humans and the complex was classified into Group 2B. However, there was no evidence that this substance itself is carcinogenic in animal tests (IARC 71 (1999)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Toxic to aquatic life with long lasting effects",
+            "rationale": "Since its classification for acute toxicity is Category 2, and it is not rapidly degradable (non-biodegradable, BOD degradability: 0% (Biodegradation and Bioconcentration of Existing Chemical Substances under the Chemical Substances Control Law, 1982)), the substance was classified into Category 2.",
+            "signal_word": " - ",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on negative results from micronucleus tests using mice (in vivo mutagenicity tests) (IUCLID (2000)), the substance was classified into \"Not classified\". Sister chromatid exchange tests using mice (in vivo genotoxicity tests) also yielded negative results (IUCLID (2000)). Among in vitro tests, Ames tests and chromosomal aberration tests using CHO cells yielded negative results (NTP (database) (accessed July 2008)), while mutation tests using mouse lymphoma L5178Y cells yielded positive results (NTP (database) (accessed July 2008)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing oxygen and chlorine (but not fluorine) that are chemically bonded only to carbon and hydrogen.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Its flash point is > 500degC (Hommel (1996)), which is higher than 70degC.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "In reproductive studies, female rats that were administered for 90 days with the substance mixed in water were mated with non-treated males, and mated females were continued to be administered until parturition. At high doses, decreased litter size was observed, but it was not clear if this reduction was resulted from secondary effects of maternal toxicity (IARC 71 (1999)). In addition, it was implied that the substance did not directly affect fecundity (NTP TR353 (1989)). Similar results were obtained after mice of both sexes were administered for 90 days with the substance mixed in water, mated, and continued to be administered through the gestational period: there were no effects on fertility, and fetal toxicity was not observed (IUCLID (2000)). From these 2 documents, it was concluded that the substance has no adverse effects on reproductive functions and fertility. Furthermore, developmental toxicity tests were conducted in which rats were orally administered during the organogenetic period. Decreased body weight of maternal animals occurred at all doses tested, and delayed ossification and mortality of early embryos were observed (IARC 71 (1999)). However, these adverse effects were associated only with high doses that caused mortality of parental animals, and thus do not provide grounds for classification. No adverse effects on the offspring were detected. Overall, since no adverse effects were recognized on reproductive functions, fertility, and development of the offspring, the substance was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid (melting point <= 140degC) substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "Since it is skin corrosive and its EU classification is R34 (causes burns), the substance was classified into Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes severe skin burns and eye damage",
+            "rationale": "In acute dermal toxicity tests using rats (OECD guidelines 402), severe irritation accompanying necrosis was observed. At low doses, skin lesions slightly improved after 2 weeks, and at high doses recovery was rarely observed (IUCLID (2000)). In addition to these results, its EU classification is R34 (causes burns). Thus, the substance was classified into Category 1. ",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Classification not possible",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": " - ",
+            "rationale": "In 13-week repeated oral administration tests using rats and mice, no significant toxic effects were observed at 5000 ppm (500mg/kg/day) or lower doses; at 10000 ppm (1000mg/kg/day) or higher doses, bone marrow atrophy was observed (NTP TR353 (1989)). In mice, increased frequencies of hepatic necrosis were observed only in males in a dose-dependent fashion. However, lesions were insignificant at 2500-10000 ppm (400-1300mg/kg/day) (NTP TR353 (1989)). From these results, administration doses within the range of guidance values are thought to be not linked to severe toxicity. In 2-year repeated oral exposure tests, no serious changes were observed in rats treated at 120-440mg/kg/day and in mice treated at 430-1300mg/kg/day (NTP TR353 (1989)). In addition, in 6-month and 90-day exposure tests using mice, serious toxic effects were not observed at 230mg/kg/day (6-month tests) and at 40-491mg/kg/day (90-day tests) (NTP TR353 (1989)). No serious toxic effects detected in above 6 tests, using administration doses within the range of guidance values, suggest the classification of the substance into the \"Not classified\" category (oral route). However, because no data on other routes were available, the substance was classified into \"Classification not possible\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (central nervous system),\nCategory 3 (respiratory tract irritation)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (central nervous system)\nMay cause respiratory irritation (respiratory tract irritation)",
+            "rationale": "In oral route acute toxicity tests using mice (similar to OECD guidelines 401), the LD50 values were 1276-1352mg/kg (that are equivalent to Category 2 guidance values), and the central nervous system disorder was observed with symptoms such as ataxia, loss of righting reflex, slight tremors, and salivation detected (IUCLID (2000)). In addition, in dermal route acute toxicity tests using rats (OECD guidelines 402), marked decrease in motor activity and respiratory impairment were observed at 300mg/kg or higher that are equivalent to the Category 1 guidance values, and these symptoms continued after 9 days (IUCLID (2000)). Based on these results, the substance was classified into Category 1 (central nervous system). Moreover, inhalation exposure tests using rats (similar to OECD guidelines 403) resulted in irritation of the eyes and nasal mucosa at nonlethal doses, and these symptoms disappeared within 24 hours (IUCLID (2000)). From these results, the substance was classified into Category 3 (respiratory tract irritation).",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard\nExclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 4,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 2,
+        "E": 0,
+        "F": 0,
+        "IrE": 5,
+        "IrS": 5,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 4,
+        "P": 0,
+        "R": 2,
+        "Rx": 0,
+        "ST_r": 0,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

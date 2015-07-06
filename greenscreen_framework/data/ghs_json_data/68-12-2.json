@@ -1,0 +1,336 @@
+{
+    "ID": "68-12-2",
+    "cas_number": [
+        "68-12-2"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Sat Jul  4 18:35:20 2015",
+    "descriptive_name": "N,N-Dimethylformamide",
+    "file_path": "h20_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Its rat LD50 values are 3500 mg/kg (Initial Environmental Risk Assessment of Chemicals (Ministry of the Environment) vol. 1 (2002)), 5000 mg/kg, 11140 mg/kg, and 11000 mg/kg (EHC 114 (1991)). Considering these reported values, the substance was classified into the \"Not classified\" category (Category 5 in the United Nations classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "It was classified into the \"Not applicable\" category since it is a liquid (GHS definition), and it is presumably not inhalable as a gas.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": "Toxic if inhaled",
+            "rationale": "Based on the 2-hour LC50 of 9400 mg/m3 for mice (4-hour conversion: 4.7 mg/L. since this value is below 90% of the saturated vapour pressure, we determined that the tests were conducted in a vaporous state) (HSDB, 2005), the substance was classified into Category 3. ",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_oral": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "Its rat LD50 values are 3000 mg/kg, 3920 mg/kg, 4000 mg/kg, 4320 mg/kg, 3200 mg/kg, and 7170 mg/kg (EHC 114 (1991)). Considering these reported values, the substance was classified into the \"Not classified\" category (Category 5 in the United Nations classification). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 1B",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "May cause cancer",
+            "rationale": "In carcinogenicity tests through inhalation, an increase in frequencies of hepatic adenomas and hepatic carcinomas were observed in rats of both sexes; similarly, an increase in frequencies of hepatic adenomas and hepatic carcinomas were observed at 200 ppm and above in mice of both sexes; furthermore, particularly malignant hepatoblastomas were noted in male mice, indicating clear carcinogenic effects of the substance on both sexes of rats and mice (Ministry of Health, Labour and Welfare (Results from Carcinogenicity Studies, 2000)). Thus, incidences of malignant liver neoplasm occur, regardless of animal species and sexes. In light of these results, the Ministry of Health, Labour and Welfare issued Guidelines for Preventing Health Impairment by N,N-Dimethylformamide (Ministry of Health, Labour and Welfare Guidelines, 2005). Based on this information, the substance was classified into Category 1B.\nAs additional background information, the substance is rated as \"Group 2B\" by the Japan Society for Occupational Health (1991), \"Group 3\" by IARC 71 (1999), \"A4\" by ACGIH-TLV (2001); however, these classifications did not take into account test results mentioned above.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "-",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 3",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Flammable liquid and vapour",
+            "rationale": "Its flash point is 58degC (closed cup) (ICSC (2000)), which falls under Category 3. It is rated as Class 3 with the packing group III by the UNRTDG (UN No. 2265).",
+            "signal_word": "Warning",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "According to the Hazard Assessment Report (CERI NITE, No. 8, 2005), a heritable mutagenicity test gave negative results, no in vivo germ cell mutagenicity test has been conducted, an in vivo mutagenicity tests using somatic cell gave positive results, and no in vivo germ cell genotoxicity test has been conducted.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "The substance contains oxygen (but not fluorine or chlorine) which is chemically bonded only to carbon or hydrogen.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "It does not spontaneously ignite in contact with the air at room temperature (autoignition point: 445degC (ICSC, 2000).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 1B",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "May damage fertility or the unborn child",
+            "rationale": "According to the Hazard Assessment Report (CERI, NITE, No. 8, 2005), the substance was associated with malformations seen in the next generation (cleft palate, exencephaly, hydrocephaly, sphenoid bone defects, fused ribs, and tail defects) at concentrations that do not cause general toxicity to parental animals.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "In eye irritation tests using rabbits, 75-100% solutions produced more severe irritation than more diluted solutions, and by day 14 a mild degree of conjunctival redness, moderate corneal damage with an area of severe injury, slight surface distortion, and subsurface vascularization were observed (EHC 114 (1991)). As these reports indicate serious eye-damaging potential, the substance was classified into Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Based on the documented results that the substance did not cause irritation in skin irritation tests using animals (Hazard Assessment Report (CERI NITE) No. 8 (2005)), the substance was classified into the \"Not classified\" category. However, the substance has been reported to be a skin irritant in cases of accidental exposure to humans.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "The substance was tested using a maximization technique on guinea pigs to determine skin sensitization; it did not induce any response (EHC 114 (1991)). Since only one negative result is present, the substance was classified into the \"classification not possible\" category due to insufficient test results available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (liver)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (liver)",
+            "rationale": "In humans, liver dysfunction, signs of alcohol intolerance (IRIS (1990)), increased hepatic disorder, increased AST or ALT, focal hepatocellular necrosis, and hepatocellular fatty change in microvesicles of smooth endoplasmic reticulum were observed as the effect of the substance exposure. In animal studies, the centrilobular hepatocellular hypertrophy (NTP TOX 22 (1992)), indicative of acute hepatocellular injury, increased SGPT and SGOT activities, histopathological changes in the liver of young animals (IRIS (1990)), increased ALP activity at 100 ppm or higher, increased ALT activity at 200 ppm or higher, and single cell necrosis in the liver at 200 ppm or higher (Hazard Assessment Report (CERI, NITE, No. 8, 2005)) were reported in association with the substance exposure. In animal studies, these effects were observed at Category 2 guidance doses.\nIn conclusion, the substance was classified into Category 1 for the liver.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (liver),\nCategory 2 (respiratory system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (liver)\nMay cause damage to organs (respiratory system)",
+            "rationale": "In humans, the substance is associated with eating disorders, vomiting, and pain in the abdominal, lumbar, and femoral regions; even after these symptoms disappear, fibrosis of the liver and accumulation of histiocytes were noted (Hazard Assessment Report (CERI, NITE, No. 8, 2005)). In animal studies, thickening of alveolar wall was detected (Hazard Assessment Report (CERI, NITE, No. 8, 2005)). Based on these results, we determine that the liver and respiratory system are the target organs. Effects of exposure seen in animal studies were observed at doses that fall under Category 2 guidance values.\nIn conclusion, the substance was classified into Category 1 for the liver and Category 2 for the respiratory system.",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 0,
+        "AT": 4,
+        "B": 0,
+        "C": 4,
+        "CA": 0,
+        "D": 4,
+        "E": 0,
+        "F": 3,
+        "IrE": 5,
+        "IrS": 2,
+        "M": 3,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 4,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

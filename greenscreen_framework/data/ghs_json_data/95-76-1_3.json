@@ -1,0 +1,336 @@
+{
+    "ID": "95-76-1",
+    "cas_number": [
+        "95-76-1"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Sat Jul  4 18:35:20 2015",
+    "descriptive_name": "3,4-Dichloroaniline",
+    "file_path": "h20_meti_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "It was classified into Category 1 from 48 hours EC50=0.23mg/L of the crustacea (Daphnia magna) (EU-RAR (2006)).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Toxic in contact with skin",
+            "rationale": "EU-RAR (2006) describes LD50 value >1,000 mg/kg of the dermal administration test employing a rat and LD50 value 631<LD50<1,000 mg/kg of the dermal administration test using a rabbit. According to Fig. 3-1 of guidance, high risk category was adopted and it was classified into Category 3. In addition, in EU classification, T; 23/24/25 (EU-Annex I). ",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": "Harmful if inhaled",
+            "rationale": "Since it is written in EU-RAR (2006) that LC50 values of 4-hour aerosol inhalation exposure test employing rats are >0.631 mg/L (OECD TG403), and 3.3 mg/L, it was classified into Category 4 based on the definite value 3.3 mg/L.. In addition, in EU classification, T; 23/24/25 (EU-Annex I). ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Since it was a solid by the definition of GHS and inhalation in gas was not assumed, it was classified into \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "From description of LD50 value 570 mg/kg (male, OECD TG401), 880 mg/kg (buck), and 530 mg/kg (female) (EU-RAR (2006)) of the oral administration test employing a rat, since all the values corresponded to Category 4, it was classified into Category 4. In addition, in EU classification, T; 23/24/25 (EU-Annex I). ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since no evaluation by major international evaluation agencies is made and there is no data, classification is not possible. In addition, EU-RAR (2006) has a description that \"carcinogenicity data on 2,5-Dichloroaniline, 2-chloroaniline and 3-Chloroaniline were not obtained, but 4-chloroaniline has carcinogenicity with rats and mice. There is a concern that this substance which has a similar structure of 4-chloroaniline may also be carcinogenicity.\" Moreover, 4-chloroaniline is classified in group 2B by IARC (IARC 57 (1993)), and Cat.2; R45 by European Union classification (EU-Annex I). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Since acute toxicity was Category 1 and there were no rapid degradability (not readily degradable, the decomposition by BOD: 0% (standard test method) (Existing Chemical Safety Inspections Data (1979))), it was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "From a description of \"negative\" (EU-RAR (2006)) in the body cell in vivo mutagenicity test (micronucleus test employing the mouse bone marrow cell), it was classified into \"Not classified\". Moreover, as an in vitro mutagenicity test, there are descriptions of \"negative\" in the reverse mutation test employing the Salmonella typhimurium (NTP DB (Access on January 2009)) and of \"negative\" in the chromosome aberration test employing humans lymphocyte (EU-RAR (2006)). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "The organic compound not including peroxy group in molecule. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Although it is an organic compound including chlorine, not fluorine and oxygen, chlorine has bound only to carbon. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Even if it contacts the normal temperature air, it does not ignite spontaneously (ignition temperature 269degC (ICSC,2000)). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Although there are descriptions as folows in EU-RAR (2006), \"Although resorption and embryo losses after implantation were found at the dose level (125mg/kg) where suppression of the body weight increase and reduction in food consumptions with mother animals can be observed in the pre-birth developmental toxicity study via oral administration (OECD TG 414) using rats of 6-15 day prgnancy, there was no statistical significance and teratogenicity was not confirmed,\" and \"There was no change in the absolute weight and relative weight of testis and no histopathologic change of testis and situ of the testis with exposures up to 0.2mg/L \"in the study with male rats by inhalation exposure for 2 weeks, classification is not possible, because there is no data on reporoductive capacities nor reproductive performances.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification is not possible since there is no data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "The test method applicable for substances becoming liquid or gas at 140degC of test temperature has not been established. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2A",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "There is a description of \"moderate irritation, recover within 14 days\", in the eye irritation test of a rabbit in EU-RAR (2006) and in the Draize test of the eyes of a rabbit (OECD TG405) \"mild. Average score after 24, 48, and 72 hours: conjunctival redness 1.7/2/2, conjunctival edemas 0.7/0.7/1.3, stimulus to the iris 1/0.7/0.3, and corneal opacity 1.3/1/0There is a description of \"These resilience has not been described.\" In both of the tests, \"The corneal vascularization which will not be recovered for 14 days\" is seen and although there was a description of \"the serious damage on an eye is caused\", since recoverability after 21 days was unknown, it was classified into Category 2A. In addition, it can be classified as Xi; R41 (EU-Annex I) in the EU classification based on these test results. ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Since there are descriptions, \"slightly irritating, erythema grade 1, recovery within 2 days\" (EU-RAR (2006), IUCLID (2000)) in the Draize test using rabbits (OECD TG404, GLP) and \"not irritating\" (IUCLID (2000)) in the 24 hour skin irritation test using rabbits, it was classified into \"Not classified\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "It was classified as Category 1 from description that \"75% were positive\" (EU-RAR (2006), IUCLID (2000)) in the Maximization tests employing 20 guinea pig (OECD TG406, GLP) not humans data. In addition, it can be classified as R43 (EU-AnnexI) in the European Union classification based on this test result. Moreover, it can be classified as Sh (ACGIH-TLV/BEI (2006)) in the German MAK list.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At) are not included. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 2 (blood system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "May cause damage to organs through prolonged or repeated exposure (blood system)",
+            "rationale": "\"Coordination deficit of muscle, increase in serum methemoglobin level, the number of red blood cells, LDH, dysfunction of the liver (increase in BSP level), kidney damage (increase in BUN level) in the administered group of 20 mg/kg\" are described in 6-month oral administration test in rats (IUCLID (2000)). Moreover, since it is written that \"3,4-, 2,4-, 2,5-Dichloroaniline is methemoglobin formative substance\" (EU-RAR (2006)), it was classified into Category 2 (blood systems). In addition, about \"hepatic dysfunction and injury to the kidney\", since it was unspecified, it was excluded from target organs. ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (blood system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (blood system)",
+            "rationale": "Patty (5th, 2001) has a description of \"cyanosis, a feeling of worthlessness, breathing difficulty, and loss of muscle strength\" as acute conditions to animals and humans, and EU-RAR (2006) has a description that \"an initial toxic effect is methemoglobin formation like other Chloroaniline. The cyanosis, a feeling of fatigue, dyspnea, and a muscular power fall were indicated as acute symptoms by methemoglobinemia.\" Moreover, as for animals, the inhalation exposure test which employed rats showed that \"a deep sleep, the abnormalities in a walk, an ataxic gait, and a rise of methemoglobin level\" (EU-RAR (2006)) were seen within the limits of Category 2 from Category 1. As mentioned above, it was classified into Category 1 (blood systems). ",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 4,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 0,
+        "IrE": 4,
+        "IrS": 2,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 4,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

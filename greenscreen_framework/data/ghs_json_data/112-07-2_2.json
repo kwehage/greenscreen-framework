@@ -1,0 +1,336 @@
+{
+    "ID": "112-07-2",
+    "cas_number": [
+        "112-07-2"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Sat Jul  4 18:35:20 2015",
+    "descriptive_name": "2-butoxyethyl acetate; butylglycol acetate",
+    "file_path": "h20_mhlw_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 3",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Harmful to aquatic life",
+            "rationale": "Since its 48h-EC50 = 67.5mg/L (EU-RAR, 2006) for crustaceans (Daphnia magna), the substance was classified into Category 3.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Harmful in contact with skin",
+            "rationale": "Since the rabbit LD50 = 1500mg/kg (SIDS (accessed June 2008)), the substance was classified into Category 4.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Although the rat LC50 of > 400ppm (4 hours) (SIDS (accessed June 2008)) was documented, classification is not possible due to insufficient data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "4 out of 5 rat LD50 values documented (3000 (males), 2400 (females), 1600, 7000, and 2360mg/kg bw) (SIDS (accessed June 2008)) are equivalent to the \"Not classified\" category of JIS classification (Category 5 in GHS classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "Since this substance is hydrolyzed into butyl ether in the body, use of data on ethylene glycol monobutyl ether is appropriate for evaluation of ethylene glycol monobutyl ether acetate (SIDS (accessed June 2008)). In 2-year inhalation exposure tests using rats and mice that were applied with ethylene glycol monobutyl ether, frequencies of developing both benign and malignant pheochlromocytoma in adrenal medulla increased in female rats, making the results ambiguous. However, in mice, occurrences of angiosarcoma in livers increased in males, and occurrences of squamous papilloma or squamous cell carcinoma increased in females, providing evidence of carcinogenicity (SIDS (accessed June 2008)). Based on these results and the fact that this substance has been classified into A3 by ACGIH (2003), the substance was classified into Category 2.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Its classification for acute toxicity is Category 3, it is rapidly degradable (6.5-day DOC degradability > 90% (EU-RAR, 2006), and its potential for bioconcentration is estimated to be low (bioconcentration factor for fish (estimate) = 3.8 (EU-RAR, 2006)). Based on this information, the substance was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 4",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Combustible liquid",
+            "rationale": "Its flash point (71degC (HSDB 2002)) is between 60degC and 93degC.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Regarding ethylene glycol monobutyl ether, negative results have been documented from both in vitro tests and in vivo mutagenicity tests (micronucleus tests using the bone marrow cells of rats and mice that underwent intraperitoneal administration) using somatic cells (SIDS (accessed June 2008)). However, since no data specifically on this substance were available, classification is not possible.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Containing no bivalent -O-O- structure in the molecule",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "It contains oxygen (but not fluorine or chlorine), with oxygen chemically bonded only to carbon.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Its autoignition point is 340degC (HSDB (2002)), which is >= 70degC.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Ethylene glycol monobutyl ether, a byproduct resulted from hydrolysis of ethylene glycol monobutyl ether acetate in the body, was applied to 2 generations of mice that underwent oral route exposure in reproductive tests. In these tests, surviving offspring numbers decreased due to the treatment (SIDS (accessed June 2008)). In oral route or inhalation exposure tests using rats, rabbits, or mice that were exposed to the substance during the organogenetic period, decreased numbers of surviving implantation and fetuses, increased numbers of non living implantation and resorption of embryos, and loss of implanted embryos were observed at doses that trigger maternal toxicity (SIDS (accessed June 2008), ATSDR (1998)). However, since no direct data on this very substance were available, classification is not possible.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": " - ",
+            "rationale": "In Draize tests using rabbits, mild redness of the conjunctivas and discharge were observed after 24 hours, which disappeared in 48 hours. Since the substance was evaluated to be not irritating (Draize irritation score = 0.67) (SIDS (accessed June 2008)), it was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "In Draize tests using rabbits, the substance was found to be moderately irritating after 24 hours of exposure (ATSDR (1998)). In other tests, only slight irritation was observed in 4 out of 6 animals, which reflected the primary skin irritation index value of 0.17 (SIDS (accessed June 2008)). Furthermore, in 4-hour exposure tests, the substance was evaluated to be not irritating, and the average score for erythema was the lowest possible value for irritants (ATSDR (1998)). From these results, the substance was classified into \"Not classified\" in accordance with JIS classification criteria (Category 3 in GHS classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Negative results from skin sensitization tests (Guinea pig maximization tests) have been documented for ethylene glycol monobutyl ether, which is a hydrolyzate of ethylene glycol monobutyl ether acetate in the body (SIDS (accessed June 2008)). However, since no data were available specifically for this substance, classification is not possible.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 2 (hematopoietic system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "May cause damage to organs through prolonged or repeated exposure (hematopoietic system)",
+            "rationale": "In 30-day inhalation tests using rats (4-hour exposure), mortality, hemoglobinuria, hematuria, decreased numbers of erythrocytes and hemoglobin, hypertrophy of the kidneys, and nephrosis were observed at 400 ppm/4h (90-day, 6-hour correction: ca.0.71mg/L/6h). In addition, 4-week inhalation exposure tests using rats, rabbits, or cats (6-hour exposure), characteristics of anemia, such as decreased hemoglobin, hematocrit, and erythrocytes, were observed at 2.3mg/L (90-day equivalent: ca. 0.71mg/L), which is the dose equivalent to Category 2 guidance values (SIDS (accessed in June 2008)). Thus, the substance was classified into Category 2 (hematopoietic system). As relevant notes, ethylene glycol monobutyl ether, a byproduct resulted from hydrolysis of ethylene glycol monobutyl ether acetate in the body, was also studied. Applying this byproduct at 62.5-125 ppm (Category 2 equivalent) or above to rats and mice in 14-week inhalation exposure tests, hemolytic anemia was shown in both animals, and signs of anemia were observed in the liver, kidney, bone marrow, and spleen (SIDS (accessed in June 2008)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 2 (erythrocyte, kidney)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause damage to organs (erythrocyte, kidney)",
+            "rationale": "In dermal acute toxicity tests using rats (LD50 = 1500mg/kg: equivalent to Category 2), the following are documented: hemoglobinuria, bloody urine, decreased erythrocytes / hemoglobin, and necrosis of renal tubules accompanied with glomerular lesion of kidneys. In oral acute toxicity tests (LD50 = 2400-3300mg/kg: equivalent to \"Not classified\"), hemoglobinuria, bloody urine, nephrosis, expansion of renal tubules, necrosis of renal tubules, and degeneration of hyaline droplets were observed. In addition, hemoglobinuria and bloody urine have been also observed by inhalation exposure at 400ppm (2.6mg/L: equivalent to Category 2), although they were less severe. Based on toxic symptoms observed with oral and dermal administrations, erythrocytes and kidneys were considered as target organs; and the LD50 values for these organs indicated that these symptoms occurred at the doses in the range of Category 2 guidance values or higher. Thus, the substance was classified into Category 2 (erythrocyte, kidney).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 3,
+        "AT": 3,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 3,
+        "IrE": 2,
+        "IrS": 2,
+        "M": 0,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 4,
+        "ST_s": 4,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

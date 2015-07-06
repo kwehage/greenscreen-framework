@@ -1,0 +1,336 @@
+{
+    "ID": "71-36-3",
+    "cas_number": [
+        "71-36-3"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Sat Jul  4 18:35:25 2015",
+    "descriptive_name": "1-Butanol",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": " - ",
+            "rationale": "It carried out the outside of Category from 96-hour LC50>100mg/L of fishes (Oryzias latipes) (MOE eco-toxicity tests of chemicals, 1996).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 5",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "May be harmful in contact with skin",
+            "rationale": "Calculated based on rabbit LD50 value = 3402mg/kg (SIDS (2004), DFGOT vol.19 (2003)), 5300mg/kg (SIDS (2004), EHC 65 (1987), ACGIH (2002), DFGOT vol.19 (2003), PATTY (4th, 1994)), and 4200mg/kg (EHC 65 (1987), PATTY (4th, 1994)). Since the calculated values was 3636mg/kg, it was set as Category 5.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "There are description that death was not observed on rats with 4-hour exposure to 8000ppm (equivalent: 24.2mg/L) (SIDS (2004), EHC 65 (1987), ACGIH (2002),  DFGOT vol.19 (2003) and PATTY (4th, 1994)), it was classified as out of Category. 24.2mg/L suggests that mist is intermingled from vapor pressure.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "Calculated based on the following values: Rat LD50 value = 790mg/kg ((3rd volume of MOE Risk Assessment (2004), SIDS (2004), EHC 65 (1987)), 4360mg/kg ((SIDS (2004), ACGIH (2002), PATTY (4th, 1994)), 2290mg/kg (SIDS (2004)), 2510mg/kg (SIDS (2004), ACGIH (2002), PATTY (4th, 1994)), 2100mg/kg (EHC 65 (1987), DFGOT vol.19 (2003)), and 700mg/kg (EHC 65 (1987), DFGOT vol.19 (2003)). Since the calculated values was 1227mg/kg, it was classified to category 4.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Category 2",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": "May be harmful if swallowed and enters airways",
+            "rationale": "Category 2 because of being a primary normal alcohol composed of carbon atoms (3<=n>=13) and containing an isobutyl alcohol and ketone composed of carbon atoms (n>=13).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since it was classified into D in EPA, it was considered as the outside of Category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Since not water-insoluble (aqueous solubility =63200mg/L(PHYSPROP Database, 2005)) and acute toxicity is low.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Not classified",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "UNRTDG Class: 3",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 3",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Flammable liquid and vapour",
+            "rationale": "Flash point: >=23degC and <=60degC, UNRTDG Class: 3, PGIII",
+            "signal_word": "Warning",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since there was a negative result (SIDS (2004), ACGIH (2002)) by the micronucleus test with the mammalian erythrocyte , which is an in vivo mutagenicity tests using a somatic, it carried out the outside of Category.  ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Containing no -0-0- structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing oxygen (but not chlorine and fluorine) chemically bonded only to carbon and hydrogen (but not to other elements).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Flash point: 343degC (NFPA (12th, 1997) p325-20)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "It is considered as out of Category according to the guideline since only the frame variation (cervical rib) in a fetus was observed at the exposure concentrations in which dam toxicity is observed in the inhalation exposure test to the pregnant rats (MOE Risk Assessment the 3rd volume (2004), SIDS (2004), ACGIH (2002), DFGOT vol.19 (2003), and PATTY (4th, 1994)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "UNRTDG Class: 3",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2A",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "The middle to severe stimulativeness was acknowledged by the test using the rabbits and it did not recover within seven days, but it recovered completely within 21 days (ECETOC TR 48 (1992)). Therefore we classified it as Category 2A. We found the descriptions that eye irritational property, such as keratoconjunctivitis, was acknowledged also by occupational exposure (exposure to vapor) in human cases (MOE Risk Assessment The 3rd volume (2004), SIDS (2004), EHC 65 (1987), ACGIH (2002), DFGOT vol.19 (2003), and Japan Society for Occupational Health Recommendation of Occupational Exposure Limits (1993)).    ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "From description that the moderate irritation was acknowledged by 24-hour patch test using the rabbit (SIDS (2004), EHC 65 (1987), DFGOT vol.19 (2003)), and from description that dermatitis was acknowledged in employment evidence of exposure (SIDS (2004), ACGIH (2002),  DFGOT vol.19 (2003)), it was set as Category 2.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metaloids(B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (central nervous system, auditory organ)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (central nervous system, auditory organ)",
+            "rationale": "Based on the descriptions that dizziness and headache were observed in human occupational exposure examples ( MOE Risk Assessment The 3rd volume (2004), EHC 65 (1987), ACGIH (2002), DFGOT vol.19 (2003), PATTY (4th, 1994) and Japan Society for Occupational Health advice (1993)), and based on the descriptions that hearing loss was observed in human occupational exposure examples (EHC 65 (1987), DFGOT vol.19 (2003),PATTY (4th, 1994) and Japan Society for Occupational Health advice (1993)), the central nervous system and the auditory organ were considered to be target organ, and we categorized both of them as Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 3 Respiratory tract irritation, Narcotic effects",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause respiratory irritation (respiratory tract irritation, narcotic effects)\nMay cause drowsiness or dizziness (respiratory tract irritation, narcotic effects)",
+            "rationale": "From description in MOE Risk Assessment the 3rd volume (2004) and DFGOT vol.19 (2003) that the slight stimulus was seen in human pharynx in inhalation exposure, it was considered to be respiratory irritant and was set as Category 3. Moreover, from description in SIDS (2004), EHC 65 (1987), ACGIH (2002), DFGOT vol.19 (2003) and PATTY (4th, 1994) that anesthetic actions or central nervous system depression was seen in animal experiments, and from description in MOE Risk Assessment the 3rd volume (2004) and DFGOT vol.19 (2003) that headache was seen in human inhalation exposure, it was thought that there was an anesthetic actions and was set as Category 3.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 2,
+        "AT": 3,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 2,
+        "E": 0,
+        "F": 3,
+        "IrE": 4,
+        "IrS": 4,
+        "M": 2,
+        "N_r": 4,
+        "N_s": 0,
+        "P": 0,
+        "R": 2,
+        "Rx": 2,
+        "ST_r": 0,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 0
+    }
+}
