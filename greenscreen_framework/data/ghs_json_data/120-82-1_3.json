@@ -1,0 +1,336 @@
+{
+    "ID": "120-82-1",
+    "cas_number": [
+        "120-82-1"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Tue Jul  7 07:32:37 2015",
+    "descriptive_name": "1,2,4-Trichlorobenzene",
+    "file_path": "h20_meti_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "It was classified into Category 1 from 48 hours EC50/LC50=0.308mg/L of the crustacea (Ceriodaphnia dubia) (CICADS 60 (2004)).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "It was written that LD50 values of the dermal administration test employing rats were 11,356 mg/kg (OECD TG402) (EU-RAR (2003)), 6,139 mg/kg (EU-RAR (2003), ACGIH (7th, 2001), DFGOT vol.3 (1992)) and 11,415 mg/kg (ACGIH (7th, 2001), DFGOT vol.3 (1992)). Moreover, it was written that LD50 value of the dermal administration test employing rabbits was about 5,000 mg/kg (EU-RAR (2003)). Based on these LD50 values, it was classified into \"Not classified\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "It is written that there was no adverse effect with 1,800 ppm (13.6 mg/L) in 7-hour inhalation exposure test employing rats (EU-RAR (2003)). When applying the mist standard from saturated vapor pressure level of this substance (25degC) with 2.9 mg/L, 4-hour equivalent LC50 value is considered to be >17.7 mg/L. Therefore, it was classified into \"Not classified\". In addition, it is also written in EU-RAR (2003) that there was no mortality in 4-hour inhalation exposure test with 418 ppm (3.1 mg/L) employing rats, and there was no symptom in 7.5-hour inhalation exposure test with 330 ppm (2.5 mg/L) employing rats (4 hour equivalent: 452 ppm (3.4 mg/L)). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Since it was a solid by the definition of GHS and inhalation in gas was not assumed, it was classified into \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "There is a description that LD50 value of the oral administration test employing a rat includes 1,107 mg/kg (male) and 1,019 mg/kg (female) (OECD TG401) (EU-RAR (2003)), 756 mg/kg (EU-RAR (2003)), ACGIH (7Th, 2001) DFGOT vol.3 (1992), 930 mg/kg (EU-RAR (2003)), DFGOT vol.3 (1992), 880 mg/kg (EU-RAR (2003), ACGIH (7th, 2001), DFGOT vol.3 (1992)). From the result of the OECD TG401 conformity examination, it was classified into Category 4. In addition, in EU classification, Xn; R22 (EU-Annex I). ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since it was classified into D by EPA (IRIS (1991)), it was classified into \"Not classified\" according to guidance. In addition, EHC 128 (1991) and ACGIH (7th, 2001) described that \"there is no sufficient information for assessing if its carcinogenicity is not\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Since acute toxicity was Category 1 and there were no rapid degradability (BIOWIN), it was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Since the flash point by Merck(14th,2006) is 110degC, it was classified into Not classified.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "As a body cell in vivo mutagenicity test, there is a statement that \"it is negative by the micronucleus tests which employed mouse bone marrow erythrocyte (OECD TG474, GLP) \" (EU-RAR (2003)). On the other hand, there is a description that \"slight positive finding was obtained by two micronucleus tests employing mouse bone marrow erythrocyte\" (EU-RAR (2003)), however, there is another description that \"a question lingers in the positive validity of the results since a study protocol is not so suitable for these\". As mentioned above, since EU-RAR (2003) had concluded that \"It will not be thought that this substance produces a systemic genotoxic effects in in vivo when the electronegative result of an in vitro examination is also taken into consideration\", it classified into the \"Not classified\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "The organic compound not including peroxy group in molecule. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Although it is an organic compound including chlorine, not fluorine and oxygen, this chlorine has not chemically bound to any elements other than carbon and hydrogen. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Even if it contacts the normal temperature air, it does not ignite spontaneously (ignition point 571degC (ICSC,2003)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Although there is a description as follows in the 2 generation reproductive toxicity study with administration of drinking water to rats in EU-RAR (2003), \"Although a statistically significant increase in the adrenal gland's weight of F0 and F1 animals was found, there was no effect on fertility, growth, survival, spontaneous movements and blood biochemical findings , \" it has been pointed out regarding this study that \"no effect on the body weight of parent animals has been observed and the test dose level was too low.\" In addition, although there is a description as follows in the forced oral administration study with rats of 6-15 day pregnancy, \"Tissue lesions were found in the crystal lens of fetuses' eyes of the group administered with 150mg/kg where slight effects were observed in the liver of mother animals\"EU RAR (2003), there are descriptions as follows \"There seems to be no relation with exposure to this substance, \" because \" Such effects were not found in the group administered with 300mg/kg and dependency on dose amount was not observed.\"(EU RAR (2003)). The re is a description as follows in the forced oral administration study with rats of 9-13 day pregnancy other than this \"Delayed embryonic development was found at the dose level where 2 out of 9 mother animals died and increase in their body weight was suppressed but no effect on the resorption rate, the number of live fetuses and deformation development rate was observed\" (EU RAR (2300). Based on the above-mentioned, classification is not possible, because effects on reproductive capacities are unknown. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification is not possible since there is no data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "The test method suitable for liquid substances is not established. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": " - ",
+            "rationale": "For animals, since EU-RAR (2003) has descriptions of \"In OECD TG405 conformity test, affection on the cornea and the iris is not seen, and the redness score is 1, the edema score is 0-2\" in the conjunctival\" and \"It was shown that there was no irritation to eyes when EU standard was followed.\" , it was classified into \"Not classified\". In addition, although EU-RAR (2003) also has a description of \"obvious pain, critical conjunctivitis, and conjunctiva dropsy are seen in irritating to the eyes of rabbits\" in the test employing rabbits according to a method given in \"US Federal Register, for this test, it has been described that \"The interpretation of Draize score differs in US and EU and it will become severer evaluation than usual if the criterion of US is used.\" and it has been concluded that \"Although this substance seems to have a certain eye irritation, it is thought that the effect is not a degree which meets the criterion of Xi; R36.\" For humans, although MOE Risk Assessment, Volume 4 (2005)) has a description of \"An eye is irritated and the eye redness and pain manifest as acute symptoms.\" as impact to humans, this description has quoted ICSC which is the information source of List3. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "For animals, \"slight irritation with slight redness and dropsy in the OECD TG404 conformity test\" has been described, and it has been concluded that \"although only mild inflammation is usually produced in single exposure, there is a proof clear for inflammation after repeat contact, and it can be classified as Xi; R38\" in EU-RAR (2003). Moreover, it has been described in DFGOT vol.3 (1992) that \"non-diluted solution is a mild irritative substance to rabbits and guinea pig, and apparent skin lesions seem to be produced with degreasing action of this substance only in long-term exposure.\" For humans, it has been described that \"the skin is irritated, and dryness, redness, and roughness of skin appear as acute symptoms. moreover, defatting of the skin may apeear by long-term exposure\" as an impact to humans in the 4th volume of MOE Risk Assessment (2005). However, since this description has quoted ICSC, the source of information of List3, it gives priority to judgment of \"mild irritation\" in EU-RAR (2003) and DFGOT vol.3 (1992). Although it seemed to correspond to UN GHS Skin irritation Category 3 based on the above-mentioned, it was classified into \"Not classified\", because Category 3 is not domestically adopted. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Not classified",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "It has been described that \"less than 10% of animals were positive, and sensitizing properties seemed to be weak\" (EU-RAR (2003)) in the Maximization test employing guinea pig (OECD TG406). Moreover, it has been described that guinea pig were \"negative\" (EU-RAR (2003)) in the test exposed three times a week for three weeks and evoked 10 days after final exposure, or that \"the symptom of skin irritation was shown but that of sensitizing potential was not\" in the test employing other guinea pig (EU-RAR(2003)). Therefore, it was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At) are not included. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 2 (liver, kidney, thyroid, blood system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "May cause damage to organs through prolonged or repeated exposure (liver, kidney, thyroid, blood system)",
+            "rationale": "As for animals, in the dietary administration study in rats, \"a statistically significant increase in liver and kidney weight, vacuolation in liver and aggregated basophilia in the histopathological examination, smaller follicle in thyroid, thicker epithelial cells and less colloid density were seen, and the liver, kidney and thyroid were the target organs\" (EU-RAR (2003)). Also in the other dietary administration study in rats, \"a statistically significant increase in liver and kidney weight, and in male rats, pathological change, such as extension of the kidney tubule and hyaline droplet in the kidney, and centrilobular hypertrophy of hepatocytes were caused\" (EU-RAR (2003)). Moreover, in the forced oral administration study in rats, \"an increase in adrenal gland weight and moderate vacuolization in the fascicular zone\" were observed (IRIS (1991)). And in the dermal administration test to rabbits (30% of 1,2,3-trichlorobenzene is included in the test article in addition to the substance), \"a dose-dependent decrease (a significant decrease in the high-dose group) in red blood count, in hemoglobin value and in hematocrit in female rats\" were seen (EU-RAR (2003)). In the inhalation exposure test to rabbits, \"there was a statistically significant increase in testis weight. No pathological changes were seen\" (EU-RAR (2003)). All the above symptoms were seen within the limits of guidance value of Category 2. Since the effects on adrenal gland and testis are not considered to be serious, they are not adopted to categorize. As for human, there are the description that \"it may cause hepatotoxicity when exposed to high concentration of Trichlorobenzene\" (ACGIH (7th, 2001)) and the case report that \"a woman who was exposed to Trichlorobenzene for a long period through her clothing soaked in the substance developed aplastic anemia\" (EHC 128 (1991)), however the type of isomer is not identified in either case and the details are unknown. Therefore, it is classified into Category 2 (liver, kidney, thyroid, blood systems). ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 3 Narcotic effects, Respiratory tract irritation",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause respiratory irritation (narcotic effects, respiratory tract irritation)\nMay cause drowsiness or dizziness (narcotic effects, respiratory tract irritation)",
+            "rationale": "For animals, it has been described that, in the oral administration test employing rats, \"Induction of the drug metabolism enzyme of liver in 250 mg/kg or more treatment groups, (cytochrome P450, or the like), weight increase of liver in 500mg/kg or more treatment group\" (EU-RAR (2003), (DFGOT vol.3 (1992)) and \"Assuagement, coma, atrophy, recumbency, etc., occur in another oral administration test employing rats (Dose: 750-3,100 mg/kg) and change of gastric mucous membrane, bleeding, and clay-colored liver\" were observed.\" in the pathological test (DFGOT vol.3 (1992). For humans, there are descriptions of \"Industrial experience suggests that throat irritation may be produced at 3 to 5 ppm in some humans.\"(ACGIH (7th, 2001), EU-RAR (2003)) and of \"Stomachache, throat pain, and vomiting by intake occur.\" (MOE Risk Assessment, Volume 4 (2005)). Since it is not considered to be material impact about liver and a gastrointestinal among them, it was not adopted. As mentioned above, it was classified into Category 3 (Narcotic effects, Respiratory tract irritation). ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 3,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 2,
+        "IrE": 2,
+        "IrS": 2,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 4,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 2
+    }
+}

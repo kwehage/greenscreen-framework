@@ -1,0 +1,344 @@
+{
+    "ID": "7647-01-0",
+    "cas_number": [
+        "7647-01-0"
+    ],
+    "country": "Japan",
+    "date_classified": "2009",
+    "date_imported": "Tue Jul  7 07:32:35 2015",
+    "descriptive_name": "Hydrogen chloride",
+    "file_path": "h21_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "Classified into Category 1 from its 48h-EC50 = 0.492 mg/L for Crustacea (Daphnia magna) (SIDS, 2005), etc.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Based on a LD50 value of >5010 mg/kg for rabbits (SIDS (2009)), the substance was classified as \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": "Fatal if inhaled",
+            "rationale": "Based on a LC50 value (aerosol) of 1.68 mg/L/1h (4-hour equivalence: 0.42 mg/L) for rats (SIDS (2009)), the substance was classified into Category 2.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": "Toxic if inhaled",
+            "rationale": "Based on LC50 values of 4.2, 4.7 and 283 mg/L (4-hour equivalence: 1411, 1579 and 95,083 ppm, respectively) for rats (SIDS (2009)), the lowest value was adopted and the substance was classified into Category 3.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Toxic if swallowed",
+            "rationale": "Based on LD50 values of 238 - 277 mg/kg and 700 mg/kg for rats (SIDS (2009)), the lower value was adopted and the substance was classified into Category 3.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on the classifications of \"Group 3\" in IARC (1992) and \"A4\" in ACGIH (2003), the substance was classified as \"Not classified\". As relevant information, no evidence of carcinogenicity was observed in rat and mouse carcinogenicity tests (SIDS (2009)). Epidemiologic tests did not suggest an association between exposure to hydrogen chloride and cancer development (IARC 54 (1992), PATTY (5th, 2001)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified since the toxicity is mitigated in environmental water by buffer action though it is considered to be a factor of toxicity that water solution becomes strongly acidic.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to gaseous substances are not available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Not combustible gas (Hommel (1996))\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "High pressure liquefied gas",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": "Contains gas under pressure; may explode if heated",
+            "rationale": "The substance is classified into Division 2.3 in UNRTDG (UN1050). Critical temperature is 51 degC (Hommel (1996)) between -50 degC and 65 degC.\n",
+            "signal_word": "Warning",
+            "symbol": "Gas cylinder"
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data from in vivo mutagenicity tests. From in vitro mutagenicity tests, there is a report of a negative Ames test and a positive result (which is considered to be an artifact due to the low pH) chromosome aberration test (SIDS (2009)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Hazardous to the ozone layer",
+            "hazard_statement": " - ",
+            "rationale": "This substance is not listed in Annexes to the Montreal Protocol.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not classified",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "The substance is classified into Division 2.3 in UNRTDG (UN1050), Subsidiary risk 8, but not into Division 5.1 (Oxidizing substances) in UNRTDG.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "In rat and mice tests by exposure during gestation period, there were no adverse effects on fetal development, however, classification was not possible since there are no data for effects on sexual function and fertility by exposure before mating or gestation.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": "May cause allergy or asthma symptoms or breathing difficulties if inhaled",
+            "rationale": "Since the substance is on the sensitizing chemical substance list by Japanese Society of Occupational and Environmental allergy, the substance was classified into Category 1. There is a report that after exposure to a cleaning product that contained hydrogen chloride, the subject developed bronchospasm and still had marked asthma symptoms 1 year after exposure that were triggered by exercise and inhalation of trivial concentrations of irritants (ACGIH (2003)).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "self_heating_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "The substance was classified as a skin corrosive substance. In eye damage and irritation tests, solutions of the substance, hydrochloric acid, was used as a test substance. In animal tests including rabbit tests, high irritation, damage and corrosion to eyes have been reported (SIDS (2002)). For humans, the concentrated solution can cause permanent damage and loss of sight (SIDS (2002)). Based on these data, the substance was classified into Category 1. As relevant information, in EU classification, the substance is classified into C; R34.",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes severe skin burns and eye damage",
+            "rationale": "In a rabbit skin irritation test, application for 1 - 4-hour caused corrosion at higher concentrations (SIDS (2009)). Skin irritation and ulceration with fur discoloration occurred in mice and rats dermally exposed for 5 - 30 minutes (SIDS (2009)). In human experiments, there are reports that contact caused slight to strong irritation, or ulceration and severe burns to the skin (SIDS (2009)). Based on these data, the substance was considered to have corrosive properties, and was classified into Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_sensitizer": {
+            "classification": "Not classified",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "A guinea pig maximization test and a mouse ear swelling test demonstrated negative results (SIDS (2009)) for the substance. In a human test using fifty volunteers, none gave a positive reaction in a challenge application, 10 \u2013 14 days after the final induction application (SIDS (2009)). The substance was classified as \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (tooth, respiratory system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (tooth, respiratory system)",
+            "rationale": "There are 2 or more reports for humans in which repeated exposure caused tooth damage by erosion (SIDS (2002), EHC 21 (1982), DFGOT vol. 6 (1994), PATTY (5th, 2001)). Additionally, an increase in the frequency of chronic bronchitis was reported (DFGOT vol. 6 (1994)). Based on the information, the substance was classified into Category 1 (tooth, respiratory system).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (respiratory system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (respiratory system)",
+            "rationale": "In humans, inhalation exposure caused symptoms such as dyspnea, laryngitis, bronchitis, bronchoconstriction, pneumonia and edema. Inflammation and necrosis of the upper respiratory tract and pulmonary edema have also been reported (DFGOT vol. 6 (1994), PATTY (5th, 2001), IARC 54 (1992), ACGIH (2003)). In animal tests, toxic effects with morphological change of the lung and bronchus such as bronchitis with mucosal necrosis, pulmonary edema, hemorrhage, and thrombus were observed at dose levels within the guidance value range for Category 1 (ACGIH (2003), SIDS (2009)). Based on the information for humans and animals, the substance was classified into Category 1 (respiratory system).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 5,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 2,
+        "IrE": 5,
+        "IrS": 5,
+        "M": 0,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 2,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 2
+    }
+}

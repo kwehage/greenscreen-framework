@@ -1,0 +1,336 @@
+{
+    "ID": "301-12-2",
+    "cas_number": [
+        "301-12-2"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Tue Jul  7 07:32:36 2015",
+    "descriptive_name": "oxydemeton-methyl; S-2-(ethylsulphinyl)ethyl O,O-dimethyl phosphorothioate",
+    "file_path": "h20_mhlw_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "Based on its 48h-LC50 = 0.24 mg/L for crustaceans (Daphinia magna) (HSDB (2004)), the substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Fatal in contact with skin",
+            "rationale": "Since two of the following: its rat LD50 = 1350 mg/kg (HSDB (2004)), its rat (female) LD50 = 112 mg/kg (technical grade) (HSDB (2004)), its rat LD50 = 130 mg/kg (Pesticide manual (1994)): represents that the substance is classified into Category 2, and it is rated R24 in the EU classification (EU-Annex 1 (accessed in August 2008)), the substance was classified into Category 2.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": "Fatal if inhaled",
+            "rationale": "Its rat LC50 = 1.5 mg/L/h (HSDB (2004)) may be converted to its rat LC50 = 0.35 mg/L/4h and represents that the substance is classified into Category 2.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Fatal if swallowed",
+            "rationale": "Its rat LD50 = 30 - 75 mg/kg (JMPR 102 (1967)) or LD50 = 50 mg/kg (HSDB (2004)) represents that the substance is classified into Category 2.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "21-month oral administration tests using mice found the substance not carcinogenic (HSDB, 2004). However, since no carcinogenicity studies using animal species other than mice have been reported, the substance was classified into the \"Classification not possible\" category due to insufficient data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Since its preexisting classification for acute toxicity is Category 1, and it is expected not to be rapidly degradable (SRC, BioWin V4.10), the substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Since its flash point is approximately 110degC or higher, the substance was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "A Chinese hamster chromosomal aberration test using bone marrow cells receiving single-dose oral gavage administration (in vivo mutagenicity test using somatic cells) yielded negative results (HSDB (2004)), while mouse chromosomal aberration tests using bone marrow cells receiving intraperitoneal administration (in vivo mutagenicity test using somatic cells) induced chromatid breaks and gaps (no exchange type abberration was reported) (all from HSDB (2004)). The negative results by oral administration were obtained with the single-dose of 40 mg/kg and with a doubtful methodology, while positive results by IP administration (1 - 3 mg/kg) contained chromatid gaps and their evaluation is difficult. It is documented that a mouse dominant lethal test with intraperitoneal administration (4.5 mg/kg) yielded negative results, a rat dominant lethal test with oral administration (0.15 - 5 mg/kg) showed negative results, and a mouse oral administration test (28 - 80 mg/kg) induced micronuclei, chromosomal aberrations, and abnormal sperm heads. Based on the above results, the effects on germ cells can be denied, but the effects on somatic cells cannot be determined, therefore, the substance was classified into Category 2. As relevant information, an in vitro mutagenicity test, an Ames test, a chromosomal aberration test using human lymphcytes, a mouse lymphoma assay, and a chromosomal aberration test using the CHO cell line (HSDB (2004)) yielded positive results.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure in the molecule",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Classification not possible",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Classification not possible",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "A rat developmental toxicity test with oral administration during the organogenetic period did not indicate developmental toxicity (JMPR 1004 (2002)), and another rat oral administration test during the organogenetic period showed fetal hypoplasia and dysplasia of the testes, which are considered to be caused by parental toxicities (JMPR 699 (1984)). While, a male rat reproductive toxicity test by oral gavage yielded reduced female pregnancy rates (JMPR 1004 (2002)), a two-generation reproduction study in rats indicated vacuolation of the corpus of the epididymis, decreased corpus luteum, and reduced litter size (JMPR 1004 (2002)), and a rat three-generation reproduction test showed a reduced number of pregnancies and a reduced number of young per litter in all generations (JMPR 102 (1967)). Therefore, the substance was classified into Category 2.\n",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": " - ",
+            "rationale": "It is documented that in a test using rabbits, slight conjunctival reddening for up to 24 hours and slight conjunctival swelling at 1 hour were observed in the eyes of five out six exposed rabbits for five minutes, and all other readings in all rabbits were zero for up to seven days (JMPR 699 (1984)). However, since there is no other information available, and due to a lack of data, classification is not possible.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Since it is documented that in a skin irritation test using rabbits, no erythema or edema was observed for up to 72 hours (JMPR 699 (1984)), the substance was classified into \"Not classified\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance contains a metalloid (P). Since there is no test data available, classification is not possible.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (nervous system)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (nervous system)",
+            "rationale": "In a rat neurotoxicity test with gavage administration for 15 days (doses; 2.5, 10, 50 mg/kg), at a dose equivalent to the guidance value of Category 1, indicated tremors, ataxic gait, decreased number of rearings, pinpoint pupils, decreased body temperature, and decreased motor activity were observed, and inhibition of brain cholinestrase activity was found (HSDB (2004)). Furthermore, in a neurotoxicity test using rats with oral administration for 13-weeks (doses: 0.062, 0.62, and 5.4 mg/kg for males; 0.074, 0.75, and 6.6 mg/kg for females), at the dose equivalent to the guidance value of Category 1, tremors, aggressive behavior, decreased hindlimb grip strength, a decrease in body temperature, and inhibition of plasma, erythrocyte, and brain cholinesterase activities were observed (HSDB (2004)). In addition, in a 21-month oral administration test using mice (JMPR 1004 (2002)), in a 21-day oral administration test using rats (JMPR 102 (1967)), in a 6-month oral administration test using rats (HSDB (2004)), and in a 14-day oral administration test by gavage using rats (HSDB (2004)), at a dose equivalent to the guidance value of Category 1, inhibition of erythrocyte and brain cholinestrase activities were observed, and also in human volunteers, inhibition of plasma and erythrocyte cholinestrase activities were observed (HSDB (2004)). Therefore, the substance was classified into Category 1 (nervous system).\n",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (nervous system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (nervous system)",
+            "rationale": "A rat oral administration test at a single dose of 2.5 - 50 mg/kg by gavage showed at all doses, reductions in plasma, erythrocyte, and brain cholinestrase activity, and at the time of peak effect, the reduction was 55 - 61%, and at the doses of 10 mg/kg or higher, toxic symptoms caused by cholinestrase inhibition were seen (JMPR 1004 (2002)). A human test orally exposed at 0.0125 - 2 mg/kg did not show symptoms of anti-cholinestrase toxicity; however, at doses of 1 mg/kg and higher, reductions in plasma and erythrocyte cholinestrase activity were seen, and at the maximum, they reduced to that of approximately 70% of the control group (JMPR (2002)). Also, case reports have been made, and in a case, a woman attempted to commit suicide by ingesting half a bottle (12 g), and admitted to the hospital, experienced signs including miosis, hyperreflex, muscular fasciculations, and coma, and her plasma cholinestrase level fell to 10% of the normal level (HSDB (2004)). As described above, cholinestrase inhibition and nervous symptoms based on the inhibition was seen in rats at doses equivalent to the guidance value of Category 1, and also in humans, not only cholinestrase inhibition but also cholinergic signs in accident cases have been reported, and therefore, the substance was classified into Category 1 (nervous system).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 5,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 2,
+        "IrE": 0,
+        "IrS": 2,
+        "M": 3,
+        "N_r": 4,
+        "N_s": 4,
+        "P": 0,
+        "R": 3,
+        "Rx": 0,
+        "ST_r": 0,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

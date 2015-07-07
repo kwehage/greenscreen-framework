@@ -1,0 +1,344 @@
+{
+    "ID": "62-53-3",
+    "cas_number": [
+        "62-53-3"
+    ],
+    "country": "Japan",
+    "date_classified": "2009",
+    "date_imported": "Tue Jul  7 07:32:35 2015",
+    "descriptive_name": "Aniline",
+    "file_path": "h21_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "Classified into Category 1 from its 48h-LC50 = 80 microg/L for Crustacea (Daphnia magna) (Initial Environmental Risk Assessment of Chemicals (Ministry of the Environment), Vol. 1, 2002).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Toxic in contact with skin",
+            "rationale": "LD50 values of 1540 mg/kg and 820 mg/kg for rabbits (EU-RAR (2004)) correspond to Category 3 with higher hazard. A LD50 value of 670 mg/kg for rats (DFGOT vol. 6 (1994)) corresponds to Category 3. Therefore, the substance was classified into Category 3.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": "Harmful if inhaled",
+            "rationale": "LC50 values of 3.27 mg/L/4h (839 ppm/4h), 1.86 mg/L/4h (478 ppm/4h) (EU-RAR (2004)) and 2.1 mg/L/4h (552 ppm/4h) (CaPSAR (1994)) for rats correspond to Category 4. Since the saturated vapour pressure concentration of the substance was 1.5 mg/L (400 ppm) at a saturated vapour pressure of 0.04 kPa (20 degC) (ICSC (2004)), the test was considered to be conducted for mists.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": "Fatal if inhaled",
+            "rationale": "Based on a LC50 value of 300 ppm/4h (1 mg/L/4h) for rats (EU-RAR No. 50 (2004)), the substance was classified into Category 2. Since saturated vapour pressure concentration of the substance is 400 ppm (1.5 mg/L) at saturated vapour pressure of 0.04 kPa (20 degC) (ICSC (2004)), the test was considered to be conducted for vapour with almost no included mists and classification criteria for gas (ppmV) were adopted.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "LD50 values of 930 mg/kg (male), 780 mg/kg (female) (EU-RAR (2004)), 442 mg/kg (EU-RAR (2004)) and 440 mg/kg (ACGIH (7th, 2001)) for rats correspond to Category 4.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "The substance is classified into \"Group 3\" in IARC (IARC Supplement 7 (1987)), into Category 3 in EU classification (EU-RAR (2004)), into \"A3\" in ACGIH (ACGIH (2001)), and into \"B2\" in EPA (IRIS (2005)). The classification in IARC corresponds to \"Not classified\" but the classifications by other organizations correspond to Category 2. Since the classification in IARC is the earliest, the substance was classified into Category 2 in accordance with the classification by the other 3 organizations. In 2-year feeding tests with aniline hydrochloride in rats and mice, increased incidence of splenic tumours (haemangiosarcoma, fibrosarcoma and stromal sarcoma) in male rats was characteristic (DFGOT vol. 6 (1994)), but there were no increases in tumor incidence or no proliferative lesion in mice (DFGOT vol. 6 (1994)). In epidemiological tests for humans exposed occupationally, increased urinary bladder cancer was reported (IARC vol. 27 (1982), EU-RAR (2004), PATTY (5th, 2001)), however, the reports do not show clear evidence for the relationship with exposure of aniline.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified since it is rapidly degradable (BOD degradation rate: 85% (Biodegradation and Bioconcentration of Existing Chemical Substances under the Chemical Substances Control Law, 1993)) and low bioaccumulative potential is estimated (log Kow = 0.9 (PHYSPROP Database, 2009)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 4",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Combustible liquid",
+            "rationale": "Flash point 70 degC (ICSC (2004)), 76 degC (Merck (13th, 2001)) are >60 degC and <=93 degC.\n",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Based on positive results in bone marrow micronucleus tests by intraperitoneal or oral administration to mice and a bone marrow micronucleus test by oral administration to rats (in vivo somatic cell mutagenicity tests) (Hazard Assessment Report (CERI, NITE) No. 63 (2004)), the substance was classified into Category 2. As relevant information, in other in vivo tests, no definitive conclusion were obtained in a rat dominant lethal test, and negative results were reported in a mouse bone marrow micronucleus test and a chromosomal aberration test (EU-RAR (2004), Hazard Assessment Report (CERI, NITE) No. 63 (2004)). From in vitro mutagenicity tests, there is a report of a negative Ames test (Hazard Assessment Report (CERI, NITE) No. 63 (2004)) and a positive mouse lymphoma test and a positive CHO cell chromosomal aberration test (Hazard Assessment Report (CERI, NITE) No. 63 (2004)). In addition, the substance is classified into Category 3 for Mutagenicity; R68 in EU classification.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Hazardous to the ozone layer",
+            "hazard_statement": " - ",
+            "rationale": "This substance is not listed in Annexes to the Montreal Protocol.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no oxygen, fluorine or chlorine\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Auto-ignition point is 615 degC (ICSC (2004)) exceeding 70 degC.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "In a test where rats were treated with aniline hydrochloride by gavage from day 7 to day 20 of gestation or from day 7 of gestation until the birth, some rats were examined before the delivery and the rest were allowed to deliver their pups (DFGOT vol. 6 (1994)). Maternal general toxicity such as decreased body weight gain and increased spleen weights was observed. There were, however, no signs of foetotoxic or teratogenic effects. In the foetuses of the high dose group an increase in relative liver weights was found and changes in some haematological parameters indicative of slightly increased haematopoietic activity observed. Toxicologically relevant effects were not reported for nursing and lactation of the pups during postnatal period. Since there was no data for effects on sexual function and fertility by exposure before mating, classification was not possible.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2A",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "In a Draize test after instillation into the eyes of rabbits, severe corneal opacity and severe conjunctival erythema and oedema were detected which were not reversible within 8 days, and pannus formation was determined 8 days after the instillation (EU-RAR (2004)). In an eye irritation test using 6 rabbits, mean scores of ca. 52/110 for effects on cornea, iris and conjunctivae were detected within the first 3 days after instillation (EU-RAR (2004)). In another rabbit Draize test, corneal opacity was reversible within 2 days, maximal conjunctival irritation was reached within 2 days after instillation, and conjunctival irritation did not reverse within an observation period of 4 days (EU-RAR (2004)). Based on these data (severe irritation to rabbit eyes, mean score of 52/110 for effects on cornea, iris and conjunctivae), and a sign of recovery (though not full recovery) during observation period of few days), the substance was classified into Category 2A. As relevant information, in EU classification, the substance is classified into Xi; R41 (EU-Annex I (access on May 2009)).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Although there is a report that skin irritation after application of undiluted substance revealed erythema grade 1 in 6/6 rabbits for more than 3 days, no oedema was detected (EU-RAR (2004)). In addition, application of undiluted substance to the skin of rabbits revealed slight erythema which was reversible within 8 days (EU-RAR (2004)). Based on these reports, the substance was classified as \"Not classified\" in JIS Classification (correspond to Category 3 in GHS classification). As relevant information, following a 24-hour application of the substance (20 mg), moderate irritation was observed in rabbits (Hazard Assessment Report (CERI, NITE) No. 63 (2004)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "With the use of the maximization test, 7/25 volunteers showed positive reactions to the substance (EU-RAR (2004)). 24/181 persons with sensitization to aromatic amino compounds showed mild to moderate positive reactions (13%) (EU-RAR (2004)). Patients of a dermatological hospital showed reaction rates between 5.1% and 13% in patch tests (EU-RAR (2004)). In a Single Injection Adjuvant test in guinea pigs, skin sensitization was reported (positive rate: 50%) (EU-RAR (2004)). In addition to these findings, the substance is classified into R43 in EU classification (EU-Annex I (access on May 2009)). The substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (blood system, systemic toxicity)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (blood system, systemic toxicity)",
+            "rationale": "In a 2-week inhalation test with rats, congestion of spleen, hemosiderin deposition and extramedullary hematopoiesis were induced at dose levels of 17 - 30 ppm (0.066 - 0.116 mg/L) and higher (EU-RAR (2004)). Decreases in erythrocyte count, hemoglobin concentration and hematocrit and an increase in methemoglobin were observed at 45 ppm (174.2 mg/m3) and higher levels (Hazard Assessment Report (CERI, NITE) (2004)). In a 4-week oral test with rats, onset of erythrotoxicity at 10 mg/kg/day (aniline 4 mg/kg/day) and dose related onset of macrocytic hemolytic anemia and methaemoglobinemia were observed (EU-RAR (2004)). These findings were noted at dose levels within the guidance value range for Category 1. Systemic effects observed in occupationally exposure cases are reported to be cyanosis, headache, dizziness, aphagia, nausea, vomiting, thoracic and abdominal pain, convulsion, weakness, palpitation, irregular respiration, miosis (with response to light), abnormal body temperature and dark urine. Severe cases exhibited pulmonary edema and urinary and fecal incontinence. (Hazard Assessment Report (CERI, NITE) No. 63 (2004)) Increased methemoglobin is also reported (DFGOT vol. 6 (1994)). Based on the data, the substance was classified into Category 1 (blood system, systemic toxicity).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (blood system, systemic toxicity)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (blood system, systemic toxicity)",
+            "rationale": "Acute intoxication due to the formation of methemoglobin, resulting in cyanosis and possible death from asphyxiation, was the most frequent consequence of overexposure to the substance (ACGIH (2001)). In humans, dizziness, coma, miosis, confusion, pallor, cyanosis, dyspnea, degeneration in the heart, liver and kidney, edemas in the lung and brain, and hemorrhage in the medulla oblongata are reported following accidental ingestions, suicide attempts or occupational exposures. The type of symptom depends on the methemoglobin content of total hemoglobin (Hazard Assessment Report (CERI, NITE) No. 63 (2004)). Formation of methemoglobin was confirmed in suicide cases and human volunteers. In humans, the main effect of analine exposure is formation of methemoglobin in blood, and the subsequent systemic symptoms reported above. The substance was classified into Category 1 (blood system). In acute exposure animal tests, clinical signs included tremors, cyanosis and lethargy in rats (EU-RAR (2004)) and formation of methaemoglobin leading to cyanosis in cats (EU-RAR (2004)).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 5,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 3,
+        "IrE": 4,
+        "IrS": 2,
+        "M": 3,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

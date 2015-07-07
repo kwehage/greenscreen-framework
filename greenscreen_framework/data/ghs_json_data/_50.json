@@ -1,0 +1,336 @@
+{
+    "ID": "",
+    "cas_number": [
+        ""
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Tue Jul  7 07:32:40 2015",
+    "descriptive_name": "Trichlorotrifluoroethane; CFC-113",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "It was classified into Category 2 from 96 hours LC50=7.4mg/L of the fish (Rainbow Trout) (CERI Hazard Data, 1999).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 5",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "May be harmful in contact with skin",
+            "rationale": "Based on the rabbit LD50 (dermal route) value of >11,000mg/kg (RTECS (2006)) (1,1,2-trichloro-1,2,2-trifluoroethane).",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that the substance is a liquid according to the GHS definition and inhalation of its gas is not expected. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Category 5",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": "May be harmful if inhaled",
+            "rationale": "Based on the LC50 value of 398.49mg/L calculated from the testing data of rat LC50 (inhalation route) of 398.49mg/L (CERI Hazard Data 98-23 (1999)), 409mg/L (calculated from 857mg/L (2 hours)), 428mg/L (EHC (1990)), 521.11mg/L (CERI Hazard Data 98-23 (1999)) (all 4 hour inhalation) (saturated vapour concentration of 3,672mg/L under a saturated vapour pressure (25degC) of 48.4kPa (363mmHg) (HSDB (2006)) (1,1,2-trichloro-1,2,2-trifluoroethane). ",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 5",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "May be harmful if swallowed",
+            "rationale": "Based on the rat LD50 (oral route) value of 43,000mg/kg (CERI Hazard Data 98-23 (1999)) (1,1,2-trichloro-1,2,2-trifluoroethane).\n",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that the substance is classified as Category A4 (as 1,1,2-trichloro-1,2,2-trifluoroethane (CAS: 76-13-1)) by ACGIH (7th, 2001).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Toxic to aquatic life with long lasting effects",
+            "rationale": "Although acute toxicity was Category 2 and the bio-accumulation potential was low (BCF=86(Existing Chemical Safety Inspections Data)), since there was no rapidly degrading (the decomposition by BOD: 2%(Existing Chemical Safety Inspections Data)), it was classified into Category 2.",
+            "signal_word": " - ",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data. 1,1,2-trichloro-1,2,2-trifluoroethane is reported to act on magnesium and magnesium alloys (ICSC (2004)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "Containing no chemical groups with explosive properties",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data. Classified as flammable under special conditions, according to ICSC (2004) (1,1,2-trichloro-1,2,2-trifluoroethane). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on negative data on multi-generation mutagenicity tests (dominant lethal tests), the absence of data on in vivo germ/somatic cell mutagenicity tests, described in ACGIH (7th, 2001), EHC 113 (1990) and DFGOT vol.3 (1992).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no \"-O-O-\" structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing fluorine and chlorine (but not oxygen), with the fluorine and chlorine bound to carbon and hydrogen (but not to other elements) ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Considered non-pyrophoric when in contact with air at ordinary temperatures since the substance is used as cleaners (precision parts cleaning, metal cleaning, dry cleaning) (CERI Hazard Data (1999))",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"liquid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on no definitive evidence of toxic effects observed in rat and rabbit teratogenicity/reproduction studies, described in MOE Risk Assessment Vol. 4 (2005), ACGIH (7th, 2001) and CERI Hazard Data 98-23 (1999).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available (melting point: -36degC (1,1,2-trichloro-1,2,2-trifluoroethane, ICSC (2004)), 14.2degC (1,1,1-trichloro-2,2,2-trifluoroethane, HSDB (2006)), test temperature: 140degC). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Containing no chemical groups with explosive or self-reactive properties",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes eye irritation",
+            "rationale": "Based on the description in the report on rabbit eye irritation tests (DFGOT vol. 3 (1992)): Caused \"mild conjunctivitis and a minimal corneal reaction.\" The substance is thus considered a mild eye irritant (1,1,2-trichloro-1,2,2-trifluoroethane).",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 3",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes mild skin irritation",
+            "rationale": "Based on the description in the report on rabbit skin irritation tests evaluated according to the Draize scheme (24 hour application) (CERI Hazard Data 98-23 (1999)): Caused \"mild irritation\" (1,1,2-trichloro-1,2,2-trifluoroethane).",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "According to the descriptions in CERI Hazard Data 98-23 (1999) and IUCLID (2000), guinea pig skin sensitization tests using the Maximization method showed no indication of sensitization. However, classification is not possible, with only two sets of data showing \"negative\" available (1,1,2-trichloro-1,2,2-trifluoroethane).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (central nervous system, liver)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (central nervous system, liver)",
+            "rationale": "Based on the human evidence including \"...emotional instability, chronic neuropsychological symptoms with learning disability, dysmnesia and concentration difficulties...,\" \"mild elevation of AST and  ALT, and mild hepatopathy with adipose infiltration\" (CERI Hazard Data 98-23 (1999)).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (liver, respiratory system, central nervous system, blood system, gastrointestinal tract, cardiovascular system),\nCategory 3 (narcotic effects)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (liver, respiratory system, central nervous system, blood system, gastrointestinal tract, cardiovascular system)\nMay cause drowsiness or dizziness (narcotic effects)",
+            "rationale": "Based on the human evidence: \"weak narcotic effects, and hypertrophy/lipogenesis of hepatocytes,\" \"clinical symptoms including...pulmonary edema were noted,\" \"clouding of consciousness and paleness were found; examination revealed hypochromic anemia and diffuse colitis,\" \"temporary cyanosis was seen... ,\" \"... lack of concentration occurred... and 10-30% decline in work efficiency was noted. Moreover, ... lethargy and a slight loss of orientation after shaking the head from left to right were found...\" (MOE Risk Assessment Vol. 4 (2005)), \"...some deaths due to asphyxiation or cardiac arrhythmia were reported\" (EHC (1990)), \"... adversely affects the cardiovascular system, central nervous system, induce cardiopathy and central nervous depression, and cause a lowering of consciousness; Acute symptoms include... cardiac arrhythmias, confusion, lethargy, short of breath and loss of consciousness by the inhalation route of exposure\" (MOE Risk Assessment Vol. 4 (2005)).\n\n",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard\nExclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 2,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 2,
+        "E": 0,
+        "F": 0,
+        "IrE": 3,
+        "IrS": 3,
+        "M": 2,
+        "N_r": 4,
+        "N_s": 4,
+        "P": 0,
+        "R": 2,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 
-import sys
 import os.path
 import time
 import getpass
 import json
 import re
-import ghs
-if sys.version_info > (3,):
-    from urllib.request import urlopen
-else:
-    import urllib2.urlopen as urlopen
+import greenscreen_framework.ghs as ghs
 
 
 '''
@@ -219,21 +214,20 @@ class GreenScreenData(object):
         P = self.data['hazards']['P']['overall_hazard_rating']
         B = self.data['hazards']['B']['overall_hazard_rating']
 
-        ## Neurotoxicity
+        # Neurotoxicity
         N = max([N_r, N_s])
 
-        ## Toxicity
+        # Toxicity
         T = max([AT, ST_r, ST_s])
 
-        ## Eco Toxicity
+        # Eco Toxicity
         eco_T = max([CA, AA])
-        vHigh_T_B1 = max([T, eco_T])
-        Group_1 = max([C, M, D, N, E])
+        Group_1 = max([C, M, D, N, E, R])
         Group_2 = max([AT, ST_s, N_s, IrE, IrS])
         Group_2_star = max([ST_r, N_r, SnR, SnS])
         all_four_groups = max([eco_T, Group_1, Group_2, Group_2_star])
 
-        ## Benchmark 1
+        # Benchmark 1
         if (((P >= 4) and (B >= 4) and
             ((max([eco_T, Group_2]) >= 5) or
              (max([Group_1, Group_2_star]) >= 4))) or
@@ -249,7 +243,7 @@ class GreenScreenData(object):
                 (Group_1 >= 4)):  # Group I Human
             self.data['benchmark'] = 'Benchmark 1'
 
-        ## Benchmark 2
+        # Benchmark 2
         elif (((P >= 3) and (B >= 3) and (all_four_groups >= 3)) or
                 # Moderate P, B, T
               ((P >= 4) and (B >= 4)) or
@@ -266,7 +260,7 @@ class GreenScreenData(object):
                 (Rx >= 4)):  # High Rx
             self.data['benchmark'] = 'Benchmark 2'
 
-        ## Benchmark 3
+        # Benchmark 3
         elif ((P >= 3) or  # moderate P
               (B >= 3) or  # moderate B
               (eco_T >= 3) or  # moderate eco_T
@@ -275,7 +269,7 @@ class GreenScreenData(object):
                 (Rx >= 3)):  # moderate Rx
             self.data['benchmark'] = 'Benchmark 3'
 
-        ## Benchmark 4
+        # Benchmark 4
         elif ((P <= 2) and  # low P
               (B <= 2) and  # low B
               (all_four_groups <= 2) and  # low four_groups

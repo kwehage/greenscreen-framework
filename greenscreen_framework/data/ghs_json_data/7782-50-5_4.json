@@ -1,0 +1,336 @@
+{
+    "ID": "7782-50-5",
+    "cas_number": [
+        "7782-50-5"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Tue Jul  7 07:32:41 2015",
+    "descriptive_name": "Chlorine",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "It was classified into Category 1 from 96-hour LC50=14microg/L of fishes (Rainbow trout) (IUCLID, 2000).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": "Fatal if inhaled",
+            "rationale": "It was considered as Category 2 based on each 4-hour equivalent of two data of a rat being LC50 = 146ppm (EHC 21 (1982), ACGIH (2005)).",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Not classified",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "It was set as the outside of Category based on being classified into the group 3 according to IARC (ACGIH-TLV (2005)), and classified into A4 according to ACGIH (ACGIH (2005)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Classified into Category 1, since acute toxicity was Category 1, and behavior in water and bioaccumulative potential are unknown.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to gas substances are not available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Non-combustible (ICSC(J), 2000; etc.)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Low pressure liquefied gas",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": "Contains gas under pressure; may explode if heated",
+            "rationale": "Low pressure liquefied gas because of the critical temp: 143.8 to 144degC.",
+            "signal_word": "Warning",
+            "symbol": "Gas cylinder"
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "There are no data from multi-generation epidemiological and mutagenicity tests in humans, and there is a report of a negative result in an in vivo micronucleus test in mammals (mice). So the substance was regarded as outside the categories. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": "May cause or intensify fire; oxidizer",
+            "rationale": "Categoly 1 and oxidizing gas (ISO 10156-2)",
+            "signal_word": "Danger",
+            "symbol": "Flame over circle"
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on the description of no effect to the reproductive potential of parents and the development and growth of neonatal in the test of rat and mouse (EHC 21 (1982), IRIS (2002), IUCLID (2000)), and no effect to every stage from pregnancy to lactation in chlorine plant employees (EHC 21 (1982)), it was considered as on the outside of Categry.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Since data is insufficient, it cannot be classified.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "Although mild by level at a There is statement that irritation was acknowledged in the ophthalmic by the monkey (PATTY (5th, 2001)), and that from mild to severe irritation on human depend on concentration, but that all are recovered for a short times (EHC 21 (1982)), and there is a statement that irritation may acknowledge in the ophthalmic of human, and  a critical or permanent obstacle may be done (HSDB (2005)). The case of being the highest-risk was taken among these information, and it was set as Category 1. In addition, this product is classified into Xi; R36/R37/R38 by EU.   ",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 1A-1C",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes severe skin burns and eye damage",
+            "rationale": "It was classified as Category 1A-1C based on the descriptions that there is a case where it produced slight burn to the human face with exposure to chlorine gas (EHC 21 (1982)) and that corrosivity may be seen on skin (HSDB (2005)). In addition, there are descriptions that \"frostbite and corrosivity. Skin burns and pain.\" as primary disaster/acute manifestation when liquid chlorine touches the skin (ICSC (J), (2000)) and that liquid chlorine causes chilblain and a burn (HSDB (2005)), contacting liquefied chlorine needs special care. This product is classified as Xi; R36/R37/R38 in EU (EU Annex I (2005)).",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Gas (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (respiratory system, kidney, olfactory organ),\nCategory 2 (tooth)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (respiratory system, kidney, olfactory organ)\nMay cause damage to organs through prolonged or repeated exposure (tooth)",
+            "rationale": "There are a publication that a disorder is done to lungs with the dosage of guidance value range of  the Category 1 in an inhalation experiment of a rat and a mouse, and a publication (EHC 21 (1982), PATTY (5th, 2001), IUCLID (2000)) that the airway epithelium inflammation and histologic changes were seen. A potential of causing a bronchus disease and pulmonary hemorrhage in humans is pointed out (EHC 21 (1982)), and the views on a cough, the pain of a throat, coughing up of blood,chest pains, etc. are indicated (ACGIH (2005)). Moreover, there is also statements that there are fears of lung permanent failure and a chronic bronchitis (HSDFS (1998), SITTIG (4th, 2002)). It was classified in Category 1 (respiratory systems) based on these information. It was classified in Category 1 (kidney) based on the statement (PATTY (5th, 2001)) that biochemical changes which indicates the effects on kidney function was seen with the dosage of guidance value range of Category 1 in the rat inhalation experiments. It was classified in Category 1 (olfactus organ) and Category 2 (tooth), based on descriptions in EHC 21 (1982) and PATTY (5th, 2001) that dysosmia was caused in humans, and descriptions in HSDFS (1998) and SITTIG (4th, 2002) that a disorder is done to a tooth. In addition, although there was a publication (IRIS (2002)) that the dosage of guidance value range of Category 2 indicated 10%-20% of underweight in oral administration to mice and rats as compared with the control, it was considered the secondary effects under influence on a respiratory-organs system or the kidney.",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (respiratory system, nervous system)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (respiratory system, nervous system)",
+            "rationale": "In mouse, rabbit, and dog, in the equivalent dose to the amount of exposure of guidance value of Category 1, respiratory disorders, such as pulmonary edema, haemorrhage lung, decrease of lung function, bronchitis, and tract epithelium necrosis, are observed. The similar disorders are observed also in rat with no descritption of dosage (EHC 21 (1982)). Moreover, in mouse, cat, rabbit and guinea pig, there are also the descriptions of the inflammation of respiratory tract membrane, choking, breathing-rate reduction, and upper respiratory tract irritation (EHC 21 (1982), ACGIH (2005), PATTY (5th, 2001)). Also in humans, disorder or irritation to respiratory system, such as pneumonia, pulmonary edema, bronchitis, tracheal ulcer, decrease of lung function, asthma and asthmatic symptoms (RADS), irritation to throat or nose, cough, and breathing difficulties are described (EHC 21 (1982), ACGIH (2005), PATTY (5th, 2001)). It was classified into Category 1 (respiratory systems) based on these information. It was classified into Category 1 (nerve systems) based on the description that it causes vomiting, headache, sense of uneasiness, syncope, fatigue, etc. and also causes photosensitivity enhancement and direct effect to the cerebral cortex in humans (EHC 21 (1982), PATTY (5th, 2001)).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 5,
+        "B": 0,
+        "C": 2,
+        "CA": 0,
+        "D": 2,
+        "E": 0,
+        "F": 2,
+        "IrE": 5,
+        "IrS": 5,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 4,
+        "P": 0,
+        "R": 2,
+        "Rx": 4,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

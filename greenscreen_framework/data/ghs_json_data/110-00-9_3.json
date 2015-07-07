@@ -1,0 +1,336 @@
+{
+    "ID": "110-00-9",
+    "cas_number": [
+        "110-00-9"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Tue Jul  7 07:32:37 2015",
+    "descriptive_name": "Furan",
+    "file_path": "h20_meti_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 3",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Harmful to aquatic life",
+            "rationale": "It was classified into Category 3 from 96 hours LC50=61mg/L of the fish (Fathead Minnows) (AQUIRE (2008)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Since it was a solid by the definition of GHS and inhalation in gas was not assumed, it was classified into \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": "Toxic if inhaled",
+            "rationale": "Since it is written that saturated vapor pressure level of this substance (20degC)is 650,000 ppm, and LC50 value in the 1-hour inhalation exposure test employing rats is 3,464 ppm (HSDB (2003)), the gas standard is applied. Since 4-hour LC50 value is 1,732 ppm, it was classified into Category 3. ",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_oral": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "Classification is not possible because there is no data. In addition, the European Union classification is Xn; R22 (EU-Annex I). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "Since it was estimated as group 2B (IARC 63 (1995)) in IARC, it was classified into Category 2. In addition, there are descriptions of hepatic adenoma and glandular cancer in mice, of hepatic adenoma, cholangiocellular carcinoma, mononuclear cell leukemia in male and female rats, and of hepatocellular carcinoma in male rats (IARC 63 (1995), NTP TR402 (1993), NTP Roc (11th, 2005)). In addition, the European Union classification is Carc.Cat.2; R45 (EU-Annex I). ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "Although acute toxicity was Category 3 and there were no rapid degradability (not readily degradable, the decomposition by BOD: 4% (Existing Chemical Safety Inspections Data (1983))), since 31-33 days NOEC(the fish (Fathead Minnows))=8.27mg/L (AQUIRE (2008)) and long-term toxicity was >1mg/L, it was classified into Not classified.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 1",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Extremely flammable liquid and vapour",
+            "rationale": "Since the flash point by Merck(14th,2006) is -35degC(closed type) and the boiling point is 31.36degC, it was classified into Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Liquid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Although there is a description of the body cell in vivo mutagenicity test (chromosome aberration test employing the mouse bone marrow cell) being positive (IARC 63 (1995), NTP DB (Access on November 2008)), since there was no result of the in vivo genotoxicity testgenotoxicity test employing a germ cell, it was classified into Category 2. In addition, EU classification is Muta. Cat. 3; R68 (EU-Annex I). ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "The organic compound not including peroxy group in molecule. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Although it is an organic compound including oxygen, not fluorine and chlorine, this oxygen has not chemically bound to any elements other than carbon and hydrogen. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Even if it contacts the normal temperature air, it does not ignite spontaneously (ignition point 390degC (Merck KGaA data from March 2009)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Although it has been described that the influence on the immune system including an allergic reaction was indicated in the inhalation exposure tests employing rats (RTECS (2008)), classification is not possible because of insufficient data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "The test method suitable for liquid substances is not established. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": " - ",
+            "rationale": "Although there is a description of \"Irritation and burns may be caused by contacting to eyes\" (HSFS (2008)), this is the information source of List3 and the details are also unknown. Therefore, since data is insufficient, classification is not possible. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Although there is a description, \"skin irritation\"in the study with guinea pig in HSDB (2003)), this datum is not adopted, because examination of this cited literature (Gig. Saint. 6 (1974)) contained a description, \"Since Furan has strong volatility (boiling point: 32degC), irritation was not examined.\" In addition, there is a description, \"primary irritation\" in the dermal administration test with rabbits in RTECS (2008), but it is an information source of List3 with details unknown. Therefore, classification is not possible, because data are insufficient. Incidentally, EU division is Xi; R38 (EU-Annex I). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Although it has been described that the allergic reactions were observed in the skin painting study employing guinea pig (HSDB (2003)), classification is not possible because of insufficient data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At) are not included. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (liver, kidney, respiratory system),\nCategory 2 (testis, ovaria)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (liver, kidney, respiratory system)\nMay cause damage to organs through prolonged or repeated exposure (testis, ovaria)",
+            "rationale": "There is a description of \"liver problems (fault formation, chronic inflammation, biliary fibrosis, vacuolar degeneration and denaturation, necrosis, etc.) and kidney trouble (extension of a nephric tubule, epithelium necrosis)\" (NTP TR402 (1993)) in the two years oral administration test (maximum dose: 8 mg/kg) employing mice and rats. Moreover, in the 13-week oral administration test employing rats, there is a description of \"Atrophy of testis and ovarian was seen\" in 60 mg/kg group (NTP TR402 (1993)). Furthermore, RTECS (2008) has been described as \"structural abnormality or functional abnormality of the trachea and bronchus\"in the 60 days inhalation exposure test employing rats, and in the 26-week inhalation exposure test using rats, there is a description of \"abnormalities to the central nervous system.\" and when these primary literatures (Toksikologiya Novykh Promyshlennykh Khimicheskikh Veshchestv.9 (1967), Toksikologiya Novykh Promyshlennykh Khimicheskikh Veshchestv.10 (1968)) were checked, former tracheal or bronchial abnormality had the dosage of guidance value within the range of Category 1 and was the symptom with localized emphysema, however, since the latter central nervous system abnormality was considered to be the symptom in fatality dosage, it was not adopted. As mentioned above, it was classified into Category 1 (liver, the kidney, respiratory system) and Category 2 (testis, ovaria). ",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 2 (central nervous system, digestive system, liver),\nCategory 3 (respiratory tract irritation)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause damage to organs (central nervous system, digestive system, liver)\nMay cause respiratory irritation (respiratory tract irritation)",
+            "rationale": "About humans, HSDB (2003) has a description of \"control of a central nervous system, the congestion of a digestive organ, liver damage, low blood pressure, fatigue, and headache\" as conditions caused by inhalation exposure. Moreover, \"There is Respiratory tract irritation\" is described by ICSC (1995). Therefore, it is classified into Category 2 (a central nervous system, an digestive system, liver) and Category 3 (Respiratory tract irritation). In addition, primary literature (NTP Executive Summary: Furan (Draft) (1986)) of HSDB (2003) could not be obtained, and it was not able to check for details.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard\nExclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 3,
+        "AT": 4,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 5,
+        "IrE": 0,
+        "IrS": 0,
+        "M": 3,
+        "N_r": 0,
+        "N_s": 3,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 4,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

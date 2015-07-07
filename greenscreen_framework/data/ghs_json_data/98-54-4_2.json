@@ -1,0 +1,336 @@
+{
+    "ID": "98-54-4",
+    "cas_number": [
+        "98-54-4"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Tue Jul  7 07:32:37 2015",
+    "descriptive_name": "4-tert-Butylphenol",
+    "file_path": "h20_meti_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "It was classified into Category 2 from 96 hours LC50=1.9mg/L of the crustacea (Amphipod) (SIDS (2002)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Although there is a description of LD50 value 2,318 mg/kg and >16,000 mg/kg (SIDS (2000)) of the dermal administration test employing a rabbit and 2,318 mg/kg corresponded to the U.N. GHS acute toxicity Category 5, it fell under unadopted category in Japan and was classified into \"Not classified\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "It is written that there was one mortality out of five in both male and female in the test in which 4-hour inhalation exposure to aerosol 5,600 mg/m3 was carried out to rats (DFGOT vol.11 (1998)), and since it was guessed that LC50 value was >5.6 mg/L, it was classified into \"Not classified\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Since it was a solid by the definition of GHS and inhalation in gas was not assumed, it was classified into \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Since it is written that there was no mortality even if rats were exposed to saturated steam level (20degC)for 8 hours in the inhalation exposure test employing rats (SIDS (2000)), a vapor standard is applied. Although LC50 value is considered to be >0.044 mg/L from saturated vapor pressure level with 0.031 mg/L (4-hour equivalent 0.044 mg/L), classification is not possible since classification cannot be specified. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "Although there are descriptions of LD50 value 4,000 mg/kg, 3,620 mg/kg, 2,990 mg/kg, and 3,500 mg/kg (SIDS (2000)) of the oral administration test employing a rat and LD50 value 4,000 mg/kg of OECD TG 401 conformity test corresponded to the U.N. GHS acute toxicity Category 5, it fell under unadopted category in Japan and was classified into \"Not classified\". In addition, although there is also a description of LD50 value 801 mg/kg and 1,440 mg/kg of the oral administration test employing a rat (DFGOT vol.11 (1998)) and based on these values, it fell under Category 4, it was judged to be appropriate to be classified into \"Not classified\" because there were more data corresponding to \"Not classified\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "SIDS (2000) has a description that \"the one-year forcible oral administration examination employing male rats which is dosing this article alone showed proventriculus hyperplasia but not carcinogenicity, hoeverver, when dosing the article with N-Methyl-N'-nitro-N-nitrosoguanidine as initiators, it evidenced the promotion action of the oncogenesis of the proventriculus, and another description that \"longer-term exposure may show carcinogenicity because BHA which has structural similarities is carcinogenicity.\" However, since there is no other data and no evaluation by major international evaluation agencies is done, classification is not possible. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Toxic to aquatic life with long lasting effects",
+            "rationale": "Since acute toxicity was Category 2 and there were no rapid degradability (not readily degradable, the decomposition by BOD: 0% (Existing Chemical Safety Inspections Data (1977)), it was classified into Category 2.",
+            "signal_word": " - ",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Based on the description of the body cell in vivo mutagenicity test (micronucleus test employing the mouse bone marrow cell (OECD TG 474, GLP)) being \"negative\" (Health, Labor and Welfare Ministry reports (Access on October 2008)), it was classified into \"Not classified\". As for in vitro mutagenicity test, there are descriptions that the chromosome aberration test (OECD TG 473) employing CHL cells is \"positive\" (SIDS (2000)) and that the test for gene mutation test (OECD TG 471, 472) employing bacteria is \"negative\" (SIDS (2000)). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "The organic compound not including peroxy group in molecule. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Although it is an organic compound including oxygen, not fluorine and chlorine, this oxygen has not chemically bound to any elements other than carbon and hydrogen. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Even if it contacts the normal temperature air, it does not ignite spontaneously (ignition temperature 510degC (IUCLID,2000)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "In a combined repeated dose toxicity study and reproductive/developmental toxicity screening study in rats (OECD TG 422), it was reported that at 200 mg/kg, a dose at which \"respiratory murmur, a slight reduction of the plasma albumin concentration and a reduction in the total plasma protein\" are observed in parent animals, \"no abnormalities were observed in F0 animals' reproductive capacity or in the offspring' morphology or development\" (Ministry of Health, Labor and Welfare Report (Access on October 2008), SIDS (2000)). Since this study was a simple test, however, and there is no other data, classification is not possible. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Although it has been described in SIDS (2000) that \"a reaction like asthma was observed in the bronchial provocation test of chemical factory laborers with a history of occupation-related dyspnea,\" classification is not possible because of unknown details and no other data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "The test method applicable for substances becoming liquid or gas at 140degC of test temperature has not been established. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "Since there was a description of \"Critical cornea damage and a critical conjunctiva stimulus, and iritis were seen also 21 days after medication.\" in the Draize test employing rabbits (SIDS (2000)), it was classified into Category 1. ",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "There is a description, \"irritating (level : unknown\" (SIDS (2000) in the skin irritation/corrosion test (OECD TG 404). Moreover, there are descriptions, \"Moderate irritation such as erythema, edema and exfoliation\" were observed but \"recovered in 17 days\" (SIDS (2000). On the other hand, although there are also descriptions of \"corrosion\" regarding draize test using rabbits, it was classified into Category 2, because SIDS (2000) has concluded \"It is considered to stimulate the skin, \" based on many data including these. ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "For animals, there is a description of \"negative\" (SIDS (2000)) by the Maximization test (OECD TG 406) with guinea pig. About humans, there are descriptions that \"1.9% of 1900 patients with contact dermatitis was positive to the substance\" (SIDS (2000)), and that \"eight persons having vitiligo in the workers who deal with the substance were positive in the patch test\" (SIDS (2000)). From these of negative data in animals and positive data in humans, it was classified as Category 1 since it has been concluded in SIDS (2000) that \"a potential of having sensitizing properties to humans cannot be disregarded.\"",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At) are not included. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (liver, thyroid)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (liver, thyroid)",
+            "rationale": "For humans, since it has been described that \"Goiter and a liver damage\" has been observed in the workers chronically exposed to this substance through manufacturing and processing operations and that this substance may \"cause tissue damage in liver and the thyroid gland.\"(DFGOT vol.11 (1998)), it was classified into Category 1 (liver, thyroid gland). ",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 3 Respiratory tract irritation",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause respiratory irritation (respiratory tract irritation)",
+            "rationale": "SIDS (2000) has descriptions that \"a mucosa irritation (scab of the circumference of a nose) and breathing difficulty were seen in the dust inhalation exposure test which employed rats, that \"the Lungengerausch relevant to a Respiratory tract irritation\" is observed by iterate oral administration test, and that this article \"is considered to be a hylic Respiratory tract irritation\", therefore, it was classified into Category 3 (Respiratory tract irritation). ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 2,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 0,
+        "IrE": 5,
+        "IrS": 4,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

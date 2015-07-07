@@ -1,0 +1,336 @@
+{
+    "ID": "96-29-7",
+    "cas_number": [
+        "96-29-7"
+    ],
+    "country": "Japan",
+    "date_classified": "2007",
+    "date_imported": "Tue Jul  7 07:32:37 2015",
+    "descriptive_name": "2-butanone oxime",
+    "file_path": "h19_meti_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Toxic in contact with skin",
+            "rationale": "From LD50 value of the dermal administration test employing a rabbit being 1,000-2,000 mg/kg (IUCLID (2000)), 1,000 mg/kg which is a lower limit LD50 value was adopted and classified into Category 3. EU-Annex I is R21 and is equivalent to the GHS Category 3-4. ",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "Saturated vapor pressure level (20degC) is 0.076 mg/L. LC50 value of the inhalation administration test employing rats is 20 mg/L / 4hr (IUCLID (2000)). Since the standard value of Category 4 is 0.05 mg/L according to the mist standard, it was classified into \"Not classified\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Since it was a liquid by the definition of GHS, it was classified into \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Since it was written that there was no mortality in twelve rats even if they were exposed in saturated steam at 20degC (0.076 mg/L) for 8 hours (4-hour equivalent 0.152 mg/L) (IUCLID (2000)), LC50 value is >0.152 mg/L.. Since the vapor standard value of Category 1 is 0.5 mg/L, classification is not possible. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "LD50 value of the oral administration test employing a rat was classified into Category 4 from LD50 value = 1,440 mg/kg obtained by application of the formula based on 2,528 mg/kg, 2,326 mg/kg, 3,700 mg/kg (IUCLID (2000)), and 930 mg/kg (IUCLID (2000), RTECS (2006)). ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "Since it was classified into Cat. 3; R40 according to EU-Annex I, it was classified into Category 2. ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "As for in vivo mutagenicity tests using a somatic, the micronucleus tests employing mouse peripheral blood was negative (NTP DB (Access on Dec.2007)), and chromosome aberration test employing rats bone marrow cell and the micronucleus tests which uses mouse peripheral blood and bone marrow cells were negative (IUCLID (2000)), therefore, it was classified into \"Not classified\". And as for in vitro studies, although very weak genetic toxicity was observed in vitro reverse mutation test using bacteria under specific conditions, it was negative in SCE test using CHO cultured cells and chromosome aberration test (NTP DB (Access on Dec.2007)), and in the reverse mutation test using bacteria and chromosome aberration test using CHO cultured cells (Health, Labor and Welfare Ministry reports (Access on Dec.2007)). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "While maternal toxicity can be found at the level even less than 10mg/kg in the 2 generation reproductive toxicity study via oral administration using rats conforming to GLP, no effect was caused in F1 and F2 generations even at the level of 200mg/kg. On the other hand, in the developmental toxicity study conforming to GLP 3 cases of miscarriage have been confirmed at the dose amount (40mg/kg) where 8 out of 18 parent animals died (IUCLID (2000)). It is not appropriate to ignore reproductive toxicity, judging the fetal toxicity (miscarriage) as the secondary effect, even when the dose amount 40mg/kg is a low dose level where parent animals die. Therefore, classification is not possible. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification is not possible since there is no data. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 1",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye damage",
+            "rationale": "There are descriptions of \"highly irritation (1989)\" (IUCLID (2000)) and of \"severe irritation (1987)\" (RTECS (2006)) against rabbits, it was classified into Category 1. EU-Annex I is R41 and is equivalent to the GHS Category 1. ",
+            "signal_word": "Danger",
+            "symbol": "Corrosion"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "In the studies of rabbits described in IIUCLID (2000) \"irritating\" and \"not irritating\" coexist regarding EC division. The study result stating \"slightly irritating\" by the Draize test is classified as \"being stimulative\" in EC division. When Study from 1978, TSCATS fiche OTS0524679, the primary information source for this study was checked, there were no details of exposure time etc., described. Moreover, although several 24hr-exposure tests are listed in IUCLID and all of the EC classifications are \"irritating\", classification is not possible since details of the tests are unknown. In addition, it was not classified into R34 and R38 in EU Annex I. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "It was classified into \"Category 1\" from a description of Sh in Germany-MAK of ACGIH-TLV and based on \"possible sensitizing properties in the maximization test complied with GLP with guinea pig\" (IUCLID (2000)). In addition, EU-Annex1: R43 is equivalent to the GHS Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": " - ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (hematopoietic system, liver, kidney)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (hematopoietic system, liver, kidney)",
+            "rationale": "Since in 28-day repeated oral administration toxicity test in rats, \"there were increase in reticulocyte rate, effects on lien (congestion, increased extramedullary haemopoeisis, and increase in granule of hemosiderin), etc. in the group of males and females more than 20 mg/kg, and increase in platelet count, decrease in the number of red blood cells, drop in hematocrit, and decrease in hemoglobin content, etc. in the group of females more than 20 mg/kg (Ministry of Health, Labour and Welfare reports (Access on Dec. 2007)), it was classified into Category 1 (blood system). Furthermore, since in the oral administration simple reproductive toxicity study, \"the enhance of the accruals number or the level of congestion, pigmentation of lien, extramedullary hematopoiesis, liver carbohydrate deposit, pigmentation of Kupffer cells, congestion, and brown pigmentations of kidney in the administered group of males and females more than 10 mg/kg\" are seen, it is added Category 1 (liver, kidney) and to be Category 1 (blood system, liver, kidney).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Classification not possible",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": " - ",
+            "rationale": "There is a description of \"symptom of drowsiness\" at 50 mg/L/4hr in the inhalation administration test employing rats. (RTECS (2006)). However, when the data of LC50 value 20 mg/L in the inhalation administration test employing rats (IUCLID (2000)) is taken into consideration, 50 mg/L/4hr is equivalent to the lethal concentration. Therefore, it is unsuitable to classify in the paragraph of specified target organ toxicity (single exposure), and classification is not possible. However, when LC50 value 20 mg/L is judged to be irrelevant after scrutinizing the primary literature of IUCLID (Federal register USA (1986) 51, 220, 41430-41432. methylethyl ketonoxime), RTECS' \"Symptoms Of Sleepiness\" may be adopted and it may be classified as Category 3 (Narcotic effects).",
+            "signal_word": " - ",
+            "symbol": " - "
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 0,
+        "AT": 4,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 0,
+        "IrE": 5,
+        "IrS": 0,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

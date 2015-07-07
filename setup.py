@@ -1,7 +1,5 @@
 from distutils.core import setup
 
-files = ["data/*"]
-
 setup(
     name="greenscreen_framework",
     version="1.0.0",
@@ -13,6 +11,7 @@ setup(
     packages=['greenscreen_framework'],
     py_modules=['greenscreen_framework.ghs',
                 'greenscreen_framework.greenscreen'],
-    package_data={'package': files},
+    package_data={'package': "data/*"},
+    scripts=['scripts/greenscreen_batch_process'],
     long_description="A collection of utilities for manipulating hazard " +
                      "data and performing Green Screen hazard assessments.")

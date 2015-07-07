@@ -1,0 +1,344 @@
+{
+    "ID": "106-92-3",
+    "cas_number": [
+        "106-92-3"
+    ],
+    "country": "Japan",
+    "date_classified": "2009",
+    "date_imported": "Tue Jul  7 07:32:35 2015",
+    "descriptive_name": "1-Allyloxy-2,3-epoxypropane",
+    "file_path": "h21_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 3",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Harmful to aquatic life",
+            "rationale": "Classified into Category 3 from its 96h-LC50 = 30 mg/L for fish (Goldfish) (Initial Risk Assessment Report (NITE, CERI, NEDO), 2005, etc.).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Based on a LD50 value of 2550 mg/kg (ACGIH (2001)) for rabbits, the substance was classified as \"Not classified\" in JIS Classification (correspond to Category 5 in GHS classification). As relevant information, There is a report of mortality at 500 mg/kg for rabbits (DFGOT 7 (1996)), however, the source is limited to DFGOT only. The LD50 value of 2550 mg/kg was reported in ACGIH and used for this classification is cited in a number of assessment documents including DFGOT. In view of a weight of evidence approach, the value of 2550 mg/kg is considered to be more suitable for classification.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": "Fatal if inhaled",
+            "rationale": "LC50 values are 308 ppm/7h (407 ppm/4h) (PATTY (5th, 2001)) and 670 ppm/8h (950 ppm/4h) (ACGIH (2001)) for rats. The category with higher hazard was adopted and the substance was classified into Category 2. Since the test was conducted at lower than 90% of saturated vapour pressure concentration of the substance (6200 ppm), the classification criteria for gas were adopted.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "Based on LD50 values of 830 - 1600 mg/kg (PATTY (5th, 2001) and 1600 mg/kg (ACGIH (7th, 2001)) for rats, the substance was classified into Category 4.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "In 2-year inhalation tests in rats and mice (NTP TR376 (1990)), there was no evidence of carcinogenic activity for female rats, and equivocal evidence of carcinogenic activity for male rats and female mice based on the presence of tumours of respiratory epithelial origin. There was some evidence of carcinogenic activity for male mice, based on the presence of three adenomas of the respiratory epithelium, dysplasia in four males, and focal basal cell hyperplasia of the respiratory epithelium in seven males in the nasal passage of mice exposed to 10 ppm. Based on the results of the 2-year inhalation tests in rats and mice, the substance was classified into \"A4\" in ACGIH (ACGIH (7th, 2001)), but into Category 3 in EU classification (EU-Annex I (access on May 2009)). Based on the available information, classification was not possible.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 3",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Harmful to aquatic life with long lasting effects",
+            "rationale": "Classified into Category 3 since its acute toxicity is Category 3 and it is not rapidly degradable (BOD degradation rate: 37% (Biodegradation and Bioconcentration of Existing Chemical Substances under the Chemical Substances Control Law, 1995)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 3",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Flammable liquid and vapour",
+            "rationale": "Classified into Category 3 since flash point 48 degC (open-cup) (Sax (11th, 2004)) is >=23 degC and <=60 degC. The substance is classified into Class 3, PG III in UNRTDG (UN2219).\n",
+            "signal_word": "Warning",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Based on a positive result in a bone marrow micronucleus test (in vivo somatic cell mutagenicity test) (NTP DB (access on May. 2009)), the substance was classified into Category 2. Negative results are reported in a dominant lethal test by subcutaneous administration to mice and a micronucleus test by inhalation exposure to mice (Hazard Assessment Report (CERI, NITE) (2005)). From in vitro mutagenicity tests, there are reports of a positive Ames test and positive chromosomal aberration tests using CHO cells or RL4 cells (Hazard Assessment Report (CERI, NITE) (2005)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Hazardous to the ozone layer",
+            "hazard_statement": " - ",
+            "rationale": "This substance is not listed in Annexes to the Montreal Protocol.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "The substance is an organic compound containing oxygen (but not fluorine or chlorine) which is chemically bonded only to carbon or hydrogen.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified since the substance is classified into Class 3, PG III in UNRTDG (UN2219), but not into upper risk \"Pyrophoric\".\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "In an inhalation reproductive toxicity test, rats exposed for 8 weeks were mated with control females (Hazard Assessment Report (CERI, NITE) (2005)). The reproductive performance of males was found to be impaired. There was a dose dependent decrease in pregnant control females following mating with exposed males (30 ppm and higher dose levels). Since there was no information for the parental general toxicity at these dose levels, the substance was classified into Category 2. In the high dose group (200 ppm), 2 of 20 male rats died and an increased incidence of abnormal sperm morphology and decreased number of corpus lutea were observed.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not classified",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified since there is unsaturated bond in the molecules and is classified into Class 3, PG III in UNRTDG (UN2219) , but not into upper risk \"Self-reactive\".\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2A",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "Based on results of \"severe irritating\" followed by complete resolution in a rabbit test (Hazard Assessment Report (CERI, NITE) (2005)) and severe but reversible conjunctivitis, iritis and corneal opacity in another rabbit test (ACGIH (7th, 2001)), the substance was classified into Category 2A. In EU classification, the substance is classified into Xi; R41 (EU-Annex I (access on May, 2009)).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "Based on results of \"mild to severe irritating\" in a rabbit test (PATTY (5th, 2001)) and \"moderate irritating\" in another test (Hazard Assessment Report (CERI, NITE) No. 68 (2005)) as well as classification of Xi; R37/38 in EU classification (EU-Annex I (access on May 2009)), the substance was classified into Category 2.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "In a patch test of patients with dermatitis after handling epoxides, 2/20 patients showed positive reaction to this substance (Hazard Assessment Report (CERI, NITE) (2005)). In a patch test of glass sealing manufacturing workers with dermatitis, positive reaction to this substance, which was present as an impurity in a raw material, was observed (Hazard Assessment Report (CERI, NITE) (2005)). In addition, there is a report of sensitizing reaction to this substance in 4/23 workers with occupational dermatitis (PATTY (5th, 2001)). Based on the positive results of patch tests obtained from multiple sources, the substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (upper respiratory tract)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (upper respiratory tract)",
+            "rationale": "In a 13-week inhalation test with rats (NTP TR376 (1990)), squamous metaplasia of the nasal passage including the respiratory epithelium and the olfactory epithelium was seen at all exposure concentrations (4 - 200 ppm (0.019 - 0.95 mg/L)). The severity of the changes was dose-dependent. Erosion in the nasal passage and squamous metaplasia of the upper respiratory tract were observed at 30 ppm (0.14 mg/L) and higher levels in this test. In a 13-week inhalation test in mice (NTP TR376 (1990)), squamous metaplasia of the nasal passage including the respiratory epithelium and the olfactory epithelium were also observed at concentration of 10 - 30 ppm (0.048 - 0.14 mg/L), and epithelial erosion was seen at 30 ppm (0.14 mg/L) only. In a 50-day inhalation test in rats (ACGIH (2001)), bronchopneumonia, emphysema, bronchiectasis and pneumonitis were observed at 400 ppm (1.9 mg/L/7h; 90-day equivalence: 1.12 mg/L/6h) and higher levels. However, the findings were noted at dose levels exceeding the guidance value range. As above, adverse effects are found at dose levels within the guidance value range for Category 1 following repeated inhalation exposure, and the site of occurrence is limited to the upper respiratory tract including the respiratory epithelium and olfactory epithelium. Based on the results, the substance was classified into Category 1 (upper respiratory tract).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (central nervous system, respiratory system, liver, kidney)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (central nervous system, respiratory system, liver, kidney)",
+            "rationale": "In acute oral toxicity tests with rats and mice (LD50 values: 830 - 1600 mg/kg for rats, 390 mg/kg for mice), administration resulted in labored breathing and central nervous system depression, preceded by incoordination, ataxia and reduced motor activity (PATTY (5th, 2001)). Central nervous system depression is also reported in an inhalation test in mice (vapour: 0.96 - 3.6 mg/L) (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005)). Since the dose levels were within the guidance value range, the substance was classified into Category 1 (central nervous system). In the above oral toxicity tests, occasionally the liver showed focal areas of necrosis (PATTY (5th, 2001)). In an acute inhalation toxicity test with mice (LC50 value: 270 ppm/4h (1.3 mg/L/4h)), occasionally, hepatic focal inflammatory cells and moderate congestion were observed (PATTY (5th, 2001)). Since the inhalation dose level was within the guidance value range for Category 1, the substance was classified into Category 1 (liver). In an acute inhalation toxicity test with mice (LC50 value: 270 ppm/4h (1.3 mg/L/4h)), lung irritation and pneumonitis was confirmed by microscopic examination (PATTY (5th, 2001)). In rats, pulmonary edema was observed at 500 ppm/7h (2.334 mg/L/4h) and higher doses following inhalation exposure (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005)). Additionally, in another inhalation test in mice (vapour: 0.96 - 3.6 mg/L), severe irritative symptoms including dyspnea was noted (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005)). Based on the data, the substance was classified into Category 1 (respiratory system). In an inhalation test in rats, congestion in the kidney was observed at 300 ppm/7h (1.8 mg/L/4h) (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005)), and it is reported that \"main target organ following acute oral or dermal exposure is kidney\" (PATTY (5th, 2001)). Therefore, the substance was classified into Category 1 (kidney).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 3,
+        "AT": 5,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 3,
+        "IrE": 4,
+        "IrS": 4,
+        "M": 3,
+        "N_r": 0,
+        "N_s": 4,
+        "P": 0,
+        "R": 3,
+        "Rx": 2,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

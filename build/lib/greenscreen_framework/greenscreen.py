@@ -6,7 +6,7 @@ import time
 import getpass
 import json
 import re
-import ghs
+import greenscreen_framework.ghs as ghs
 if sys.version_info > (3,):
     from urllib.request import urlopen
 else:

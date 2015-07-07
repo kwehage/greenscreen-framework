@@ -1,0 +1,336 @@
+{
+    "ID": "7758-01-2",
+    "cas_number": [
+        "7758-01-2"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Tue Jul  7 07:32:36 2015",
+    "descriptive_name": "Potassium bromate",
+    "file_path": "h20_meti_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Since it was a solid by the definition of GHS and inhalation in gas was not assumed, it was classified into \"Not applicable\". ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "There is a description of LD50 value 400-500 (495) mg/kg (IARC 73 (1999), JECFA (1992)), and 160-190 mg/kg (JECFA (1992)) of the oral administration test employing a rat. These values were classified into Category 4 from the description that \"They are male:400 (348-460) mg/kg and female:495 (446-549) mg/kg as a result of carrying out statistics processing of the LD50 value.\" in information from same reference (Environ.Health Perspect.87 (1990)). ",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "IARC evaluates it as group 2B (IARC 73 (2000)), and the European Union classification evaluates it as Carc. Cat. 2; R45 (EU-Annex I). According to guidance, priority was given to the classification of IARC and it classified into Category 2. In addition, ACGIH (7th, 2001) has a description of \"EPA classification of Bromate: L (oral), B-2.\" ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "Although the atom group (O-halogen) concerning explosiveness is included, it was classified into Not classified because it was classified into Class 5.1 and PG II in the United Nations Recommendations on the Transport of Dangerous Goods(UN No.1484 (ICSC,2003)). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Since it was classified into Class 5.1 and PG II in the United Nations Recommendations on the Transport of Dangerous Goods (UN No.1484(ICSC,2003)), it was classified into Not classified.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Although there is a description of \"positive\" (IARC 73 (1999), JECFA (1992), IRIS (2001)) in the body cell in vivo mutagenicity test (micronucleus test employing the bone marrow cell and erythrocyte of the mouse, the chromosome aberration test using the marrow cells of the rat), since there was no positive finding of the productive cell in vivo genotoxicity test, it was classified into Category 2. In addition, for the body cell in vivo genotoxicity test IARC 73 (1999), there are descriptions of \"positive\" in the DNA damage test employing the kidney of the rat, \"Slightly positive to negative\" (IARC 73 (1999)) in the DNA damage test employing the liver of the rat, and \"positive\" in either of the in vitro mutagenicity test (chromosome aberration test employing CHL culture cells and the reverse mutation test employing a Salmonella typhimurium). ",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Inorganic compound",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Category 2",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": "May intensity fire; oxidizer",
+            "rationale": "Since it was classified into Class 5.1 and PG II in the United Nations Recommendations on the Transport of Dangerous Goods (UN No.1484(ICSC,2003)), it was classified into Category 2. ",
+            "signal_word": "Danger",
+            "symbol": "Flame over circle"
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Non-combustible (ICSC(2003)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "Classification is not possible because there is no data. Incidentally, GHS Classification of the related compound, Sodium bromate is \"Not classified\" based on results of the multi-generation reproductive toxicity study via administration of drinking water using male and female rats. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification is not possible since there is no data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Non-combustible (ICSC(2003)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not classified",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Although the atom group (O-Br) associated with explosive properties is included, it was classified into Not classified, since it was classified into Class 5.1 and PG II in the United Nations Recommendations on the Transport of Dangerous Goods (UN No.1484(ICSC2003). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes eye irritation",
+            "rationale": "From the description that \"Although Bromate causes moderate irritation and slight corneal injury in eyes of of a rabbit, it will recover in several days \" (Patty 5th, (2001)), it was classified into Category 2B. In addition, there is a description of \"Eyes are stimulated.\" in the paragraph of short-term exposure effects of ICSC (2003). ",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Although there is a description saying, \"Prolonged contacts of Bromate cause burns on the scarf skin of rabbits but they recover in a few days,\"(Patty (5th, 2001)), classification is not possible because there is no information at the time of 4- hour exposure. Incidentally, there is a description, \"It stimulates the skin, \"in the section of the Effect of Short Term Exposure in ICSC (2006). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification is not possible since there is no data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At) are not included. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Classification not possible",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": " - ",
+            "rationale": "In the 13-week study of administration in drinking water to male and female rats, \"on blood biochemical findings, an increase in GOT, GPT, LDH, ALP, BUN, serum sodium and cholinesterase were observed in male and female rats, and droplet in proximal tubule epithelial cytoplasm and a broad range of reproductive changes in kidney tubule were observed in male rats\" (IRIS (2001), JECFA (1992)). Moreover, in the 100-week study of administration in drinking water to male rats and male mice (IRIS (2001)), on findings in rats \"a statistically significant reduction of drinking water intake was observed in the high-dose group, but any other effects associated with the dose were not observed,\" and \"a dose-dependent increase in the incidence rate of urothelium hyperplasia, mineral deposits in kidney papillary and eosinophilic droplet in proximal tubular epithelium were observed.\" In the 12-week study of administration in drinking water to male rats, \"the droplets observed in kidney tubule are concluded to be more of eosinophilic bodies than hyaline droplets\" (EHC 216 (2000), JECFA (1992)). The kidney symptoms were observed only in male rats and considered as the effects by alpha2u globulin nephropathy. Since there is no other data available, classification is not possible. In addition, for a related compound, sodium bromate, kidney is selected as the target organ since \"kidney syndrome and kidney tubule hypertrophy were observed in kidney\" (NTP DB (Access on December 2008)) in the 27-week and 43-week study of administration in drinking water to male and female mice. ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (kidney, central nervous system, digestive system, blood system),\nCategory 3 (respiratory tract irritation)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (kidney, central nervous system, digestive system, blood system)\nMay cause respiratory irritation (respiratory tract irritation)",
+            "rationale": "As for toxic symptoms of Bromate Anemia, there is a description that \"hemolysis, kidney trouble, and hardness of hearing\" were seen in humans who did oral ingestion of the solution containing this article (EHC 216 (2000), IRIS (2001), JECFA (1992)), and another description that \"Vomiting, abdominal pain, and diarrhea were seen as irritant effect on the gastrointestinal effect, and a lethargy dizziness, low blood pressures a hypotonia (hypotonicity), and reflexes absents were seen as central nervous system effect\" (IRIS (2001), JECFA (1992)). Moreover, the paragraph of short-term exposure effects of ICSC (2003) has a description that \"a respiratory tract is stimulated. The kidney and a central nervous system may be affected and kidney insufficiency, respiratory depression, and hardness of hearing may be produced when oral ingestion is carried out.\" As mentioned above, it was classified into Category 1 (kidney, central nervous systems, digestive system, blood systems) and Category 3 (Respiratory tract irritation). ",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard\nExclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 0,
+        "AT": 3,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 2,
+        "IrE": 3,
+        "IrS": 0,
+        "M": 3,
+        "N_r": 0,
+        "N_s": 4,
+        "P": 0,
+        "R": 0,
+        "Rx": 4,
+        "ST_r": 0,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

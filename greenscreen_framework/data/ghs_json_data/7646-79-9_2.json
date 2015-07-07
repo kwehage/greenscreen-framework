@@ -1,0 +1,336 @@
+{
+    "ID": "7646-79-9",
+    "cas_number": [
+        "7646-79-9"
+    ],
+    "country": "Japan",
+    "date_classified": "2008",
+    "date_imported": "Tue Jul  7 07:32:36 2015",
+    "descriptive_name": "cobalt dichloride",
+    "file_path": "h20_mhlw_new_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "Since its 96h ErC50 = 0.6 mg/L for algae (green algae) (CICADS 69 2006), the substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Based on its rat LDLo value of 2000 mg/kg (RTECS (2008)), the substance was classified into \"Not classified\" using the JIS classification criteria (Category 5 or \"Not classified\" in the United Nations classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "Its rabbit TCLo value of 0.5 mg/m3/6h/4w (conversion value: 3*10^-5 mg/L/4h) is documented (RTECS (2008)); however, since this dataset does not allow the specification of a category for the substance, it was classified into \"Classification not possible\".",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "Among its rat LD50 values of 42.4 mg/kg bw, 358 mg/kg/day, and 418 mg/kg (ATSDR (2004)), the majority of them fell under Category 4 guidance values. Thus, the substance was classified into Category 4. Also, it is rated as R22 (equivalent to Category 3 or 4) in the EU classification (EU-Annex 1 (accessed in January 2009).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "Cobalt and cobalt compounds are rated as 2B by the Japan Society for Occupational Health (JSOH (2008)), 2B by the IARC (IARC (vol. 86, 2006)), and A3 by the ACGIH (ACGIH (2001)); thus, the substance was classified into Category 2. As additional information, the substance is rated as Cat. 2 by the EU (EU-Annex 1 (accessed in January 2009)). Cases of goiter have been documented in humans (HSDB (2004)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Since the substance is inorganic, it is considered not to be rapidly biodegradable, and its classification for acute toxicity is Category 1; thus, the substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances are not available.\n",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solid",
+            "hazard_statement": " - ",
+            "rationale": "Nonflammable (ICSC (J) (2004)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Negative results were obtained from in vivo dominant lethal tests using mice (DFGOT (vol. 23, 2007)), whereas positive results were acquired from in vivo chromosomal aberration tests using mouse bone marrow cells and micronucleus tests (DFGOT (vol. 23, 2007)). Since in vivo genetic toxicity tests using germ cells are not available, the substance was classified into Category 2. Regarding in vitro tests, negative results have been reported in Ames tests; DNA damage tests using human fibroblasts, CHO cells, HeLa cells, or human leukocytes; and gene mutation tests using V79 cells (DFGOT (vol. 23, 2007)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Inorganic compounds containing no bivalent -O-O- structure in the molecule",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Inorganic compound containing halogen. Classification is not possible due to lack of data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Nonflammable (ICSC (J) (2004)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "In the tests using mice that underwent administration in drinking water for 12 weeks (200, 400, or 800 mg/L), lowered fertility and a decrease in implantation sites and survival rate of the offspring were observed (CICAD 69 (2006)). In addition, in the tests using mice that underwent administration in drinking water for 10 weeks (400 ppm), an increase in loss of pre-implantation embryos, and a decrease in gestation rates, number of pups per litter, and fertility were observed. These documents report clear cases of reproductive toxicity, while no descriptions on general toxicity are provided; thus, the substance was classified into Category 2. Also, the substance is rated as Cat. 3 (R60) in the EU classification (which is equivalent to Category 1B) (EU-Annex 1 (accessed in January 2009)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": "May cause allergy or asthma symptoms or breathing difficulties if inhaled",
+            "rationale": "Cobalt and cobalt compounds are rated as 1 by the Japan Society for Occupational Health (JSOH (2008)), and R42/43 by the EU (EU-Annex 1 (accessed in January 2009)). In addition, asthma cases were found in factory workers (DFGOT (vol. 23, 2007)). Based on these reports, the substance was classified into Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "self_heating_substances": {
+            "classification": "Not classified",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Nonflammable (ICSC (J) (2004)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups present in the molecule associated with explosive or self-reactive properties.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": " - ",
+            "rationale": "The substance, in its dust or solid form, causes eye irritation (HSDB (2004)), and it is documented that a short-term exposure of the substance causes eye irritation (ICSC (J) (2004)). However, classification is not possible due to lack of detailed data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "The substance causes skin irritation in humans (HSDB (2004)); however, there is no test information that can be used as grounds for the classification of this substance. Thus, the substance was classified into \"Classification not possible\" due to lack of data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "Cobalt and cobalt compounds are rated as 1 by the Japan Society for Occupational Health (JSOH (2008)), and R42/43 by the EU (EU-Annex 1 (accessed in January 2009)). Since positive results have been reported several times in animal tests (LLNA and maximization tests) and human patch tests, the substance was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "It contains a metal (Co). No test data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (lung, nervous system, thyroid),\nCategory 2 (blood, cardiac muscle, genitalia)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (lung, nervous system, thyroid)\nMay cause damage to organs through prolonged or repeated exposure (blood, cardiac muscle, genitalia)",
+            "rationale": "Oral administration of 150 mg/day to 6 males of ages 20 to 47 resulted in an increase in erythrocytes by 16 to 20% (CICAD 69 (2000)). An accidental intake of the substance (2.5 g) by 6-year old child resulted in vomiting and neutropenia (HSDB (2004)). In inhalation tests using rabbits treated with 0.4-2 mg/m3 for 14-weeks, a peculiar nodule increase of type II pneumocytes was detected (Japan Society for Occupational Health (2008)). In 3-week oral administration tests using rats treated with 50 mg/kg bw/ cobalt chloride (90-day correction: 12 mg/kg), myocytolysis was observed (CICAD 69 (2006)). In forced oral administration tests using rats treated with 0.05 or 2.5 mg/kg/day for 7-months, delayed latency reflex was observed in animal groups treated with 2.5 mg/kg/day (90-day correction: 5.8 mg/kg/day) (ATSDR (2006)). In 4-week mixed diet tests using rats treated with 3.79 mg/kg/day (90-day conversion: 1.17 mg/kg/day), atrophy of the thyroid gland was detected (ATSDR (2004)). In 45-day administration tests through drinking water using mice treated with 26 mg/kg/day, necrosis and inflammation of the thyroid gland were observed (ATSDR (2004)). Finally, in 12-week administration tests through drinking water using mice treated with 200-800 mg/L, testicular weight markedly decreased, and in four other tests, decreased testicular weight and testicular degeneration or atrophy were detected (IARC (vol. 86, 2006), ATSDR (2004)). Based on these results, the substance was classified into Category 1 for lung, nervous system and thyroid gland, and Category 2 for blood, cardiac muscle and genitalia. With regard to animal tests, documents that addressed serious cases were adopted as rationale for the classification.",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (systemic toxicity)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (systemic toxicity)",
+            "rationale": "There is a human case that a 19-month old boy swallowed a solution containing this substance (dose unknown), and died after 6.5 hours in spite of having him vomit and applying treatment (ATSDR (2004)). In addition, there is a description that the ingestion of the substance by children may cause cyanosis due to the inhibition of erythrocyte synthesis, coma, or death (HSDB (2004)). The effects of this substance documented include retrosternal chest pain, tinnitus, nausea and vomiting, nerve deafness, thyroid hyperplasia with tracheal oppression, myxedema, and malaise (HSDB (2004)). In forced oral administration tests using rats, decreased spontaneous activity was observed at 4.25 mg/kg (ATSDR (2004)). Based on death cases observed in humans, the substance was classified into Category 1 (systemic toxicity).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 3,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 2,
+        "IrE": 0,
+        "IrS": 0,
+        "M": 3,
+        "N_r": 4,
+        "N_s": 0,
+        "P": 0,
+        "R": 3,
+        "Rx": 2,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

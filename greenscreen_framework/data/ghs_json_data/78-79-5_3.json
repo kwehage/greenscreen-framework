@@ -1,0 +1,344 @@
+{
+    "ID": "78-79-5",
+    "cas_number": [
+        "78-79-5"
+    ],
+    "country": "Japan",
+    "date_classified": "2009",
+    "date_imported": "Tue Jul  7 07:32:35 2015",
+    "descriptive_name": "Isoprene",
+    "file_path": "h21_mhlw_rev_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "Classified into Category 2 from its 48h-EC50 = 3.2 mg/L for Crustacea (Daphnia magna) (Test for the Ecological Effect of Chemical Substances (Ministry of the Environment), 2000).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data. As relevant information, a LD50 value is >1 mL/kg bw (681 mg/kg bw) for rats (SIDS (2005)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Based on a LC50 value of 180 mg/L/4h (64607 ppm/4h) for rats (SIDS (2005)), the substance was classified as \"Not classified\". Since the test concentration (63,600 ppm) was lower than 90% of saturated vapour pressure concentration (725,000 ppm), the classification criteria for gas were adopted.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": " - ",
+            "rationale": "Based on a LD50 value of 2,043 mg/kg for rats (SIDS (2005)), the substance was classified into \"Not classified\" in JIS Classification (correspond to Category 5 in GHS classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "Based on the classifications of \"2B\" in IARC (IARC (1999)), \"R\" in NTP (NTP (2005)) and \"2B\" in Japan Society For Occupational Health (JSOH), the substance was classified into Category 2. In a 105-week inhalation test in rats, increases in the incidences of mammary gland fibroadenoma, mammary gland carcinoma, renal tubule adenoma and interstitial cell adenoma were observed (NTP TR486 (1999)). In a 80-week inhalation test in mice, increases in the incidence of tumours were found in the liver, kidney, spleen and Harderian gland (IARC vol. 71 (1999)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Toxic to aquatic life with long lasting effects",
+            "rationale": "Classified into Category 2 since its acute toxicity is Category 2 and it is not rapidly degradable (BOD degradation rate: 2% (Biodegradation and Bioconcentration of Existing Chemical Substances under the Chemical Substances Control Law, 1988)).",
+            "signal_word": " - ",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid (low boiling point (34 degC) (ICSC (2004))) substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Category 1",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": "Extremely flammable liquid and vapour",
+            "rationale": "Classified into Category 1 since flash point -54 degC (closed-cup) (ICSC (2004)) is <23 degC and initial boiling point 34 degC is <=35 degC. The substance containing stabilizers is classified into Class 3, PG I in UNRTDG (UN1218). ",
+            "signal_word": "Danger",
+            "symbol": "Flame"
+        },
+        "flammable_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Based on positive results in a peripheral erythrocyte micronucleus test by inhalation exposure to rats for 2, 13, 40 and 80 weeks (in vivo somatic cell mutagenicity test) (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005), NTP DB (2009)), the substance was classified into Category 2. As relevant information, negative results are reported from in vivo tests including a mouse pulmonary fibroblast micronucleus test and a mouse bone marrow chromosomal aberration test (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005)). From in vitro mutagenicity tests, there are reports of a negative Ames test and a negative CHO cell chromosomal aberration test (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005), NTP DB (2009)).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {
+            "classification": "Classification not possible",
+            "hazard_id": 12.0,
+            "hazard_name": "Hazardous to the ozone layer",
+            "hazard_statement": " - ",
+            "rationale": "This substance is not listed in Annexes to the Montreal Protocol.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no bivalent -O-O- structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no oxygen, fluorine or chlorine",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not classified",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Not classified from auto-ignition point 220 degC (ICSC (2004)). ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Liquid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "In developmental toxicity tests in rats and mice exposed by inhalation during the organogenesis period, there were no fetal developmental toxicity including teratogenicity (SIDS (2005)). Classification was not possible because of lack of sufficient data for effects on parental sexual function and fertility due to exposure prior to mating.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Type G",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Type G since the usually distributed substance containing stabilizers is classified into Class 3, PG I in UNRTDG (UN1218) though there are chemical groups (unsaturated C=C)) associated with self-reactive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes eye irritation",
+            "rationale": "Since slight irritation was found in the eyes of exposed human volunteers (Hazard Assessment Report (CERI, NITE) (2006)), the substance was classified into Category 2B.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Not classified",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Based on results of \"slightly irritating\" in rabbits following prolonged or repeated application and application twice a day for 5 consecutive days (SIDS (2005)), the substance was classified as \"Not classified\" in JIS Classification (correspond to Category 3 in GHS classification).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (nervous system, upper respiratory tract)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (nervous system, upper respiratory tract)",
+            "rationale": "In a 13-week inhalation test with mice, increased incidences of macrocytic anemia, hyperplasia of the forestomach, degeneration of the olfactory epithelium and cytoplasmic degeneration of the liver were observed (SIDS (2005)). In a 26-week inhalation test with mice (dose levels: 0.195 - 19.5 mg/L), increased incidences of hindlimb paralysis, spinal cord degeneration, degeneration of the olfactory epithelium, epithelial hyperplasia of the forestomach, and macrocytic anemia were observed. Grip strength of the hindlimb in the 220 ppm (0.613 mg/L) and higher concentration exposure groups was significantly lower than that in the control group (SIDS (2005)). After 26 week of recovery, the incidence of degeneration of the spinal cord was significantly increased in all treatment groups (SIDS (2005)). Since degeneration of the spinal cord is considered to be a cause of hindlimb paralysis and this effect occurred at dose levels within the guidance value range for Category 1, the substance was classified into Category 1 (nervous system). The significant increase in the incidence of degeneration of the olfactory epithelium was observed in the 220 ppm (0.613 mg/L) and higher treatment groups after 26 weeks of recovery. In isoprene rubber production workers, atrophic processes in the upper respiratory tract, catarrhal inflammation, and degeneration of the olfactory tract were noted (IARC vol. 71 (1991)). Based on these data, the substance was classified into Category 1 (upper respiratory tract). Since hepatocyte degeneration and hyperplasia of the forestomach were observed at dose levels exceeding the guidance value range for Category 2, the data were not used as the basis of classification. In a 2-week inhalation test in mice, a decrease in erythrocyte count and hemoglobin concentration was noted at dose levels of 438 ppm (90-day equivalence: 0.2 mg/L) (Hazard Assessment Report (CERI, NITE) (2006)). However, this data was not used as the basis of classification because of lack of other data for the effect on blood system.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 3 Narcotic effects, Respiratory tract irritation",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "May cause drowsiness or dizziness (narcotic effects, respiratory tract irritation)",
+            "rationale": "In a human sensory evaluation, mild irritation in the upper respiratory tract mucosa, larynx and throat were observed at a substance concentration of 160 mg/m3 (58 ppm) (Initial Risk Assessment Report (NITE, CERI, NEDO) (2005)). Human volunteers experienced irritation of the upper respiratory after exposure to a 60 ppm concentration of the substance (NTP TR486 (1999)). Based on the data, the substance was classified into Category 3 (respiratory tract irritation). The substance affects the central nervous system, and induces respiratory dysfunction and lowering of consciousness. In an inhalation exposure test in mice, loss of righting reflex and CNS depression were observed at high doses (97.5 - 125.3 mg/L) which were less than a lethal dose (PATTY (5th, 2001)). Based on the data, the substance was classified into Category 3 (narcotic effects).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 2,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 0,
+        "E": 0,
+        "F": 5,
+        "IrE": 3,
+        "IrS": 2,
+        "M": 3,
+        "N_r": 4,
+        "N_s": 0,
+        "P": 0,
+        "R": 0,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 0,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

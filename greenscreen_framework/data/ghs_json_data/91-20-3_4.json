@@ -1,0 +1,336 @@
+{
+    "ID": "91-20-3",
+    "cas_number": [
+        "91-20-3"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Tue Jul  7 07:32:41 2015",
+    "descriptive_name": "Naphthalene",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "It was classified into Category 1 from 96-hour LC50=0.11mg/L of fishes (Rainbow trout) (CERI Hazard Data, 1997).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Not classified",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "From rat LD50 value: >2500mg/kg (CERI Hazard Data, 1997, EHC 202, 1998, NTP TR500, 2000), rabbit LD50 value: >2000mg/kg (EU RAR, 2003, and CERI Hazard Data, 1997), and the description that death was not observed in a rat at 2500mg/kg (EU RAR (2003)), and description that death was not observed in a rabbit at 2000mg/kg (ATSDR (2003)), it was set as the outside of Category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Since there are only descriptions that rat LC50 (1 hour) value: >65ppm (4-hour equivalent: 0.17mg/L) (CERI Hazard Data (1997)) and rat LC50 (8 hours) value: >0.5mg/L (4-hour equivalent: >0.7mg/L) (NTP TR500 (2000)), data was insufficient for specifying Category. And it was presupposed that it cannot be classified.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 4",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Harmful if swallowed",
+            "rationale": "Rat LD50 value : Caluculation was applied based on the following data: About 1800mg/kg (ACGIH 7th, 2001), 1780mg /kg (DFGOT vol.11, 1998), 9430mg /kg (DFGOT vol.11, 1998,  CERI Hazard Data, 1997, NTP TR500, and 2000), 1110mg/kg (DFGOT vol.11, 1998, EHC 202, 1998, NTP TR500, 2000), 2200mg/kg(DFGOT vol.11, 1998, EHC 202, 1998, ATSDR, 2003), > 2000mg /kg (EU RAR, 2003),, 2300mg/kg (EU RAR, 2003), 490mg/kg (CERI Hazard Data, 1997, EHC 202, 1998),  1250mg/kg (EHC 202, 1998), 1800mg/kg (EHC 202, 1998), and 2600mg/kg (ATSDR, 2003). Since the calculated values was 1157mg/kg, this value was classified to category 4.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Category 2",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": "Suspected of causing cancer",
+            "rationale": "It was classified into A4 (ACGIH 7th, 2001) in ACGIH and CBD (IRIS, 2005) in EPA (1998). But it was classified into group 2B (IARC 82, 2002) in IARC, and the category 3 (EU-Annex I, 2005) in EU. So it was considered as Category 2 according to IARC which is latest assessment document.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Classified into Category 1, since acute toxicity was Category 1, not rapidly degrading (BOD: 0% (existing chemical safety inspections data)), though less bioaccumulative (BCF=168 (existing chemical safety inspections data)).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Liquid at a test temperature, 55degC. Test methods applicable to solid substances are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive properties present in the molecules.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": "Flammable solids",
+            "rationale": "UNRTDG Class: 4.1; PG III",
+            "signal_word": "Warning",
+            "symbol": "Flame"
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Not classified",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since there was a negative result with the micronucleus test on mouse erythrocyte which is an in vivo mutagenicity test using somatic cells (DFGOT vol. 11, 1998, EU RAR2003 and IARC82, 2002, IRIS1998, ATSDR2003), it was classified as out of Category.  ",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Containing no -0-0- structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not applicable",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Containing no oxygen , chlorine and fluorine.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid (GHS definition)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Flash point: 526degC (NFPA, 12th, 1997, p49-93)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": " - ",
+            "rationale": "It was considered as out of Category based on the description that specific reproductive toxicity was not observed at the dose causing toxicity to maternal animals in a pregnant rat, mouse and rabbit oral administration examination (NTP DB (2005), DFGOT (vol.11, 1998), EU RAR (2003), IARC 82 (2002), EHC 202 (1998), IRIS (1998), ATSDR (2003), and ACGIH (7th, 2001)).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid or solid substances at 140degC are not available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "There are no chemical groups associated with explosive or self-reactive properties present in the molecule.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes eye irritation",
+            "rationale": "There is the description that in the test applied to the eye of the rabbit, the mild irritation recovered within seven days was acknowledged (EU RAR (2003) and ATSDR (2003)). So it was set as Category 2B.",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 3",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes mild skin irritation",
+            "rationale": "It was set as Category 3 from description that mild irritation was admitted in the test applied to the rabbit skin (DFGOT (vol.11, 1998), EU RAR (2003), EHC 202 (1998), ATSDR (2003)).",
+            "signal_word": "Warning",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "We have the description that skin sensitizing property was not acknowledged in Buehler test and maximization test which used the guinea pigs in EU RAR (2003), however, based on the description of 2 cases in which the cutireaction was acknowledged by the intracutaneous test of DFGOT (vol.11, 1998) as influence to human and on the description that the frequency of allergic reactions against the naphthalenes is 0.13%, we classified it to be Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metaloids(B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (blood, eye, nose)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (blood, eye, nose)",
+            "rationale": "Based on the description that hemolytic anemias was acknowledged by repeated inhalation of low concentrations exposure in humans (DFGOT (vol.11, 1998)), the description that in the occupational evidence of exposure , lens opacity was observed (ACGIH (7th, 2001), DFGOT (vol.11, 1998), EU RAR (2003), IRIS (1998), CERI Hazard Data (1997), NTP TR500 (2000) and ATSDR (2003)), and the description that in the inhalation exposure test using the rat, the change of olfactory epithelium was observed with the Category 1 guidance value range (EU RAR (2003)), it was classified into Category 1 (blood, eyes, nasal ).",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (blood),\nCategory 2 (eye)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (blood)\nMay cause damage to organs (eye)",
+            "rationale": "From description in ACGIH (7th, 2001), DFGOT (vol.11, 1998), EU RAR (2003), IARC 82 (2002), EHC 202 (1998), IRIS (1998), CERI Hazard Data (1997), NTP TR500 (2000), ATSDR (2003), and ACGIH (7th, 2001) that hemolytic anemia was seen in humans, it was set as Category 1 (blood). Moreover, from description ACGIH (7th, 2001),  DFGOT (vol.11, 1998) and EHC 202 (1998) that cataract development was seen by the dosage of the guidance value range of Category 2 in the single-dose oral study which used the rabbits, it was set as Category 2 (eye).",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 3,
+        "B": 0,
+        "C": 3,
+        "CA": 0,
+        "D": 2,
+        "E": 0,
+        "F": 3,
+        "IrE": 3,
+        "IrS": 3,
+        "M": 2,
+        "N_r": 0,
+        "N_s": 0,
+        "P": 0,
+        "R": 2,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

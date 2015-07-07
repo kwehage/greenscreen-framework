@@ -1,0 +1,336 @@
+{
+    "ID": "51-28-5",
+    "cas_number": [
+        "51-28-5"
+    ],
+    "country": "Japan",
+    "date_classified": "2006",
+    "date_imported": "Tue Jul  7 07:32:40 2015",
+    "descriptive_name": "2,4-Dinitrophenol",
+    "file_path": "h18_imcg_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Very toxic to aquatic life",
+            "rationale": "It was classified into Category 1 from 96 hours LC50=0.09mg/L of the fish (Rainbow Trout) (ECETOC TR91 (2003) and others.).",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Category 1",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": "Fatal in contact with skin",
+            "rationale": "Based on the rat LD50 (dermal route) value of 25mg/kg (CERI Hazard Data 99-9 (2000)).",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Due to the fact that the substance is \"solid\" according to the GHS definition and inhalation of its gas is not expected.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 2",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Fatal if swallowed",
+            "rationale": "Based on the LD50 value of 32mg/kg calculated from the testing data of rat LD50 (oral route) of 30mg/kg (CERI Hazard Data 99-9 (2000)), 49mg/kg and 51mg/kg (Report by the Ministry of Health, Labour and Welfare (2001)).",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible based on expert judgment in the absence of existing classification, though ATSDR (1995) presents some toxicity data.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 1",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Very toxic to aquatic life with long lasting effects",
+            "rationale": "Although acute toxicity is Category 1 and bio-accumulation is low (BCF=0.7(Existing Chemical Safety Inspections Data, )), since there was no rapidly degrading (the decomposition by BOD: 0%(Existing Chemical Safety Inspections Data)), it was classified into Category 1.",
+            "signal_word": "Warning",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to solid substances are not available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Division 1.1",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": "Explosive; mass explosion hazard",
+            "rationale": "The substance contains nitro groups, with its oxygen budget calculated at -78. The kick-off temperature is 189degC, while the decomposition energy is 144kJ/g (Bretherick (J) (5th,1998)), which is classified as \"Explosive.\" \nClassified as Division 1.1 since the substance is assigned to Division 1.1D (UN#0076 Dinitrophenol (dry or wetted with <15% water by weight)) by the UN Recommendations on the Transport of Dangerous Goods.",
+            "signal_word": "Danger",
+            "symbol": "Exploding bomb"
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Not classified",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to lack of data, though flammable according to ICSC (2004). Classified into Division 1.1D and Division 6.1 (UN#0076 Dinitrophenol (dry or wetted with <15% water by weight)) (UN Recommendations on the Transport of Dangerous Goods).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Category 2",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": "Suspected of causing genetic defects",
+            "rationale": "Based on the absence of data on multi-generation mutagenicity tests, germ cell mutagenicity tests in vivo and germ cell genotoxicity tests in vivo, and positive data on somatic cell mutagenicity tests in vivo (chromosome aberration tests), described in .ATSDR (1995) and NTP DB (Access on April 2006).",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing no \"-O-O-\" structure",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Not classified",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "Organic compounds containing oxygen bound to elements other than carbon and hydrogen. Classified into Division 1.1D and Division 6.1 (UN#0076 Dinitrophenol (dry or wetted with <15% water by weight)) (UN Recommendations on the Transport of Dangerous Goods).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"solid\" according to GHS definition",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Not classified",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "Classified into Division 1.1D and Division 6.1 (UN#0076 Dinitrophenol (dry or wetted with <15% water by weight)) (UN Recommendations on the Transport of Dangerous Goods).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "Based on the evidence of significant increases in the number of pups stillborn or dying during lactation observed in rat teratogenic studies, described in MOE Risk Assessment vol. 3 (2004) and ATSDR (1995), though no data are available on parental toxicity.\n",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Test methods applicable to liquid substances are not available (melting point: 112degC (ICSC, 2004), test temperature: 140degC).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Classified as \"explosives\". Classified into Division 1.1D and Division 6.1 (UN#0076 Dinitrophenol (dry or wetted with <15% water by weight)) (UN Recommendations on the Transport of Dangerous Goods).",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": " - ",
+            "rationale": "No data available",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Category 2",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": "Causes skin irritation",
+            "rationale": "The substance is classified into Category 2 from the viewpoint of safety, based on the description in the report on guinea pig skin irritation tests (ATSDR (1995)): \"moderately irritating,\" though the results of rabbit skin irritation tests suggest the substance is \"mildly irritating\" (CERI Hazard Data 99-9 (2000)).",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Classification not possible due to the insufficiency of data",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "Containing no metals or metalloids (B, Si, P, Ge, As, Se, Sn, Sb, Te, Bi, Po, At)",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (cardiovascular system, blood system, visual organs, nervous system, kidney, liver, gastrointestinal tract),\nCategory 2 (testis)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (cardiovascular system, blood system, visual organs, nervous system, kidney, liver, gastrointestinal tract)\nMay cause damage to organs through prolonged or repeated exposure (testis)",
+            "rationale": "Based on the human evidence: \"blood effects including hemolytic anemia, neutropenia and eosinophilia were detected as key effects following exposure to 2,4-denitrophenol\" (CERI Hazard Data 99-9 (2000)), \"over 100 anecdotal cases of cataracts resulting from therapeutic use of 2,4- dinitrophenol were reviewed\" (IRIS (1987)), \"necrosis of hepatocytes and hemorrhage were found in the liver; destruction of the epithelium lining the renal tubules with hemorrhage into the glomeruli was found in the kidneys; myocarditis was considered to be the cause of death,\" \"the small intestine contained numerous focal hemorrhagic necroses, severe fatty changes and hemorrhagic nephritis were found; the patient complained of weakness and malaise, became delirious and occasionally euphoric, and showed diminished knee-jerk reflex; a fatal case of agranulocytosis occurred\" (ATSDR (1995)). \nAlso based on the evidence from animal studies including \"pathological changes in the liver and kidneys, and testicular atrophy were noted\" (CERI Hazard Data 99-9 (2000)), \"reduced locomotor activity, salivation and calcification of the renal cortico-medullary junctions were observed\" (MOE Risk Assessment vol. 3 (2004)). The effects on experimental animals were observed at dosing levels within the guidance value ranges for Categories 1 and 2.",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (nervous system, kidney)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (nervous system, kidney)",
+            "rationale": "Based on the evidence from animal studies: \"crawling observed in both sexes\" (Report by the Ministry of Health, Labour and Welfare  (2001)), \"displayed very mild tubular necrosis\" (ATSDR (1995)).The effects on experimental animals were observed at dosing levels within the guidance value ranges for Category 1.",
+            "signal_word": "Danger",
+            "symbol": "Health Hazard"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 5,
+        "AT": 5,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 2,
+        "IrE": 0,
+        "IrS": 4,
+        "M": 3,
+        "N_r": 4,
+        "N_s": 4,
+        "P": 0,
+        "R": 3,
+        "Rx": 2,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}

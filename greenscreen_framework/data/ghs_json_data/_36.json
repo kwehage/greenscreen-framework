@@ -1,0 +1,336 @@
+{
+    "ID": "",
+    "cas_number": [
+        ""
+    ],
+    "country": "Japan",
+    "date_classified": "2007",
+    "date_imported": "Tue Jul  7 07:32:37 2015",
+    "descriptive_name": "Powder cake (2) [composition: nitroglycerin/nitrocellulose/isopropyl alcohol = 60/23/17]",
+    "file_path": "h19_mhlw_danger_e.xls",
+    "hazards": {
+        "acute_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Acute",
+            "hazard_statement": "Toxic to aquatic life",
+            "rationale": "Regarding nitroglycerin (CAS: 55-63-0), its 96-hour LC50 for fish (bluegills) is 1.38 mg/L (Hazard Data Book for Chemical Substance (CERI), 2002) and it is classified into Category 2. Regarding nitrocellulose (CAS: 9004-70-0), its 96-hour EC50 for algae (Selenastrum) is 579000 microg/L (AQUIRE, 2003) and it is classified into the \"Not classified\" category. Regarding isopropyl alcohol (CAS: 67-63-0), its 96-hour LC50 for fish (himedaka) is > 100 mg/L (Test for the Ecological Effect of Chemical Substances (Ministry of the Environment), 1997) and it is classified into the \"Not classified\" category. Since this compound is composed of 60% nitroglycerin, 23% nitrocellulose, and 17% isopropyl alcohol, it was classified into Category 2.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_dermal": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Dermal",
+            "hazard_statement": " - ",
+            "rationale": "Since no test results on nitroglycerin are available, classification is not possible (Japanese Government's classification). Nitrocellulose is classified into the \"Not classified\" category based on its LD50 of > 29200 (Japanese Government's classification). And LD50 of isopropyl alcohol is 4050 mg/kg. Giving a priority to the classification of nitroglycerin over that of other two components, this compound was classified into the \"Classification not possible\" category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_dust": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Dusts and mists",
+            "hazard_statement": " - ",
+            "rationale": "Since all components are classified into the \"Classification not possible\" category, this compound was classified into the \"Classification not possible\" category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_gas": {
+            "classification": "Not applicable",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_inhalation_vapor": {
+            "classification": "Classification not possible",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Inhalation: Vapours",
+            "hazard_statement": " - ",
+            "rationale": "Since both nitroglycerin and nitrocellulose are classified into the \"Classification not possible\" category, this compound was classified into the \"Classification not possible\" category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "acute_toxicity_oral": {
+            "classification": "Category 3",
+            "hazard_id": 1.0,
+            "hazard_name": "Acute toxicity Oral",
+            "hazard_statement": "Toxic if swallowed",
+            "rationale": "The LD50 for rats given to nitroglycerin is 100 mg/kg (Japanese Government's classification) and that for rats given to isopropyl alcohol is 3437 mg/kg (Japanese Government's classification). Based on these values, the LD50 for this compound was computed to be 127.3 mg/kg and was classified into Category 3.",
+            "signal_word": "Danger",
+            "symbol": "Skull and crossbones"
+        },
+        "aspiration_hazard": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Aspiration hazard",
+            "hazard_statement": " - ",
+            "rationale": "The toxic effect of Isopropyl alcohol (Category 2) is suspected to contribute to the toxicity of this compound. However, since kinematic viscosity of this compound is unknown, it was classified into the \"Classification not possible\" category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "carcinogenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 6.0,
+            "hazard_name": "Carcinogenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since both nitroglycerin and nitrocellulose are classified into the \"Classification not possible\" category, this compound was classified into the \"Classification not possible\" category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "chronic_aquatic_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 11.0,
+            "hazard_name": "Hazardous to the aquatic environment Long-term",
+            "hazard_statement": "Toxic to aquatic life with long lasting effects",
+            "rationale": "Regarding nitroglycerin (CAS: 55-63-0), its classification for acute toxicity is Category 2 and its potential for bioaccumulation is presumably low (log Kow = 1.62 (PHYSPROP Database, 2005) and it is estimated not to be rapidly degradable (BIOWIN). Based on this information nitroglycerin is classified into Category 2. Regarding nitrocellulose (CAS: 9004-70-0), it is water soluble (water solubility: 1.00*10^6 mg/L (PHYSPROP Database, 2005)) and its acute toxicity is low. Thus, nitrocellulose is classified into the \"Not classified\" category. Regarding isopropyl alcohol (CAS: 67-63-0), it is water soluble (water solubility: 1.00*10^6 mg/L (PHYSPROP Database, 2005)) and its acute toxicity is low. Thus, isopropyl alcohol is classified into the \"Not classified\" category. Since this compound is composed of 60% nitroglycerin, 23% nitrocellulose, and 17% isopropyl alcohol, it was classified into Category 2.",
+            "signal_word": " - ",
+            "symbol": "Environment"
+        },
+        "corrosive_to_metals": {
+            "classification": "Classification not possible",
+            "hazard_id": 16.0,
+            "hazard_name": "Corrosive to metals",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "explosives": {
+            "classification": "Division 1.1",
+            "hazard_id": 1.0,
+            "hazard_name": "Explosives",
+            "hazard_statement": "Explosive; mass explosion hazard",
+            "rationale": "It is rated as UN0433 and Division 1.1.",
+            "signal_word": "Danger",
+            "symbol": "Exploding bomb"
+        },
+        "flammable_aerosols": {
+            "classification": "Not applicable",
+            "hazard_id": 3.0,
+            "hazard_name": "Aerosols",
+            "hazard_statement": " - ",
+            "rationale": "Not aerosol products.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 2.0,
+            "hazard_name": "Flammable gases including chemically unstable gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 6.0,
+            "hazard_name": "Flammable liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "flammable_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 7.0,
+            "hazard_name": "Flammable solids",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "gases_under_pressure": {
+            "classification": "Not applicable",
+            "hazard_id": 5.0,
+            "hazard_name": "Gases under pressure",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "germ_cell_mutagenicity": {
+            "classification": "Classification not possible",
+            "hazard_id": 5.0,
+            "hazard_name": "Germ cell mutagenicity",
+            "hazard_statement": " - ",
+            "rationale": "Since nitrocellulose is classified into the \"Classification not possible\" category, this compound was also classified into the \"Classification not possible\" category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "hazardous_to_ozone": {},
+        "organic_peroxides": {
+            "classification": "Not applicable",
+            "hazard_id": 15.0,
+            "hazard_name": "Organic peroxides",
+            "hazard_statement": " - ",
+            "rationale": "Containing no bivalent -O-O- structure in the molecule",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_gases": {
+            "classification": "Not applicable",
+            "hazard_id": 4.0,
+            "hazard_name": "Oxidizing gases",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 13.0,
+            "hazard_name": "Oxidizing liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "oxidizing_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 14.0,
+            "hazard_name": "Oxidizing solids",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_liquids": {
+            "classification": "Not applicable",
+            "hazard_id": 9.0,
+            "hazard_name": "Pyrophoric liquids",
+            "hazard_statement": " - ",
+            "rationale": "Solid",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "pyrophoric_solids": {
+            "classification": "Classification not possible",
+            "hazard_id": 10.0,
+            "hazard_name": "Pyrophoric solids",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "reproductive_toxicity": {
+            "classification": "Category 2",
+            "hazard_id": 7.0,
+            "hazard_name": "Reproductive toxicity",
+            "hazard_statement": "Suspected of damaging fertility or the unborn child",
+            "rationale": "Because nitroglycerin and isopropyl alcohol are classified into Category 2, this compound was also classified into Category 2 assuming the same cutoff values.",
+            "signal_word": "Warning",
+            "symbol": "Health Hazard"
+        },
+        "respiratory_sensitizer": {
+            "classification": "Classification not possible",
+            "hazard_id": 4.0,
+            "hazard_name": "Respiratory sensitization",
+            "hazard_statement": " - ",
+            "rationale": "Since all components are classified into the \"Classification not possible\" category, this compound was classified into the \"Classification not possible\" category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_heating_substances": {
+            "classification": "Classification not possible",
+            "hazard_id": 11.0,
+            "hazard_name": "Self-heating substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "No data available.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "self_reactive_substances": {
+            "classification": "Not applicable",
+            "hazard_id": 8.0,
+            "hazard_name": "Self-reactive substances and mixtures",
+            "hazard_statement": " - ",
+            "rationale": "Since the substance is classified as an explosive, classification as a self-reactive substance is not applicable.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "serious_eye_damage_irritation": {
+            "classification": "Category 2A-2B",
+            "hazard_id": 3.0,
+            "hazard_name": "Serious eye damage/eye irritation",
+            "hazard_statement": "Causes serious eye irritation",
+            "rationale": "Because nitroglycerin and isopropyl alcohol are classified into Category 2A-2B, this compound was also classified into Category 2A-2B assuming the same cutoff values.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "skin_corrosion_irritation": {
+            "classification": "Classification not possible",
+            "hazard_id": 2.0,
+            "hazard_name": "Skin corrosion/irritation",
+            "hazard_statement": " - ",
+            "rationale": "Since both nitroglycerin and nitrocellulose are classified into the \"Classification not possible\" category, this compound was classified into the \"Classification not possible\" category.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "skin_sensitizer": {
+            "classification": "Category 1",
+            "hazard_id": 4.0,
+            "hazard_name": "Skin sensitization",
+            "hazard_statement": "May cause an allergic skin reaction",
+            "rationale": "Since nitroglycerin is classified into Category 1, this compound was classified into Category 1 assuming the same cutoff values.",
+            "signal_word": "Warning",
+            "symbol": "Exclamation mark"
+        },
+        "substances_mixtures_emit_flammable_gas_in_contact_with_water": {
+            "classification": "Not applicable",
+            "hazard_id": 12.0,
+            "hazard_name": "Substances and mixtures which, in contact with water, emit flammable gases",
+            "hazard_statement": " - ",
+            "rationale": "The chemical structure of the substance does not contain metals or metalloids.",
+            "signal_word": " - ",
+            "symbol": " - "
+        },
+        "systemic_toxicity_repeat_exposure": {
+            "classification": "Category 1 (cardiovascular system),\nCategory 2 (liver, spleen)",
+            "hazard_id": 9.0,
+            "hazard_name": "Specific target organ toxicity - Repeated exposure",
+            "hazard_statement": "Cause damage to organs through prolonged or repeated exposure (cardiovascular system)\nMay cause damage to organs through prolonged or repeated exposure (liver, spleen)",
+            "rationale": "Since nitroglycerin is classified into Category 1 for its toxicity to the cardiovascular system, the substance was classified into Category 1 (cardiovascular system) assuming the same cutoff point.\nIsopropyl alcohol is classified into Category 2 for its toxicity to the blood vessel, liver, and spleen, this compound was classified into Category 2 (liver and spleen) (the blood vessel is included in Category 1 and excluded from Category 2).\n",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard"
+        },
+        "systemic_toxicity_single_exposure": {
+            "classification": "Category 1 (cardiovascular system, blood, central nervous system, kidney, systemic toxicity),\nCategory 3 (respiratory tract irritation)",
+            "hazard_id": 8.0,
+            "hazard_name": "Specific target organ toxicity - Single exposure",
+            "hazard_statement": "Causes damage to organs (cardiovascular system, blood, central nervous system, kidney, systemic toxicity)\nMay cause respiratory irritation (respiratory tract irritation)",
+            "rationale": "Nitroglycerin is classified into Category 1 for its toxicity to the cardiovascular system and blood, and isopropyl alcohol is classified into Category 1 for its central nervous system, kidney, and systemic toxicity. Thus, assumining the same cutoff values, this compound was classified into Category 1 (cardiovascular system, blood, central nervous system, kidney, and systemic toxicity).\nSince both compounds, nitrocellulose and isopropyl alcohol, are classified into Category 3 for its respiratory irritation. Thus, assuming the same cutoff values, this compound was classified into Category 3 (respiratory tract irritation).\n",
+            "signal_word": "Danger\nWarning",
+            "symbol": "Health Hazard\nExclamation mark"
+        }
+    },
+    "list_rating": 2,
+    "list_type": "Screening A",
+    "source": "GHS Japan Country List",
+    "translated_data": {
+        "AA": 4,
+        "AT": 4,
+        "B": 0,
+        "C": 0,
+        "CA": 0,
+        "D": 3,
+        "E": 0,
+        "F": 0,
+        "IrE": 4,
+        "IrS": 0,
+        "M": 0,
+        "N_r": 0,
+        "N_s": 4,
+        "P": 0,
+        "R": 3,
+        "Rx": 0,
+        "ST_r": 5,
+        "ST_s": 5,
+        "SnR": 0,
+        "SnS": 0
+    }
+}
