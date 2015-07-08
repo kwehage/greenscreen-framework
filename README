@@ -1,24 +1,43 @@
-This program consists of a collection of utilities for importing and 
-processing hazard data from the Chemical Management Center, part of a 
-Japanese governmental organization called the National Institute for 
+Note: the pre_january_2015 branch is provided for historical significance
+only and is not currently compatible with the data on Japan's National
+Institute for Technology Evaluation website.
+
+As of January 2015, the format of the excel data changed. The scripts in this
+branch are only compatible with the old data format. The 'master'
+branch has also received numerous updates from this version:
+
+    * A GHS Japan and GreenScreen class are provided to better encapsulate
+      code. The benchmarking process is now much easier to follow.
+    * Most try and except clauses have been replaced with Python generators.
+      As a result, the master branch is about 8-10 times faster than the
+      present branch.
+    * In the present branch, the 'main' function contains a script for batch
+      processing data. In the master branch, the batch processing script
+      has been separated in to a second file, and is installed on the system
+      path when the user runs `python setup.py install`
+
+
+This program consists of a collection of utilities for importing and
+processing hazard data from the Chemical Management Center, part of a
+Japanese governmental organization called the National Institute for
 Technology Evaluation. In the source code, the dataset is referred to
 as the ``GHS Japan country list''. The data was originally downloaded
 in September 2013 from:
 
 http://www.safe.nite.go.jp/english/ghs/ghs_index.html.
 
-The code is used to automatically translate data to GreenScreen format 
-and perform a GreenScreen benchmark assessment. The translation from 
-GHS classification to GreenScreen hazard classification is performed 
-using the GreenScreen List Translator v1.2. The entire benchmarking process, 
+The code is used to automatically translate data to GreenScreen format
+and perform a GreenScreen benchmark assessment. The translation from
+GHS classification to GreenScreen hazard classification is performed
+using the GreenScreen List Translator v1.2. The entire benchmarking process,
 including the initial import of data from the GHS Japan country list,
-translation to GreenScreen representation, and performing an overall 
+translation to GreenScreen representation, and performing an overall
 benchmark score, is completely computer automated. The resulting data is
-exported in a JavaScript Object Notation (JSON) file format and is 
-suitable to be uploaded to a document storage system or relational 
+exported in a JavaScript Object Notation (JSON) file format and is
+suitable to be uploaded to a document storage system or relational
 database for later retrieval.
 
-Please register with the nonprofit group, Clean Production Action, to 
+Please register with the nonprofit group, Clean Production Action, to
 receive specific details on the benchmarking and translation methodology.
 http://www.greenscreenchemicals.org/method/?/Greenscreen.php
 
@@ -27,25 +46,25 @@ After cloning the project, the Python program can be executed directly:
     cd greenscreen_framework
     ./greenscreen_framework.py
 
-Alternatively, any of the functions contained within the module can be 
-reused in other Python applications. 
+Alternatively, any of the functions contained within the module can be
+reused in other Python applications.
 
-For convenience, a setup.py file is provided to install the module on 
+For convenience, a setup.py file is provided to install the module on
 your Python system path.
 
 From the root directory of the project, build / install the python module:
     python setup.py install
 
-The greenscreen_framework module can then be imported in other Python 
-applications by importing the greenscreen_framework module at the top 
+The greenscreen_framework module can then be imported in other Python
+applications by importing the greenscreen_framework module at the top
 of a Python script.
     import greenscreen_framework
 
 Refer to the main() function at the end of the greenscreen_framework.py
 for example usage.
 
-The code requires that the lxml python module for processing XML data 
-and the xlrd module for reading Excel spreadsheets are installed on the 
+The code requires that the lxml python module for processing XML data
+and the xlrd module for reading Excel spreadsheets are installed on the
 system.
 
 Copyright 2013-2015 Kristopher Wehage
