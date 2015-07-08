@@ -34,7 +34,7 @@ can be executed by calling:
 ```bash
 greenscreen_batch_process <data directory>
 ```
-Replace <data directory> with the directory you wish to store the
+Replace ```<data directory>``` with the directory you wish to store the
 information.
 
 Alternatively, any of the functions contained within the module can be
