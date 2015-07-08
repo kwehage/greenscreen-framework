@@ -40,10 +40,6 @@ class InvalidCAS_Error(Exception):
     pass
 
 
-class MultipleSource_Error(Exception):
-    pass
-
-
 class GreenScreenData(object):
     def __init__(self, filename=None):
         if filename:
@@ -326,8 +322,10 @@ def bulk_ghs_japan_import(ghs_japan_file_path, greenscreen_file_path):
             greenscreen_data[ghs_japan_data.data['ID']] = GreenScreenData()
         greenscreen_data[ghs_japan_data.data['ID']].import_data(
             ghs_japan_data, source='GHS Japan')
+    del greenscreen_data['']
     for ID, item in greenscreen_data.items():
         item.save(greenscreen_file_path)
+
     # compute basic statistics
     benchmark_counts = [item.data['benchmark'] for
                         item in greenscreen_data.values()]
@@ -336,6 +334,25 @@ def bulk_ghs_japan_import(ghs_japan_file_path, greenscreen_file_path):
     print('Benchmark 3: %d' % benchmark_counts.count('Benchmark 3'))
     print('Benchmark 4: %d' % benchmark_counts.count('Benchmark 4'))
     print('Benchmark U: %d' % benchmark_counts.count('Benchmark U'))
+
+    invalid_cas_numbers = 0
+    counts_available = []
+    for item in greenscreen_data.values():
+        hazard_counts = \
+            len([hazard for hazard in item.data['hazards'].values() if
+                 hazard['hazard_rating']])
+        counts_available.append(hazard_counts)
+        # if hazard_counts == 0:
+        #     print('No hazards found in: ', item.data['cas_number'])
+        if not item.data['cas_number_is_valid']:
+            invalid_cas_numbers += 1
+            print('Invalid CAS Number found:', item.data['cas_number'])
+
+    print('Max number hazards available:', max(counts_available))
+    print('Minimum number hazards available:', min(counts_available))
+    print('Average number of hazards available:',
+          sum(counts_available) / len(counts_available))
+    print('Invalid CAS Numbers found:', invalid_cas_numbers)
 
 
 if __name__ == "__main__":
