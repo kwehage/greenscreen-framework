@@ -27,12 +27,16 @@ python setup.py install
 ```
 A batch processing script is provided that will download data from the
 GHS-Japan website, perform list translation and benchmarking. After
-installing the Python module in the previous step, the following
-command line utility will be available:
+installing the Python module in the previous step, the 
+*greenscreen_batch_process* command line utility will be available and
+can be executed by calling:
 
 ```bash
-greenscreen_batch_process
+greenscreen_batch_process <data directory>
 ```
+Replace <data directory> with the directory you wish to store the
+information.
+
 Alternatively, any of the functions contained within the module can be
 reused in other Python applications.
 
