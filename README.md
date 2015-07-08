@@ -23,26 +23,32 @@ receive specific details on the benchmarking and translation methodology.
 http://www.greenscreenchemicals.org/method/?/Greenscreen.php
 
 
-After cloning the project, the Python program can be executed directly:
-    cd greenscreen_framework
-    ./greenscreen_framework.py
+After cloning the project, install the Python module to your system path:
+
+    ::: bash
+    python setup.py install
+
+A batch processing script is provided that will download data from the
+GHS-Japan website, perform list translation and benchmarking. After
+installing the Python module in the previous step, the following
+command line utility will be available:
+
+    ::: bash
+    greenscreen_batch_process
 
 Alternatively, any of the functions contained within the module can be
 reused in other Python applications.
 
-For convenience, a setup.py file is provided to install the module on
-your Python system path.
+The greenscreen_framework module class definitions can then be 
+used in other Python programs by putting the following at the top of
+your Python script:
 
-From the root directory of the project, build / install the python module:
-    python setup.py install
+    ::: python
+    import greenscreen_framework.greenscreen as gs
+    import greenscreen_framework.ghs as ghs
 
-The greenscreen_framework module can then be imported in other Python
-applications by importing the greenscreen_framework module in to a Python
-script.
-    import greenscreen_framework
-
-Refer to the main() function at the end of the greenscreen_framework.py
-for example usage.
+Refer to the batch processing script 'greenscreen_batch_process' for example
+usage.
 
 Copyright 2013-2015 Kristopher Wehage
 University of California-Davis
