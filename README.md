@@ -2,7 +2,7 @@ This program consists of a collection of utilities for importing and
 processing hazard data from the Chemical Management Center, part of a
 Japanese governmental organization called the National Institute for
 Technology Evaluation. In the source code, the dataset is referred to
-as the ``GHS Japan country list'' and is available at the following url: http://www.safe.nite.go.jp/english/ghs/ghs_index.html.
+as the *GHS Japan country list* and is available at the following url: http://www.safe.nite.go.jp/english/ghs/ghs_index.html.
 
 The code is used to automatically translate data to GreenScreen format
 and perform a GreenScreen benchmark assessment. The translation from
@@ -48,7 +48,7 @@ your Python script:
 import greenscreen_framework.greenscreen as gs
 import greenscreen_framework.ghs as ghs
 ```
-Refer to the batch processing script 'greenscreen_batch_process' for example
+Refer to the batch processing script *greenscreen_batch_process* for example
 usage.
 
 Copyright 2013-2015 Kristopher Wehage
