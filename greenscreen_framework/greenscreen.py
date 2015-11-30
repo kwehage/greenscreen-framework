@@ -9,11 +9,11 @@ import greenscreen_framework.ghs as ghs
 
 
 '''
-greenscreen_framework.py
+greenscreen.py
 
 This program consists of a collection of tools for translating hazard data to
-GreenScreen format and performing GreenScreen benchmark assessment. The
-present Python program can be executed directly, or any of the various modules
+GreenScreen format and performing GreenScreen benchmark assessment. This
+Python program can be executed directly, or any of the various modules
 can be used from within another Python program. Refer to the main() function at
 the end of the code for example usage.
 
@@ -41,6 +41,16 @@ class InvalidCAS_Error(Exception):
 
 
 class GreenScreenData(object):
+    '''
+    This Python class contains datastructures to store the
+    results of hazard endpoint classification imported from multiple sources.
+    Additionally, the class contains methods to perform an overall benchmark
+    assessment based on the data that has been imported. If the assessment has
+    not been verified by a GreenScreen licensed profiler, the benchmark score
+    that is generated is considered as provisional, and a "List Translation"
+    result is reported to the user.
+    '''
+
     def __init__(self, filename=None):
         if filename:
             with open(filename, "r") as f:
@@ -52,6 +62,10 @@ class GreenScreenData(object):
             self.data['cas_number'] = None
             self.data['cas_number_is_valid'] = None
             self.data['benchmark'] = None
+            self.data['verified_by_greenscreen_profiler'] = False
+            self.data['verified_by'] = None
+            self.data['verified_date'] = None
+            self.data['list_translation'] = None
             self.data['warning'] = []
             self.data['descriptive_name'] = []
             self.data['ID'] = None
@@ -155,6 +169,7 @@ class GreenScreenData(object):
                         data.data['date_classified'])
         self.trumping()
         self.benchmark()
+        self.list_translation()
 
     def validate_cas(self, cas):
         '''
@@ -165,7 +180,7 @@ class GreenScreenData(object):
                 to the remainder of the rest of the numbers combined and
                 multiplied according to the CAS validation system
         '''
-        ## Regular Expression used to validate number format
+        # Regular Expression used to validate number format
         m_obj = re.match(r"(\d{2,7}-\d{1,2}-\d$)", cas)
         m_obj.group(0)
 
@@ -280,6 +295,22 @@ class GreenScreenData(object):
             self.data['benchmark'] = 'Benchmark U'
 
     def trumping(self):
+        '''
+        The GreenScreen methodology provides guidance for weighting hazard
+        data from multiple sources. Hazard data sources are classified as:
+
+            4. Authoritative A
+            3. Authoritative B
+            2. Screening A
+            1. Screening B
+
+        The list rating is stored as the corresponding numerical value (1-4)
+        within the Python datastructure. If multiple datasources are available,
+        the overall hazard classification is based on the "Trumping Criteria"
+        described in the GreenScreen methodology: Authoritative A results trump
+        Authoritative B, which trump Screening A, which trump Screening B. This
+        process translates to a Python "generator" programming construct.
+        '''
         for hazard in self.data['hazards'].values():
             for list_rating in range(4, 0, -1):
                 rating = \
@@ -293,6 +324,19 @@ class GreenScreenData(object):
                 hazard['overall_hazard_rating'] = rating
             else:
                 hazard['overall_hazard_rating'] = 0
+
+    def list_translation(self):
+        '''
+        At this point, the benchmark may be considered as a
+        provisional score. The benchmark score should not be reported as a
+        GreenScreen benchmark until a GreenScreen licensed profiler
+        has reviewed the data, appended additional information as necessary,
+        and validated the result. If the data has not been validated by a
+        GreenScreen professional, the result of assessment is reported as a
+        GreenScreen "List Translation" in place of a benchmark score.
+        '''
+
+        if self.data['benchmark'] is 'Benchmark 1' and self.data[] is
 
     def save(self, data_dir):
         data_dir_split = data_dir.split('/')
@@ -329,11 +373,16 @@ def bulk_ghs_japan_import(ghs_japan_file_path, greenscreen_file_path):
     # compute basic statistics
     benchmark_counts = [item.data['benchmark'] for
                         item in greenscreen_data.values()]
-    print('Benchmark 1: %d' % benchmark_counts.count('Benchmark 1'))
-    print('Benchmark 2: %d' % benchmark_counts.count('Benchmark 2'))
-    print('Benchmark 3: %d' % benchmark_counts.count('Benchmark 3'))
-    print('Benchmark 4: %d' % benchmark_counts.count('Benchmark 4'))
-    print('Benchmark U: %d' % benchmark_counts.count('Benchmark U'))
+    print('Provisional Benchmark 1: %d' %
+          benchmark_counts.count('Benchmark 1'))
+    print('Provisional Benchmark 2: %d' %
+          benchmark_counts.count('Benchmark 2'))
+    print('Provisional Benchmark 3: %d' %
+          benchmark_counts.count('Benchmark 3'))
+    print('Provisional Benchmark 4: %d' %
+          benchmark_counts.count('Benchmark 4'))
+    print('Provisional Benchmark U: %d' %
+          benchmark_counts.count('Benchmark U'))
 
     invalid_cas_numbers = 0
     counts_available = []
