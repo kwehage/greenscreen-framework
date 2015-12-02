@@ -66,6 +66,7 @@ class GreenScreenData(object):
             self.data['verified_by'] = None
             self.data['verified_date'] = None
             self.data['list_translation'] = None
+            self.data['overall_list_rating'] = 0
             self.data['warning'] = []
             self.data['descriptive_name'] = []
             self.data['ID'] = None
@@ -120,6 +121,7 @@ class GreenScreenData(object):
                 value['hazard_rating'] = []
                 value['date_classified'] = []
                 value['overall_hazard_rating'] = 0
+                value['overall_list_rating'] = 0
 
     def import_data(self, data, source=None):
         '''
@@ -203,30 +205,69 @@ class GreenScreenData(object):
         '''
         Perform GreenScreen benchmarking
         '''
-
         AA = self.data['hazards']['AA']['overall_hazard_rating']
+        AA_rating = self.data['hazards']['AA']['overall_list_rating']
+
         AT = self.data['hazards']['AT']['overall_hazard_rating']
+        AT_rating = self.data['hazards']['AT']['overall_list_rating']
+
         C = self.data['hazards']['C']['overall_hazard_rating']
+        C_rating = self.data['hazards']['C']['overall_list_rating']
+
         CA = self.data['hazards']['CA']['overall_hazard_rating']
+        CA_rating = self.data['hazards']['CA']['overall_list_rating']
+
         D = self.data['hazards']['D']['overall_hazard_rating']
+        D_rating = self.data['hazards']['D']['overall_list_rating']
+
         R = self.data['hazards']['R']['overall_hazard_rating']
+        R_rating = self.data['hazards']['R']['overall_list_rating']
+
         F = self.data['hazards']['F']['overall_hazard_rating']
+        F_rating = self.data['hazards']['F']['overall_list_rating']
+
         IrE = self.data['hazards']['IrE']['overall_hazard_rating']
+        IrE_rating = self.data['hazards']['IrE']['overall_list_rating']
+
         IrS = self.data['hazards']['IrS']['overall_hazard_rating']
+        IrS_rating = self.data['hazards']['IrS']['overall_list_rating']
+
         M = self.data['hazards']['M']['overall_hazard_rating']
+        M_rating = self.data['hazards']['M']['overall_list_rating']
+
         N_s = self.data['hazards']['N_s']['overall_hazard_rating']
+        N_s_rating = self.data['hazards']['N_s']['overall_list_rating']
+
         N_r = self.data['hazards']['N_r']['overall_hazard_rating']
+        N_r_rating = self.data['hazards']['N_r']['overall_list_rating']
+
         Rx = self.data['hazards']['Rx']['overall_hazard_rating']
+        Rx_rating = self.data['hazards']['Rx']['overall_list_rating']
+
         ST_s = self.data['hazards']['ST_s']['overall_hazard_rating']
+        ST_s_rating = self.data['hazards']['ST_s']['overall_list_rating']
+
         ST_r = self.data['hazards']['ST_r']['overall_hazard_rating']
+        ST_r_rating = self.data['hazards']['ST_r']['overall_list_rating']
+
         SnR = self.data['hazards']['SnR']['overall_hazard_rating']
+        SnR_rating = self.data['hazards']['SnR']['overall_list_rating']
+
         SnS = self.data['hazards']['SnS']['overall_hazard_rating']
+        SnS_rating = self.data['hazards']['SnS']['overall_list_rating']
+
         E = self.data['hazards']['E']['overall_hazard_rating']
+        E_rating = self.data['hazards']['E']['overall_list_rating']
+
         P = self.data['hazards']['P']['overall_hazard_rating']
+        P_rating = self.data['hazards']['P']['overall_list_rating']
+
         B = self.data['hazards']['B']['overall_hazard_rating']
+        B_rating = self.data['hazards']['B']['overall_list_rating']
 
         # Neurotoxicity
         N = max([N_r, N_s])
+        N_rating = max()
 
         # Toxicity
         T = max([AT, ST_r, ST_s])
@@ -253,6 +294,50 @@ class GreenScreenData(object):
                 # vHigh B, (vHigh T or High T)
                 (Group_1 >= 4)):  # Group I Human
             self.data['benchmark'] = 'Benchmark 1'
+
+            # additional criteria for greenscreen 'list translator'
+            # check to see list type that caused the Benchmark 1
+            # assessment
+            overall_list_rating = []
+            if P >= 4 and B >= 4 and max([eco_T, Group_2]) >= 5:
+                if eco_T > Group_2:
+                    temp_rating = eco_T_rating
+                else:
+                    temp_rating = Group_2_rating
+                overall_list_rating.append(
+                    min(P_rating, B_rating, temp_rating))
+            if max([Group_1, Group_2_star]) >= 4:
+                if Group_1 > Group_2_star:
+                    overall_list_rating.append(Group_1_rating)
+                else:
+                    overall_list_rating.append(Group_2_star_rating)
+            if P >= 5 and B >= 5:
+                overall_list_rating.append(min(P_rating, B_rating))
+            if P >= 5 and max([eco_T, Group_2]) >= 5:
+                if eco_T > Group_2:
+                    temp_rating = eco_T_rating
+                else:
+                    temp_rating = Group_2_rating
+                overall_list_rating.append(min(P_rating, temp_rating))
+            if max([Group_1, Group_2_star]) >= 4:
+                if Group_1 > Group_2_star:
+                    overall_list_rating.append(Group_1_rating)
+                else:
+                    overall_list_rating.append(Group_2_star_rating)
+            if B >= 5 and max([eco_T, Group_2]) >= 5:
+                if eco_T > Group_2:
+                    temp_rating = eco_T_rating
+                else:
+                    temp_rating = Group_2_rating
+                overall_list_rating.append(min(B_rating, temp_rating))
+            if max([Group_1, Group_2_star]) >= 4:
+                if Group_1 > Group_2_star:
+                    overall_list_rating.append(Group_1_rating)
+                else:
+                    overall_list_rating.append(Group_2_star_rating)
+            if Group_1 >= 4:
+                overall_list_rating.append(Group_1_rating)
+            self.data['overall_list_rating'] = max(overall_list_rating)
 
         # Benchmark 2
         elif (((P >= 3) and (B >= 3) and (all_four_groups >= 3)) or
@@ -322,6 +407,7 @@ class GreenScreenData(object):
                     break
             if rating:
                 hazard['overall_hazard_rating'] = rating
+                hazard['overall_list_rating'] = list_rating
             else:
                 hazard['overall_hazard_rating'] = 0
 
