@@ -420,7 +420,6 @@ class GHSJapanData(object):
             # conversion using the lookup patterns defined in
             # self.translation_patterns
             if not value['requires_parsing']:
-
                 for native_hazard, pattern in \
                         zip(value['native_classification'],
                             value['pattern']):

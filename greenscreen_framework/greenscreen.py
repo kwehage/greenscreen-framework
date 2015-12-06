@@ -6,6 +6,7 @@ import getpass
 import json
 import re
 import greenscreen_framework.ghs as ghs
+import greenscreen_framework.prop65 as prop65
 
 
 '''
@@ -201,6 +202,13 @@ class GreenScreenData(object):
             return False
         return True
 
+    def max_group_rating(self, hazards, list_ratings):
+        hazard = max(hazards)
+        # find all occurrences of maximum score, there may be more than one
+        list_indices = [i for i, x in enumerate(hazards) if x == hazard]
+        list_rating = max([list_ratings[i] for i in list_indices])
+        return hazard, list_rating
+
     def benchmark(self):
         '''
         Perform GreenScreen benchmarking
@@ -266,18 +274,36 @@ class GreenScreenData(object):
         B_rating = self.data['hazards']['B']['overall_list_rating']
 
         # Neurotoxicity
-        N = max([N_r, N_s])
-        N_rating = max()
+        N, N_rating = self.max_group_rating(
+            [N_r, N_s],
+            [N_r_rating, N_s_rating])
 
         # Toxicity
-        T = max([AT, ST_r, ST_s])
+        T, T_rating = self.max_group_rating(
+            [AT, ST_r, ST_s],
+            [AT_rating, ST_r_rating, ST_s_rating])
 
         # Eco Toxicity
-        eco_T = max([CA, AA])
-        Group_1 = max([C, M, D, N, E, R])
-        Group_2 = max([AT, ST_s, N_s, IrE, IrS])
-        Group_2_star = max([ST_r, N_r, SnR, SnS])
-        all_four_groups = max([eco_T, Group_1, Group_2, Group_2_star])
+        eco_T, eco_T_rating = self.max_group_rating(
+            [CA, AA],
+            [CA_rating, AA_rating])
+
+        Group_1, Group_1_rating = self.max_group_rating(
+            [C, M, D, N, E, R],
+            [C_rating, M_rating, D_rating, N_rating, E_rating, R_rating])
+
+        Group_2, Group_2_rating = self.max_group_rating(
+            [AT, ST_s, N_s, IrE, IrS],
+            [AT_rating, ST_s_rating, N_s_rating, IrE_rating, IrS_rating])
+
+        Group_2_star, Group_2_star_rating = self.max_group_rating(
+            [ST_r, N_r, SnR, SnS],
+            [ST_r_rating, N_r_rating, SnR_rating, SnS_rating])
+
+        all_four_groups, all_four_groups_rating = self.max_group_rating(
+            [eco_T, Group_1, Group_2, Group_2_star],
+            [eco_T_rating, Group_1_rating,
+             Group_2_rating, Group_2_star_rating])
 
         # Benchmark 1
         if (((P >= 4) and (B >= 4) and
@@ -296,7 +322,7 @@ class GreenScreenData(object):
             self.data['benchmark'] = 'Benchmark 1'
 
             # additional criteria for greenscreen 'list translator'
-            # check to see list type that caused the Benchmark 1
+            # record list type that resulted in Benchmark 1
             # assessment
             overall_list_rating = []
             if P >= 4 and B >= 4 and max([eco_T, Group_2]) >= 5:
@@ -413,16 +439,26 @@ class GreenScreenData(object):
 
     def list_translation(self):
         '''
-        At this point, the benchmark may be considered as a
-        provisional score. The benchmark score should not be reported as a
-        GreenScreen benchmark until a GreenScreen licensed profiler
-        has reviewed the data, appended additional information as necessary,
-        and validated the result. If the data has not been validated by a
-        GreenScreen professional, the result of assessment is reported as a
-        GreenScreen "List Translation" in place of a benchmark score.
+        At this point, any benchmark score that has been generated may be
+        considered as a "provisional" score. The benchmark score should not
+        be reported as a GreenScreen benchmark until a GreenScreen licensed
+        profiler has reviewed the data, appended additional information as
+        necessary, and validated the result. If the data has not been validated
+        by a GreenScreen professional, the result of assessment may be reported
+        as a GreenScreen "List Translation" for Benchmark 1 chemicals. If the
+        Benchmark 1 score is generated from an "Authoritative A" list, the
+        score is reported as a "LT-1: Benchmark 1". If the Benchmark 1 score
+        is generated from an Authoritative B, Screening A or Screening B list
+        the score is reported as "LT-1: Possible Benchmark 1".
         '''
 
-        if self.data['benchmark'] is 'Benchmark 1' and self.data[] is
+        if self.data['benchmark'] is 'Benchmark 1':
+            if self.data['overall_list_rating'] is 4:
+                self.data['list_translation'] = 'LT-1: Benchmark 1'
+            else:
+                self.data['list_translation'] = 'LT-P1: Possible Benchmark 1'
+        else:
+            self.data['list_translation'] = 'LT-U: Unspecified Benchmark'
 
     def save(self, data_dir):
         data_dir_split = data_dir.split('/')
@@ -443,8 +479,10 @@ class GreenScreenData(object):
                 json.dump(self.data, f, indent=4, sort_keys=True)
 
 
-def bulk_ghs_japan_import(ghs_japan_file_path, greenscreen_file_path):
-    greenscreen_data = {}
+def bulk_ghs_japan_import(
+        ghs_japan_file_path,
+        greenscreen_file_path,
+        greenscreen_data={}):
     for ghs_japan_file in os.listdir(ghs_japan_file_path):
         ghs_japan_data = ghs.GHSJapanData(
             filename=os.path.join(ghs_japan_file_path, ghs_japan_file))
@@ -455,10 +493,32 @@ def bulk_ghs_japan_import(ghs_japan_file_path, greenscreen_file_path):
     del greenscreen_data['']
     for ID, item in greenscreen_data.items():
         item.save(greenscreen_file_path)
+    return greenscreen_data
+
+
+def bulk_prop65_import(
+        prop65_file_path,
+        greenscreen_file_path,
+        greenscreen_data={}):
+    for prop65_file in os.listdir(prop65_file_path):
+        prop65_data = prop65.Prop65Data(
+            filename=os.path.join(prop65_file_path, prop65_file))
+        if prop65_data.data['ID'] not in greenscreen_data:
+            greenscreen_data[prop65_data.data['ID']] = GreenScreenData()
+        greenscreen_data[prop65_data.data['ID']].import_data(
+            prop65_data, source='Proposition 65')
+    del greenscreen_data['']
+    for ID, item in greenscreen_data.items():
+        item.save(greenscreen_file_path)
+    return greenscreen_data
+
+
+def print_statistics(greenscreen_data):
 
     # compute basic statistics
     benchmark_counts = [item.data['benchmark'] for
                         item in greenscreen_data.values()]
+    print('Provisional Benchmarks:')
     print('Provisional Benchmark 1: %d' %
           benchmark_counts.count('Benchmark 1'))
     print('Provisional Benchmark 2: %d' %
@@ -469,6 +529,8 @@ def bulk_ghs_japan_import(ghs_japan_file_path, greenscreen_file_path):
           benchmark_counts.count('Benchmark 4'))
     print('Provisional Benchmark U: %d' %
           benchmark_counts.count('Benchmark U'))
+
+    print('List Translation Results:')
 
     invalid_cas_numbers = 0
     counts_available = []
@@ -494,5 +556,19 @@ if __name__ == "__main__":
     t = time.time()
     greenscreen_file_path = 'data/greenscreen_data'
     ghs_japan_file_path = 'data/ghs_json_data'
-    bulk_ghs_japan_import(ghs_japan_file_path, greenscreen_file_path)
+    prop65_file_path = 'data/prop65_data'
+    greenscreen_data = {}
+
+    greenscreen_data = bulk_ghs_japan_import(
+        ghs_japan_file_path,
+        greenscreen_file_path,
+        greenscreen_data=greenscreen_data)
+    print_statistics(greenscreen_data)
+    print('Time elapsed: %d seconds' % (time.time() - t))
+
+    greenscreen_data = bulk_prop65_import(
+        prop65_file_path,
+        greenscreen_file_path,
+        greenscreen_data=greenscreen_data)
+    print_statistics(greenscreen_data)
     print('Time elapsed: %d seconds' % (time.time() - t))
