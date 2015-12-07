@@ -129,47 +129,47 @@ class GreenScreenData(object):
         This function imports/translates data from GHSJapanData object into a
         GreenScreenData object.
         '''
-        if source == 'GHS Japan':
-            # GHS Japan has some entries with empty CAS numbers, ignore these
-            if data.cas_number is "":
-                print("Empty CAS number with ID: %s",
-                      data.data['ID'])
+        # ignore entries with emtpy cas numbers
+        if data.cas_number is "":
+            print("Empty CAS number with ID: %s",
+                  data.data['ID'])
 
-            # validate cas number
-            if len(data.cas_number[0]) > 0:
-                validated = all([self.validate_cas(cas)
-                                 for cas in data.cas_number])
-            else:
-                validated = False
-            if validated:
-                self.data['cas_number_is_valid'] = True
-            else:
-                self.data['warning'].append(
-                    'Entry contains an invalid CAS number.')
-                self.data['cas_number_is_valid'] = False
+        # validate cas number
+        if len(data.cas_number[0]) > 0:
+            validated = all([self.validate_cas(cas)
+                             for cas in data.cas_number])
+        else:
+            validated = False
+        if validated:
+            self.data['cas_number_is_valid'] = True
+        else:
+            self.data['warning'].append(
+                'Entry contains an invalid CAS number.')
+            self.data['cas_number_is_valid'] = False
 
-            self.data['cas_number'] = data.data['cas_number']
-            self.data['descriptive_name'].append(
-                data.data['descriptive_name'])
-            if not self.data['ID']:
-                self.data['ID'] = data.data['ID']
+        self.data['cas_number'] = data.data['cas_number']
+        self.data['descriptive_name'].append(
+            data.data['descriptive_name'])
+        if not self.data['ID']:
+            self.data['ID'] = data.data['ID']
 
-            for hazard, rating in data.data['translated_data'].items():
-                if rating > 0:
-                    self.data['hazards'][hazard]['date_imported'].append(
-                        data.data['date_imported'])
-                    self.data['hazards'][hazard]['imported_by'].append(
-                        getpass.getuser())
-                    self.data['hazards'][hazard]['source'].append(
-                        data.data['source'])
-                    self.data['hazards'][hazard]['list_type'].append(
-                        data.data['list_type'])
-                    self.data['hazards'][hazard]['list_rating'].append(
-                        data.data['list_rating'])
-                    self.data['hazards'][hazard]['hazard_rating'].append(
-                        rating)
-                    self.data['hazards'][hazard]['date_classified'].append(
-                        data.data['date_classified'])
+        for hazard, rating in data.data['translated_data'].items():
+            if rating > 0:
+                self.data['hazards'][hazard]['date_imported'].append(
+                    data.data['date_imported'])
+                self.data['hazards'][hazard]['imported_by'].append(
+                    getpass.getuser())
+                self.data['hazards'][hazard]['source'].append(
+                    data.data['source'])
+                self.data['hazards'][hazard]['list_type'].append(
+                    data.data['list_type'])
+                self.data['hazards'][hazard]['list_rating'].append(
+                    data.data['list_rating'])
+                self.data['hazards'][hazard]['hazard_rating'].append(
+                    rating)
+                self.data['hazards'][hazard]['date_classified'].append(
+                    data.data['date_classified'])
+
         self.trumping()
         self.benchmark()
         self.list_translation()
@@ -452,13 +452,24 @@ class GreenScreenData(object):
         the score is reported as "LT-1: Possible Benchmark 1".
         '''
 
-        if self.data['benchmark'] is 'Benchmark 1':
+        if self.data['benchmark'] == 'Benchmark 1':
             if self.data['overall_list_rating'] is 4:
                 self.data['list_translation'] = 'LT-1: Benchmark 1'
             else:
                 self.data['list_translation'] = 'LT-P1: Possible Benchmark 1'
         else:
             self.data['list_translation'] = 'LT-U: Unspecified Benchmark'
+
+    def benchmark_score(self):
+        '''
+        Return benchmark score if data has been verified by a
+        greenscreen profiler. Otherwise, return assessment
+        as a list translation
+        '''
+        if self.data['verified_by_greenscreen_profiler']:
+            return self.data['benchmark']
+        else:
+            return self.data['list_translation']
 
     def save(self, data_dir):
         data_dir_split = data_dir.split('/')
@@ -489,8 +500,9 @@ def bulk_ghs_japan_import(
         if ghs_japan_data.data['ID'] not in greenscreen_data:
             greenscreen_data[ghs_japan_data.data['ID']] = GreenScreenData()
         greenscreen_data[ghs_japan_data.data['ID']].import_data(
-            ghs_japan_data, source='GHS Japan')
-    del greenscreen_data['']
+            ghs_japan_data)
+    if '' in greenscreen_data:
+        del greenscreen_data['']
     for ID, item in greenscreen_data.items():
         item.save(greenscreen_file_path)
     return greenscreen_data
@@ -506,8 +518,9 @@ def bulk_prop65_import(
         if prop65_data.data['ID'] not in greenscreen_data:
             greenscreen_data[prop65_data.data['ID']] = GreenScreenData()
         greenscreen_data[prop65_data.data['ID']].import_data(
-            prop65_data, source='Proposition 65')
-    del greenscreen_data['']
+            prop65_data)
+    if '' in greenscreen_data:
+        del greenscreen_data['']
     for ID, item in greenscreen_data.items():
         item.save(greenscreen_file_path)
     return greenscreen_data
@@ -532,6 +545,19 @@ def print_statistics(greenscreen_data):
 
     print('List Translation Results:')
 
+    list_translation_counts = [item.data['list_translation'] for
+                               item in greenscreen_data.values()]
+
+    print(
+        'LT-1: Benchmark 1: %d' %
+        list_translation_counts.count('LT-1: Benchmark 1'))
+    print(
+        'LT-P1: Possible Benchmark 1: %d' %
+        list_translation_counts.count('LT-P1: Possible Benchmark 1'))
+    print(
+        'LT-U: Unspecified Benchmark: %d' %
+        list_translation_counts.count('LT-U: Unspecified Benchmark'))
+
     invalid_cas_numbers = 0
     counts_available = []
     for item in greenscreen_data.values():
@@ -554,21 +580,18 @@ def print_statistics(greenscreen_data):
 
 if __name__ == "__main__":
     t = time.time()
-    greenscreen_file_path = 'data/greenscreen_data'
-    ghs_japan_file_path = 'data/ghs_json_data'
-    prop65_file_path = 'data/prop65_data'
     greenscreen_data = {}
 
     greenscreen_data = bulk_ghs_japan_import(
-        ghs_japan_file_path,
-        greenscreen_file_path,
+        'data/ghs_json_data',
+        'data/greenscreen_data',
         greenscreen_data=greenscreen_data)
     print_statistics(greenscreen_data)
     print('Time elapsed: %d seconds' % (time.time() - t))
 
     greenscreen_data = bulk_prop65_import(
-        prop65_file_path,
-        greenscreen_file_path,
+        'data/prop65_data',
+        'data/greenscreen_data',
         greenscreen_data=greenscreen_data)
     print_statistics(greenscreen_data)
     print('Time elapsed: %d seconds' % (time.time() - t))

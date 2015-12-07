@@ -1,12 +1,13 @@
 {
     "ID": "57018-52-7",
-    "benchmark": "Benchmark 3",
+    "benchmark": "Benchmark 1",
     "cas_number": [
         "57018-52-7"
     ],
     "cas_number_is_valid": true,
     "descriptive_name": [
-        "1-tert-Butoxy-2-propanol"
+        "1-tert-Butoxy-2-propanol",
+        "Propylene glycol mono-t-butyl ether"
     ],
     "hazards": {
         "AA": {
@@ -63,17 +64,31 @@
             "source": []
         },
         "C": {
-            "date_classified": [],
-            "date_imported": [],
+            "date_classified": [
+                "2004-6-11"
+            ],
+            "date_imported": [
+                "Sun Dec  6 07:22:16 2015"
+            ],
             "group": "Group I Human",
-            "hazard_rating": [],
-            "imported_by": [],
-            "list_rating": [],
-            "list_type": [],
+            "hazard_rating": [
+                4
+            ],
+            "imported_by": [
+                "kristopher"
+            ],
+            "list_rating": [
+                4
+            ],
+            "list_type": [
+                "Authoritative A"
+            ],
             "name": "Carcinogenicity",
-            "overall_hazard_rating": 0,
-            "overall_list_rating": 0,
-            "source": []
+            "overall_hazard_rating": 4,
+            "overall_list_rating": 4,
+            "source": [
+                "Proposition 65"
+            ]
         },
         "CA": {
             "date_classified": [],
@@ -354,8 +369,8 @@
             ]
         }
     },
-    "list_translation": "LT-U: Unspecified Benchmark",
-    "overall_list_rating": 0,
+    "list_translation": "LT-1: Benchmark 1",
+    "overall_list_rating": 4,
     "verified_by": null,
     "verified_by_greenscreen_profiler": false,
     "verified_date": null,

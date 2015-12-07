@@ -44,7 +44,7 @@ class Prop65Data(object):
     '''
     Prop65Data Python class
     '''
-    def __init__(self, row, filename=None, file_path=None):
+    def __init__(self, row=None, filename=None, file_path=None):
         '''
         Prop65Data Class constructor
         '''
@@ -216,6 +216,7 @@ def batch_process(
             prop65_data = Prop65Data(row)
             if prop65_data.data:
                 prop65_data.save(prop65_file_path)
+
 
 if __name__ == "__main__":
     t = time.time()

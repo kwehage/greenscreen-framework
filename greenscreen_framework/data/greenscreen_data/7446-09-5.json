@@ -1,12 +1,13 @@
 {
     "ID": "7446-09-5",
-    "benchmark": "Benchmark 2",
+    "benchmark": "Benchmark 1",
     "cas_number": [
         "7446-09-5"
     ],
     "cas_number_is_valid": true,
     "descriptive_name": [
-        "Sulfur dioxide"
+        "Sulfur dioxide",
+        "Sulfur dioxidee"
     ],
     "hazards": {
         "AA": {
@@ -103,17 +104,31 @@
             "source": []
         },
         "D": {
-            "date_classified": [],
-            "date_imported": [],
+            "date_classified": [
+                "2011-7-29"
+            ],
+            "date_imported": [
+                "Sun Dec  6 07:22:16 2015"
+            ],
             "group": "Group I Human",
-            "hazard_rating": [],
-            "imported_by": [],
-            "list_rating": [],
-            "list_type": [],
+            "hazard_rating": [
+                4
+            ],
+            "imported_by": [
+                "kristopher"
+            ],
+            "list_rating": [
+                4
+            ],
+            "list_type": [
+                "Authoritative A"
+            ],
             "name": "Developmental Hazard",
-            "overall_hazard_rating": 0,
-            "overall_list_rating": 0,
-            "source": []
+            "overall_hazard_rating": 4,
+            "overall_list_rating": 4,
+            "source": [
+                "Proposition 65"
+            ]
         },
         "E": {
             "date_classified": [],
@@ -368,8 +383,8 @@
             "source": []
         }
     },
-    "list_translation": "LT-U: Unspecified Benchmark",
-    "overall_list_rating": 0,
+    "list_translation": "LT-1: Benchmark 1",
+    "overall_list_rating": 4,
     "verified_by": null,
     "verified_by_greenscreen_profiler": false,
     "verified_date": null,

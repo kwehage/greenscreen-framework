@@ -7,7 +7,8 @@
     "cas_number_is_valid": true,
     "descriptive_name": [
         "Dimethyl carbamyl chloride",
-        "Dimethyl carbamyl chloride"
+        "Dimethyl carbamyl chloride",
+        "Dimethylcarbamoyl chloride"
     ],
     "hazards": {
         "AA": {
@@ -39,12 +40,12 @@
         },
         "AT": {
             "date_classified": [
-                "2011",
-                "2006"
+                "2006",
+                "2011"
             ],
             "date_imported": [
-                "Sun Dec  6 06:49:36 2015",
-                "Sun Dec  6 06:49:44 2015"
+                "Sun Dec  6 06:49:44 2015",
+                "Sun Dec  6 06:49:36 2015"
             ],
             "group": "Group II and II*",
             "hazard_rating": [
@@ -86,36 +87,43 @@
         },
         "C": {
             "date_classified": [
+                "2006",
                 "2011",
-                "2006"
+                "1988-1-1"
             ],
             "date_imported": [
+                "Sun Dec  6 06:49:44 2015",
                 "Sun Dec  6 06:49:36 2015",
-                "Sun Dec  6 06:49:44 2015"
+                "Sun Dec  6 07:22:15 2015"
             ],
             "group": "Group I Human",
             "hazard_rating": [
+                4,
                 4,
                 4
             ],
             "imported_by": [
                 "kristopher",
+                "kristopher",
                 "kristopher"
             ],
             "list_rating": [
                 2,
-                2
+                2,
+                4
             ],
             "list_type": [
                 "Screening A",
-                "Screening A"
+                "Screening A",
+                "Authoritative A"
             ],
             "name": "Carcinogenicity",
             "overall_hazard_rating": 4,
-            "overall_list_rating": 2,
+            "overall_list_rating": 4,
             "source": [
                 "GHS Japan Country List",
-                "GHS Japan Country List"
+                "GHS Japan Country List",
+                "Proposition 65"
             ]
         },
         "CA": {
@@ -159,12 +167,12 @@
         },
         "F": {
             "date_classified": [
-                "2011",
-                "2006"
+                "2006",
+                "2011"
             ],
             "date_imported": [
-                "Sun Dec  6 06:49:36 2015",
-                "Sun Dec  6 06:49:44 2015"
+                "Sun Dec  6 06:49:44 2015",
+                "Sun Dec  6 06:49:36 2015"
             ],
             "group": "Physical",
             "hazard_rating": [
@@ -193,17 +201,17 @@
         },
         "IrE": {
             "date_classified": [
-                "2011",
-                "2006"
+                "2006",
+                "2011"
             ],
             "date_imported": [
-                "Sun Dec  6 06:49:36 2015",
-                "Sun Dec  6 06:49:44 2015"
+                "Sun Dec  6 06:49:44 2015",
+                "Sun Dec  6 06:49:36 2015"
             ],
             "group": "Group II and II*",
             "hazard_rating": [
-                3,
-                4
+                4,
+                3
             ],
             "imported_by": [
                 "kristopher",
@@ -254,12 +262,12 @@
         },
         "M": {
             "date_classified": [
-                "2011",
-                "2006"
+                "2006",
+                "2011"
             ],
             "date_imported": [
-                "Sun Dec  6 06:49:36 2015",
-                "Sun Dec  6 06:49:44 2015"
+                "Sun Dec  6 06:49:44 2015",
+                "Sun Dec  6 06:49:36 2015"
             ],
             "group": "Group I",
             "hazard_rating": [
@@ -446,8 +454,8 @@
             ]
         }
     },
-    "list_translation": "LT-U: Unspecified Benchmark",
-    "overall_list_rating": 2,
+    "list_translation": "LT-1: Benchmark 1",
+    "overall_list_rating": 4,
     "verified_by": null,
     "verified_by_greenscreen_profiler": false,
     "verified_date": null,

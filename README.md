@@ -27,7 +27,7 @@ python setup.py install
 ```
 A batch processing script is provided that will download data from the
 GHS-Japan website, perform list translation and benchmarking. After
-installing the Python module in the previous step, the 
+installing the Python module in the previous step, the
 *greenscreen_batch_process* command line utility will be available and
 can be executed by calling:
 
@@ -40,13 +40,14 @@ information.
 Alternatively, any of the functions contained within the module can be
 reused in other Python applications.
 
-The greenscreen_framework module class definitions can then be 
+The greenscreen_framework module class definitions can then be
 used in other Python programs by putting the following at the top of
 your Python script:
 
 ```python
 import greenscreen_framework.greenscreen as gs
 import greenscreen_framework.ghs as ghs
+import greenscreen_framework.prop65 as prop65
 ```
 Refer to the batch processing script *greenscreen_batch_process* for example
 usage.

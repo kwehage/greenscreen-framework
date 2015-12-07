@@ -1,12 +1,13 @@
 {
     "ID": "30516-87-1",
-    "benchmark": "Benchmark 2",
+    "benchmark": "Benchmark 1",
     "cas_number": [
         "30516-87-1"
     ],
     "cas_number_is_valid": true,
     "descriptive_name": [
-        "1-\uff3b(2R,4S,5S)-4-Azido-5-(hydroxymethyl)oxolan-2-yl\uff3d-5-methylpyrimidine-2,4-dione, (alias Zidovudine)"
+        "1-\uff3b(2R,4S,5S)-4-Azido-5-(hydroxymethyl)oxolan-2-yl\uff3d-5-methylpyrimidine-2,4-dione, (alias Zidovudine)",
+        "Zidovudine (AZT)"
     ],
     "hazards": {
         "AA": {
@@ -50,29 +51,36 @@
         },
         "C": {
             "date_classified": [
-                "2009"
+                "2009",
+                "2009-12-18"
             ],
             "date_imported": [
-                "Sun Dec  6 06:49:38 2015"
+                "Sun Dec  6 06:49:38 2015",
+                "Sun Dec  6 07:22:16 2015"
             ],
             "group": "Group I Human",
             "hazard_rating": [
-                3
+                3,
+                4
             ],
             "imported_by": [
+                "kristopher",
                 "kristopher"
             ],
             "list_rating": [
-                2
+                2,
+                4
             ],
             "list_type": [
-                "Screening A"
+                "Screening A",
+                "Authoritative A"
             ],
             "name": "Carcinogenicity",
-            "overall_hazard_rating": 3,
-            "overall_list_rating": 2,
+            "overall_hazard_rating": 4,
+            "overall_list_rating": 4,
             "source": [
-                "GHS Japan Country List"
+                "GHS Japan Country List",
+                "Proposition 65"
             ]
         },
         "CA": {
@@ -354,8 +362,8 @@
             "source": []
         }
     },
-    "list_translation": "LT-U: Unspecified Benchmark",
-    "overall_list_rating": 0,
+    "list_translation": "LT-1: Benchmark 1",
+    "overall_list_rating": 4,
     "verified_by": null,
     "verified_by_greenscreen_profiler": false,
     "verified_date": null,
