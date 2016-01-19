@@ -1,8 +1,51 @@
-This program consists of a collection of utilities for importing and
-processing hazard data from the Chemical Management Center, part of a
-Japanese governmental organization called the National Institute for
-Technology Evaluation. In the source code, the dataset is referred to
-as the *GHS Japan country list* and is available at the following url: http://www.safe.nite.go.jp/english/ghs/ghs_index.html.
+# Synopsis
+
+This Python module consists of a collection of utilities for importing and
+translating hazard data from publicly available Internet resources,
+translating to an intermediate GreenScreen datastructure and computing an
+overall GreenScreen benchmark score according to the GreenScreen for Safer
+Chemicals methodology.
+
+At present, the module supports loading data from two hazard endpoint
+data sources:
+
+-   **Chemical Management Center**, part of a Japanese governmental organization
+called the National Institute for Technology Evaluation. In the source code,
+the dataset is referred to as the *GHS Japan country list* and is available
+at the following url: <http://www.safe.nite.go.jp/english/ghs/ghs_index.html>.
+According to the GreenScreen methodology, this list is classified as a
+*Screening A* list.
+
+-   **Proposition 65**, a list of chemicals known by the State of California to
+have a 1 in 100,000 chance of causing cancer, birth defects or developmental
+harm. The dataset is available at the following url:
+<http://www.oehha.ca.gov/prop65/prop65_list/Newlist.html> According to the
+GreenScreen methodology, this list is classified as an *Authoritative A* list.
+
+## DISCLAIMER
+
+The benchmark scores computed by this module do not constitute
+comprehensive GreenScreen assessments. In addition to a benchmark score, a
+comprehensive GreenScreen assessment contains a detailed report and
+verification by a GreenScreen licensed profiler.
+
+Furthermore, a comprehensive GreenScreen assessment is carried out on the basis
+of hazard endpoints spanning most, if not all, of the eighteen categories
+described in the GreenScreen for Safer chemicals methodology. In this module's
+current state of development, a benchmark score is computed only on the basis of
+data imported from the hazard endpoint data sources listed above. Therefore, any
+benchmark scores computed by the module must be considered *provisional* in
+nature, as appending additional hazard endpoint data may result in a lower
+(more hazardous) overall benchmark score.
+
+Nonetheless, the module is particularly effective to identify
+*Benchmark 1, Avoid: Chemical of High Concern* chemicals,
+which are reported as *LT-1: Benchmark 1* or *LT-P1: Possible Benchmark 1*,
+depending on the source of the hazard endpoint that resulted in a provisional
+Benchmark 1 assessment. All other *provisional*
+
+At present
+this Python module imports data from , any Benchmark scores computed by the module must be considered *provisional* in nature
 
 The code is used to automatically translate data to GreenScreen format
 and perform a GreenScreen benchmark assessment. The translation from
@@ -14,6 +57,8 @@ benchmark score, is completely computer automated. The resulting data is
 exported in a JavaScript Object Notation (JSON) file format and is
 suitable to be uploaded to a document storage system or relational
 database for later retrieval.
+
+from
 
 Please register with the nonprofit group, Clean Production Action, to
 receive specific details on the benchmarking and translation methodology.
@@ -54,3 +99,21 @@ usage.
 
 Copyright 2013-2015 Kristopher Wehage
 University of California-Davis
+
+# Change Log
+All notable changes to this project will be documented below.
+
+## [1.0.1] - 2016-01-15
+### Added
+- prop65.py contains a Prop65 python class to load Proposition 65 data from
+http://www.oehha.ca.gov/prop65/prop65_list/Newlist.html and translate/save the
+results into an intermediate JSON file.
+
+### Changed
+- greenscreen.py added a method to load/merge Prop65 data that has been
+translated/saved in an intermediate JSON format.
+- README.md updated description of project
+
+## [1.0.0] - 2015-07-08
+### Added
+- Initial commit
