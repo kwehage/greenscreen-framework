@@ -6,6 +6,13 @@ translating to an intermediate GreenScreen datastructure and computing an
 overall GreenScreen benchmark score according to the GreenScreen for Safer
 Chemicals methodology.
 
+The entire benchmarking process, including the initial import of data,
+translation to GreenScreen representation, and assessment of an overall
+benchmark score, is completely computer automated. The resulting data is
+exported in a JavaScript Object Notation (JSON) file format and is
+suitable to be uploaded to a document storage system or relational
+database for later retrieval.
+
 At present, the module supports loading data from two hazard endpoint
 data sources:
 
@@ -27,43 +34,60 @@ GreenScreen methodology, this list is classified as an *Authoritative A* list.
 The benchmark scores computed by this module do not constitute
 comprehensive GreenScreen assessments. In addition to a benchmark score, a
 comprehensive GreenScreen assessment contains a detailed report and
-verification by a GreenScreen licensed profiler.
+verification by a GreenScreen licensed profiler. Furthermore, a comprehensive
+GreenScreen assessment is carried out on the basis of hazard endpoints spanning
+most, if not all, of the eighteen categories described in the GreenScreen for
+Safer chemicals methodology.
 
-Furthermore, a comprehensive GreenScreen assessment is carried out on the basis
-of hazard endpoints spanning most, if not all, of the eighteen categories
-described in the GreenScreen for Safer chemicals methodology. In this module's
-current state of development, a benchmark score is computed only on the basis of
-data imported from the hazard endpoint data sources listed above. Therefore, any
-benchmark scores computed by the module must be considered *provisional* in
-nature, as appending additional hazard endpoint data may result in a lower
-(more hazardous) overall benchmark score.
+In this module's current state of development, a benchmark score is computed
+only on the basis of data imported from the hazard endpoint data sources listed
+above. Therefore, any benchmark scores computed by the module must be
+considered *provisional* in nature, as appending additional hazard endpoint
+data may result in a lower (more hazardous) overall benchmark score.
 
-Nonetheless, the module is particularly effective to identify
+Nonetheless, the module is effective to identify
 *Benchmark 1, Avoid: Chemical of High Concern* chemicals,
-which are reported as *LT-1: Benchmark 1* or *LT-P1: Possible Benchmark 1*,
-depending on the source of the hazard endpoint that resulted in a provisional
-Benchmark 1 assessment. All other *provisional*
+which, according the GreenScreen ListTranslator v1.2 method, are reported as
+*LT-1: Benchmark 1* or *LT-P1: Possible Benchmark 1* scores, depending on
+the source of the hazard endpoint that resulted in a provisional Benchmark 1
+assessment. All other *provisional* scores are reported as *LT-U: Unspecified
+Benchmark*.
 
-At present
-this Python module imports data from , any Benchmark scores computed by the module must be considered *provisional* in nature
+## Recommendations for usage
 
-The code is used to automatically translate data to GreenScreen format
-and perform a GreenScreen benchmark assessment. The translation from
-GHS classification to GreenScreen hazard classification is performed
-using the GreenScreen List Translator v1.2. The entire benchmarking process,
-including the initial import of data from the GHS Japan country list,
-translation to GreenScreen representation, and performing an overall
-benchmark score, is completely computer automated. The resulting data is
-exported in a JavaScript Object Notation (JSON) file format and is
-suitable to be uploaded to a document storage system or relational
-database for later retrieval.
-
-from
-
-Please register with the nonprofit group, Clean Production Action, to
-receive specific details on the benchmarking and translation methodology.
+Before using the module, it is recommended to register with the nonprofit
+group, Clean Production Action, to receive specific details on performing
+GreenScreen assessments and to familiarize yourself with the benchmarking
+and translation process.
 http://www.greenscreenchemicals.org/method/?/Greenscreen.php
 
+As discussed above, as the results of the automated benchmarking process do not
+constitute official, comprehensive assessments, the overall assessment should
+be reported to a general audience as one of the following:
+
+-   LT-1: Benchmark 1
+-   LT-P1: Possible Benchmark 1
+-   LT-U: Unspecified Benchmark
+
+During the benchmarking process, a *provisional* benchmark score is computed
+and stored in the data structure. The possible *provisional* benchmark scores
+are listed below:
+
+-   *Provisional* Benchmark 1, Avoid: Chemical of High Concern
+-   *Provisional* Benchmark 2, Use: But Search for Safer Substitutes
+-   *Provisional* Benchmark 3, Use: But Still Opportunity for Improvement
+-   *Provisional* Benchmark 4, Prefer - Safer Chemical
+-   *Provisional* Benchmark U, Unknown
+
+The provisional scores should not be reported to a general audience, but
+are recorded during the benchmarking process for their value to GreenScreen
+practitioners. For example, once a licensed profiler deems that sufficient
+hazard endpoint data has been appended for a given chemical and a
+corresponding report has been generated, a provisional score *could* later be
+reported as a comprehensive score.
+
+
+# Installation
 
 After cloning the project, install the Python module to your system path:
 
@@ -94,11 +118,10 @@ import greenscreen_framework.greenscreen as gs
 import greenscreen_framework.ghs as ghs
 import greenscreen_framework.prop65 as prop65
 ```
+
 Refer to the batch processing script *greenscreen_batch_process* for example
 usage.
 
-Copyright 2013-2015 Kristopher Wehage
-University of California-Davis
 
 # Change Log
 All notable changes to this project will be documented below.
@@ -117,3 +140,5 @@ translated/saved in an intermediate JSON format.
 ## [1.0.0] - 2015-07-08
 ### Added
 - Initial commit
+
+Copyright 2013-2016 Kristopher Wehage
